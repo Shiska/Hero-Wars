@@ -370,6 +370,7 @@ return setmetatable({}, {
                         local src = proto[path[key]:format(id)]
 
                         if src then
+                            src.id = id
                             src.name = text('heroName', id)[key]
                             src.description = text('heroDesc', id)[key]
 
