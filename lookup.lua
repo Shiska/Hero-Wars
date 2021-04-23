@@ -584,7 +584,7 @@ return setmetatable({}, {
                     }
                     return setmetatable(self, {
                         __index = function(self, key)
-                            local resolve = attribute[key] or attribute[key:lower()]
+                            local resolve = attribute[key] or attribute[key:lower()] or attribute[tonumber(key)]
 
                             if resolve then
                                 self[key] = resolve

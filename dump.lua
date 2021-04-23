@@ -1,4 +1,3 @@
-local lfs = require('lfs')
 local ldir = require('dir')
 local proto = require('proto')
 
@@ -33,11 +32,7 @@ function dump(t, output, indent)
 end
 
 function dumpProtoDir(dest, dir, extension)
-    lfs.mkdir(dest)
-
     dest = dest .. '/'
-
-    lfs.mkdir(dest .. dir)
 
     for file, attr in ldir:mode(dir, 'directory') do
         lfs.mkdir(dest .. file)
@@ -51,7 +46,7 @@ function dumpProtoDir(dest, dir, extension)
         local proto = proto[file]:expand()
         local data = table.concat(dump(proto))
 
-        lfs.mkdir(dest:match('^.*/'))
+        ldir:mkdir(dest:match('^.*/'))
 
         local file = io.open(dest, 'w')
 
@@ -62,5 +57,5 @@ function dumpProtoDir(dest, dir, extension)
     end
 end
 
-dumpProtoDir('dump', 'src', 'proto')
-dumpProtoDir('dump', 'src', 'txt')
+dumpProtoDir('dest', 'src', 'proto')
+dumpProtoDir('dest', 'src', 'txt')

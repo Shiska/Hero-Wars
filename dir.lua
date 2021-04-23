@@ -16,7 +16,7 @@ return setmetatable({}, {
                 table.remove(files, 1)
                 table.remove(files, 1)
                 -- loop remaining files
-                for entry in ipairs(files) do
+                for _, entry in ipairs(files) do
                     entry = dir .. entry
 
                     local attr = lfs.attributes(entry)
@@ -58,6 +58,16 @@ return setmetatable({}, {
             end
 
             return coroutine.wrap(function() yield(table.unpack(args)) end)
+        end
+
+        self.mkdir = function(self, dir)
+            local folders = {}
+
+            for folder in string.gmatch(dir, '[^/]+') do
+                table.insert(folders, folder)
+
+                lfs.mkdir(table.concat(folders, '/'))
+            end
         end
 
         return setmetatable(self, nil)[key]
