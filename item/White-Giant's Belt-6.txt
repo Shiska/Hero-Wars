@@ -1,0 +1,26 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_hero_level_required = 3
+ |browser_team_level_required = 3
+ |browser_strength = 5
+ |browser_intelligence = 5
+ |browser_agility = 5
+ |browser_created_with_gold = 3750
+ |browser_created_with_1 = White/Quiver
+ |browser_created_with_2 = White/Oil Lamp
+ |browser_created_with_3 = White/Traveller's Shoes
+ |browser_value_buy_gold = 3125
+ |browser_value_sell_gold = 625
+ |browser_value_sell_exchange = 6
+ |mobile_hero_level_required = 3
+ |mobile_team_level_required = 3
+ |mobile_strength = 5
+ |mobile_intelligence = 5
+ |mobile_agility = 5
+ |mobile_created_with_gold = 3750
+ |mobile_created_with_1 = White/Quiver
+ |mobile_created_with_2 = White/Oil Lamp
+ |mobile_created_with_3 = White/Traveller's Shoes
+ |mobile_value_buy_gold = 3125
+ |mobile_value_sell_gold = 625
+ |mobile_value_sell_exchange = 6
+}}</onlyinclude>

@@ -1,0 +1,10 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_value_buy_gold = 750
+ |browser_value_buy_coins = 82
+ |browser_value_sell_gold = 150
+ |browser_value_sell_exchange = 4
+ |mobile_value_buy_gold = 750
+ |mobile_value_buy_coins = 83
+ |mobile_value_sell_gold = 150
+ |mobile_value_sell_exchange = 4
+}}</onlyinclude>

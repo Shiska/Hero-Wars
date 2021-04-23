@@ -1,0 +1,24 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_hero_level_required = 65
+ |browser_team_level_required = 65
+ |browser_vampirism = 10
+ |browser_created_with_gold = 105000
+ |browser_created_with_1 = Blue/Sacrificial Dagger
+ |browser_created_with_1_count = 2
+ |browser_created_with_recipe = 1
+ |browser_value_buy_gold = 44000
+ |browser_value_buy_coins = 4400
+ |browser_value_sell_gold = 8800
+ |browser_value_sell_exchange = 140
+ |mobile_hero_level_required = 67
+ |mobile_team_level_required = 67
+ |mobile_vampirism = 10
+ |mobile_created_with_gold = 105000
+ |mobile_created_with_1 = Blue/Sacrificial Dagger
+ |mobile_created_with_1_count = 2
+ |mobile_created_with_recipe = 1
+ |mobile_value_buy_gold = 44000
+ |mobile_value_buy_coins = 4400
+ |mobile_value_sell_gold = 8800
+ |mobile_value_sell_exchange = 140
+}}</onlyinclude>

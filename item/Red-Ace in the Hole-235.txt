@@ -1,0 +1,17 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_hero_level_required = 127
+ |browser_team_level_required = 127
+ |browser_health = 7680
+ |browser_physical_attack = 1280
+ |browser_dodge = 364
+ |browser_created_with_gold = 1219500
+ |browser_created_with_1 = Orange/Trickster's Cane
+ |browser_created_with_1_count = 2
+ |browser_created_with_2 = Red/Evening Curfew
+ |browser_created_with_2_count = 2
+ |browser_created_with_recipe = 1
+ |browser_value_buy_gold = 776400
+ |browser_value_buy_coins = 152776
+ |browser_value_sell_gold = 155280
+ |browser_value_sell_exchange = 3260
+}}</onlyinclude>

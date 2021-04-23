@@ -1,0 +1,28 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_hero_level_required = 100
+ |browser_team_level_required = 100
+ |browser_magic_attack = 480
+ |browser_magic_penetration = 320
+ |browser_created_with_gold = 337500
+ |browser_created_with_1 = Violet/Funeral Totem
+ |browser_created_with_1_count = 2
+ |browser_created_with_2 = Orange/La Mort's Card
+ |browser_created_with_recipe = 1
+ |browser_value_buy_gold = 176250
+ |browser_value_buy_coins = 17625
+ |browser_value_sell_gold = 35250
+ |browser_value_sell_exchange = 800
+ |mobile_hero_level_required = 100
+ |mobile_team_level_required = 100
+ |mobile_magic_attack = 480
+ |mobile_magic_penetration = 320
+ |mobile_created_with_gold = 337500
+ |mobile_created_with_1 = Violet/Funeral Totem
+ |mobile_created_with_1_count = 2
+ |mobile_created_with_2 = Orange/La Mort's Map
+ |mobile_created_with_recipe = 1
+ |mobile_value_buy_gold = 176250
+ |mobile_value_buy_coins = 17625
+ |mobile_value_sell_gold = 35250
+ |mobile_value_sell_exchange = 800
+}}</onlyinclude>

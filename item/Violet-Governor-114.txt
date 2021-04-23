@@ -1,0 +1,26 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_hero_level_required = 68
+ |browser_team_level_required = 68
+ |browser_physical_attack = 216
+ |browser_health = 1600
+ |browser_created_with_gold = 135000
+ |browser_created_with_1 = Violet/Flaming Heart
+ |browser_created_with_2 = Violet/Giant-Slayer
+ |browser_created_with_2_count = 2
+ |browser_value_buy_gold = 54000
+ |browser_value_buy_coins = 5400
+ |browser_value_sell_gold = 10800
+ |browser_value_sell_exchange = 240
+ |mobile_hero_level_required = 68
+ |mobile_team_level_required = 68
+ |mobile_physical_attack = 216
+ |mobile_health = 1600
+ |mobile_created_with_gold = 135000
+ |mobile_created_with_1 = Violet/Flaming Heart
+ |mobile_created_with_2 = Violet/Giant-Slayer
+ |mobile_created_with_2_count = 2
+ |mobile_value_buy_gold = 54000
+ |mobile_value_buy_coins = 5400
+ |mobile_value_sell_gold = 10800
+ |mobile_value_sell_exchange = 240
+}}</onlyinclude>

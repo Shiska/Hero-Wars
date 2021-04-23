@@ -1,0 +1,2957 @@
+{
+  ["End of File"]: {
+  },
+  ["Buffs"]: {
+    ["Id"]: {
+      ["1"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffAll_allAttacks",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_001_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFALL_ALLATTACKS",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_001_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["2"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffAll_armor",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_002_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFALL_ARMOR",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_002_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["3"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffAll_magicResist",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_003_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFALL_MAGICRESIST",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_003_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["4"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffAll_physicalAttack",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_004_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFALL_PHYSICALATTACK",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_004_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["5"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffAll_magicPower",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_005_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFALL_MAGICPOWER",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_005_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["7"]: {
+        ["Effect"]: {
+          ["1"]: "percentDamageBuff_dot",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_007_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTDAMAGEBUFF_DOT",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_007_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["8"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffAll_healing",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_008_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFALL_HEALING",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_008_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["9"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffAllForFallenAllies",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_009_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFALLFORFALLENALLIES",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_009_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["10"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffAll_energyIncrease",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_010_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFALL_ENERGYINCREASE",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_010_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["11"]: {
+        ["Effect"]: {
+          ["1"]: "percentIncomeDamageReduce_any",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_011_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTINCOMEDAMAGEREDUCE_ANY",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_011_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["12"]: {
+        ["Effect"]: {
+          ["1"]: "percentIncomeDamageReduce_physical",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_012_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTINCOMEDAMAGEREDUCE_PHYSICAL",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_012_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["13"]: {
+        ["Effect"]: {
+          ["1"]: "percentIncomeDamageReduce_magic",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_013_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTINCOMEDAMAGEREDUCE_MAGIC",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_013_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["14"]: {
+        ["Effect"]: {
+          ["1"]: "percentIncomeDamageReduce_dot",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_014_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTINCOMEDAMAGEREDUCE_DOT",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_014_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["15"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffHp",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_015_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFHP",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_015_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["16"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_energyIncrease_8",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_016_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "control",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_ENERGYINCREASE_8",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_016_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["17"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_energyIncrease_5",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_017_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "support",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_ENERGYINCREASE_5",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_017_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["18"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_energyIncrease_4",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_018_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "melee_tank",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_ENERGYINCREASE_4",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_018_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["19"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_allAttacks_5",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_019_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "support",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_ALLATTACKS_5",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_019_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["20"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_allAttacks_4",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_020_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "melee_tank",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_ALLATTACKS_4",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_020_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["21"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_allAttacks_9",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_021_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "healer",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_ALLATTACKS_9",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_021_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["22"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_castSpeed_7",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_022_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "mage",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_CASTSPEED_7",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_022_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["23"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_castSpeed_6",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_023_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "ranged_dps",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_CASTSPEED_6",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_023_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["24"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_castSpeed_10",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_024_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "melee_dps",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_CASTSPEED_10",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_024_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["25"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_armorPenetration_6",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_025_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "ranged_dps",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_ARMORPENETRATION_6",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_025_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["26"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_physicalAttack_6",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_026_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "ranged_dps",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_PHYSICALATTACK_6",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_026_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["27"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_armorPenetration_10",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_027_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "melee_dps",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_ARMORPENETRATION_10",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_027_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["28"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_physicalAttack_10",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_028_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "melee_dps",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_PHYSICALATTACK_10",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_028_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["29"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_magicPower_7",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_029_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "mage",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_MAGICPOWER_7",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_029_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["30"]: {
+        ["Effect"]: {
+          ["1"]: "percentDamageBuff_any",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_001_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTDAMAGEBUFF_ANY",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_001_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["31"]: {
+        ["Effect"]: {
+          ["1"]: "percentDamageBuff_physical",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_004_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTDAMAGEBUFF_PHYSICAL",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_004_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["32"]: {
+        ["Effect"]: {
+          ["1"]: "percentDamageBuff_magic",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_005_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTDAMAGEBUFF_MAGIC",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_005_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["33"]: {
+        ["Effect"]: {
+          ["1"]: "corruptedBoss_25_80_1_100_10",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_033_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "CORRUPTEDBOSS",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_033_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 100,
+        },
+      },
+      ["34"]: {
+        ["Effect"]: {
+          ["1"]: "tutorialPetUlt_1.2",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_034_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "TUTORIALPETULT_1.2",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_034_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 50,
+        },
+      },
+      ["35"]: {
+        ["Effect"]: {
+          ["1"]: "tutorialBossPercentDamage_1",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_035_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "CORRUPTEDBOSS",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_035_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 50,
+        },
+      },
+      ["36"]: {
+        ["Effect"]: {
+          ["1"]: "corruptedBoss_50_80_1_100_10",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_033_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "CORRUPTEDBOSS",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_033_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 100,
+        },
+      },
+      ["37"]: {
+        ["Effect"]: {
+          ["1"]: "corruptedBoss_75_80_1_100_10",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_033_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "CORRUPTEDBOSS",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_033_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 100,
+        },
+      },
+      ["38"]: {
+        ["Effect"]: {
+          ["1"]: "corruptedBoss_80_80_1_100_10",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_033_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "CORRUPTEDBOSS",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_033_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 100,
+        },
+      },
+      ["39"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_castSpeed_4",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_039_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "melee_tank",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_CASTSPEED_4",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_039_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["40"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_energyIncrease_7",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_040_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "mage",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_ENERGYINCREASE_7",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_040_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["41"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_castSpeed_9",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_041_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "healer",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_CASTSPEED_9",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_041_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["42"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffByPerk_castSpeed_8",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_042_buff_54",
+        },
+        ["Role"]: {
+          ["1"]: "control",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFBYPERK_CASTSPEED_8",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_042_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 20,
+        },
+      },
+      ["43"]: {
+        ["Effect"]: {
+          ["1"]: "bossStageBuff_1000000_20000",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "",
+        },
+        ["LocaleId"]: {
+          ["1"]: 0,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 1,
+        },
+      },
+      ["44"]: {
+        ["Effect"]: {
+          ["1"]: "bossStageBuff_1500000_30000",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "",
+        },
+        ["LocaleId"]: {
+          ["1"]: 0,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 2,
+        },
+      },
+      ["45"]: {
+        ["Effect"]: {
+          ["1"]: "bossStageBuff_2000000_40000",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "",
+        },
+        ["LocaleId"]: {
+          ["1"]: 0,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 3,
+        },
+      },
+      ["46"]: {
+        ["Effect"]: {
+          ["1"]: "bossStageBuff_3000000_50000",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "",
+        },
+        ["LocaleId"]: {
+          ["1"]: 0,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 4,
+        },
+      },
+      ["47"]: {
+        ["Effect"]: {
+          ["1"]: "bossStageBuff_4000000_60000",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "",
+        },
+        ["LocaleId"]: {
+          ["1"]: 0,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 5,
+        },
+      },
+      ["48"]: {
+        ["Effect"]: {
+          ["1"]: "bossStageBuff_5000000_70000",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "",
+        },
+        ["LocaleId"]: {
+          ["1"]: 0,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 6,
+        },
+      },
+      ["49"]: {
+        ["Effect"]: {
+          ["1"]: "bossStageBuff_7500000_80000",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "",
+        },
+        ["LocaleId"]: {
+          ["1"]: 0,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 7,
+        },
+      },
+      ["50"]: {
+        ["Effect"]: {
+          ["1"]: "bossStageBuff_11000000_90000",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "",
+        },
+        ["LocaleId"]: {
+          ["1"]: 0,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 8,
+        },
+      },
+      ["51"]: {
+        ["Effect"]: {
+          ["1"]: "bossStageBuff_15000000_100000",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "",
+        },
+        ["LocaleId"]: {
+          ["1"]: 0,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 9,
+        },
+      },
+      ["52"]: {
+        ["Effect"]: {
+          ["1"]: "bossStageBuff_20000000_120000",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "",
+        },
+        ["LocaleId"]: {
+          ["1"]: 0,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 10,
+        },
+      },
+      ["53"]: {
+        ["Effect"]: {
+          ["1"]: "bossStageBuff_30000000_150000",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "",
+        },
+        ["LocaleId"]: {
+          ["1"]: 0,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 11,
+        },
+      },
+      ["54"]: {
+        ["Effect"]: {
+          ["1"]: "bossStageBuff_40000000_200000",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "",
+        },
+        ["LocaleId"]: {
+          ["1"]: 0,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 12,
+        },
+      },
+      ["55"]: {
+        ["Effect"]: {
+          ["1"]: "bossStageBuff_50000000_250000",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "",
+        },
+        ["LocaleId"]: {
+          ["1"]: 0,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 13,
+        },
+      },
+      ["56"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffPet_strength",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_056_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFPET_STRENGTH",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_056_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 100,
+        },
+      },
+      ["57"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffPet_castSpeed",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_057_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFPET_CASTSPEED",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_057_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 100,
+        },
+      },
+      ["58"]: {
+        ["Effect"]: {
+          ["1"]: "percentBuffPet_petEnergyIncrease",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_058_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "PERCENTBUFFPET_PETENERGYINCREASE",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_058_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 100,
+        },
+      },
+      ["59"]: {
+        ["Effect"]: {
+          ["1"]: "stormPowerBuff_100_1000",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_059_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "STORM_POWER_PROTECTION_AND_DOT",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_059_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 100,
+        },
+      },
+      ["60"]: {
+        ["Effect"]: {
+          ["1"]: "stormPowerBuff_100",
+        },
+        ["AssetTextureSmall"]: {
+          ["1"]: "_060_buff_54",
+        },
+        ["LocaleId"]: {
+          ["1"]: "STORM_POWER_PROTECTION",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "_060_buff",
+        },
+        ["DefaultValue"]: {
+          ["1"]: 100,
+        },
+      },
+    },
+  },
+  ["Adventures"]: {
+    ["Id"]: {
+      ["1"]: {
+        ["AttemptsPerPlayer"]: {
+          ["1"]: 5,
+        },
+        ["MaxPlayersCount"]: {
+          ["1"]: 3,
+        },
+        ["Map"]: {
+          ["1"]: "adv_strongford_2pl_easy",
+        },
+        ["Points"]: {
+          ["1"]: {
+            ["1"]: "Points",
+            ["2"]: "0",
+            ["3"]: "adventure_d1_easy_chest_1",
+            ["4"]: "1",
+          },
+          ["2"]: {
+            ["1"]: "Points",
+            ["2"]: "1",
+            ["3"]: "adventure_d1_easy_chest_2",
+            ["4"]: "1",
+          },
+          ["3"]: {
+            ["1"]: "Points",
+            ["2"]: "2",
+            ["3"]: "adventure_d1_easy_chest_3",
+            ["4"]: "1",
+          },
+        },
+        ["Difficulty"]: {
+          ["1"]: 1,
+        },
+        ["BuffRotation"]: {
+          ["1"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "0",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["2"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "1",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["3"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "2",
+            ["3"]: "56",
+            ["4"]: "100",
+            ["5"]: "57",
+            ["6"]: "100",
+            ["7"]: "58",
+            ["8"]: "100",
+          },
+        },
+        ["RequiredTeamLevel"]: {
+          ["1"]: 40,
+        },
+        ["Boss"]: {
+          ["1"]: {
+            ["1"]: "Boss",
+            ["2"]: "adventure_d1_easy_chest_boss_1",
+            ["3"]: "1",
+            ["4"]: "adventure_d1_easy_chest_boss_2",
+            ["5"]: "1",
+          },
+        },
+        ["AdventureId"]: {
+          ["1"]: 1,
+        },
+      },
+      ["2"]: {
+        ["AttemptsPerPlayer"]: {
+          ["1"]: 5,
+        },
+        ["MaxPlayersCount"]: {
+          ["1"]: 3,
+        },
+        ["Map"]: {
+          ["1"]: "adv_valley_3pl_easy",
+        },
+        ["Points"]: {
+          ["1"]: {
+            ["1"]: "Points",
+            ["2"]: "0",
+            ["3"]: "adventure_d2_easy_chest_1",
+            ["4"]: "1",
+          },
+          ["2"]: {
+            ["1"]: "Points",
+            ["2"]: "1",
+            ["3"]: "adventure_d2_easy_chest_2",
+            ["4"]: "1",
+          },
+          ["3"]: {
+            ["1"]: "Points",
+            ["2"]: "2",
+            ["3"]: "adventure_d2_easy_chest_3",
+            ["4"]: "1",
+          },
+        },
+        ["Difficulty"]: {
+          ["1"]: 1,
+        },
+        ["BuffRotation"]: {
+          ["1"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "0",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["2"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "1",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["3"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "2",
+            ["3"]: "56",
+            ["4"]: "100",
+            ["5"]: "57",
+            ["6"]: "100",
+            ["7"]: "58",
+            ["8"]: "100",
+          },
+        },
+        ["RequiredTeamLevel"]: {
+          ["1"]: 45,
+        },
+        ["Boss"]: {
+          ["1"]: {
+            ["1"]: "Boss",
+            ["2"]: "adventure_d2_easy_chest_boss_1",
+            ["3"]: "1",
+            ["4"]: "adventure_d2_easy_chest_boss_2",
+            ["5"]: "1",
+          },
+        },
+        ["AdventureId"]: {
+          ["1"]: 2,
+        },
+      },
+      ["3"]: {
+        ["AttemptsPerPlayer"]: {
+          ["1"]: 5,
+        },
+        ["MaxPlayersCount"]: {
+          ["1"]: 3,
+        },
+        ["Map"]: {
+          ["1"]: "adv_ghirwil_3pl_easy",
+        },
+        ["Points"]: {
+          ["1"]: {
+            ["1"]: "Points",
+            ["2"]: "0",
+            ["3"]: "adventure_d3_easy_chest_1",
+            ["4"]: "1",
+          },
+          ["2"]: {
+            ["1"]: "Points",
+            ["2"]: "1",
+            ["3"]: "adventure_d3_easy_chest_2",
+            ["4"]: "1",
+          },
+          ["3"]: {
+            ["1"]: "Points",
+            ["2"]: "2",
+            ["3"]: "adventure_d3_easy_chest_3",
+            ["4"]: "1",
+          },
+        },
+        ["Difficulty"]: {
+          ["1"]: 1,
+        },
+        ["BuffRotation"]: {
+          ["1"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "0",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["2"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "1",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["3"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "2",
+            ["3"]: "56",
+            ["4"]: "100",
+            ["5"]: "57",
+            ["6"]: "100",
+            ["7"]: "58",
+            ["8"]: "100",
+          },
+        },
+        ["RequiredTeamLevel"]: {
+          ["1"]: 50,
+        },
+        ["Boss"]: {
+          ["1"]: {
+            ["1"]: "Boss",
+            ["2"]: "adventure_d3_easy_chest_boss_1",
+            ["3"]: "1",
+            ["4"]: "adventure_d3_easy_chest_boss_2",
+            ["5"]: "1",
+          },
+        },
+        ["AdventureId"]: {
+          ["1"]: 3,
+        },
+      },
+      ["4"]: {
+        ["AttemptsPerPlayer"]: {
+          ["1"]: 10,
+        },
+        ["MaxPlayersCount"]: {
+          ["1"]: 3,
+        },
+        ["Map"]: {
+          ["1"]: "adv_angels_3pl_easy_fire",
+        },
+        ["Points"]: {
+          ["1"]: {
+            ["1"]: "Points",
+            ["2"]: "0",
+            ["3"]: "adventure_d4_easy_chest_1",
+            ["4"]: "1",
+          },
+          ["2"]: {
+            ["1"]: "Points",
+            ["2"]: "1",
+            ["3"]: "adventure_d4_easy_chest_2",
+            ["4"]: "1",
+          },
+          ["3"]: {
+            ["1"]: "Points",
+            ["2"]: "2",
+            ["3"]: "adventure_d4_easy_chest_3",
+            ["4"]: "1",
+          },
+        },
+        ["Difficulty"]: {
+          ["1"]: 1,
+        },
+        ["BuffRotation"]: {
+          ["1"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "0",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["2"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "1",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["3"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "2",
+            ["3"]: "56",
+            ["4"]: "100",
+            ["5"]: "57",
+            ["6"]: "100",
+            ["7"]: "58",
+            ["8"]: "100",
+          },
+        },
+        ["RequiredTeamLevel"]: {
+          ["1"]: 55,
+        },
+        ["Boss"]: {
+          ["1"]: {
+            ["1"]: "Boss",
+            ["2"]: "adventure_d4_easy_chest_boss_1",
+            ["3"]: "1",
+            ["4"]: "adventure_d4_easy_chest_boss_2",
+            ["5"]: "1",
+          },
+        },
+        ["AdventureId"]: {
+          ["1"]: 4,
+        },
+      },
+      ["5"]: {
+        ["AttemptsPerPlayer"]: {
+          ["1"]: 10,
+        },
+        ["MaxPlayersCount"]: {
+          ["1"]: 3,
+        },
+        ["Map"]: {
+          ["1"]: "adv_strongford_3pl_normal_2",
+        },
+        ["Points"]: {
+          ["1"]: {
+            ["1"]: "Points",
+            ["2"]: "0",
+            ["3"]: "adventure_d1_normal_chest_1",
+            ["4"]: "1",
+          },
+          ["2"]: {
+            ["1"]: "Points",
+            ["2"]: "1",
+            ["3"]: "adventure_d1_normal_chest_2",
+            ["4"]: "1",
+          },
+          ["3"]: {
+            ["1"]: "Points",
+            ["2"]: "2",
+            ["3"]: "adventure_d1_normal_chest_3",
+            ["4"]: "1",
+          },
+        },
+        ["Difficulty"]: {
+          ["1"]: 2,
+        },
+        ["BuffRotation"]: {
+          ["1"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "0",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["2"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "1",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["3"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "2",
+            ["3"]: "56",
+            ["4"]: "100",
+            ["5"]: "57",
+            ["6"]: "100",
+            ["7"]: "58",
+            ["8"]: "100",
+          },
+        },
+        ["RequiredTeamLevel"]: {
+          ["1"]: 60,
+        },
+        ["Boss"]: {
+          ["1"]: {
+            ["1"]: "Boss",
+            ["2"]: "adventure_d1_normal_chest_boss_1",
+            ["3"]: "1",
+            ["4"]: "adventure_d1_normal_chest_boss_2",
+            ["5"]: "1",
+          },
+        },
+        ["AdventureId"]: {
+          ["1"]: 1,
+        },
+      },
+      ["6"]: {
+        ["AttemptsPerPlayer"]: {
+          ["1"]: 10,
+        },
+        ["MaxPlayersCount"]: {
+          ["1"]: 3,
+        },
+        ["Map"]: {
+          ["1"]: "adv_valley_3pl_normal",
+        },
+        ["Points"]: {
+          ["1"]: {
+            ["1"]: "Points",
+            ["2"]: "0",
+            ["3"]: "adventure_d2_normal_chest_1",
+            ["4"]: "1",
+          },
+          ["2"]: {
+            ["1"]: "Points",
+            ["2"]: "1",
+            ["3"]: "adventure_d2_normal_chest_2",
+            ["4"]: "1",
+          },
+          ["3"]: {
+            ["1"]: "Points",
+            ["2"]: "2",
+            ["3"]: "adventure_d2_normal_chest_3",
+            ["4"]: "1",
+          },
+        },
+        ["Difficulty"]: {
+          ["1"]: 2,
+        },
+        ["BuffRotation"]: {
+          ["1"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "0",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["2"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "1",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["3"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "2",
+            ["3"]: "56",
+            ["4"]: "100",
+            ["5"]: "57",
+            ["6"]: "100",
+            ["7"]: "58",
+            ["8"]: "100",
+          },
+        },
+        ["RequiredTeamLevel"]: {
+          ["1"]: 70,
+        },
+        ["Boss"]: {
+          ["1"]: {
+            ["1"]: "Boss",
+            ["2"]: "adventure_d2_normal_chest_boss_1",
+            ["3"]: "1",
+            ["4"]: "adventure_d2_normal_chest_boss_2",
+            ["5"]: "1",
+          },
+        },
+        ["AdventureId"]: {
+          ["1"]: 2,
+        },
+      },
+      ["7"]: {
+        ["AttemptsPerPlayer"]: {
+          ["1"]: 10,
+        },
+        ["MaxPlayersCount"]: {
+          ["1"]: 3,
+        },
+        ["Map"]: {
+          ["1"]: "adv_ghirwil_3pl_normal_2",
+        },
+        ["Points"]: {
+          ["1"]: {
+            ["1"]: "Points",
+            ["2"]: "0",
+            ["3"]: "adventure_d3_normal_chest_1",
+            ["4"]: "1",
+          },
+          ["2"]: {
+            ["1"]: "Points",
+            ["2"]: "1",
+            ["3"]: "adventure_d3_normal_chest_2",
+            ["4"]: "1",
+          },
+          ["3"]: {
+            ["1"]: "Points",
+            ["2"]: "2",
+            ["3"]: "adventure_d3_normal_chest_3",
+            ["4"]: "1",
+          },
+        },
+        ["Difficulty"]: {
+          ["1"]: 2,
+        },
+        ["BuffRotation"]: {
+          ["1"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "0",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["2"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "1",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["3"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "2",
+            ["3"]: "56",
+            ["4"]: "100",
+            ["5"]: "57",
+            ["6"]: "100",
+            ["7"]: "58",
+            ["8"]: "100",
+          },
+        },
+        ["RequiredTeamLevel"]: {
+          ["1"]: 80,
+        },
+        ["Boss"]: {
+          ["1"]: {
+            ["1"]: "Boss",
+            ["2"]: "adventure_d3_normal_chest_boss_1",
+            ["3"]: "1",
+            ["4"]: "adventure_d3_normal_chest_boss_2",
+            ["5"]: "1",
+          },
+        },
+        ["AdventureId"]: {
+          ["1"]: 3,
+        },
+      },
+      ["8"]: {
+        ["AttemptsPerPlayer"]: {
+          ["1"]: 15,
+        },
+        ["MaxPlayersCount"]: {
+          ["1"]: 3,
+        },
+        ["Map"]: {
+          ["1"]: "adv_angels_3pl_normal",
+        },
+        ["Points"]: {
+          ["1"]: {
+            ["1"]: "Points",
+            ["2"]: "0",
+            ["3"]: "adventure_d4_normal_chest_1",
+            ["4"]: "1",
+          },
+          ["2"]: {
+            ["1"]: "Points",
+            ["2"]: "1",
+            ["3"]: "adventure_d4_normal_chest_2",
+            ["4"]: "1",
+          },
+          ["3"]: {
+            ["1"]: "Points",
+            ["2"]: "2",
+            ["3"]: "adventure_d4_normal_chest_3",
+            ["4"]: "1",
+          },
+        },
+        ["Difficulty"]: {
+          ["1"]: 2,
+        },
+        ["BuffRotation"]: {
+          ["1"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "0",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["2"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "1",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["3"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "2",
+            ["3"]: "56",
+            ["4"]: "100",
+            ["5"]: "57",
+            ["6"]: "100",
+            ["7"]: "58",
+            ["8"]: "100",
+          },
+        },
+        ["RequiredTeamLevel"]: {
+          ["1"]: 90,
+        },
+        ["Boss"]: {
+          ["1"]: {
+            ["1"]: "Boss",
+            ["2"]: "adventure_d4_normal_chest_boss_1",
+            ["3"]: "1",
+            ["4"]: "adventure_d4_normal_chest_boss_2",
+            ["5"]: "1",
+          },
+        },
+        ["AdventureId"]: {
+          ["1"]: 4,
+        },
+      },
+      ["9"]: {
+        ["AttemptsPerPlayer"]: {
+          ["1"]: 15,
+        },
+        ["MaxPlayersCount"]: {
+          ["1"]: 3,
+        },
+        ["Map"]: {
+          ["1"]: "adv_strongford_3pl_hard_2",
+        },
+        ["Points"]: {
+          ["1"]: {
+            ["1"]: "Points",
+            ["2"]: "0",
+            ["3"]: "adventure_d1_hard_chest_1",
+            ["4"]: "1",
+          },
+          ["2"]: {
+            ["1"]: "Points",
+            ["2"]: "1",
+            ["3"]: "adventure_d1_hard_chest_2",
+            ["4"]: "1",
+          },
+          ["3"]: {
+            ["1"]: "Points",
+            ["2"]: "2",
+            ["3"]: "adventure_d1_hard_chest_3",
+            ["4"]: "1",
+          },
+        },
+        ["Difficulty"]: {
+          ["1"]: 3,
+        },
+        ["BuffRotation"]: {
+          ["1"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "0",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["2"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "1",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["3"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "2",
+            ["3"]: "56",
+            ["4"]: "100",
+            ["5"]: "57",
+            ["6"]: "100",
+            ["7"]: "58",
+            ["8"]: "100",
+          },
+        },
+        ["RequiredTeamLevel"]: {
+          ["1"]: 100,
+        },
+        ["Boss"]: {
+          ["1"]: {
+            ["1"]: "Boss",
+            ["2"]: "adventure_d1_hard_chest_boss_1",
+            ["3"]: "1",
+            ["4"]: "adventure_d1_hard_chest_boss_2",
+            ["5"]: "1",
+          },
+        },
+        ["AdventureId"]: {
+          ["1"]: 1,
+        },
+      },
+      ["10"]: {
+        ["AttemptsPerPlayer"]: {
+          ["1"]: 15,
+        },
+        ["MaxPlayersCount"]: {
+          ["1"]: 3,
+        },
+        ["Map"]: {
+          ["1"]: "adv_valley_3pl_hard",
+        },
+        ["Points"]: {
+          ["1"]: {
+            ["1"]: "Points",
+            ["2"]: "0",
+            ["3"]: "adventure_d2_hard_chest_1",
+            ["4"]: "1",
+          },
+          ["2"]: {
+            ["1"]: "Points",
+            ["2"]: "1",
+            ["3"]: "adventure_d2_hard_chest_2",
+            ["4"]: "1",
+          },
+          ["3"]: {
+            ["1"]: "Points",
+            ["2"]: "2",
+            ["3"]: "adventure_d2_hard_chest_3",
+            ["4"]: "1",
+          },
+        },
+        ["Difficulty"]: {
+          ["1"]: 3,
+        },
+        ["BuffRotation"]: {
+          ["1"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "0",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["2"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "1",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["3"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "2",
+            ["3"]: "56",
+            ["4"]: "100",
+            ["5"]: "57",
+            ["6"]: "100",
+            ["7"]: "58",
+            ["8"]: "100",
+          },
+        },
+        ["RequiredTeamLevel"]: {
+          ["1"]: 110,
+        },
+        ["Boss"]: {
+          ["1"]: {
+            ["1"]: "Boss",
+            ["2"]: "adventure_d2_hard_chest_boss_1",
+            ["3"]: "1",
+            ["4"]: "adventure_d2_hard_chest_boss_2",
+            ["5"]: "1",
+          },
+        },
+        ["AdventureId"]: {
+          ["1"]: 2,
+        },
+      },
+      ["11"]: {
+        ["AttemptsPerPlayer"]: {
+          ["1"]: 15,
+        },
+        ["MaxPlayersCount"]: {
+          ["1"]: 3,
+        },
+        ["Map"]: {
+          ["1"]: "adv_ghirwil_3pl_hard",
+        },
+        ["Points"]: {
+          ["1"]: {
+            ["1"]: "Points",
+            ["2"]: "0",
+            ["3"]: "adventure_d3_hard_chest_1",
+            ["4"]: "1",
+          },
+          ["2"]: {
+            ["1"]: "Points",
+            ["2"]: "1",
+            ["3"]: "adventure_d3_hard_chest_2",
+            ["4"]: "1",
+          },
+          ["3"]: {
+            ["1"]: "Points",
+            ["2"]: "2",
+            ["3"]: "adventure_d3_hard_chest_3",
+            ["4"]: "1",
+          },
+        },
+        ["Difficulty"]: {
+          ["1"]: 3,
+        },
+        ["BuffRotation"]: {
+          ["1"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "0",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["2"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "1",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["3"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "2",
+            ["3"]: "56",
+            ["4"]: "100",
+            ["5"]: "57",
+            ["6"]: "100",
+            ["7"]: "58",
+            ["8"]: "100",
+          },
+        },
+        ["RequiredTeamLevel"]: {
+          ["1"]: 120,
+        },
+        ["Boss"]: {
+          ["1"]: {
+            ["1"]: "Boss",
+            ["2"]: "adventure_d3_hard_chest_boss_1",
+            ["3"]: "1",
+            ["4"]: "adventure_d3_hard_chest_boss_2",
+            ["5"]: "1",
+          },
+        },
+        ["AdventureId"]: {
+          ["1"]: 3,
+        },
+      },
+      ["12"]: {
+        ["AttemptsPerPlayer"]: {
+          ["1"]: 15,
+        },
+        ["MaxPlayersCount"]: {
+          ["1"]: 3,
+        },
+        ["Map"]: {
+          ["1"]: "adv_angels_3pl_hard",
+        },
+        ["Points"]: {
+          ["1"]: {
+            ["1"]: "Points",
+            ["2"]: "0",
+            ["3"]: "adventure_d4_hard_chest_1",
+            ["4"]: "1",
+          },
+          ["2"]: {
+            ["1"]: "Points",
+            ["2"]: "1",
+            ["3"]: "adventure_d4_hard_chest_2",
+            ["4"]: "1",
+          },
+          ["3"]: {
+            ["1"]: "Points",
+            ["2"]: "2",
+            ["3"]: "adventure_d4_hard_chest_3",
+            ["4"]: "1",
+          },
+        },
+        ["Difficulty"]: {
+          ["1"]: 3,
+        },
+        ["BuffRotation"]: {
+          ["1"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "0",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["2"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "1",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["3"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "2",
+            ["3"]: "56",
+            ["4"]: "100",
+            ["5"]: "57",
+            ["6"]: "100",
+            ["7"]: "58",
+            ["8"]: "100",
+          },
+        },
+        ["RequiredTeamLevel"]: {
+          ["1"]: 130,
+        },
+        ["Boss"]: {
+          ["1"]: {
+            ["1"]: "Boss",
+            ["2"]: "adventure_d4_hard_chest_boss_1",
+            ["3"]: "1",
+            ["4"]: "adventure_d4_hard_chest_boss_2",
+            ["5"]: "1",
+          },
+        },
+        ["AdventureId"]: {
+          ["1"]: 4,
+        },
+      },
+      ["13"]: {
+        ["AttemptsPerPlayer"]: {
+          ["1"]: 15,
+        },
+        ["MaxPlayersCount"]: {
+          ["1"]: 3,
+        },
+        ["Map"]: {
+          ["1"]: {
+            ["1"]: "Map",
+            ["2"]: "adv_valley_3pl_hell",
+            ["3"]: "adv_ghirwil_3pl_hell",
+            ["4"]: "adv_angels_3pl_hell",
+            ["5"]: "adv_strongford_3pl_hell",
+          },
+        },
+        ["Points"]: {
+          ["1"]: {
+            ["1"]: "Points",
+            ["2"]: "0",
+            ["3"]: "adventure_d4_hell_chest_1",
+            ["4"]: "1",
+          },
+          ["2"]: {
+            ["1"]: "Points",
+            ["2"]: "1",
+            ["3"]: "adventure_d4_hell_chest_2",
+            ["4"]: "1",
+          },
+          ["3"]: {
+            ["1"]: "Points",
+            ["2"]: "2",
+            ["3"]: "adventure_d4_hell_chest_3",
+            ["4"]: "1",
+          },
+        },
+        ["Difficulty"]: {
+          ["1"]: 3,
+        },
+        ["BuffRotation"]: {
+          ["1"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "0",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["2"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "1",
+            ["3"]: "16",
+            ["4"]: "100",
+            ["5"]: "17",
+            ["6"]: "100",
+            ["7"]: "18",
+            ["8"]: "100",
+            ["9"]: "40",
+            ["10"]: "100",
+            ["11"]: "19",
+            ["12"]: "100",
+            ["13"]: "20",
+            ["14"]: "300",
+            ["15"]: "21",
+            ["16"]: "100",
+            ["17"]: "22",
+            ["18"]: "50",
+            ["19"]: "23",
+            ["20"]: "50",
+            ["21"]: "24",
+            ["22"]: "50",
+            ["23"]: "39",
+            ["24"]: "50",
+            ["25"]: "41",
+            ["26"]: "50",
+            ["27"]: "42",
+            ["28"]: "50",
+            ["29"]: "25",
+            ["30"]: "100",
+            ["31"]: "27",
+            ["32"]: "100",
+            ["33"]: "26",
+            ["34"]: "75",
+            ["35"]: "28",
+            ["36"]: "75",
+            ["37"]: "29",
+            ["38"]: "100",
+          },
+          ["3"]: {
+            ["1"]: "BuffRotation",
+            ["2"]: "2",
+            ["3"]: "56",
+            ["4"]: "100",
+            ["5"]: "57",
+            ["6"]: "100",
+            ["7"]: "58",
+            ["8"]: "100",
+          },
+        },
+        ["RequiredTeamLevel"]: {
+          ["1"]: 130,
+        },
+        ["Boss"]: {
+          ["1"]: {
+            ["1"]: "Boss",
+            ["2"]: "adventure_d4_hell_chest_boss_1",
+            ["3"]: "1",
+            ["4"]: "adventure_d4_hell_chest_boss_2",
+            ["5"]: "1",
+          },
+        },
+        ["AdventureId"]: {
+          ["1"]: 6,
+        },
+      },
+      ["101"]: {
+        ["Difficulty"]: {
+          ["1"]: 0,
+        },
+        ["AdventureId"]: {
+          ["1"]: 5,
+        },
+        ["Boss"]: {
+          ["1"]: {
+            ["1"]: "Boss",
+            ["2"]: "pet_tutorial1_egg",
+            ["3"]: "1",
+            ["4"]: "pet_tutorial1_gear",
+            ["5"]: "1",
+          },
+        },
+        ["Map"]: {
+          ["1"]: "tutorial_1",
+        },
+        ["AttemptsPerPlayer"]: {
+          ["1"]: 10,
+        },
+        ["RequiredTeamLevel"]: {
+          ["1"]: 40,
+        },
+        ["MaxPlayersCount"]: {
+          ["1"]: 2,
+        },
+        ["Points"]: {
+          ["1"]: {
+            ["1"]: "Points",
+            ["2"]: "0",
+            ["3"]: "pet_tutorial1_1",
+            ["4"]: "1",
+          },
+          ["2"]: {
+            ["1"]: "Points",
+            ["2"]: "1",
+            ["3"]: "pet_tutorial1_2",
+            ["4"]: "1",
+          },
+          ["3"]: {
+            ["1"]: "Points",
+            ["2"]: "2",
+            ["3"]: "pet_tutorial1_3",
+            ["4"]: "1",
+          },
+        },
+      },
+    },
+  },
+},

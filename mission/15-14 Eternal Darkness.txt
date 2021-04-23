@@ -1,0 +1,20 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Campaign</noinclude>
+ |browser_description = A monster, a curse on his race, a dark stain in the canvas of history... He has a multitude of names! A substance full of spite and hatred, that has forgotten whom it used to be.
+ |browser_chapter = 15
+ |browser_mission = 14
+ |browser_energy = 24
+ |browser_try = 6
+ |browser_gold = 6649
+ |browser_exp = 4150
+ |browser_team_exp = 30
+ |browser_rank1_1 = red +2
+ |browser_level1_1 = 130
+ |browser_star1_1 = 6
+ |browser_enemy1_1 = Enemies/Seymour
+ |browser_loot1 = Red/Primarch's Grasp/Fragment
+ |browser_loot2 = Red/Jarugardi's Sneer/Fragment
+ |browser_loot3 = Orange/Trickster's Cane/Recipe/Fragment
+ |browser_soul_stone = Astrid and Lucas
+ |browser_previous = 15/Endless Abyss
+ |browser_next = 14/Tank
+}}</onlyinclude>

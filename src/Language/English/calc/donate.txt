@@ -1,0 +1,5 @@
+{
+  ["buttonDonateClose"]: {
+    ["1"]: "Close",
+  },
+},

@@ -1,0 +1,30 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_hero_level_required = 100
+ |browser_team_level_required = 100
+ |browser_health = 3200
+ |browser_magic_attack = 960
+ |browser_created_with_gold = 472500
+ |browser_created_with_1 = Violet/Flaming Heart
+ |browser_created_with_1_count = 2
+ |browser_created_with_2 = Orange/La Mort's Card
+ |browser_created_with_2_count = 2
+ |browser_created_with_recipe = 1
+ |browser_value_buy_gold = 246750
+ |browser_value_buy_coins = 24675
+ |browser_value_sell_gold = 49350
+ |browser_value_sell_exchange = 1120
+ |mobile_hero_level_required = 100
+ |mobile_team_level_required = 100
+ |mobile_health = 3200
+ |mobile_magic_attack = 960
+ |mobile_created_with_gold = 472500
+ |mobile_created_with_1 = Violet/Flaming Heart
+ |mobile_created_with_1_count = 2
+ |mobile_created_with_2 = Orange/La Mort's Map
+ |mobile_created_with_2_count = 2
+ |mobile_created_with_recipe = 1
+ |mobile_value_buy_gold = 246750
+ |mobile_value_buy_coins = 24675
+ |mobile_value_sell_gold = 49350
+ |mobile_value_sell_exchange = 1120
+}}</onlyinclude>

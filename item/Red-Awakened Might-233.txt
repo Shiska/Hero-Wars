@@ -1,0 +1,16 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_hero_level_required = 125
+ |browser_team_level_required = 125
+ |browser_magic_attack = 3072
+ |browser_magic_penetration = 768
+ |browser_created_with_gold = 1219500
+ |browser_created_with_1 = Orange/Staff of Neutralization
+ |browser_created_with_1_count = 3
+ |browser_created_with_2 = Red/Aigrette of Nocturnal Cicadas
+ |browser_created_with_2_count = 2
+ |browser_created_with_recipe = 1
+ |browser_value_buy_gold = 767400
+ |browser_value_buy_coins = 151875
+ |browser_value_sell_gold = 153480
+ |browser_value_sell_exchange = 4000
+}}</onlyinclude>

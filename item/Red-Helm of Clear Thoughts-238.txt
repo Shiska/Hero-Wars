@@ -1,0 +1,16 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_hero_level_required = 128
+ |browser_team_level_required = 128
+ |browser_magic_defense = 1920
+ |browser_magic_attack = 1920
+ |browser_created_with_gold = 1269000
+ |browser_created_with_1 = Orange/Riversar's Tiara
+ |browser_created_with_1_count = 4
+ |browser_created_with_2 = Red/Aigrette of Nocturnal Cicadas
+ |browser_created_with_2_count = 2
+ |browser_created_with_recipe = 1
+ |browser_value_buy_gold = 504300
+ |browser_value_buy_coins = 125400
+ |browser_value_sell_gold = 100860
+ |browser_value_sell_exchange = 3360
+}}</onlyinclude>

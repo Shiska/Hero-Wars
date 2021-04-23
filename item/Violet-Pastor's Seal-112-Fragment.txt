@@ -1,0 +1,4 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_value_sell_exchange = 20
+ |mobile_value_sell_exchange = 20
+}}</onlyinclude>

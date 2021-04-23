@@ -1,0 +1,447 @@
+{
+  ["amuletTitanArtifact"]: {
+    ["Crown"]: {
+      ["chestBoss"]: {
+        ["1"]: "Boss Chest",
+      },
+      ["duration"]: {
+        ["1"]: "Duration",
+      },
+      ["firstSkillTimeout"]: {
+        ["1"]: "Initial timeout",
+      },
+      ["ranged_dpsHeroRole"]: {
+        ["1"]: "Ranged",
+      },
+      ["billingBuyDelta"]: {
+        ["1"]: "Once per",
+      },
+      ["goldConst"]: {
+        ["1"]: "Gold multiplier",
+      },
+      ["haveYes"]: {
+        ["1"]: "Have yes",
+      },
+      ["chance"]: {
+        ["1"]: "Chance",
+      },
+      ["cost"]: {
+        ["1"]: "Cost",
+      },
+      ["controlHeroRole"]: {
+        ["1"]: "Control",
+      },
+      ["costOK"]: {
+        ["1"]: "OKs",
+      },
+      ["supportHeroRole"]: {
+        ["1"]: "Support",
+      },
+      ["blue"]: {
+        ["1"]: "Blue",
+      },
+      ["defenseFromwater"]: {
+        ["1"]: "Defense from Water",
+      },
+      ["chest"]: {
+        ["1"]: "Chest",
+      },
+      ["potion2"]: {
+        ["1"]: "EXP potion",
+      },
+      ["buyBundle"]: {
+        ["1"]: "Buy bundle №",
+      },
+      ["potion1Value"]: {
+        ["1"]: 50,
+      },
+      ["runeGoldPerEnchantValue"]: {
+        ["1"]: "Enchant Value Cost",
+      },
+      ["reward"]: {
+        ["1"]: "Reward",
+      },
+      ["no"]: {
+        ["1"]: "No",
+      },
+      ["damage"]: {
+        ["1"]: "Damage",
+      },
+      ["haveNo"]: {
+        ["1"]: "Have no",
+      },
+      ["forGuild"]: {
+        ["1"]: "for guild",
+      },
+      ["neutralElement"]: {
+        ["1"]: "Neutral",
+      },
+      ["supportTitanRole"]: {
+        ["1"]: "Support",
+      },
+      ["emeralds"]: {
+        ["1"]: "Emeralds",
+      },
+      ["lvl"]: {
+        ["1"]: "Level",
+      },
+      ["damageToearth"]: {
+        ["1"]: "Damage to Earth",
+      },
+      ["name"]: {
+        ["1"]: "Name",
+      },
+      ["sumEmeralds"]: {
+        ["1"]: "Summary Emeralds",
+      },
+      ["yes"]: {
+        ["1"]: "Yes",
+      },
+      ["defenseFromearth"]: {
+        ["1"]: "Defense from Earth",
+      },
+      ["second"]: {
+        ["1"]: "sec.",
+      },
+      ["costVK"]: {
+        ["1"]: "Votes",
+      },
+      ["columnEquipMission"]: {
+        ["1"]: "Mission",
+      },
+      ["hour"]: {
+        ["1"]: "h.",
+      },
+      ["damageTofire"]: {
+        ["1"]: "Damage to Fire",
+      },
+      ["minute"]: {
+        ["1"]: "m.",
+      },
+      ["columnEquipWorld"]: {
+        ["1"]: "Chapter",
+      },
+      ["earthElement"]: {
+        ["1"]: "Earth",
+      },
+      ["tableArtifactLevel"]: {
+        ["1"]: "Level",
+      },
+      ["costCU"]: {
+        ["1"]: "Сonventional units",
+      },
+      ["weaponTitanArtifact"]: {
+        ["1"]: "Weapon",
+      },
+      ["ultraTitanRole"]: {
+        ["1"]: "Ultra",
+      },
+      ["summary"]: {
+        ["1"]: "Summary",
+      },
+      ["purchageCode"]: {
+        ["1"]: "Purchage code",
+      },
+      ["messageWrongLink"]: {
+        ["1"]: "Link is wrong or hero is not selected",
+      },
+      ["titanLevel"]: {
+        ["1"]: "Max Titan Level",
+      },
+      ["mission"]: {
+        ["1"]: "Complete the mission",
+      },
+      ["sparks"]: {
+        ["1"]: "Sparks",
+      },
+      ["white"]: {
+        ["1"]: "White",
+      },
+      ["rangeTitanRole"]: {
+        ["1"]: "Range",
+      },
+      ["skin"]: {
+        ["1"]: "Skin",
+      },
+      ["deltaPotion"]: {
+        ["1"]: "Delta potion",
+      },
+      ["count"]: {
+        ["1"]: "Count",
+      },
+      ["columnEquipHeroName"]: {
+        ["1"]: "Hero",
+      },
+      ["meleeTitanRole"]: {
+        ["1"]: "Melee",
+      },
+      ["maxTeamLevel"]: {
+        ["1"]: "Max Team level",
+      },
+      ["before"]: {
+        ["1"]: "before",
+      },
+      ["costMM"]: {
+        ["1"]: "Mails",
+      },
+      ["comp"]: {
+        ["1"]: "PC",
+      },
+      ["skill5"]: {
+        ["1"]: "Nonexistent skill",
+      },
+      ["days"]: {
+        ["1"]: "days",
+      },
+      ["bundleId"]: {
+        ["1"]: "Bundle Id",
+      },
+      ["titanSealTitanArtifact"]: {
+        ["1"]: "Seal",
+      },
+      ["titanWeaponTitanArtifact"]: {
+        ["1"]: "Weapon",
+      },
+      ["levelupRewardStamina"]: {
+        ["1"]: "Bonus energy for level",
+      },
+      ["fireElement"]: {
+        ["1"]: "Fire",
+      },
+      ["stamina"]: {
+        ["1"]: "Max Energy",
+      },
+      ["border"]: {
+        ["1"]: "Border",
+      },
+      ["goldenPass"]: {
+        ["1"]: "Golden Pass",
+      },
+      ["melee_dpsHeroRole"]: {
+        ["1"]: "Meele DPS",
+      },
+      ["special"]: {
+        ["1"]: "Special conditions",
+      },
+      ["recipe"]: {
+        ["1"]: "Recipe",
+      },
+      ["armorTitanArtifact"]: {
+        ["1"]: "Seal",
+      },
+      ["skill4"]: {
+        ["1"]: "Purple skill",
+      },
+      ["runeHeroLevel"]: {
+        ["1"]: "Hero Level",
+      },
+      ["orange"]: {
+        ["1"]: "Orange",
+      },
+      ["repeatable"]: {
+        ["1"]: "Repeatable",
+      },
+      ["red"]: {
+        ["1"]: "Red",
+      },
+      ["potion4"]: {
+        ["1"]: "Huge EXP potion",
+      },
+      ["potion1"]: {
+        ["1"]: "Smaller EXP potion",
+      },
+      ["teamLevel"]: {
+        ["1"]: "Team Level",
+      },
+      ["potion4Value"]: {
+        ["1"]: 7500,
+      },
+      ["slot"]: {
+        ["1"]: "Slot",
+      },
+      ["waterElement"]: {
+        ["1"]: "Water",
+      },
+      ["level"]: {
+        ["1"]: "Level",
+      },
+      ["heroLevel"]: {
+        ["1"]: "Max Hero Level",
+      },
+      ["buyBilling"]: {
+        ["1"]: "Buy billing №",
+      },
+      ["potion2Value"]: {
+        ["1"]: 300,
+      },
+      ["skillPoint"]: {
+        ["1"]: "Skill point",
+      },
+      ["daily"]: {
+        ["1"]: "Daily",
+      },
+      ["melee_tankHeroRole"]: {
+        ["1"]: "Melee Tank",
+      },
+      ["tableArtifactGold"]: {
+        ["1"]: "Gold",
+      },
+      ["star"]: {
+        ["1"]: "Star",
+      },
+      ["runeEnchantValue"]: {
+        ["1"]: "Enchant Value",
+      },
+      ["columnEquipHeroColor"]: {
+        ["1"]: "Rang",
+      },
+      ["battlePass"]: {
+        ["1"]: "Battle Pass",
+      },
+      ["potion3"]: {
+        ["1"]: "Big EXP potion",
+      },
+      ["skill2"]: {
+        ["1"]: "Green skill",
+      },
+      ["messageGearPetLevel"]: {
+        ["1"]: "Pet level too small",
+      },
+      ["heroStatsValue"]: {
+        ["1"]: "Value",
+      },
+      ["skill1"]: {
+        ["1"]: "White skill",
+      },
+      ["fragment"]: {
+        ["1"]: "Fragment",
+      },
+      ["heroes"]: {
+        ["1"]: "Heroes",
+      },
+      ["registrationTimeDelta"]: {
+        ["1"]: "Elapsed time since registration",
+      },
+      ["deltaExp"]: {
+        ["1"]: "Delta Experience",
+      },
+      ["expPotion"]: {
+        ["1"]: "Experience potion",
+      },
+      ["tableArtifactColor"]: {
+        ["1"]: "Color",
+      },
+      ["deltaEmeralds"]: {
+        ["1"]: "Delta Emeralds",
+      },
+      ["any"]: {
+        ["1"]: "Any",
+      },
+      ["ringArtifact"]: {
+        ["1"]: "Ring",
+      },
+      ["green"]: {
+        ["1"]: "Green",
+      },
+      ["subscription"]: {
+        ["1"]: "Subscription",
+      },
+      ["spiritTitanArtifact"]: {
+        ["1"]: "Spirit",
+      },
+      ["purple"]: {
+        ["1"]: "Purple",
+      },
+      ["description"]: {
+        ["1"]: "Description",
+      },
+      ["hero"]: {
+        ["1"]: "Hero",
+      },
+      ["weaponArtifact"]: {
+        ["1"]: "Weapon",
+      },
+      ["power"]: {
+        ["1"]: "Power",
+      },
+      ["vipLevel"]: {
+        ["1"]: "VIP Level",
+      },
+      ["skill3"]: {
+        ["1"]: "Blue skill",
+      },
+      ["enable"]: {
+        ["1"]: "Enable",
+      },
+      ["costRouble"]: {
+        ["1"]: "Roubles",
+      },
+      ["times"]: {
+        ["1"]: "times",
+      },
+      ["potion3Value"]: {
+        ["1"]: 1500,
+      },
+      ["damageTowater"]: {
+        ["1"]: "Damage to Water",
+      },
+      ["healerHeroRole"]: {
+        ["1"]: "Healer",
+      },
+      ["tableSkinLevel"]: {
+        ["1"]: "Level",
+      },
+      ["empty"]: {
+        ["1"]: "Empty",
+      },
+      ["skillTimeout"]: {
+        ["1"]: "Skill timeout",
+      },
+      ["exp"]: {
+        ["1"]: "Experience",
+      },
+      ["avatar"]: {
+        ["1"]: "Avatar",
+      },
+      ["tableArtifactCost"]: {
+        ["1"]: "Count",
+      },
+      ["sparksSum"]: {
+        ["1"]: "Sparks summary",
+      },
+      ["heroStatsName"]: {
+        ["1"]: "Stats",
+      },
+      ["titanCrownTitanArtifact"]: {
+        ["1"]: "Crown",
+      },
+      ["forSelf"]: {
+        ["1"]: "to self",
+      },
+      ["messageAddToSquadDouble"]: {
+        ["1"]: "An entry with that name has already been added",
+      },
+      ["defenseFromfire"]: {
+        ["1"]: "Defense from Fire",
+      },
+      ["phone"]: {
+        ["1"]: "Mobile",
+      },
+      ["costDollar"]: {
+        ["1"]: "Dollars",
+      },
+      ["tableArtifactStarmoney"]: {
+        ["1"]: "Emeralds",
+      },
+      ["messageGearHeroLevel"]: {
+        ["1"]: "Hero level too small",
+      },
+      ["bookArtifact"]: {
+        ["1"]: "Book",
+      },
+      ["mageHeroRole"]: {
+        ["1"]: "Mage",
+      },
+    },
+  },
+},

@@ -1,0 +1,134 @@
+{
+  ["color8"]: {
+    ["1"]: "Purple+1",
+  },
+  ["color7"]: {
+    ["1"]: "Purple",
+  },
+  ["color5"]: {
+    ["1"]: "Blue+1",
+  },
+  ["color1"]: {
+    ["1"]: "White",
+  },
+  ["elementArmor"]: {
+    ["1"]: "Element armor",
+  },
+  ["lifesteal"]: {
+    ["1"]: "Lifesteal",
+  },
+  ["elementAttack"]: {
+    ["1"]: "Element attack",
+  },
+  ["elementSpiritPower"]: {
+    ["1"]: "Spirit power",
+  },
+  ["agility"]: {
+    ["1"]: "Agility",
+  },
+  ["energyReduce"]: {
+    ["1"]: "Energy reduce",
+  },
+  ["color10"]: {
+    ["1"]: "Purple+3",
+  },
+  ["color16"]: {
+    ["1"]: "Red",
+  },
+  ["physicalAttack"]: {
+    ["1"]: "Physical attack",
+  },
+  ["color9"]: {
+    ["1"]: "Purple+2",
+  },
+  ["intelligence"]: {
+    ["1"]: "Intelligence",
+  },
+  ["hp"]: {
+    ["1"]: "Hp",
+  },
+  ["color11"]: {
+    ["1"]: "Orange",
+  },
+  ["strength"]: {
+    ["1"]: "Strength",
+  },
+  ["color6"]: {
+    ["1"]: "Blue+2",
+  },
+  ["favorPower"]: {
+    ["1"]: "Patronage Power",
+  },
+  ["color15"]: {
+    ["1"]: "Orange+4",
+  },
+  ["color2"]: {
+    ["1"]: "Green",
+  },
+  ["magicPenetration"]: {
+    ["1"]: "Magic penetration",
+  },
+  ["color14"]: {
+    ["1"]: "Orange+3",
+  },
+  ["magicCrit"]: {
+    ["1"]: "Magic crit",
+  },
+  ["color12"]: {
+    ["1"]: "Orange+1",
+  },
+  ["energyRegen"]: {
+    ["1"]: "Energy regen",
+  },
+  ["color18"]: {
+    ["1"]: "Red+2",
+  },
+  ["color17"]: {
+    ["1"]: "Red+1",
+  },
+  ["magicResist"]: {
+    ["1"]: "Magic resist",
+  },
+  ["physicalCritChance"]: {
+    ["1"]: "Physical crit chance",
+  },
+  ["hpRegen"]: {
+    ["1"]: "Hp regen",
+  },
+  ["anticrit"]: {
+    ["1"]: "Anticrit",
+  },
+  ["dodge"]: {
+    ["1"]: "Dodge",
+  },
+  ["antidodge"]: {
+    ["1"]: "Antidodge",
+  },
+  ["healingImprove"]: {
+    ["1"]: "Healing improve",
+  },
+  ["color13"]: {
+    ["1"]: "Orange+2",
+  },
+  ["accuracy"]: {
+    ["1"]: "Accuracy",
+  },
+  ["statsPower"]: {
+    ["1"]: "Skill Power",
+  },
+  ["magicPower"]: {
+    ["1"]: "Magic power",
+  },
+  ["armor"]: {
+    ["1"]: "Armor",
+  },
+  ["armorPenetration"]: {
+    ["1"]: "Armor penetration",
+  },
+  ["color3"]: {
+    ["1"]: "Green+1",
+  },
+  ["color4"]: {
+    ["1"]: "Blue",
+  },
+},

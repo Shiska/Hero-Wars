@@ -1,0 +1,4527 @@
+{
+  ["Pseudo"]: {
+    ["Id"]: {
+      ["1"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "icon_green_gem",
+        },
+        ["ConstName"]: {
+          ["1"]: "STARMONEY",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "quest_2",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["2"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "icon_gold_coin",
+        },
+        ["ConstName"]: {
+          ["1"]: "COIN",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "quest_7",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["3"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "EXPIcon",
+        },
+        ["ConstName"]: {
+          ["1"]: "XP",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "EXP",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["4"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "icon_energy",
+        },
+        ["ConstName"]: {
+          ["1"]: "STAMINA",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "quest_1",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["5"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "icon_vip_point",
+        },
+        ["ConstName"]: {
+          ["1"]: "VIP",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "vip",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["6"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "activityIcon50",
+        },
+        ["ConstName"]: {
+          ["1"]: "CLAN_ACTIVITY",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "clan_point_quest",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["7"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "dungeonActivityIcon50",
+        },
+        ["ConstName"]: {
+          ["1"]: "DUNGEON_ACTIVITY",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "quest_13",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["8"]: {
+        ["ConstName"]: {
+          ["1"]: "CLAN_GIFT",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "giftbox",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["9"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "owlBig",
+        },
+        ["ConstName"]: {
+          ["1"]: "QUIZ_POINT",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "Owl",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["10"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "battlePassExpBig",
+        },
+        ["ConstName"]: {
+          ["1"]: "BATTLE_PASS_EXP",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "battlePassExp",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["504"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "harvestAdventurePoint",
+        },
+        ["ConstName"]: {
+          ["1"]: "HALLOWEEN_ADVENTURE_POINT",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "harvest_adventure_point",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["500"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "gold_raid_ticket",
+        },
+        ["ConstName"]: {
+          ["1"]: "GOLD_RAID_TICKET",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "raid",
+        },
+      },
+      ["501"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "harvestAdventurePoint",
+        },
+        ["ConstName"]: {
+          ["1"]: "HARVEST_ADVENTURE_POINT",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "harvest_adventure_point",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["502"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "harvestAdventurePoint",
+        },
+        ["ConstName"]: {
+          ["1"]: "HALLOWEEN_ADVENTURE_POINT",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "harvest_adventure_point",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["503"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "newYearAdventurePoint",
+        },
+        ["ConstName"]: {
+          ["1"]: "NEW_YEAR_ADVENTURE_POINT",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_new_year_gift",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+    },
+  },
+  ["Border"]: {
+    ["1"]: {
+      ["1"]: {
+        ["1"]: "1",
+        ["2"]: "blue_tower_frame.png",
+        ["3"]: "level_blue_tower_frame.png",
+      },
+    },
+    ["2"]: {
+      ["1"]: {
+        ["1"]: "2",
+        ["2"]: "black_frame.png",
+        ["3"]: "level_black_frame.png",
+      },
+    },
+    ["3"]: {
+      ["1"]: {
+        ["1"]: "3",
+        ["2"]: "base_border_gold.png",
+        ["3"]: "level_base_border_gold.png",
+      },
+    },
+    ["4"]: {
+      ["1"]: {
+        ["1"]: "4",
+        ["2"]: "v_day_frame.png",
+        ["3"]: "level_LA_red1.png",
+      },
+    },
+    ["5"]: {
+      ["1"]: {
+        ["1"]: "5",
+        ["2"]: "egupt_100_emerald.png",
+        ["3"]: "egupt_100_emerald_icon.png",
+      },
+    },
+    ["6"]: {
+      ["1"]: {
+        ["1"]: "6",
+        ["2"]: "egupt_100_gold.png",
+        ["3"]: "egupt_100_gold_icon.png",
+      },
+    },
+    ["7"]: {
+      ["1"]: {
+        ["1"]: "7",
+        ["2"]: "egupt_100_brilliant.png",
+        ["3"]: "egupt_100_brilliant_icon.png",
+      },
+    },
+    ["8"]: {
+      ["1"]: {
+        ["1"]: "8",
+        ["2"]: "demonDoll_border.png",
+        ["3"]: "level_black_frame.png",
+      },
+    },
+    ["9"]: {
+      ["1"]: {
+        ["1"]: "9",
+        ["2"]: "turtle_border.png",
+        ["3"]: "level_black_frame.png",
+      },
+    },
+    ["10"]: {
+      ["1"]: {
+        ["1"]: "10",
+        ["2"]: "winterDemonDoll_border.png",
+        ["3"]: "level_winterDemonDoll.png",
+      },
+    },
+    ["11"]: {
+      ["1"]: {
+        ["1"]: "11",
+        ["2"]: "fire_frame.png",
+        ["3"]: "fire_level.png",
+      },
+    },
+    ["12"]: {
+      ["1"]: {
+        ["1"]: "12",
+        ["2"]: "water_frame.png",
+        ["3"]: "water_level.png",
+      },
+    },
+    ["13"]: {
+      ["1"]: {
+        ["1"]: "13",
+        ["2"]: "black_friday_frame.png",
+        ["3"]: "blackF.png",
+      },
+    },
+    ["14"]: {
+      ["1"]: {
+        ["1"]: "14",
+        ["2"]: "frame_christmas.png",
+        ["3"]: "level_LA_red1.png",
+      },
+    },
+    ["15"]: {
+      ["1"]: {
+        ["1"]: "15",
+        ["2"]: "frame_christmas_light.png",
+        ["3"]: "level_LA_red1.png",
+      },
+    },
+    ["16"]: {
+      ["1"]: {
+        ["1"]: "16",
+        ["2"]: "frame_sv_valentine.png",
+        ["3"]: "level_LA_purple.png",
+      },
+    },
+    ["17"]: {
+      ["1"]: {
+        ["1"]: "17",
+        ["2"]: "frame_nature.png",
+        ["3"]: "level_LA_purple.png",
+      },
+    },
+    ["18"]: {
+      ["1"]: {
+        ["1"]: "18",
+        ["2"]: "frame_easter2020.png",
+        ["3"]: "level_LA_purple.png",
+      },
+    },
+    ["19"]: {
+      ["1"]: {
+        ["1"]: "19",
+        ["2"]: "frame_springsale2020.png",
+        ["3"]: "level_LA_purple.png",
+      },
+    },
+    ["20"]: {
+      ["1"]: {
+        ["1"]: "20",
+        ["2"]: "frame_gotic.png",
+        ["3"]: "level_base_border_new.png",
+      },
+    },
+    ["22"]: {
+      ["1"]: {
+        ["1"]: "22",
+        ["2"]: "frame_summer_sale2020.png",
+        ["3"]: "level_LA_purple.png",
+      },
+    },
+    ["23"]: {
+      ["1"]: {
+        ["1"]: "23",
+        ["2"]: "frame_bp_astral.png",
+        ["3"]: "level_bp_astral.png",
+      },
+    },
+    ["24"]: {
+      ["1"]: {
+        ["1"]: "24",
+        ["2"]: "frame_snake.png",
+        ["3"]: "counter_snake.png",
+      },
+    },
+    ["25"]: {
+      ["1"]: {
+        ["1"]: "25",
+        ["2"]: "frame_tentacles.png",
+        ["3"]: "counter_tentacles.png",
+      },
+    },
+    ["26"]: {
+      ["1"]: {
+        ["1"]: "26",
+        ["2"]: "frame_cyber_week2020.png",
+        ["3"]: "level_LA_purple.png",
+      },
+    },
+    ["28"]: {
+      ["1"]: {
+        ["1"]: "28",
+        ["2"]: "frame_vd21.png",
+        ["3"]: "level_LA_gold.png",
+      },
+    },
+    ["0"]: {
+      ["1"]: {
+        ["1"]: "0",
+        ["2"]: "base_border.png",
+        ["3"]: "level_base_border.png",
+      },
+    },
+  },
+  ["Consumable"]: {
+    ["Id"]: {
+      ["1"]: {
+        ["Color"]: {
+          ["1"]: 1,
+        },
+        ["BuySpecialCost"]: {
+          ["1"]: 100,
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "enchantValue",
+          },
+          ["Count"]: {
+            ["1"]: 10,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 10,
+        },
+        ["SellCost"]: {
+          ["1"]: {
+            ["1"]: "SellCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "100",
+          },
+        },
+        ["RewardType"]: {
+          ["1"]: "enchantValue",
+        },
+        ["BuyCost"]: {
+          ["1"]: {
+            ["1"]: "BuyCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "1000",
+          },
+        },
+        ["AssetTexture"]: {
+          ["1"]: "rune1",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ENCHANTVALUE",
+        },
+      },
+      ["2"]: {
+        ["Color"]: {
+          ["1"]: 2,
+        },
+        ["BuySpecialCost"]: {
+          ["1"]: 200,
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "enchantValue",
+          },
+          ["Count"]: {
+            ["1"]: 20,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 20,
+        },
+        ["SellCost"]: {
+          ["1"]: {
+            ["1"]: "SellCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "200",
+          },
+        },
+        ["RewardType"]: {
+          ["1"]: "enchantValue",
+        },
+        ["BuyCost"]: {
+          ["1"]: {
+            ["1"]: "BuyCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "2000",
+          },
+        },
+        ["AssetTexture"]: {
+          ["1"]: "rune2",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ENCHANTVALUE",
+        },
+      },
+      ["3"]: {
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["BuySpecialCost"]: {
+          ["1"]: 500,
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "enchantValue",
+          },
+          ["Count"]: {
+            ["1"]: 50,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 50,
+        },
+        ["SellCost"]: {
+          ["1"]: {
+            ["1"]: "SellCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "500",
+          },
+        },
+        ["RewardType"]: {
+          ["1"]: "enchantValue",
+        },
+        ["BuyCost"]: {
+          ["1"]: {
+            ["1"]: "BuyCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "5000",
+          },
+        },
+        ["AssetTexture"]: {
+          ["1"]: "rune3",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ENCHANTVALUE",
+        },
+      },
+      ["4"]: {
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["BuySpecialCost"]: {
+          ["1"]: 1000,
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "enchantValue",
+          },
+          ["Count"]: {
+            ["1"]: 100,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 100,
+        },
+        ["SellCost"]: {
+          ["1"]: {
+            ["1"]: "SellCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "1000",
+          },
+        },
+        ["RewardType"]: {
+          ["1"]: "enchantValue",
+        },
+        ["BuyCost"]: {
+          ["1"]: {
+            ["1"]: "BuyCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "10000",
+          },
+        },
+        ["AssetTexture"]: {
+          ["1"]: "rune4",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ENCHANTVALUE",
+        },
+      },
+      ["5"]: {
+        ["Color"]: {
+          ["1"]: 1,
+        },
+        ["BuySpecialCost"]: {
+          ["1"]: 90,
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "gold",
+          },
+          ["Count"]: {
+            ["1"]: 5250,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 5250,
+        },
+        ["SellCost"]: {
+          ["1"]: {
+            ["1"]: "SellCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "5250",
+          },
+        },
+        ["RewardType"]: {
+          ["1"]: "gold",
+        },
+        ["BuyCost"]: {
+          ["1"]: {
+            ["1"]: "BuyCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "5250",
+          },
+        },
+        ["AssetTexture"]: {
+          ["1"]: "cash1",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "GOLD",
+        },
+      },
+      ["6"]: {
+        ["Color"]: {
+          ["1"]: 2,
+        },
+        ["BuySpecialCost"]: {
+          ["1"]: 120,
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "gold",
+          },
+          ["Count"]: {
+            ["1"]: 20000,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 20000,
+        },
+        ["SellCost"]: {
+          ["1"]: {
+            ["1"]: "SellCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "20000",
+          },
+        },
+        ["RewardType"]: {
+          ["1"]: "gold",
+        },
+        ["BuyCost"]: {
+          ["1"]: {
+            ["1"]: "BuyCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "20000",
+          },
+        },
+        ["AssetTexture"]: {
+          ["1"]: "cash2",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "GOLD",
+        },
+      },
+      ["7"]: {
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["BuySpecialCost"]: {
+          ["1"]: 160,
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "gold",
+          },
+          ["Count"]: {
+            ["1"]: 57250,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 57250,
+        },
+        ["SellCost"]: {
+          ["1"]: {
+            ["1"]: "SellCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "57250",
+          },
+        },
+        ["RewardType"]: {
+          ["1"]: "gold",
+        },
+        ["BuyCost"]: {
+          ["1"]: {
+            ["1"]: "BuyCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "57250",
+          },
+        },
+        ["AssetTexture"]: {
+          ["1"]: "cash3",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "GOLD",
+        },
+      },
+      ["8"]: {
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["BuySpecialCost"]: {
+          ["1"]: 300,
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "gold",
+          },
+          ["Count"]: {
+            ["1"]: 100000,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 100000,
+        },
+        ["SellCost"]: {
+          ["1"]: {
+            ["1"]: "SellCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "100000",
+          },
+        },
+        ["RewardType"]: {
+          ["1"]: "gold",
+        },
+        ["BuyCost"]: {
+          ["1"]: {
+            ["1"]: "BuyCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "100000",
+          },
+        },
+        ["AssetTexture"]: {
+          ["1"]: "cash4",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "GOLD",
+        },
+      },
+      ["9"]: {
+        ["Color"]: {
+          ["1"]: 1,
+        },
+        ["BuySpecialCost"]: {
+          ["1"]: 200,
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "heroExperience",
+          },
+          ["Count"]: {
+            ["1"]: 50,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 50,
+        },
+        ["SellCost"]: {
+          ["1"]: {
+            ["1"]: "SellCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "100",
+          },
+        },
+        ["RewardType"]: {
+          ["1"]: "heroExperience",
+        },
+        ["BuyCost"]: {
+          ["1"]: {
+            ["1"]: "BuyCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "500",
+          },
+        },
+        ["AssetTexture"]: {
+          ["1"]: "xp1",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "HEROEXPERIENCE",
+        },
+      },
+      ["10"]: {
+        ["Color"]: {
+          ["1"]: 2,
+        },
+        ["BuySpecialCost"]: {
+          ["1"]: 300,
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "heroExperience",
+          },
+          ["Count"]: {
+            ["1"]: 300,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 300,
+        },
+        ["SellCost"]: {
+          ["1"]: {
+            ["1"]: "SellCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "400",
+          },
+        },
+        ["RewardType"]: {
+          ["1"]: "heroExperience",
+        },
+        ["BuyCost"]: {
+          ["1"]: {
+            ["1"]: "BuyCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "2000",
+          },
+        },
+        ["AssetTexture"]: {
+          ["1"]: "xp2",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "HEROEXPERIENCE",
+        },
+      },
+      ["11"]: {
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["BuySpecialCost"]: {
+          ["1"]: 400,
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "heroExperience",
+          },
+          ["Count"]: {
+            ["1"]: 1500,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1500,
+        },
+        ["SellCost"]: {
+          ["1"]: {
+            ["1"]: "SellCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "2000",
+          },
+        },
+        ["RewardType"]: {
+          ["1"]: "heroExperience",
+        },
+        ["BuyCost"]: {
+          ["1"]: {
+            ["1"]: "BuyCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "10000",
+          },
+        },
+        ["AssetTexture"]: {
+          ["1"]: "xp3",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "HEROEXPERIENCE",
+        },
+      },
+      ["12"]: {
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["BuySpecialCost"]: {
+          ["1"]: 90,
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "heroExperience",
+          },
+          ["Count"]: {
+            ["1"]: 7500,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 7500,
+        },
+        ["SellCost"]: {
+          ["1"]: {
+            ["1"]: "SellCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "10000",
+          },
+        },
+        ["RewardType"]: {
+          ["1"]: "heroExperience",
+        },
+        ["BuyCost"]: {
+          ["1"]: {
+            ["1"]: "BuyCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "50000",
+          },
+        },
+        ["AssetTexture"]: {
+          ["1"]: "xp4",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "HEROEXPERIENCE",
+        },
+      },
+      ["14"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "transfer",
+          },
+          ["Count"]: {
+            ["1"]: 1,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["RewardType"]: {
+          ["1"]: "transfer",
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "ticket",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "TRANSFER",
+        },
+      },
+      ["15"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "bronze",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 2,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "bronze_box",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["16"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "stamina",
+          },
+          ["Count"]: {
+            ["1"]: 200,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 200,
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "STAMINA",
+        },
+        ["RewardType"]: {
+          ["1"]: "stamina",
+        },
+        ["BuyCost"]: {
+          ["1"]: {
+            ["1"]: "BuyCost",
+            ["2"]: "pseudo",
+            ["3"]: "1",
+            ["4"]: "300",
+          },
+        },
+        ["AssetTexture"]: {
+          ["1"]: "energy_bottle",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["20"]: {
+        ["Color"]: {
+          ["1"]: 2,
+        },
+        ["BuySpecialCost"]: {
+          ["1"]: 4,
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "titanExperience",
+          },
+          ["Count"]: {
+            ["1"]: 1,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["IconAssetTexture"]: {
+          ["1"]: "titan_potion",
+        },
+        ["RewardType"]: {
+          ["1"]: "titanExperience",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "titan_potion",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "TITANEXPERIENCE",
+        },
+      },
+      ["24"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "titanGift",
+          },
+          ["Count"]: {
+            ["1"]: 1,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "TITAN_GIFT",
+        },
+        ["RewardType"]: {
+          ["1"]: "titanGift",
+        },
+        ["IconAssetTexture"]: {
+          ["1"]: "titan_pyramid",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "titan_pyramid",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["25"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "titanHealth",
+          },
+          ["Count"]: {
+            ["1"]: 1,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "TITAN_HEALTH",
+        },
+        ["RewardType"]: {
+          ["1"]: "titanHealth",
+        },
+        ["IconAssetTexture"]: {
+          ["1"]: "key_of_elements",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "key_of_elements",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["26"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "blueBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "box_1",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["27"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "purpleBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "box_2",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["28"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "orangeBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "box_3",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["29"]: {
+        ["EffectDescription"]: {
+          ["Count"]: {
+            ["1"]: 1,
+          },
+          ["MinLevelRange"]: {
+            ["1"]: 1,
+          },
+          ["MaxLevelRange"]: {
+            ["1"]: 25,
+          },
+          ["Name"]: {
+            ["1"]: "artifactExperience",
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_LEVEL_WEAPON",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactExperience",
+        },
+        ["Color"]: {
+          ["1"]: 1,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "essence_01",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["30"]: {
+        ["EffectDescription"]: {
+          ["Count"]: {
+            ["1"]: 1,
+          },
+          ["MinLevelRange"]: {
+            ["1"]: 26,
+          },
+          ["MaxLevelRange"]: {
+            ["1"]: 50,
+          },
+          ["Name"]: {
+            ["1"]: "artifactExperience",
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_LEVEL_WEAPON",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactExperience",
+        },
+        ["Color"]: {
+          ["1"]: 2,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "essence_02",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["31"]: {
+        ["EffectDescription"]: {
+          ["Count"]: {
+            ["1"]: 1,
+          },
+          ["MinLevelRange"]: {
+            ["1"]: 51,
+          },
+          ["MaxLevelRange"]: {
+            ["1"]: 70,
+          },
+          ["Name"]: {
+            ["1"]: "artifactExperience",
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_LEVEL_WEAPON",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactExperience",
+        },
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "essence_03",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["32"]: {
+        ["EffectDescription"]: {
+          ["Count"]: {
+            ["1"]: 1,
+          },
+          ["MinLevelRange"]: {
+            ["1"]: 71,
+          },
+          ["MaxLevelRange"]: {
+            ["1"]: 85,
+          },
+          ["Name"]: {
+            ["1"]: "artifactExperience",
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_LEVEL_WEAPON",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactExperience",
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "essence_04",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["33"]: {
+        ["EffectDescription"]: {
+          ["Count"]: {
+            ["1"]: 1,
+          },
+          ["MinLevelRange"]: {
+            ["1"]: 86,
+          },
+          ["MaxLevelRange"]: {
+            ["1"]: 100,
+          },
+          ["Name"]: {
+            ["1"]: "artifactExperience",
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_LEVEL_WEAPON",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactExperience",
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "essence_05",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["34"]: {
+        ["EffectDescription"]: {
+          ["Count"]: {
+            ["1"]: 1,
+          },
+          ["MinLevelRange"]: {
+            ["1"]: 1,
+          },
+          ["MaxLevelRange"]: {
+            ["1"]: 25,
+          },
+          ["Name"]: {
+            ["1"]: "artifactExperience",
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_LEVEL_BOOK",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactExperience",
+        },
+        ["Color"]: {
+          ["1"]: 1,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "roll_01",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["35"]: {
+        ["EffectDescription"]: {
+          ["Count"]: {
+            ["1"]: 1,
+          },
+          ["MinLevelRange"]: {
+            ["1"]: 26,
+          },
+          ["MaxLevelRange"]: {
+            ["1"]: 50,
+          },
+          ["Name"]: {
+            ["1"]: "artifactExperience",
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_LEVEL_BOOK",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactExperience",
+        },
+        ["Color"]: {
+          ["1"]: 2,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "roll_02",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["36"]: {
+        ["EffectDescription"]: {
+          ["Count"]: {
+            ["1"]: 1,
+          },
+          ["MinLevelRange"]: {
+            ["1"]: 51,
+          },
+          ["MaxLevelRange"]: {
+            ["1"]: 70,
+          },
+          ["Name"]: {
+            ["1"]: "artifactExperience",
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_LEVEL_BOOK",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactExperience",
+        },
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "roll_03",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["37"]: {
+        ["EffectDescription"]: {
+          ["Count"]: {
+            ["1"]: 1,
+          },
+          ["MinLevelRange"]: {
+            ["1"]: 71,
+          },
+          ["MaxLevelRange"]: {
+            ["1"]: 85,
+          },
+          ["Name"]: {
+            ["1"]: "artifactExperience",
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_LEVEL_BOOK",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactExperience",
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "roll_04",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["38"]: {
+        ["EffectDescription"]: {
+          ["Count"]: {
+            ["1"]: 1,
+          },
+          ["MinLevelRange"]: {
+            ["1"]: 86,
+          },
+          ["MaxLevelRange"]: {
+            ["1"]: 100,
+          },
+          ["Name"]: {
+            ["1"]: "artifactExperience",
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_LEVEL_BOOK",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactExperience",
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "roll_05",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["39"]: {
+        ["EffectDescription"]: {
+          ["Count"]: {
+            ["1"]: 1,
+          },
+          ["MinLevelRange"]: {
+            ["1"]: 1,
+          },
+          ["MaxLevelRange"]: {
+            ["1"]: 25,
+          },
+          ["Name"]: {
+            ["1"]: "artifactExperience",
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_LEVEL_RING",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactExperience",
+        },
+        ["Color"]: {
+          ["1"]: 1,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "metall_01",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["40"]: {
+        ["EffectDescription"]: {
+          ["Count"]: {
+            ["1"]: 1,
+          },
+          ["MinLevelRange"]: {
+            ["1"]: 26,
+          },
+          ["MaxLevelRange"]: {
+            ["1"]: 50,
+          },
+          ["Name"]: {
+            ["1"]: "artifactExperience",
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_LEVEL_RING",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactExperience",
+        },
+        ["Color"]: {
+          ["1"]: 2,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "metall_02",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["41"]: {
+        ["EffectDescription"]: {
+          ["Count"]: {
+            ["1"]: 1,
+          },
+          ["MinLevelRange"]: {
+            ["1"]: 51,
+          },
+          ["MaxLevelRange"]: {
+            ["1"]: 70,
+          },
+          ["Name"]: {
+            ["1"]: "artifactExperience",
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_LEVEL_RING",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactExperience",
+        },
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "metall_03",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["42"]: {
+        ["EffectDescription"]: {
+          ["Count"]: {
+            ["1"]: 1,
+          },
+          ["MinLevelRange"]: {
+            ["1"]: 71,
+          },
+          ["MaxLevelRange"]: {
+            ["1"]: 85,
+          },
+          ["Name"]: {
+            ["1"]: "artifactExperience",
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_LEVEL_RING",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactExperience",
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "metall_04",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["43"]: {
+        ["EffectDescription"]: {
+          ["Count"]: {
+            ["1"]: 1,
+          },
+          ["MinLevelRange"]: {
+            ["1"]: 86,
+          },
+          ["MaxLevelRange"]: {
+            ["1"]: 100,
+          },
+          ["Name"]: {
+            ["1"]: "artifactExperience",
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_LEVEL_RING",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactExperience",
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "metall_05",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["44"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "artifactEvolution",
+          },
+          ["Count"]: {
+            ["1"]: 1,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_EVOLVE",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactEvolution",
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "chaos_core_01",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["45"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "artifactChestKey",
+          },
+          ["Count"]: {
+            ["1"]: 1,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_KEY",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactChestKey",
+        },
+        ["IconAssetTexture"]: {
+          ["1"]: "artifact_chest_key",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "artifact_chest_key",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["46"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "artifactTitanAltarKey",
+          },
+          ["Count"]: {
+            ["1"]: 1,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "ARTIFACT_TITAN_ALTAR_KEY",
+        },
+        ["RewardType"]: {
+          ["1"]: "artifactTitanAltarKey",
+        },
+        ["IconAssetTexture"]: {
+          ["1"]: "artifact_titan_altar_key",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "artifact_titan_altar_key",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["47"]: {
+        ["EffectDescription"]: {
+          ["IsPlayerChoice"]: {
+            ["1"]: "True",
+          },
+          ["Count"]: {
+            ["1"]: "boxTitanMelee",
+          },
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX_47",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "Icon_Tank",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["48"]: {
+        ["EffectDescription"]: {
+          ["IsPlayerChoice"]: {
+            ["1"]: "True",
+          },
+          ["Count"]: {
+            ["1"]: "boxTitanRange",
+          },
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX_48",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "Icon_Ranger",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["49"]: {
+        ["EffectDescription"]: {
+          ["IsPlayerChoice"]: {
+            ["1"]: "True",
+          },
+          ["Count"]: {
+            ["1"]: "boxTitanSupport",
+          },
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX_49",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "Icon_Support",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["50"]: {
+        ["EffectDescription"]: {
+          ["IsPlayerChoice"]: {
+            ["1"]: "True",
+          },
+          ["Count"]: {
+            ["1"]: "boxTitanUltra",
+          },
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX_50",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "TitanChest_grand",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["51"]: {
+        ["EffectDescription"]: {
+          ["IsPlayerChoice"]: {
+            ["1"]: "True",
+          },
+          ["Count"]: {
+            ["1"]: "boxSkinCoin",
+          },
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX_51",
+        },
+        ["BuySpecialCost"]: {
+          ["1"]: 50,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["BuyCost"]: {
+          ["1"]: {
+            ["1"]: "BuyCost",
+            ["2"]: "pseudo",
+            ["3"]: "1",
+            ["4"]: "15",
+          },
+        },
+        ["AssetTexture"]: {
+          ["1"]: "iconZapredelieChest1b",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["52"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "superTryBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "HORN_CASE",
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "superTryBox",
+        },
+        ["BuySpecialCost"]: {
+          ["1"]: 50,
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["56"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "paragon",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX",
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["IconAssetTexture"]: {
+          ["1"]: "_75_Box_small_icon",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "120Box",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["57"]: {
+        ["EffectDescription"]: {
+          ["IsPlayerChoice"]: {
+            ["1"]: "True",
+          },
+          ["Count"]: {
+            ["1"]: "boxSpring",
+          },
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX_SPRING",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "8march2",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["59"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "gold",
+          },
+          ["Count"]: {
+            ["1"]: 1,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "QUIZ_TICKET",
+        },
+        ["RewardType"]: {
+          ["1"]: "gold",
+        },
+        ["IconAssetTexture"]: {
+          ["1"]: "owlticketBig",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "Owl_ticket",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["60"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "boxQuiz",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "OwlBox",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["62"]: {
+        ["EffectDescription"]: {
+          ["IsPlayerChoice"]: {
+            ["1"]: "True",
+          },
+          ["Count"]: {
+            ["1"]: "boxArtifactEssence",
+          },
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX_ARTIFACT_LEVEL_WEAPON",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "artef_box_3",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["63"]: {
+        ["EffectDescription"]: {
+          ["IsPlayerChoice"]: {
+            ["1"]: "True",
+          },
+          ["Count"]: {
+            ["1"]: "boxArtifactRoll",
+          },
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX_ARTIFACT_LEVEL_BOOK",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "artef_box_1",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["64"]: {
+        ["EffectDescription"]: {
+          ["IsPlayerChoice"]: {
+            ["1"]: "True",
+          },
+          ["Count"]: {
+            ["1"]: "boxArtifactMetall",
+          },
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX_ARTIFACT_LEVEL_RING",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "artef_box_2",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["65"]: {
+        ["EffectDescription"]: {
+          ["IsPlayerChoice"]: {
+            ["1"]: "True",
+          },
+          ["Count"]: {
+            ["1"]: "boxSkinCoinBig",
+          },
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX_65",
+        },
+        ["BuySpecialCost"]: {
+          ["1"]: 750,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["BuyCost"]: {
+          ["1"]: {
+            ["1"]: "BuyCost",
+            ["2"]: "pseudo",
+            ["3"]: "1",
+            ["4"]: "225",
+          },
+        },
+        ["AssetTexture"]: {
+          ["1"]: "120BoxZapredelie",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1001"]: {
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["BuySpecialCost"]: {
+          ["1"]: 600,
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "raidTicket",
+          },
+          ["Count"]: {
+            ["1"]: 1,
+          },
+        },
+        ["RewardAmount"]: {
+          ["1"]: 1,
+        },
+        ["SellCost"]: {
+          ["1"]: {
+            ["1"]: "SellCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "600",
+          },
+        },
+        ["RewardType"]: {
+          ["1"]: "raidTicket",
+        },
+        ["BuyCost"]: {
+          ["1"]: {
+            ["1"]: "BuyCost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "600",
+          },
+        },
+        ["AssetTexture"]: {
+          ["1"]: "raid_ticket",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 1001,
+        },
+      },
+      ["238"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "astralChest",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 238,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "astral_chest",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["200"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "EventChestExpa",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_botles",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["201"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "EventChestCoin",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_coins",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["202"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "EventChestSoul",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_souls",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["203"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "EventChestGirl",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 203,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "Shkatulka_kamnidush_red",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["204"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "EventChestBoy",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 204,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "Shkatulka_kamnidush_blue",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["205"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "EventChestCreature",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 205,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "Shkatulka_kamnidush_green",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["78"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "boxyChest",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX_78",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "BoxyChest",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["207"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "DeathBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "DeathBox",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["208"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "boxLove",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "love_box",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["209"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "levelBooster",
+          },
+          ["Count"]: {
+            ["1"]: 2948945,
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["RewardType"]: {
+          ["1"]: "levelBooster",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LEVELBOOSTER",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "icon_book_exp",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["210"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "skillBooster",
+          },
+          ["Count"]: {
+            ["1"]: 20032100,
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["RewardType"]: {
+          ["1"]: "skillBooster",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "SKILLBOOSTER",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "icon_book_sword",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["211"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "evolutionBooster",
+          },
+          ["Count"]: {
+            ["1"]: 300,
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["RewardType"]: {
+          ["1"]: "evolutionBooster",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "EVOLUTIONBOOSTER",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "icon_book_star",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["212"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "demonDoll",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX_DEMON_DOLL",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "demonDoll",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["213"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "winterDemonDoll",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX_DEMON_DOLL",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "demonDoll",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["214"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "demonSpark",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 2,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 214,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "fire_in_jar_1",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["215"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "demonFlame",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 215,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "fire_in_jar_2",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["216"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "demonBlaze",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 216,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "fire_in_jar_3",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["217"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "halloweenPumpkin",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX_HALLOWEEN_PUMPKIN",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "halloweenPumpkin",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["218"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "rainDrop",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 2,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 218,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "rainDrop",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["219"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "rainFall",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 219,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "rainFall",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["220"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "rainStorm",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 220,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "rainStorm",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["221"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "christmas2019_runes",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 221,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "halloweenPumpkin",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["222"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "christmas2019_artifacts",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 222,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "rainDrop",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["223"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "christmas2019_skins",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 223,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "rainFall",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["224"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "christmas2019_titans",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 224,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "rainStorm",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["225"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "christmas2019_giftBag",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 225,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "rainStorm",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["226"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "lepreCat",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LEPRECAT",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "lepreCat",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["227"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "easterEgg2020",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 227,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "easterEgg2020",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["100"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "Robbers1",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 2,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "Robbers1_box",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["101"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "Robbers2",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "Robbers2_box",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["102"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "Robbers3",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "Robbers3_box",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["103"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "Robbers4",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "Robbers4_box",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["104"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "BlackFridayGift",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "BFbox",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["105"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "SilverBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "LOOTBOX",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "silver_box_1",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["234"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "artifactChestOrange",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 234,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "artifactChestOrange",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["235"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "sarcophagusDarknessFalls2020",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 235,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "necro_store_currency",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["236"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "astralCase",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 2,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 236,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "astral_case",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["237"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "astralBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 237,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "astral_box",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["110"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "Robbers4",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "Robbers5_box",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["239"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "Halloween2020Lootbox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 235,
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["240"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "brawlBox1",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 240,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "brawl_box",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["241"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "brawlBox2",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 241,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "brawl_box",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["242"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "brawlBox3",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 242,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "brawl_box",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["243"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "newYear2021",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 243,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_new_year_gift",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["244"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "christmasCase",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 2,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 244,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "mandrakeRoot",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["245"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "christmasBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 245,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "mandrakeFlower",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["246"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "christmasChest",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 246,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "hungryMandrake",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["247"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "easter2021Lootbox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 247,
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["248"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "heroDollThea",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 5,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: "HERODOLL",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["233"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "artifactChestPurple",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 233,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "artifactChestPurple",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["232"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "artifactChestBlue",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 232,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "artifactChestBlue",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["231"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "artifactChestGreen",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 2,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 231,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "artifactChestGreen",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["230"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "hungryMandrake",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 230,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "hungryMandrake",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["229"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "mandrakeFlower",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 3,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 229,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "mandrakeFlower",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["228"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "mandrakeRoot",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 2,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["DescLocaleId"]: {
+          ["1"]: 228,
+        },
+        ["AssetTexture"]: {
+          ["1"]: "mandrakeRoot",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 4,
+        },
+      },
+      ["206"]: {
+        ["EffectDescription"]: {
+          ["Name"]: {
+            ["1"]: "lootBox",
+          },
+          ["Count"]: {
+            ["1"]: "NewYearBox",
+          },
+        },
+        ["Color"]: {
+          ["1"]: 4,
+        },
+        ["RewardType"]: {
+          ["1"]: "lootBox",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_new_year_gift",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+    },
+  },
+  ["End of File"]: {
+  },
+  ["Coins"]: {
+    ["Id"]: {
+      ["1"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "silverCoinBig",
+        },
+        ["Ident"]: {
+          ["1"]: "arena",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "arena",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["2"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "arenaCoinBig",
+        },
+        ["Ident"]: {
+          ["1"]: "grand_arena",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "grand_arena",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["3"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "towerCoinBig",
+        },
+        ["Ident"]: {
+          ["1"]: "tower",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "tower_coin",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["4"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "cosmoCoinBig",
+        },
+        ["Ident"]: {
+          ["1"]: "boss",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "cosmo_coin",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["5"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "gemCoinBig",
+        },
+        ["Ident"]: {
+          ["1"]: "soul",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "soulCoin",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["6"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "robbersCoinBig",
+        },
+        ["Ident"]: {
+          ["1"]: "social",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "robbers_coin",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["7"]: {
+        ["IsHidden"]: {
+          ["1"]: "True",
+        },
+        ["Ident"]: {
+          ["1"]: "skull",
+        },
+        ["IconAssetTexture"]: {
+          ["1"]: "tower_icon_skull",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "scull",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["8"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "EyeCoinPurpleBig",
+        },
+        ["Ident"]: {
+          ["1"]: "skin_coin_int",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "eyeCoinPurple",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["9"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "EyeCoinRedBig",
+        },
+        ["Ident"]: {
+          ["1"]: "skin_coin_str",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "eyeCoinRed",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["10"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "EyeCoinBlueBig",
+        },
+        ["Ident"]: {
+          ["1"]: "skin_coin_agi",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "eyeCoinBlue",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["11"]: {
+        ["IsHidden"]: {
+          ["1"]: "True",
+        },
+        ["Ident"]: {
+          ["1"]: "eventCoin_newYear2016",
+        },
+        ["IconAssetTexture"]: {
+          ["1"]: "SnowflakeCoinKing",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "quest_snowflake",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["13"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "key_of_elements",
+        },
+        ["Ident"]: {
+          ["1"]: "summon_key",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "quest_12",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["14"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "artifact_coin",
+        },
+        ["Ident"]: {
+          ["1"]: "artifact_coin",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "artif_coin-1",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["15"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "TitansCoinBig",
+        },
+        ["Ident"]: {
+          ["1"]: "titan_soul",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "titanCoins",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["16"]: {
+        ["IsHidden"]: {
+          ["1"]: "True",
+        },
+        ["Ident"]: {
+          ["1"]: "ny_gift_coin",
+        },
+        ["IconAssetTexture"]: {
+          ["1"]: "icon_tree",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "tree",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["17"]: {
+        ["IsHidden"]: {
+          ["1"]: "True",
+        },
+        ["Ident"]: {
+          ["1"]: "ny_tree_coin",
+        },
+        ["IconAssetTexture"]: {
+          ["1"]: "icon_elktoy",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "elktoy_small",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["18"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "fairy_powder_coin",
+        },
+        ["Ident"]: {
+          ["1"]: "fairy_powder",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "fairy_powder_coin",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["19"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "dragon_coin_icon",
+        },
+        ["Ident"]: {
+          ["1"]: "dragon_coin",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "dragon_coin_icon",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1024"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "event_artefact_key",
+        },
+        ["Ident"]: {
+          ["1"]: "event_artefact_key",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "event_artefact_key",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1025"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_halloween_2020_coin",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_halloween_2020_coin",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_halloween_2020_coin",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1026"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_halloween_2020_scroll",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_halloween_2020_scroll",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_halloween_2020_scroll",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1027"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_new_year_toy",
+        },
+        ["Ident"]: {
+          ["1"]: "christmas_toy_ny_2021",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_new_year_toy",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1028"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_new_year_2021_alvanor_coin",
+        },
+        ["Ident"]: {
+          ["1"]: "christmas_ny_2021_alvanor_coin",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_new_year_2021_alvanor_coin",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1029"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_new_year_2021_dark_star_coin",
+        },
+        ["Ident"]: {
+          ["1"]: "christmas_ny_2021_dark_star_coin",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_new_year_2021_dark_star_coin",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1030"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "blackFriday_clanGift_coin",
+        },
+        ["Ident"]: {
+          ["1"]: "blackFriday_clanGift_coin",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "blackFriday_clanGift_coin",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1031"]: {
+        ["IsHidden"]: {
+          ["1"]: "True",
+        },
+        ["Ident"]: {
+          ["1"]: "clanBoss_try",
+        },
+        ["IconAssetTexture"]: {
+          ["1"]: "clanBoss_try_icon",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "clanBoss_try",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1032"]: {
+        ["IsHidden"]: {
+          ["1"]: "True",
+        },
+        ["Ident"]: {
+          ["1"]: "clanBoss_superTry",
+        },
+        ["IconAssetTexture"]: {
+          ["1"]: "clanBoss_superTry_icon",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "clanBoss_superTry",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1033"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_easter_2021_coin",
+        },
+        ["Ident"]: {
+          ["1"]: "adventureEaster2021Coin",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_easter_2021_coin",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1034"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_easter_2021_scroll",
+        },
+        ["Ident"]: {
+          ["1"]: "adventureEaster2021Scroll",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_easter_2021_scroll",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["2000"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "Coin_Brawl_Mechanic",
+        },
+        ["Ident"]: {
+          ["1"]: "Coin_Brawl_Mechanic",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "Coin_Brawl_Mechanic",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["2001"]: {
+        ["IsHidden"]: {
+          ["1"]: "True",
+        },
+        ["Ident"]: {
+          ["1"]: "Coin_Brawl_Life",
+        },
+        ["IconAssetTexture"]: {
+          ["1"]: "Coin_Brawl_attempted",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "Coin_Brawl_attempted",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["101"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "icon_bronze_75x75",
+        },
+        ["Ident"]: {
+          ["1"]: "gvg_bronze",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "coin_guild_bronze",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["102"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "icon_silver_75x75",
+        },
+        ["Ident"]: {
+          ["1"]: "gvg_silver",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "coin_guild_silver",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["103"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "icon_gold_75x75",
+        },
+        ["Ident"]: {
+          ["1"]: "gvg_gold",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "coin_guild_gold",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["104"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "icon_diamond_75x75",
+        },
+        ["Ident"]: {
+          ["1"]: "gvg_diamond",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "coin_guild_diamond",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1001"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "raid_ticket_icon",
+        },
+        ["Ident"]: {
+          ["1"]: "raid_ticket",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "raid",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1002"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventureHarvestKey",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_harvest_key",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_harvest_key",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1003"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventureHarvestSpike",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_harvest_spike",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_harvest_spike",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1004"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventureHalloweenKey",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_halloween_key",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_halloween_key",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1005"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventureHalloweenPumpkin",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_halloween_pumpkin",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_halloween_pumpkin",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1000"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "video_ticket_icon",
+        },
+        ["Ident"]: {
+          ["1"]: "video_ticket",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "quest_cinema",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1007"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventureNewYearBall",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_new_year_ball",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_new_year_toy",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1008"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "gemCoinBig",
+        },
+        ["Ident"]: {
+          ["1"]: "soul_new_year_gui",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "soulCoin",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1009"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventureNewYearIceCoin",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_new_ice_coin",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_new_year_snowflake",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1010"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "skin_ticket_icon",
+        },
+        ["Ident"]: {
+          ["1"]: "skin_ticket",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "skin_ticket",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1011"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventureHalloweenKey",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_halloween18_key",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_halloween_key",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1012"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventureHalloweenPumpkin",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_halloween18_pumpkin",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_halloween_pumpkin",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1013"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_halloween_candy",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_halloween_candy",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_halloween_candy",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1014"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_halloween_scroll",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_halloween_scroll",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_halloween_scroll",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1015"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_christmas_2019_lian",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_christmas_2019_Lian_coin",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_christmas_2019_lian",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1016"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_christmas_2019_sebastian",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_christmas_2019_Sebastian_coin",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_christmas_2019_sebastian",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1017"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_christmas_2019_scroll",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_christmas_2019_scroll",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_christmas_2019_scroll",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1018"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_easter_2020_marta",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_easter_2020_marta_coin",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_easter_2020_marta",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1019"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_easter_2020_markus",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_easter_2020_markus_coin",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_easter_2020_markus",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1020"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_easter_2020_scroll",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_easter_2020_scroll",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_easter_2020_scroll",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1021"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_DarknessFalls_2020_morrigan_coin",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_DarknessFalls_2020_morrigan_coin",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_DarknessFalls_2020_morrigan_coin",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1022"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_DarknessFalls_2020_corvus_coin",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_DarknessFalls_2020_corvus_coin",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_DarknessFalls_2020_corvus_coin",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+      ["1023"]: {
+        ["IconAssetTexture"]: {
+          ["1"]: "adventure_DarknessFalls_2020_scroll",
+        },
+        ["Ident"]: {
+          ["1"]: "adventure_DarknessFalls_2020_scroll",
+        },
+        ["AssetTexture"]: {
+          ["1"]: "adventure_DarknessFalls_2020_scroll",
+        },
+        ["AssetAtlas"]: {
+          ["1"]: 9,
+        },
+      },
+    },
+  },
+},

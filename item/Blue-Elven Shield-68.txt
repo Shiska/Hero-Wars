@@ -1,0 +1,24 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_hero_level_required = 34
+ |browser_team_level_required = 34
+ |browser_armor = 80
+ |browser_magic_attack = 80
+ |browser_created_with_gold = 22500
+ |browser_created_with_1 = Blue/Sacred Rosary
+ |browser_created_with_2 = Blue/Serenity Stone
+ |browser_value_buy_gold = 9750
+ |browser_value_buy_coins = 322
+ |browser_value_sell_gold = 1950
+ |browser_value_sell_exchange = 30
+ |mobile_hero_level_required = 40
+ |mobile_team_level_required = 40
+ |mobile_armor = 80
+ |mobile_magic_attack = 80
+ |mobile_created_with_gold = 22500
+ |mobile_created_with_1 = Blue/Sacred Rosary
+ |mobile_created_with_2 = Blue/Serenity Stone
+ |mobile_value_buy_gold = 9750
+ |mobile_value_buy_coins = 322
+ |mobile_value_sell_gold = 1950
+ |mobile_value_sell_exchange = 30
+}}</onlyinclude>

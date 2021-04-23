@@ -1,0 +1,22 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_hero_level_required = 4
+ |browser_team_level_required = 4
+ |browser_agility = 7
+ |browser_physical_attack = 25
+ |browser_created_with_gold = 4500
+ |browser_created_with_1 = White/Orcish Yatagan
+ |browser_created_with_2 = White/Lucky Arrow
+ |browser_value_buy_gold = 2650
+ |browser_value_sell_gold = 530
+ |browser_value_sell_exchange = 4
+ |mobile_hero_level_required = 4
+ |mobile_team_level_required = 4
+ |mobile_agility = 7
+ |mobile_physical_attack = 25
+ |mobile_created_with_gold = 4500
+ |mobile_created_with_1 = White/Orcish Yatagan
+ |mobile_created_with_2 = White/Lucky Arrow
+ |mobile_value_buy_gold = 2650
+ |mobile_value_sell_gold = 530
+ |mobile_value_sell_exchange = 4
+}}</onlyinclude>

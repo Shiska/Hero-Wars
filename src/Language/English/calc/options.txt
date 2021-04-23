@@ -1,0 +1,65 @@
+{
+  ["buttonEquipRangColorBackground"]: {
+    ["1"]: "Background",
+  },
+  ["radioEquipColorRangList"]: {
+    ["1"]: "List",
+  },
+  ["buttonEquipRangColorFont"]: {
+    ["1"]: "Text",
+  },
+  ["groupEquipColorRangView"]: {
+    ["1"]: "View",
+  },
+  ["groupEquipColorRangFold"]: {
+    ["1"]: "Fold",
+  },
+  ["labelMissionWaveBoxSize"]: {
+    ["1"]: "Wave Pic Size",
+  },
+  ["labelItemsBoxSize"]: {
+    ["1"]: "Items Pic Size",
+  },
+  ["radioEquipColorRangCollapse"]: {
+    ["1"]: "Collapse",
+  },
+  ["labelEquipBoxSize"]: {
+    ["1"]: "Equip Pic Size",
+  },
+  ["labelSkinViewSort"]: {
+    ["1"]: "Skin View Sort",
+  },
+  ["listEquipRang"]: {
+    ["1"]: "White@Green@Blue@Purple@Orange@Red",
+  },
+  ["labelEquipRangColor"]: {
+    ["1"]: "Equip Rang Color",
+  },
+  ["labelMainSize"]: {
+    ["1"]: "Main window size",
+  },
+  ["labelLanguage"]: {
+    ["1"]: "Language",
+  },
+  ["labelMissionLootBoxSize"]: {
+    ["1"]: "Loot Pic Size",
+  },
+  ["buttonSave"]: {
+    ["1"]: "Save",
+  },
+  ["radioEquipColorRangTree"]: {
+    ["1"]: "Tree",
+  },
+  ["radioEquipColorRangExpand"]: {
+    ["1"]: "Expand",
+  },
+  ["labelMissionViewSort"]: {
+    ["1"]: "Mission View Sort",
+  },
+  ["checkEquipColorRangEnable"]: {
+    ["1"]: "Enable color",
+  },
+  ["labelfontSize"]: {
+    ["1"]: "Font size",
+  },
+},

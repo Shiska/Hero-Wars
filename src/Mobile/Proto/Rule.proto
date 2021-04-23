@@ -1,0 +1,95 @@
+{
+  ["TitanPowerPerStat"]: {
+    ["DefenseFromearth"]: {
+      ["1"]: 0.05,
+    },
+    ["DamageTowater"]: {
+      ["1"]: 0.048,
+    },
+    ["DefenseFromfire"]: {
+      ["1"]: 0.05,
+    },
+    ["DamageToearth"]: {
+      ["1"]: 0.048,
+    },
+    ["DamageTofire"]: {
+      ["1"]: 0.048,
+    },
+    ["DefenseFromwater"]: {
+      ["1"]: 0.05,
+    },
+    ["PhysicalAttack"]: {
+      ["1"]: 0.068,
+    },
+    ["Hp"]: {
+      ["1"]: 0.0051,
+    },
+    ["HpRegen"]: {
+      ["1"]: 0.09,
+    },
+  },
+  ["HeroPowerPerStat"]: {
+    ["Strength"]: {
+      ["1"]: 2.75,
+    },
+    ["MagicPenetration"]: {
+      ["1"]: 0.5,
+    },
+    ["MagicCrit"]: {
+      ["1"]: 2,
+    },
+    ["Lifesteal"]: {
+      ["1"]: 14.5,
+    },
+    ["EnergyRegen"]: {
+      ["1"]: 0.1,
+    },
+    ["PhysicalCritChance"]: {
+      ["1"]: 1.8,
+    },
+    ["Agility"]: {
+      ["1"]: 2.75,
+    },
+    ["EnergyReduce"]: {
+      ["1"]: 2,
+    },
+    ["MagicResist"]: {
+      ["1"]: 0.5,
+    },
+    ["HealingImprove"]: {
+      ["1"]: 1.3,
+    },
+    ["MagicPower"]: {
+      ["1"]: 0.5,
+    },
+    ["ArmorPenetration"]: {
+      ["1"]: 0.5,
+    },
+    ["Dodge"]: {
+      ["1"]: 1.8,
+    },
+    ["PhysicalAttack"]: {
+      ["1"]: 0.75,
+    },
+    ["Armor"]: {
+      ["1"]: 0.5,
+    },
+    ["Intelligence"]: {
+      ["1"]: 2.75,
+    },
+    ["Hp"]: {
+      ["1"]: 0.05,
+    },
+    ["HpRegen"]: {
+      ["1"]: 0.06,
+    },
+  },
+  ["TitanExperienceStarMoneyCost"]: {
+    ["1"]: 0.2,
+  },
+  ["TitanLevelPowerCoefficient"]: {
+    ["1"]: 1.5,
+  },
+  ["End"]: {
+  },
+},
