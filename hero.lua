@@ -1,6 +1,7 @@
 local ldir = require('dir')
 local lookup = require('lookup')
 
+local allKeys = {}
 local paramsMeta = {
     __newindex = function(self, key, value)
         rawset(self, #self + 1, key)
@@ -66,8 +67,10 @@ function getParams(platform, data)
         local lookup_attribute = lookup.attribute
 
         if type(skins) == 'table' then
+            local idx = 1
+
             for i = 3, #skins do
-                local key = 'skin' .. i - 2
+                local key = 'skin' .. idx
                 local skin = lookup_skin[skins[i]][platform]
 
                 if skin and skin.IsEnabled[1] == 'True' then
@@ -76,9 +79,11 @@ function getParams(platform, data)
                     stats:expand()
                     stats = stats[#stats][1]
 
-                    params[key] = skin.text
+                    params[key .. '_name'] = skin.text
                     params[key .. '_attribute'] = lookup_attribute[stats[8]]
                     params[key .. '_value'] = tonumber(stats[9])
+
+                    idx = idx + 1
                 end
             end
         else
@@ -118,7 +123,7 @@ function getParams(platform, data)
                     value = value[100] -- browser list goes to 130???
 
                     params[key .. '_attribute'] = lookup_attribute[attribute]
-                    params[key .. '_value'] = tonumber(value[1])
+                    params[key .. '_value'] = tonumber(value[1]) * 3
                 end
             end
         end
@@ -217,7 +222,10 @@ function getParams(platform, data)
                     level = tonumber(level)
                     base = tonumber(base)
 
-                    if scale ~= 0 then params[key .. lookup_param[skill_attribute[attribute]]] = scale end
+                    params[key .. 'attribute'] = lookup_attribute[skill_attribute[attribute]]
+                    params[key .. 'damage_type'] = damageType
+
+                    if scale ~= 0 then params[key .. 'scale'] = scale end
                     if level ~= 0 then params[key .. 'level'] = level end
                     if base  ~= 0 then params[key .. 'base'] = base end
 
@@ -235,9 +243,9 @@ function getParams(platform, data)
                 local initialCooldown = behavior.InitialCooldown
 
                 if initialCooldown then
-                    params[key .. 'cooldown_initial'] = tonumber(initialCooldown[1])
+                    params[key .. 'initial_cooldown'] = tonumber(initialCooldown[1])
 
-                    keys.initialCooldown = 0
+                    keys['initial cooldown'] = 0
                 end
 
                 local cooldown = behavior.Cooldown
@@ -264,17 +272,14 @@ function getParams(platform, data)
                     end
 
                     keys[key] = count + 1
+                    allKeys[key] = (allKeys[key] or 0) + 1
                 end)
 
                 local description = {description}
 
                 for k, v in pairs(keys) do
                     if v == 0 then
-                        local value = params[key .. k]
-
-                        if type(value) ~= 'table' then
-                            table.insert(description, string.format('%s: %s', k:gsub('^%l', string.upper), value))
-                        end
+                        table.insert(description, string.format('%s: %%%s%%', k:gsub('^%l', string.upper), k:lower():gsub(' ', '_')))
                     end
                 end
 
@@ -408,5 +413,9 @@ do
 
     for _, data in pairs(heroes) do
         generateHero(dest, data)
+    end
+
+    for k, v in pairs(allKeys) do
+        print(k, v)
     end
 end
