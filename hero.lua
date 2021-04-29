@@ -2,6 +2,7 @@ local ldir = require('dir')
 local lookup = require('lookup')
 
 local allKeys = {}
+local allDamageTypes = {}
 local paramsMeta = {
     __newindex = function(self, key, value)
         rawset(self, #self + 1, key)
@@ -174,8 +175,10 @@ function getParams(platform, data)
             if prime then
                 local _, attribute, damageType = table.unpack(prime[1])
 
-                params.basic_attack_attribute = lookup_attribute[skill_attribute[attribute]]
                 params.basic_attack_damage_type = damageType
+                params.basic_attack_attribute = lookup_attribute[skill_attribute[attribute]]
+
+                allDamageTypes[damageType] = (allDamageTypes[damageType] or 0) + 1
             end
         end
         -- skills
@@ -202,14 +205,16 @@ function getParams(platform, data)
                     level = tonumber(level)
                     base = tonumber(base)
 
-                    params[key .. 'attribute'] = lookup_attribute[skill_attribute[attribute]]
                     params[key .. 'damage_type'] = damageType
+                    params[key .. 'attribute'] = lookup_attribute[skill_attribute[attribute]]
 
                     if scale ~= 0 then params[key .. 'scale'] = scale end
                     if level ~= 0 then params[key .. 'level'] = level end
                     if base  ~= 0 then params[key .. 'base'] = base end
 
                     keys.prime = 0
+
+                    allDamageTypes[damageType] = (allDamageTypes[damageType] or 0) + 1
                 end
 
                 local secondary = behavior.Secondary
@@ -222,14 +227,16 @@ function getParams(platform, data)
                     level = tonumber(level)
                     base = tonumber(base)
 
-                    params[key .. 'attribute'] = lookup_attribute[skill_attribute[attribute]]
                     params[key .. 'damage_type'] = damageType
+                    params[key .. 'attribute'] = lookup_attribute[skill_attribute[attribute]]
 
                     if scale ~= 0 then params[key .. 'scale'] = scale end
                     if level ~= 0 then params[key .. 'level'] = level end
                     if base  ~= 0 then params[key .. 'base'] = base end
 
                     keys.secondary = 0
+
+                    allDamageTypes[damageType] = (allDamageTypes[damageType] or 0) + 1
                 end
 
                 local duration = behavior.Duration
@@ -415,7 +422,22 @@ do
         generateHero(dest, data)
     end
 
-    for k, v in pairs(allKeys) do
-        print(k, v)
+    local function printSorted(t)
+        local sort = {}
+
+        for k in pairs(t) do
+            table.insert(sort, k)
+        end
+
+        table.sort(sort, function(a, b) return t[a] < t[b] end)
+
+        for _, v in ipairs(sort) do
+            print(string.format('%s: %s', v, t[v]))
+        end
     end
+
+    print('Keys')
+    printSorted(allKeys)
+    print('Damage Types')
+    printSorted(allDamageTypes)
 end
