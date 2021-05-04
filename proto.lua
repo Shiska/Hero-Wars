@@ -145,7 +145,7 @@ return setmetatable({
                         if line == end_string then
                             dest, end_string = table.unpack(table.remove(stack))
                         else
-                            if line:match('^[^%w%s]') then
+                            if line:match('^[^%w%s}]') then
                                 table.insert(stack, {dest, end_string})
 
                                 end_string = string.gsub(line, '[%w%s]+', function(key)

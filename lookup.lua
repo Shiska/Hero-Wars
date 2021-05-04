@@ -310,6 +310,45 @@ return setmetatable({}, {
                         })[key]
                     end,
                 })
+                local petgear = setmetatable({}, {
+                    __index = function(self, key)
+                        local src = {
+                            browser = proto['src/Proto/Items.proto'],
+                            mobile = proto['src/Mobile/Proto/Items.proto'],
+                        }
+                        local loadPlatform = {
+                            __index = function(self, key)
+                                local src = src[key]
+
+                                if src then
+                                    local id = self.id
+
+                                    src = src['Pet Gears'].Id[id]
+
+                                    if src then
+                                        src.name = text('petGearName', self.id)[key]
+                                        src.color = color[tonumber(src.Color[1])]
+
+                                        self[key] = src
+                                    end
+                                end
+
+                                return src
+                            end,
+                        }
+                        return setmetatable(self, {
+                            __index = function(self, key)
+                                local id = tonumber(key)
+                                local data = setmetatable({id = id}, loadPlatform)
+
+                                self[key] = data
+                                self[id] = data
+
+                                return data
+                            end,
+                        })[key]
+                    end,
+                })
                 self.gear = gear
                 self.fragmentGear = gearFragment
                 self.scroll = scroll
@@ -317,6 +356,7 @@ return setmetatable({}, {
                 self.consumable = consumable
                 self.fragmentHero = heroFragment
                 self.pseudo = pseudo
+                self.petgear = petgear
 
                 return setmetatable(self, {
                     __index = function(self, key)
@@ -582,6 +622,9 @@ return setmetatable({}, {
                         ['magicpenetration'] = 'Magic penetration',
                         ['lifesteal'] = 'Vampirism',
                         ['physicalcritchance'] = 'Crit hit chance',
+                        ['patronagepower'] = 'Patronage Power',
+                        ['skillpower'] = 'Skill Power',
+                        ['level'] = 'Level',
                     }
                     return setmetatable(self, {
                         __index = function(self, key)
