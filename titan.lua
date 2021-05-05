@@ -10,25 +10,6 @@ local paramsMeta = {
     end,
 }
 
-local attribute_fix = setmetatable({
-    intelligence = 'patronagepower',
-    strength = 'skillpower',
-}, {
-    __index = function(self, key)
-        local resolve = rawget(self, key) or rawget(self, key:lower())
-
-        if resolve then
-            self[key] = resolve
-
-            return resolve
-        end
-
-        self[key] = key
-
-        return key
-    end,
-})
-
 function addStats(params, key, stats)
     local attributes = {}
     local lookup_param = lookup.param
@@ -40,7 +21,7 @@ function addStats(params, key, stats)
     table.sort(attributes)
 
     for _, attribute in ipairs(attributes) do
-        params[key .. lookup_param[attribute_fix[attribute]]] = tonumber(stats[attribute][1])
+        params[key .. lookup_param[attribute]] = tonumber(stats[attribute][1])
     end
 end
 
@@ -49,41 +30,70 @@ function getParams(platform, data)
 
     data:expand()
 
-    local position = data.Role
+    params.type = 'titan'
+    params.title = 'INSERT ME'
 
-    if position then
-        params.position = position[1]:gsub('^%l', string.upper)
+    local element = data.Other.Element
+
+    if element then
+        params.element = element[1]
     end
 
-    local roles = data.RoleExtended
+    local skins = data.Skin
 
-    if roles then
-        local roles = roles[1]
-        local lookup_role = lookup.role
+    if skins then
+        local skins = skins[1]
+        local lookup_skin = lookup.titanskin
+        local lookup_attribute = lookup.attribute
 
-        if type(roles) == 'table' then
-            for i = 2, #roles do
-                params['role' .. i - 1] = lookup_role[roles[i]]
+        if type(skins) ~= 'table' then
+            skins = {nil, skins}
+        end
+
+        local idx = 1
+
+        for i = 2, #skins do
+            local key = 'skin' .. idx
+            local skin = lookup_skin[skins[i]][platform]
+
+            if skin and skin.IsEnabled[1] == 'True' then
+                local stats = skin.StatData
+
+                stats:expand()
+                stats = stats[#stats][1]
+
+                params[key .. '_name'] = skin.text
+                params[key .. '_attribute'] = lookup_attribute[stats[8]]
+                params[key .. '_value'] = tonumber(stats[9])
+
+                idx = idx + 1
             end
-        else
-            params.role1 = lookup_role[roles]
         end
     end
 
-    local main_stat = data.MainStat
+    local glyphs = data.Runes
 
-    if main_stat then
-        params.main_stat = main_stat[1]
+    if glyphs then
+        local glyphs = glyphs[1]
+        local lookup_attribute = lookup.attribute
+
+        for i = 2, #glyphs - 1 do
+            params['glyph' .. i - 1] = lookup_attribute[glyphs[i]]
+        end
     end
 
-    local items = data.Colors
+    local artifacts = data.Artifacts
 
-    if items then
-        local lookup_gear = lookup.item.petgear
-        local items = items[5].Items[1]
+    if artifacts then
+        local artifacts = artifacts[1]
+        local lookup_attribute = lookup.attribute
+        local lookup_artifact_titan = lookup.artifact.titan
 
-        params.stone1 = lookup_gear[items[2]][platform].name
-        params.stone2 = lookup_gear[items[5]][platform].name
+        local seal = lookup_artifact_titan[artifacts[4]][platform]
+
+        if seal then
+            params.artifact_seal = seal.name
+        end
     end
 
     local base_stats = data.BaseStats
@@ -126,7 +136,7 @@ function getParams(platform, data)
                 local _, attribute, damageType = table.unpack(prime[1])
 
                 params.basic_attack_damage_type = damageType
-                params.basic_attack_attribute = lookup_attribute[attribute_fix[lookup_attribute[skill_attribute[attribute]]]]
+                params.basic_attack_attribute = lookup_attribute[skill_attribute[attribute]]
 
                 allDamageTypes[damageType] = (allDamageTypes[damageType] or 0) + 1
             end
@@ -156,7 +166,7 @@ function getParams(platform, data)
                     base = tonumber(base)
 
                     params[key .. 'damage_type'] = damageType
-                    params[key .. 'attribute'] = lookup_attribute[attribute_fix[lookup_attribute[skill_attribute[attribute]]]]
+                    params[key .. 'attribute'] = lookup_attribute[skill_attribute[attribute]]
 
                     if scale ~= 0 then params[key .. 'scale'] = scale end
                     if level ~= 0 then params[key .. 'level'] = level end
@@ -178,7 +188,7 @@ function getParams(platform, data)
                     base = tonumber(base)
 
                     params[key .. 'damage_type'] = damageType
-                    params[key .. 'attribute'] = lookup_attribute[attribute_fix[lookup_attribute[skill_attribute[attribute]]]]
+                    params[key .. 'attribute'] = lookup_attribute[skill_attribute[attribute]]
 
                     if scale ~= 0 then params[key .. 'scale'] = scale end
                     if level ~= 0 then params[key .. 'level'] = level end
@@ -245,27 +255,6 @@ function getParams(platform, data)
         end
     end
 
-    local patronage = data.OtherPet
-
-    if patronage then
-        local bonus = patronage.FavorStats[1]
-        local lookup_attribute = lookup.attribute
-
-        params.patronage_bonus1_attribute = lookup_attribute[bonus[2]]
-        params.patronage_bonus1_scale = tonumber(bonus[3])
-        params.patronage_bonus2_attribute = lookup_attribute[bonus[4]]
-        params.patronage_bonus2_scale = tonumber(bonus[5])
-
-        local heroes = patronage.FavorHeroes[1]
-        local lookup_heroes = lookup.hero
-
-        for i = 2, #heroes do
-            local hero = lookup_heroes[heroes[i]][platform]
-
-            params['patron' .. i - 1] = hero.name
-        end
-    end
-
     return params
 end
 
@@ -274,7 +263,7 @@ function generateHero(dest, data)
     local browser = data.browser
     local mobile = data.mobile
     local ndata = browser or mobile
-    local name = ndata.name
+    local name, description = ndata.name
 
     print(name, (browser or {}).id, (mobile or {}).id)
 
@@ -310,12 +299,12 @@ function generateHero(dest, data)
 end
 
 do
-    local dest = 'dest/pet'
+    local dest = 'dest/titan'
     local src = {
-        browser = 'src/Proto/Pet',
-        mobile = 'src/Mobile/Proto/Pet',
+        browser = 'src/Proto/Titan',
+        mobile = 'src/Mobile/Proto/Titan',
     }
-    local lookup = lookup.pet
+    local lookup = lookup.titan
     local heroes = setmetatable({}, {
         __index = function(self, key)
             local data = {}

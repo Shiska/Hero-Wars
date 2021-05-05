@@ -445,6 +445,7 @@ return setmetatable({}, {
                         local src = proto[path[key]:format(id)]
 
                         if src then
+                            src.id = id
                             src.name = text('titanName', id)[key]
                             src.description = text('titanDesc', id)[key]
 
@@ -478,6 +479,7 @@ return setmetatable({}, {
                         local src = proto[path[key]:format(id)]
 
                         if src then
+                            src.id = id
                             src.name = text('petName', id)[key]
                             src.description = text('petDesc', id)[key]
 
@@ -625,6 +627,9 @@ return setmetatable({}, {
                         ['patronagepower'] = 'Patronage Power',
                         ['skillpower'] = 'Skill Power',
                         ['level'] = 'Level',
+                        ['anticrit'] = 'Anti crit',
+                        ['antidodge'] = 'Anti dodge',
+                        ['elementarmor'] = 'Elemental Armor',
                     }
                     return setmetatable(self, {
                         __index = function(self, key)
@@ -878,9 +883,43 @@ return setmetatable({}, {
                 })[key]                
             end,
         })
+        local titanskin = setmetatable({}, {
+            __index = function(self, key)
+                local src = {
+                    browser = proto['src/Proto/TitanSkin.proto'],
+                    mobile = proto['src/Mobile/Proto/TitanSkin.proto'],
+                }
+                local loadPlatform = {
+                    __index = function(self, key)
+                        local src = src[key]
+
+                        if src then
+                            src = src.Id[self.id]
+                            src.text = text('skinTag', src.LocaleKey[1])[key]
+
+                            self[key] = src
+                        end
+
+                        return src
+                    end,
+                }
+                return setmetatable(self, {
+                    __index = function(self, key)
+                        local id = tonumber(key)
+                        local output = setmetatable({id = id}, loadPlatform)
+ 
+                        self[tostring(id)] = output
+                        self[id] = output
+
+                        return output
+                    end,
+                })[key]
+            end,
+        })
         self.text = text
         self.item = item
         self.skin = skin
+        self.titanskin = titanskin
         self.hero = hero
         self.titan = titan
         self.pet = pet
@@ -892,7 +931,7 @@ return setmetatable({}, {
         self.role = role
         self.artifact = artifact
         self.skill = skill
-        self.mission = mission
+        self.mission = mission        
 
         return setmetatable(self, nil)[key]
     end,
