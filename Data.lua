@@ -11,9 +11,26 @@ function module.set(frame, args, pargs)
 
         if pargs.template then
             local eargs = {}
+            local platform = pargs.platform
 
-            for k, v in pairs(args) do
-                eargs[k] = v
+            if platform then
+                platform = platform:lower()
+
+                for k, v in pairs(args) do
+                    local p, arg = k:match('([^_]+)_(.+)')
+
+                    if not p then -- copy values that don't match
+                        eargs[k] = v
+                    else
+                        if p:lower() == platform then
+                            eargs[arg] = v
+                        end
+                    end
+                end
+            else
+                for k, v in pairs(args) do
+                    eargs[k] = v
+                end
             end
 
             if pargs.sort then
@@ -163,9 +180,20 @@ function module.transfer(frame)
 
     if template then
         local args = {}
+        local match = fargs.match
 
-        for k, v in pairs(pargs) do
-            args[k] = v
+        if match then
+            for k, v in pairs(pargs) do
+                local m = k:match(match)
+
+                if k:match(match) then
+                    args[k] = v
+                end
+            end
+        else
+            for k, v in pairs(pargs) do
+                args[k] = v
+            end
         end
 
         for k, v in pairs(fargs) do
@@ -174,14 +202,14 @@ function module.transfer(frame)
 
         return frame:expandTemplate{title = template, args = args}
     end
-    
+
     local func = fargs.func
 
-    if fargs.module then
-        return require('Module:' .. fargs.module)[func](frame, pargs)
-    end
-
     if func then
+        if fargs.module then
+            return require('Module:' .. fargs.module)[func](frame, pargs)
+        end
+
         return module[func](frame, pargs)
     end
 end
@@ -204,9 +232,9 @@ end
 function module.list(frame)
     frame = frame or mw.getCurrentFrame()
 
-    local args = frame.args
+    local fargs = frame.args
     local pargs = frame:getParent().args
-    local key = args.key or ''
+    local key = fargs.key or ''
     local form = key:format(1)
     local list, value = {}
 
@@ -223,17 +251,21 @@ function module.list(frame)
         value = pargs[key:format(#list + 1)]
     end
 
-    if args.sort then
+    if fargs.sort then
         table.sort(list)
     end
 
-    local template = args.template
+    local template = fargs.template
 
     if template then
         local args = {}
         local params = {title = template, args = args}
 
         for k, v in pairs(pargs) do
+            args[k] = v
+        end
+
+        for k, v in pairs(fargs) do
             args[k] = v
         end
 
@@ -245,7 +277,7 @@ function module.list(frame)
         end
     end
 
-    return table.concat(list, args.sep)
+    return table.concat(list, fargs.sep)
 end
 
 function module.match(frame)
@@ -283,7 +315,7 @@ function module.match(frame)
 
             if form == key then
                 local value = args[key]
-    
+
                 if value and value:match(match) then
                     return call()
                 end
@@ -294,12 +326,12 @@ function module.match(frame)
                     if value:match(match) then
                         return call()
                     end
-        
+
                     v = v + 1
                     value = args[key:format(v)]
                 end
             end
-    
+
             k = k + 1
             key = pargs['key' .. k]
         end
@@ -335,10 +367,10 @@ function module.split(frame)
         for k, v in pairs(pargs) do
             eargs[k] = v
         end
-    
+
         local params = {title = template, args = eargs}
         local pattern = '([^' .. sep .. ']+)'
-    
+
         for k, v in ipairs(pargs) do
             local value = fargs[v] or ''
             local args = {v}
@@ -380,7 +412,7 @@ function module.dpl(frame, args)
     for v in string.gmatch(data, '[^\t]+') do
         table.insert(output, v)
     end
-    
+
     return output
 end
 
@@ -450,7 +482,7 @@ function module.test(args)
         t = os.clock() - t
         mw.log(string.format('%s (time: %.2f, it/t: %.2f)', name, t, iterations / t))
     end
-    
+
     function get()
         local output= {}
         local heroes = module.dpl(frame, {
@@ -464,16 +496,16 @@ function module.test(args)
 
         return output
     end
-    
+
     function dpl_get()
         return module.dpl_get(frame, {
             uses = "Template:Infobox Hero",
             include = "{<includeonly>#invoke:Data|Infobox_Hero/Glyphs}"
         })
     end
-    
+
     local iterations = tonumber((args or {})[1] or 1)
-    
+
     test('get', get, iterations)
     test('dpl_get', dpl_get, iterations)
 end
