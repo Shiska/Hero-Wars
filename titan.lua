@@ -89,7 +89,24 @@ function getParams(platform, data)
         local lookup_attribute = lookup.attribute
         local lookup_artifact_titan = lookup.artifact.titan
 
+        local weapon = lookup_artifact_titan[artifacts[2]][platform]
         local seal = lookup_artifact_titan[artifacts[4]][platform]
+
+        if weapon then
+            local key = 'artifact_' .. weapon.Type[1]
+
+            params[key] = weapon.name
+
+            for idx, effect in ipairs(weapon.BattleEffect) do
+                for attribute, value in pairs(effect) do
+                    value:expand()
+                    value = value[#value]
+
+                    params[key .. '_attribute'] = lookup_attribute[attribute]
+                    params[key .. '_value'] = tonumber(value[1]) * 3
+                end
+            end
+        end
 
         if seal then
             params.artifact_seal = seal.name

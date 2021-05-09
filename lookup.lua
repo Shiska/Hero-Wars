@@ -630,6 +630,15 @@ return setmetatable({}, {
                         ['anticrit'] = 'Anti crit',
                         ['antidodge'] = 'Anti dodge',
                         ['elementarmor'] = 'Elemental Armor',
+                        ['elementattack'] = 'Elemental Damage',
+                        ['elementspiritpower'] = 'Elemental Spirit Power',
+                        ['damagetoearth'] = 'Damage to Earth',
+                        ['defensefromearth'] = 'Defense from Earth',
+                        ['damagetowater'] = 'Damage to Water',
+                        ['defensefromwater'] = 'Defense from Water',
+                        ['damagetofire'] = 'Damage to Fire',
+                        ['defensefromfire'] = 'Defense from Fire',
+                        ['hpRegen'] = 'HP regen',
                     }
                     return setmetatable(self, {
                         __index = function(self, key)

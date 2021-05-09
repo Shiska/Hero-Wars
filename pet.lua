@@ -132,17 +132,20 @@ function getParams(platform, data)
             end
         end
         -- skills
-        for i = 3, #skills do
+        local idx = 1
+
+        for i = 2, #skills do
             local skill = lookup_skill[skills[i]][platform]
 
             if skill then
                 local description = table.concat({'', skill.description, skill.param}, '\n')
-                local key = 'skill_' .. skill_color[i - 2] .. '_'
+                local key = 'skill_' .. skill_color[idx] .. '_'
                 local behavior = skill.Behavior
                 local keys = {
                     level = 10,
                     name = 10,
                 }
+                idx = idx + idx
                 params[key .. 'name'] = skill.name
 
                 local prime = behavior.Prime
@@ -279,6 +282,7 @@ function generateHero(dest, data)
     print(name, (browser or {}).id, (mobile or {}).id)
 
     table.insert(output, '<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Hero/Lua</noinclude>')
+    table.insert(output, ' |type = pet')
 
     for _, platform in ipairs{'browser', 'mobile'} do -- ensure order
         local data = data[platform]
@@ -295,6 +299,7 @@ function generateHero(dest, data)
             table.insert(output, table.concat(data, '\n'))
         end
     end
+ 
  
     if #output > 0 then
         table.insert(output, '}}</onlyinclude>')
