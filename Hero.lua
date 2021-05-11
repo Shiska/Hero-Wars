@@ -1398,8 +1398,11 @@ function module.page(frame, args, pargs)
             -- format skills
             for k, v in pairs(hero.skill) do
                 local key = 'skill_' .. k
+                local form = args[key .. '_format']
 
-                args[key .. '_description'] = v:format(args[key .. '_format'])
+                if form then
+                    args[key .. '_description'] = v:format(form)
+                end
             end
             -- pass stats
             local data_stat = data_stat[hero.type]
@@ -1468,13 +1471,14 @@ function module.stats(frame, args)
     local template = fargs.row_template
 
     if template then
+        local type = (fargs.type or 'hero'):lower()
         local platform = (fargs.platform or 'browser'):lower()
         local dpl = require('Module:Data').dpl
         local heroes = dpl(frame, {
             category = platform,
-            uses = 'Template:Infobox Hero',
+            uses = 'Template:Infobox ' .. type:gsub('^%l', string.upper),
         })
-        local data_hero = Data.hero
+        local data_hero = Data[type]
 
         table.sort(heroes)
 

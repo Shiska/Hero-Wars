@@ -70,6 +70,7 @@ return {
             [21] = {name = "Defense from Water"},
             [22] = {name = "Damage to Fire"},
             [23] = {name = "Defense from Fire"},
+            [24] = {name = "HP regen"},
         },
     },
     skillLevel = { -- the level the skill starts at (not visible)
@@ -87,7 +88,7 @@ return {
         hero_mobile = {2.75, 2.75, 2.75, 0.05, 0.75, 0.5, 0.5, 0.5, 1.8, 0.5, 0.5, 14.5, 1.8, skill = {4, 20}},
         pet_browser = {[10] = 1, [11] = 1, [14] = 5.5, [15] = 5.5, skill = {3, 20}},
         titan_browser = {[4] = 0.0051, [5] = 0.068, [16] = 0.068, [17] = 0.319},
-        titan_mobile = {[4] = 0.0051, [5] = 0.068, [18] = 0.048, [19] = 0.05, [20] = 0.048, [21] = 0.05, [22] = 0.048, [23] = 0.05},
+        titan_mobile = {[4] = 0.0051, [5] = 0.068, [18] = 0.048, [19] = 0.05, [20] = 0.048, [21] = 0.05, [22] = 0.048, [23] = 0.05, [24] = 0.09},
     },
     skin = {
         hero_browser = {
