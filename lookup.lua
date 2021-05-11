@@ -639,6 +639,7 @@ return setmetatable({}, {
                         ['damagetofire'] = 'Damage to Fire',
                         ['defensefromfire'] = 'Defense from Fire',
                         ['hpRegen'] = 'HP regen',
+                        ['attack'] = 'Attack',
                     }
                     return setmetatable(self, {
                         __index = function(self, key)

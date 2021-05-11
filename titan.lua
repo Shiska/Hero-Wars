@@ -10,6 +10,25 @@ local paramsMeta = {
     end,
 }
 
+local attribute_fix = setmetatable({
+    ['physical attack'] = 'attack',
+    ['physicalattack'] = 'attack',
+}, {
+    __index = function(self, key)
+        local resolve = rawget(self, key) or rawget(self, key:lower())
+
+        if resolve then
+            self[key] = resolve
+
+            return resolve
+        end
+
+        self[key] = key
+
+        return key
+    end,
+})
+
 function addStats(params, key, stats)
     local attributes = {}
     local lookup_param = lookup.param
@@ -21,7 +40,7 @@ function addStats(params, key, stats)
     table.sort(attributes)
 
     for _, attribute in ipairs(attributes) do
-        params[key .. lookup_param[attribute]] = tonumber(stats[attribute][1])
+        params[key .. lookup_param[attribute_fix[attribute]]] = tonumber(stats[attribute][1])
     end
 end
 
@@ -30,13 +49,13 @@ function getParams(platform, data)
 
     data:expand()
 
-    params.type = 'titan'
-    params.title = 'INSERT ME'
+    -- params.type = 'titan'
+    -- params.flavor = 'INSERT ME'
 
     local element = data.Other.Element
 
     if element then
-        params.element = element[1]
+        params.element = element[1]:gsub('^%l', string.upper)
     end
 
     local skins = data.Skin
@@ -63,7 +82,7 @@ function getParams(platform, data)
                 stats = stats[#stats][1]
 
                 params[key .. '_name'] = skin.text
-                params[key .. '_attribute'] = lookup_attribute[stats[8]]
+                params[key .. '_attribute'] = lookup_attribute[attribute_fix[stats[8]]]
                 params[key .. '_value'] = tonumber(stats[9])
 
                 idx = idx + 1
@@ -78,7 +97,7 @@ function getParams(platform, data)
         local lookup_attribute = lookup.attribute
 
         for i = 2, #glyphs - 1 do
-            params['glyph' .. i - 1] = lookup_attribute[glyphs[i]]
+            params['glyph' .. i - 1] = lookup_attribute[attribute_fix[glyphs[i]]]
         end
     end
 
@@ -102,7 +121,7 @@ function getParams(platform, data)
                     value:expand()
                     value = value[#value]
 
-                    params[key .. '_attribute'] = lookup_attribute[attribute]
+                    params[key .. '_attribute'] = lookup_attribute[attribute_fix[attribute]]
                     params[key .. '_value'] = tonumber(value[1]) * 3
                 end
             end
@@ -153,7 +172,7 @@ function getParams(platform, data)
                 local _, attribute, damageType = table.unpack(prime[1])
 
                 params.basic_attack_damage_type = damageType
-                params.basic_attack_attribute = lookup_attribute[skill_attribute[attribute]]
+                params.basic_attack_attribute = lookup_attribute[attribute_fix[lookup_attribute[skill_attribute[attribute]]]]
 
                 allDamageTypes[damageType] = (allDamageTypes[damageType] or 0) + 1
             end
@@ -183,7 +202,7 @@ function getParams(platform, data)
                     base = tonumber(base)
 
                     params[key .. 'damage_type'] = damageType
-                    params[key .. 'attribute'] = lookup_attribute[skill_attribute[attribute]]
+                    params[key .. 'attribute'] = lookup_attribute[attribute_fix[lookup_attribute[skill_attribute[attribute]]]]
 
                     if scale ~= 0 then params[key .. 'scale'] = scale end
                     if level ~= 0 then params[key .. 'level'] = level end
@@ -205,7 +224,7 @@ function getParams(platform, data)
                     base = tonumber(base)
 
                     params[key .. 'damage_type'] = damageType
-                    params[key .. 'attribute'] = lookup_attribute[skill_attribute[attribute]]
+                    params[key .. 'attribute'] = lookup_attribute[attribute_fix[lookup_attribute[skill_attribute[attribute]]]]
 
                     if scale ~= 0 then params[key .. 'scale'] = scale end
                     if level ~= 0 then params[key .. 'level'] = level end
@@ -284,7 +303,8 @@ function generateHero(dest, data)
 
     print(name, (browser or {}).id, (mobile or {}).id)
 
-    table.insert(output, '<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Hero/Lua</noinclude>')
+    table.insert(output, '<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Titan/Lua</noinclude>')
+    table.insert(output, ' |flavor =')
 
     for _, platform in ipairs{'browser', 'mobile'} do -- ensure order
         local data = data[platform]
@@ -304,6 +324,7 @@ function generateHero(dest, data)
  
     if #output > 0 then
         table.insert(output, '}}</onlyinclude>')
+        table.insert(output, '{{Hero/Gallery}}')
 
         local data = table.concat(output, '\n')
         local file = io.open(table.concat{dest, '/', name, '.txt'}, 'w')
