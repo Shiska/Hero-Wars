@@ -341,7 +341,7 @@ function generate(dest, func, lookup, src)
 end
 
 do
-    local dest = 'dest/item'
+    local dest = 'dest/gear'
 
     ldir:mkdir(dest)
 
