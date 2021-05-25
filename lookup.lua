@@ -240,8 +240,12 @@ return setmetatable({}, {
 
                                     src = src.Id[id]
 
-                                    if src then 
+                                    if src then
                                         src.name = text('consumableName', id)[key]
+
+                                        if src.DescLocaleId then
+                                            src.description = text('consumableDesc', src.DescLocaleId[1])[key]
+                                        end
 
                                         self[key] = src
                                     end
