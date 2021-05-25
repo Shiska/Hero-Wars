@@ -6,13 +6,13 @@
  |browser_stone_source1 = 
  |browser_stone_source2 = 
  |browser_main_stat = Intelligence
- |browser_skin1 = Champion's Skin
+ |browser_skin1_name = Champion's Skin
  |browser_skin1_attribute = Magic attack
  |browser_skin1_value = 10687
- |browser_skin2 = Winter Skin
+ |browser_skin2_name = Winter Skin
  |browser_skin2_attribute = Magic attack
  |browser_skin2_value = 10665
- |browser_skin3 = Romantic Skin
+ |browser_skin3_name = Romantic Skin
  |browser_skin3_attribute = Health
  |browser_skin3_value = 106645
  |browser_glyph1 = Magic attack
@@ -21,7 +21,7 @@
  |browser_glyph4 = Magic defense
  |browser_artifact_weapon = Mother Tree's Branch
  |browser_artifact_weapon_attribute = Magic defense
- |browser_artifact_weapon_value = 10680
+ |browser_artifact_weapon_value = 32040
  |browser_artifact_book = Tome of Arcane Knowledge
  |browser_base_agility = 10
  |browser_base_health = 500
@@ -44,21 +44,23 @@
  |browser_star6_agility = 11
  |browser_star6_intelligence = 25
  |browser_star6_strength = 14
- |browser_basic_attack_attribute = Physical attack
  |browser_basic_attack_damage_type = physical
+ |browser_basic_attack_attribute = Physical attack
  |browser_skill_white_name = Queen of Flowers
- |browser_skill_white_prime_attribute = Magic attack
  |browser_skill_white_prime_damage_type = heal per tick
+ |browser_skill_white_prime_attribute = Magic attack
  |browser_skill_white_prime_scale = 0.03
  |browser_skill_white_prime_level = 10
- |browser_skill_white_secondary_magic_attack = 1
+ |browser_skill_white_secondary_damage_type = hp
+ |browser_skill_white_secondary_attribute = Magic attack
+ |browser_skill_white_secondary_scale = 1
  |browser_skill_white_secondary_level = 200
  |browser_skill_white_format = 
 A magical flower grows around Maya, protecting her from any attacks. Unless it is destroyed, the flower will restore health of all teammates over time.
 Health regen per second: %prime%  Flower health: %secondary%  
  |browser_skill_green_name = Toxic Pollen
- |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_damage_type = dot
+ |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_scale = 0.25
  |browser_skill_green_prime_level = 100
  |browser_skill_green_duration = 6
@@ -66,10 +68,10 @@ Health regen per second: %prime%  Flower health: %secondary%
  |browser_skill_green_format = 
 Maya hits the most distant enemy with poisoned pollen that causes damage over time.
 Poison deals %prime% pure damage per %duration%
-Cooldown: 12
+Cooldown: %cooldown%
  |browser_skill_blue_name = Poisonous Bonds
- |browser_skill_blue_prime_attribute = Magic attack
  |browser_skill_blue_prime_damage_type = dot
+ |browser_skill_blue_prime_attribute = Magic attack
  |browser_skill_blue_prime_scale = 0.25
  |browser_skill_blue_prime_level = 100
  |browser_skill_blue_duration = 6
@@ -77,16 +79,16 @@ Cooldown: 12
  |browser_skill_blue_format = 
 Living sprouts entangle enemies on the far left and the far right, pulling them to each other and poisoning them.
 Poison deals %prime% pure damage per %duration%
-Cooldown: 20
+Cooldown: %cooldown%
  |browser_skill_violet_name = Queen's Revenge
- |browser_skill_violet_prime_attribute = Magic attack
  |browser_skill_violet_prime_damage_type = dot
+ |browser_skill_violet_prime_attribute = Magic attack
  |browser_skill_violet_prime_scale = 1
  |browser_skill_violet_prime_level = 400
  |browser_skill_violet_duration = 8
  |browser_skill_violet_format = 
 Now, when the magical flower dies, its roots entangle the nearest enemies, preventing them from moving and causing damage over time for %duration%.
-Prime: nil
+Prime: %prime%
  |browser_gear_white0_1 = White/Wooden Shield
  |browser_gear_white0_2 = White/Oil Lamp
  |browser_gear_white0_3 = White/Apprentice's Mantle
@@ -201,13 +203,13 @@ Prime: nil
  |mobile_stone_source1 = 
  |mobile_stone_source2 = 
  |mobile_main_stat = Intelligence
- |mobile_skin1 = Champion's Skin
+ |mobile_skin1_name = Champion's Skin
  |mobile_skin1_attribute = Magic attack
  |mobile_skin1_value = 10687
- |mobile_skin2 = Winter Skin
+ |mobile_skin2_name = Winter Skin
  |mobile_skin2_attribute = Magic attack
  |mobile_skin2_value = 10665
- |mobile_skin3 = Romantic Skin
+ |mobile_skin3_name = Romantic Skin
  |mobile_skin3_attribute = Health
  |mobile_skin3_value = 106645
  |mobile_glyph1 = Magic attack
@@ -216,7 +218,7 @@ Prime: nil
  |mobile_glyph4 = Magic defense
  |mobile_artifact_weapon = Mother Tree's Branch
  |mobile_artifact_weapon_attribute = Magic defense
- |mobile_artifact_weapon_value = 10680
+ |mobile_artifact_weapon_value = 32040
  |mobile_artifact_book = Tome of Arcane Knowledge
  |mobile_base_agility = 10
  |mobile_base_health = 500
@@ -239,21 +241,23 @@ Prime: nil
  |mobile_star6_agility = 11
  |mobile_star6_intelligence = 25
  |mobile_star6_strength = 14
- |mobile_basic_attack_attribute = Physical attack
  |mobile_basic_attack_damage_type = physical
+ |mobile_basic_attack_attribute = Physical attack
  |mobile_skill_white_name = Queen of Flowers
- |mobile_skill_white_prime_attribute = Magic attack
  |mobile_skill_white_prime_damage_type = heal per tick
+ |mobile_skill_white_prime_attribute = Magic attack
  |mobile_skill_white_prime_scale = 0.03
  |mobile_skill_white_prime_level = 10
- |mobile_skill_white_secondary_magic_attack = 1
+ |mobile_skill_white_secondary_damage_type = hp
+ |mobile_skill_white_secondary_attribute = Magic attack
+ |mobile_skill_white_secondary_scale = 1
  |mobile_skill_white_secondary_level = 200
  |mobile_skill_white_format = 
 A magical flower grows around Maya, protecting her from any attacks. Unless it is destroyed, the flower will restore health of all teammates over time.
 Health regen per second: %prime%  Flower health: %secondary% 
  |mobile_skill_green_name = Poisoned Pollen
- |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_damage_type = dot
+ |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_scale = 0.25
  |mobile_skill_green_prime_level = 100
  |mobile_skill_green_duration = 6
@@ -261,10 +265,10 @@ Health regen per second: %prime%  Flower health: %secondary%
  |mobile_skill_green_format = 
 Maya hits the most distant enemy with poisoned pollen that causes damage over time.
 Poison deals %prime% pure damage per %duration%
-Cooldown: 12
+Cooldown: %cooldown%
  |mobile_skill_blue_name = Poisonous Bonds
- |mobile_skill_blue_prime_attribute = Magic attack
  |mobile_skill_blue_prime_damage_type = dot
+ |mobile_skill_blue_prime_attribute = Magic attack
  |mobile_skill_blue_prime_scale = 0.25
  |mobile_skill_blue_prime_level = 100
  |mobile_skill_blue_duration = 6
@@ -272,17 +276,17 @@ Cooldown: 12
  |mobile_skill_blue_format = 
 Living sprouts entangle enemies on the far left and the far right, pulling them to each other and poisoning them.
 Poison deals %prime% pure damage per %duration%
-Cooldown: 20
+Cooldown: %cooldown%
  |mobile_skill_violet_name = Queen's Revenge
- |mobile_skill_violet_prime_attribute = Magic attack
  |mobile_skill_violet_prime_damage_type = dot
+ |mobile_skill_violet_prime_attribute = Magic attack
  |mobile_skill_violet_prime_scale = 1
  |mobile_skill_violet_prime_level = 400
  |mobile_skill_violet_duration = 8
  |mobile_skill_violet_format = 
 Now, when the magical flower dies, its roots entangle the nearest enemies, preventing them from moving and causing damage over time for %duration%.
 LIB_SKILL_COMMON_POISION_DAMAGE
-Prime: nil
+Prime: %prime%
  |mobile_gear_white0_1 = White/Wooden Shield
  |mobile_gear_white0_2 = White/Oil Lamp
  |mobile_gear_white0_3 = White/Apprentice's Mantle

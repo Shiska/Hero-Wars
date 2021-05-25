@@ -1,0 +1,64 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Hero/Lua</noinclude>
+ |browser_position = Back
+ |browser_role1 = Mage
+ |browser_main_stat = Strength
+ |browser_stone1 = Duskstone
+ |browser_stone2 = Sunstone
+ |browser_base_armor_penetration = 1500
+ |browser_base_patronage_power = 25
+ |browser_base_skill_power = 25
+ |browser_star = 1
+ |browser_star1_patronage_power = 6
+ |browser_star1_skill_power = 6
+ |browser_star2_patronage_power = 9
+ |browser_star2_skill_power = 9
+ |browser_star3_patronage_power = 13
+ |browser_star3_skill_power = 13
+ |browser_star4_patronage_power = 18
+ |browser_star4_skill_power = 18
+ |browser_star5_patronage_power = 23
+ |browser_star5_skill_power = 23
+ |browser_star6_patronage_power = 30
+ |browser_star6_skill_power = 30
+ |browser_basic_attack_damage_type = dot
+ |browser_basic_attack_attribute = Skill Power
+ |browser_skill_white_name = Concentration
+ |browser_skill_white_prime_damage_type = %buff
+ |browser_skill_white_prime_attribute = Skill Power
+ |browser_skill_white_prime_scale = 0.015979
+ |browser_skill_white_prime_base = 2.505
+ |browser_skill_white_duration = 3
+ |browser_skill_white_cooldown = 5.85
+ |browser_skill_white_format = 
+Breath of the Ancients now takes %duration% to charge and gains bonus damage, depending on all Pure damage dealt to the enemy team while the skill is charging.
+Deals %prime%% of Pure damage dealt by allies while Breath of the Ancients is charging
+Cooldown: %cooldown%
+ |browser_skill_green_name = Pure Victory
+ |browser_skill_green_prime_damage_type = dot
+ |browser_skill_green_prime_attribute = Patronage Power
+ |browser_skill_green_prime_scale = 0.006344
+ |browser_skill_green_prime_base = 4.808
+ |browser_skill_green_format = 
+Increases Pure damage dealt by the master.
+Adds %prime%% damage
+ |browser_patronage_bonus1_attribute = Magic attack
+ |browser_patronage_bonus1_scale = 0.9
+ |browser_patronage_bonus2_attribute = Physical attack
+ |browser_patronage_bonus2_scale = 0.63
+ |browser_patron1 = Galahad
+ |browser_patron2 = Keira
+ |browser_patron3 = Phobos
+ |browser_patron4 = Daredevil
+ |browser_patron5 = Heidi
+ |browser_patron6 = Chabba
+ |browser_patron7 = Arachne
+ |browser_patron8 = Lian
+ |browser_patron9 = Cleaver
+ |browser_patron10 = Qing Mao
+ |browser_patron11 = Maya
+ |browser_patron12 = Jhu
+ |browser_patron13 = Rufus
+ |browser_patron14 = Sebastian
+ |browser_patron15 = Yasmine
+ |browser_patron16 = Corvus
+}}</onlyinclude>

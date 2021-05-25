@@ -1,0 +1,14 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Pet</noinclude>
+ |color = Green
+ |browser_pet_level_required = 10
+ |browser_magic_penetration_min = 209
+ |browser_magic_penetration_max = 605
+ |browser_skill_power_min = 38
+ |browser_skill_power_max = 110
+ |browser_upgrade_max_level = 10
+ |browser_upgrade_chaos_particle = 15
+ |browser_upgrade_gold = 3000
+ |browser_upgrade_emeralds = 105
+ |browser_buy_chaos_particle = 80
+ |browser_sell_chaos_particle = 16
+}}</onlyinclude>

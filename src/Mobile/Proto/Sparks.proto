@@ -1,46 +1,28 @@
 {
   ["1"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 4,
-      },
-      ["Intelligence"]: {
-        ["1"]: 2,
-      },
-      ["Agility"]: {
-        ["1"]: 2,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 2,
-      },
-      ["Intelligence"]: {
-        ["1"]: 4,
-      },
-      ["Agility"]: {
-        ["1"]: 2,
-      },
-    },
     ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 4,
+      },
       ["Strength"]: {
         ["1"]: 2,
       },
       ["Intelligence"]: {
         ["1"]: 2,
       },
+    },
+    ["Strength"]: {
       ["Agility"]: {
+        ["1"]: 2,
+      },
+      ["Strength"]: {
         ["1"]: 4,
+      },
+      ["Intelligence"]: {
+        ["1"]: 2,
       },
     },
     ["Cost"]: {
-      ["pseudo"]: {
-        ["1"]: {
-          ["1"]: "pseudo",
-          ["2"]: "2",
-          ["3"]: "7000",
-        },
-      },
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -48,50 +30,50 @@
           ["3"]: "250",
         },
       },
-    },
-  },
-  ["2"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 8,
-      },
-      ["Intelligence"]: {
-        ["1"]: 4,
-      },
-      ["Agility"]: {
-        ["1"]: 4,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 4,
-      },
-      ["Intelligence"]: {
-        ["1"]: 8,
-      },
-      ["Agility"]: {
-        ["1"]: 4,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 4,
-      },
-      ["Intelligence"]: {
-        ["1"]: 4,
-      },
-      ["Agility"]: {
-        ["1"]: 8,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "7500",
+          ["3"]: "7000",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 2,
+      },
+      ["Strength"]: {
+        ["1"]: 2,
+      },
+      ["Intelligence"]: {
+        ["1"]: 4,
+      },
+    },
+  },
+  ["2"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 8,
+      },
+      ["Strength"]: {
+        ["1"]: 4,
+      },
+      ["Intelligence"]: {
+        ["1"]: 4,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 4,
+      },
+      ["Strength"]: {
+        ["1"]: 8,
+      },
+      ["Intelligence"]: {
+        ["1"]: 4,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -99,50 +81,50 @@
           ["3"]: "260",
         },
       },
-    },
-  },
-  ["3"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 12,
-      },
-      ["Intelligence"]: {
-        ["1"]: 6,
-      },
-      ["Agility"]: {
-        ["1"]: 6,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 6,
-      },
-      ["Intelligence"]: {
-        ["1"]: 12,
-      },
-      ["Agility"]: {
-        ["1"]: 6,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 6,
-      },
-      ["Intelligence"]: {
-        ["1"]: 6,
-      },
-      ["Agility"]: {
-        ["1"]: 12,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "8000",
+          ["3"]: "7500",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 4,
+      },
+      ["Strength"]: {
+        ["1"]: 4,
+      },
+      ["Intelligence"]: {
+        ["1"]: 8,
+      },
+    },
+  },
+  ["3"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 12,
+      },
+      ["Strength"]: {
+        ["1"]: 6,
+      },
+      ["Intelligence"]: {
+        ["1"]: 6,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 6,
+      },
+      ["Strength"]: {
+        ["1"]: 12,
+      },
+      ["Intelligence"]: {
+        ["1"]: 6,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -150,43 +132,6 @@
           ["3"]: "270",
         },
       },
-    },
-  },
-  ["4"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 16,
-      },
-      ["Intelligence"]: {
-        ["1"]: 8,
-      },
-      ["Agility"]: {
-        ["1"]: 8,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 8,
-      },
-      ["Intelligence"]: {
-        ["1"]: 16,
-      },
-      ["Agility"]: {
-        ["1"]: 8,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 8,
-      },
-      ["Intelligence"]: {
-        ["1"]: 8,
-      },
-      ["Agility"]: {
-        ["1"]: 16,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
@@ -194,6 +139,43 @@
           ["3"]: "8000",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 6,
+      },
+      ["Strength"]: {
+        ["1"]: 6,
+      },
+      ["Intelligence"]: {
+        ["1"]: 12,
+      },
+    },
+  },
+  ["4"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 16,
+      },
+      ["Strength"]: {
+        ["1"]: 8,
+      },
+      ["Intelligence"]: {
+        ["1"]: 8,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 8,
+      },
+      ["Strength"]: {
+        ["1"]: 16,
+      },
+      ["Intelligence"]: {
+        ["1"]: 8,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -201,50 +183,50 @@
           ["3"]: "280",
         },
       },
-    },
-  },
-  ["5"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 20,
-      },
-      ["Intelligence"]: {
-        ["1"]: 10,
-      },
-      ["Agility"]: {
-        ["1"]: 10,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 10,
-      },
-      ["Intelligence"]: {
-        ["1"]: 20,
-      },
-      ["Agility"]: {
-        ["1"]: 10,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 10,
-      },
-      ["Intelligence"]: {
-        ["1"]: 10,
-      },
-      ["Agility"]: {
-        ["1"]: 20,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "8500",
+          ["3"]: "8000",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 8,
+      },
+      ["Strength"]: {
+        ["1"]: 8,
+      },
+      ["Intelligence"]: {
+        ["1"]: 16,
+      },
+    },
+  },
+  ["5"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 20,
+      },
+      ["Strength"]: {
+        ["1"]: 10,
+      },
+      ["Intelligence"]: {
+        ["1"]: 10,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 10,
+      },
+      ["Strength"]: {
+        ["1"]: 20,
+      },
+      ["Intelligence"]: {
+        ["1"]: 10,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -252,50 +234,50 @@
           ["3"]: "290",
         },
       },
-    },
-  },
-  ["6"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 32,
-      },
-      ["Intelligence"]: {
-        ["1"]: 16,
-      },
-      ["Agility"]: {
-        ["1"]: 16,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 16,
-      },
-      ["Intelligence"]: {
-        ["1"]: 32,
-      },
-      ["Agility"]: {
-        ["1"]: 16,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 16,
-      },
-      ["Intelligence"]: {
-        ["1"]: 16,
-      },
-      ["Agility"]: {
-        ["1"]: 32,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "44000",
+          ["3"]: "8500",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 10,
+      },
+      ["Strength"]: {
+        ["1"]: 10,
+      },
+      ["Intelligence"]: {
+        ["1"]: 20,
+      },
+    },
+  },
+  ["6"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 32,
+      },
+      ["Strength"]: {
+        ["1"]: 16,
+      },
+      ["Intelligence"]: {
+        ["1"]: 16,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 16,
+      },
+      ["Strength"]: {
+        ["1"]: 32,
+      },
+      ["Intelligence"]: {
+        ["1"]: 16,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -303,50 +285,50 @@
           ["3"]: "800",
         },
       },
-    },
-  },
-  ["7"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 44,
-      },
-      ["Intelligence"]: {
-        ["1"]: 22,
-      },
-      ["Agility"]: {
-        ["1"]: 22,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 22,
-      },
-      ["Intelligence"]: {
-        ["1"]: 44,
-      },
-      ["Agility"]: {
-        ["1"]: 22,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 22,
-      },
-      ["Intelligence"]: {
-        ["1"]: 22,
-      },
-      ["Agility"]: {
-        ["1"]: 44,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "47500",
+          ["3"]: "44000",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 16,
+      },
+      ["Strength"]: {
+        ["1"]: 16,
+      },
+      ["Intelligence"]: {
+        ["1"]: 32,
+      },
+    },
+  },
+  ["7"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 44,
+      },
+      ["Strength"]: {
+        ["1"]: 22,
+      },
+      ["Intelligence"]: {
+        ["1"]: 22,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 22,
+      },
+      ["Strength"]: {
+        ["1"]: 44,
+      },
+      ["Intelligence"]: {
+        ["1"]: 22,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -354,50 +336,50 @@
           ["3"]: "840",
         },
       },
-    },
-  },
-  ["8"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 56,
-      },
-      ["Intelligence"]: {
-        ["1"]: 28,
-      },
-      ["Agility"]: {
-        ["1"]: 28,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 28,
-      },
-      ["Intelligence"]: {
-        ["1"]: 56,
-      },
-      ["Agility"]: {
-        ["1"]: 28,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 28,
-      },
-      ["Intelligence"]: {
-        ["1"]: 28,
-      },
-      ["Agility"]: {
-        ["1"]: 56,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "51500",
+          ["3"]: "47500",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 22,
+      },
+      ["Strength"]: {
+        ["1"]: 22,
+      },
+      ["Intelligence"]: {
+        ["1"]: 44,
+      },
+    },
+  },
+  ["8"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 56,
+      },
+      ["Strength"]: {
+        ["1"]: 28,
+      },
+      ["Intelligence"]: {
+        ["1"]: 28,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 28,
+      },
+      ["Strength"]: {
+        ["1"]: 56,
+      },
+      ["Intelligence"]: {
+        ["1"]: 28,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -405,50 +387,50 @@
           ["3"]: "880",
         },
       },
-    },
-  },
-  ["9"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 68,
-      },
-      ["Intelligence"]: {
-        ["1"]: 34,
-      },
-      ["Agility"]: {
-        ["1"]: 34,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 34,
-      },
-      ["Intelligence"]: {
-        ["1"]: 68,
-      },
-      ["Agility"]: {
-        ["1"]: 34,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 34,
-      },
-      ["Intelligence"]: {
-        ["1"]: 34,
-      },
-      ["Agility"]: {
-        ["1"]: 68,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "55000",
+          ["3"]: "51500",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 28,
+      },
+      ["Strength"]: {
+        ["1"]: 28,
+      },
+      ["Intelligence"]: {
+        ["1"]: 56,
+      },
+    },
+  },
+  ["9"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 68,
+      },
+      ["Strength"]: {
+        ["1"]: 34,
+      },
+      ["Intelligence"]: {
+        ["1"]: 34,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 34,
+      },
+      ["Strength"]: {
+        ["1"]: 68,
+      },
+      ["Intelligence"]: {
+        ["1"]: 34,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -456,50 +438,50 @@
           ["3"]: "920",
         },
       },
-    },
-  },
-  ["10"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 80,
-      },
-      ["Intelligence"]: {
-        ["1"]: 40,
-      },
-      ["Agility"]: {
-        ["1"]: 40,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 40,
-      },
-      ["Intelligence"]: {
-        ["1"]: 80,
-      },
-      ["Agility"]: {
-        ["1"]: 40,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 40,
-      },
-      ["Intelligence"]: {
-        ["1"]: 40,
-      },
-      ["Agility"]: {
-        ["1"]: 80,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "59000",
+          ["3"]: "55000",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 34,
+      },
+      ["Strength"]: {
+        ["1"]: 34,
+      },
+      ["Intelligence"]: {
+        ["1"]: 68,
+      },
+    },
+  },
+  ["10"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 80,
+      },
+      ["Strength"]: {
+        ["1"]: 40,
+      },
+      ["Intelligence"]: {
+        ["1"]: 40,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 40,
+      },
+      ["Strength"]: {
+        ["1"]: 80,
+      },
+      ["Intelligence"]: {
+        ["1"]: 40,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -507,50 +489,50 @@
           ["3"]: "960",
         },
       },
-    },
-  },
-  ["11"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 100,
-      },
-      ["Intelligence"]: {
-        ["1"]: 50,
-      },
-      ["Agility"]: {
-        ["1"]: 50,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 50,
-      },
-      ["Intelligence"]: {
-        ["1"]: 100,
-      },
-      ["Agility"]: {
-        ["1"]: 50,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 50,
-      },
-      ["Intelligence"]: {
-        ["1"]: 50,
-      },
-      ["Agility"]: {
-        ["1"]: 100,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "120500",
+          ["3"]: "59000",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 40,
+      },
+      ["Strength"]: {
+        ["1"]: 40,
+      },
+      ["Intelligence"]: {
+        ["1"]: 80,
+      },
+    },
+  },
+  ["11"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 100,
+      },
+      ["Strength"]: {
+        ["1"]: 50,
+      },
+      ["Intelligence"]: {
+        ["1"]: 50,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 50,
+      },
+      ["Strength"]: {
+        ["1"]: 100,
+      },
+      ["Intelligence"]: {
+        ["1"]: 50,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -558,50 +540,50 @@
           ["3"]: "1500",
         },
       },
-    },
-  },
-  ["12"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 120,
-      },
-      ["Intelligence"]: {
-        ["1"]: 60,
-      },
-      ["Agility"]: {
-        ["1"]: 60,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 60,
-      },
-      ["Intelligence"]: {
-        ["1"]: 120,
-      },
-      ["Agility"]: {
-        ["1"]: 60,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 60,
-      },
-      ["Intelligence"]: {
-        ["1"]: 60,
-      },
-      ["Agility"]: {
-        ["1"]: 120,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "128500",
+          ["3"]: "120500",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 50,
+      },
+      ["Strength"]: {
+        ["1"]: 50,
+      },
+      ["Intelligence"]: {
+        ["1"]: 100,
+      },
+    },
+  },
+  ["12"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 120,
+      },
+      ["Strength"]: {
+        ["1"]: 60,
+      },
+      ["Intelligence"]: {
+        ["1"]: 60,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 60,
+      },
+      ["Strength"]: {
+        ["1"]: 120,
+      },
+      ["Intelligence"]: {
+        ["1"]: 60,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -609,50 +591,50 @@
           ["3"]: "1560",
         },
       },
-    },
-  },
-  ["13"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 140,
-      },
-      ["Intelligence"]: {
-        ["1"]: 70,
-      },
-      ["Agility"]: {
-        ["1"]: 70,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 70,
-      },
-      ["Intelligence"]: {
-        ["1"]: 140,
-      },
-      ["Agility"]: {
-        ["1"]: 70,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 70,
-      },
-      ["Intelligence"]: {
-        ["1"]: 70,
-      },
-      ["Agility"]: {
-        ["1"]: 140,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "136500",
+          ["3"]: "128500",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 60,
+      },
+      ["Strength"]: {
+        ["1"]: 60,
+      },
+      ["Intelligence"]: {
+        ["1"]: 120,
+      },
+    },
+  },
+  ["13"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 140,
+      },
+      ["Strength"]: {
+        ["1"]: 70,
+      },
+      ["Intelligence"]: {
+        ["1"]: 70,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 70,
+      },
+      ["Strength"]: {
+        ["1"]: 140,
+      },
+      ["Intelligence"]: {
+        ["1"]: 70,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -660,50 +642,50 @@
           ["3"]: "1620",
         },
       },
-    },
-  },
-  ["14"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 160,
-      },
-      ["Intelligence"]: {
-        ["1"]: 80,
-      },
-      ["Agility"]: {
-        ["1"]: 80,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 80,
-      },
-      ["Intelligence"]: {
-        ["1"]: 160,
-      },
-      ["Agility"]: {
-        ["1"]: 80,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 80,
-      },
-      ["Intelligence"]: {
-        ["1"]: 80,
-      },
-      ["Agility"]: {
-        ["1"]: 160,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "144500",
+          ["3"]: "136500",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 70,
+      },
+      ["Strength"]: {
+        ["1"]: 70,
+      },
+      ["Intelligence"]: {
+        ["1"]: 140,
+      },
+    },
+  },
+  ["14"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 160,
+      },
+      ["Strength"]: {
+        ["1"]: 80,
+      },
+      ["Intelligence"]: {
+        ["1"]: 80,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 80,
+      },
+      ["Strength"]: {
+        ["1"]: 160,
+      },
+      ["Intelligence"]: {
+        ["1"]: 80,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -711,50 +693,50 @@
           ["3"]: "1680",
         },
       },
-    },
-  },
-  ["15"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 180,
-      },
-      ["Intelligence"]: {
-        ["1"]: 90,
-      },
-      ["Agility"]: {
-        ["1"]: 90,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 90,
-      },
-      ["Intelligence"]: {
-        ["1"]: 180,
-      },
-      ["Agility"]: {
-        ["1"]: 90,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 90,
-      },
-      ["Intelligence"]: {
-        ["1"]: 90,
-      },
-      ["Agility"]: {
-        ["1"]: 180,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "153000",
+          ["3"]: "144500",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 80,
+      },
+      ["Strength"]: {
+        ["1"]: 80,
+      },
+      ["Intelligence"]: {
+        ["1"]: 160,
+      },
+    },
+  },
+  ["15"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 180,
+      },
+      ["Strength"]: {
+        ["1"]: 90,
+      },
+      ["Intelligence"]: {
+        ["1"]: 90,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 90,
+      },
+      ["Strength"]: {
+        ["1"]: 180,
+      },
+      ["Intelligence"]: {
+        ["1"]: 90,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -762,50 +744,50 @@
           ["3"]: "1740",
         },
       },
-    },
-  },
-  ["16"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 208,
-      },
-      ["Intelligence"]: {
-        ["1"]: 104,
-      },
-      ["Agility"]: {
-        ["1"]: 104,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 104,
-      },
-      ["Intelligence"]: {
-        ["1"]: 208,
-      },
-      ["Agility"]: {
-        ["1"]: 104,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 104,
-      },
-      ["Intelligence"]: {
-        ["1"]: 104,
-      },
-      ["Agility"]: {
-        ["1"]: 208,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "239000",
+          ["3"]: "153000",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 90,
+      },
+      ["Strength"]: {
+        ["1"]: 90,
+      },
+      ["Intelligence"]: {
+        ["1"]: 180,
+      },
+    },
+  },
+  ["16"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 208,
+      },
+      ["Strength"]: {
+        ["1"]: 104,
+      },
+      ["Intelligence"]: {
+        ["1"]: 104,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 104,
+      },
+      ["Strength"]: {
+        ["1"]: 208,
+      },
+      ["Intelligence"]: {
+        ["1"]: 104,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -813,50 +795,50 @@
           ["3"]: "2300",
         },
       },
-    },
-  },
-  ["17"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 236,
-      },
-      ["Intelligence"]: {
-        ["1"]: 118,
-      },
-      ["Agility"]: {
-        ["1"]: 118,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 118,
-      },
-      ["Intelligence"]: {
-        ["1"]: 236,
-      },
-      ["Agility"]: {
-        ["1"]: 118,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 118,
-      },
-      ["Intelligence"]: {
-        ["1"]: 118,
-      },
-      ["Agility"]: {
-        ["1"]: 236,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "252500",
+          ["3"]: "239000",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 104,
+      },
+      ["Strength"]: {
+        ["1"]: 104,
+      },
+      ["Intelligence"]: {
+        ["1"]: 208,
+      },
+    },
+  },
+  ["17"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 236,
+      },
+      ["Strength"]: {
+        ["1"]: 118,
+      },
+      ["Intelligence"]: {
+        ["1"]: 118,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 118,
+      },
+      ["Strength"]: {
+        ["1"]: 236,
+      },
+      ["Intelligence"]: {
+        ["1"]: 118,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -864,50 +846,50 @@
           ["3"]: "2380",
         },
       },
-    },
-  },
-  ["18"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 264,
-      },
-      ["Intelligence"]: {
-        ["1"]: 132,
-      },
-      ["Agility"]: {
-        ["1"]: 132,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 132,
-      },
-      ["Intelligence"]: {
-        ["1"]: 264,
-      },
-      ["Agility"]: {
-        ["1"]: 132,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 132,
-      },
-      ["Intelligence"]: {
-        ["1"]: 132,
-      },
-      ["Agility"]: {
-        ["1"]: 264,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "266500",
+          ["3"]: "252500",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 118,
+      },
+      ["Strength"]: {
+        ["1"]: 118,
+      },
+      ["Intelligence"]: {
+        ["1"]: 236,
+      },
+    },
+  },
+  ["18"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 264,
+      },
+      ["Strength"]: {
+        ["1"]: 132,
+      },
+      ["Intelligence"]: {
+        ["1"]: 132,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 132,
+      },
+      ["Strength"]: {
+        ["1"]: 264,
+      },
+      ["Intelligence"]: {
+        ["1"]: 132,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -915,50 +897,50 @@
           ["3"]: "2460",
         },
       },
-    },
-  },
-  ["19"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 292,
-      },
-      ["Intelligence"]: {
-        ["1"]: 146,
-      },
-      ["Agility"]: {
-        ["1"]: 146,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 146,
-      },
-      ["Intelligence"]: {
-        ["1"]: 292,
-      },
-      ["Agility"]: {
-        ["1"]: 146,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 146,
-      },
-      ["Intelligence"]: {
-        ["1"]: 146,
-      },
-      ["Agility"]: {
-        ["1"]: 292,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "280500",
+          ["3"]: "266500",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 132,
+      },
+      ["Strength"]: {
+        ["1"]: 132,
+      },
+      ["Intelligence"]: {
+        ["1"]: 264,
+      },
+    },
+  },
+  ["19"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 292,
+      },
+      ["Strength"]: {
+        ["1"]: 146,
+      },
+      ["Intelligence"]: {
+        ["1"]: 146,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 146,
+      },
+      ["Strength"]: {
+        ["1"]: 292,
+      },
+      ["Intelligence"]: {
+        ["1"]: 146,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -966,50 +948,50 @@
           ["3"]: "2540",
         },
       },
-    },
-  },
-  ["20"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 320,
-      },
-      ["Intelligence"]: {
-        ["1"]: 160,
-      },
-      ["Agility"]: {
-        ["1"]: 160,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 160,
-      },
-      ["Intelligence"]: {
-        ["1"]: 320,
-      },
-      ["Agility"]: {
-        ["1"]: 160,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 160,
-      },
-      ["Intelligence"]: {
-        ["1"]: 160,
-      },
-      ["Agility"]: {
-        ["1"]: 320,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "294500",
+          ["3"]: "280500",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 146,
+      },
+      ["Strength"]: {
+        ["1"]: 146,
+      },
+      ["Intelligence"]: {
+        ["1"]: 292,
+      },
+    },
+  },
+  ["20"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 320,
+      },
+      ["Strength"]: {
+        ["1"]: 160,
+      },
+      ["Intelligence"]: {
+        ["1"]: 160,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 160,
+      },
+      ["Strength"]: {
+        ["1"]: 320,
+      },
+      ["Intelligence"]: {
+        ["1"]: 160,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -1017,50 +999,50 @@
           ["3"]: "2620",
         },
       },
-    },
-  },
-  ["21"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 356,
-      },
-      ["Intelligence"]: {
-        ["1"]: 178,
-      },
-      ["Agility"]: {
-        ["1"]: 178,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 178,
-      },
-      ["Intelligence"]: {
-        ["1"]: 356,
-      },
-      ["Agility"]: {
-        ["1"]: 178,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 178,
-      },
-      ["Intelligence"]: {
-        ["1"]: 178,
-      },
-      ["Agility"]: {
-        ["1"]: 356,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "405500",
+          ["3"]: "294500",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 160,
+      },
+      ["Strength"]: {
+        ["1"]: 160,
+      },
+      ["Intelligence"]: {
+        ["1"]: 320,
+      },
+    },
+  },
+  ["21"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 356,
+      },
+      ["Strength"]: {
+        ["1"]: 178,
+      },
+      ["Intelligence"]: {
+        ["1"]: 178,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 178,
+      },
+      ["Strength"]: {
+        ["1"]: 356,
+      },
+      ["Intelligence"]: {
+        ["1"]: 178,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -1068,50 +1050,50 @@
           ["3"]: "3200",
         },
       },
-    },
-  },
-  ["22"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 392,
-      },
-      ["Intelligence"]: {
-        ["1"]: 196,
-      },
-      ["Agility"]: {
-        ["1"]: 196,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 196,
-      },
-      ["Intelligence"]: {
-        ["1"]: 392,
-      },
-      ["Agility"]: {
-        ["1"]: 196,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 196,
-      },
-      ["Intelligence"]: {
-        ["1"]: 196,
-      },
-      ["Agility"]: {
-        ["1"]: 392,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "426000",
+          ["3"]: "405500",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 178,
+      },
+      ["Strength"]: {
+        ["1"]: 178,
+      },
+      ["Intelligence"]: {
+        ["1"]: 356,
+      },
+    },
+  },
+  ["22"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 392,
+      },
+      ["Strength"]: {
+        ["1"]: 196,
+      },
+      ["Intelligence"]: {
+        ["1"]: 196,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 196,
+      },
+      ["Strength"]: {
+        ["1"]: 392,
+      },
+      ["Intelligence"]: {
+        ["1"]: 196,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -1119,50 +1101,50 @@
           ["3"]: "3300",
         },
       },
-    },
-  },
-  ["23"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 428,
-      },
-      ["Intelligence"]: {
-        ["1"]: 214,
-      },
-      ["Agility"]: {
-        ["1"]: 214,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 214,
-      },
-      ["Intelligence"]: {
-        ["1"]: 428,
-      },
-      ["Agility"]: {
-        ["1"]: 214,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 214,
-      },
-      ["Intelligence"]: {
-        ["1"]: 214,
-      },
-      ["Agility"]: {
-        ["1"]: 428,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "447000",
+          ["3"]: "426000",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 196,
+      },
+      ["Strength"]: {
+        ["1"]: 196,
+      },
+      ["Intelligence"]: {
+        ["1"]: 392,
+      },
+    },
+  },
+  ["23"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 428,
+      },
+      ["Strength"]: {
+        ["1"]: 214,
+      },
+      ["Intelligence"]: {
+        ["1"]: 214,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 214,
+      },
+      ["Strength"]: {
+        ["1"]: 428,
+      },
+      ["Intelligence"]: {
+        ["1"]: 214,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -1170,50 +1152,50 @@
           ["3"]: "3400",
         },
       },
-    },
-  },
-  ["24"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 464,
-      },
-      ["Intelligence"]: {
-        ["1"]: 232,
-      },
-      ["Agility"]: {
-        ["1"]: 232,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 232,
-      },
-      ["Intelligence"]: {
-        ["1"]: 464,
-      },
-      ["Agility"]: {
-        ["1"]: 232,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 232,
-      },
-      ["Intelligence"]: {
-        ["1"]: 232,
-      },
-      ["Agility"]: {
-        ["1"]: 464,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "468500",
+          ["3"]: "447000",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 214,
+      },
+      ["Strength"]: {
+        ["1"]: 214,
+      },
+      ["Intelligence"]: {
+        ["1"]: 428,
+      },
+    },
+  },
+  ["24"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 464,
+      },
+      ["Strength"]: {
+        ["1"]: 232,
+      },
+      ["Intelligence"]: {
+        ["1"]: 232,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 232,
+      },
+      ["Strength"]: {
+        ["1"]: 464,
+      },
+      ["Intelligence"]: {
+        ["1"]: 232,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -1221,50 +1203,50 @@
           ["3"]: "3500",
         },
       },
-    },
-  },
-  ["25"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 500,
-      },
-      ["Intelligence"]: {
-        ["1"]: 250,
-      },
-      ["Agility"]: {
-        ["1"]: 250,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 250,
-      },
-      ["Intelligence"]: {
-        ["1"]: 500,
-      },
-      ["Agility"]: {
-        ["1"]: 250,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 250,
-      },
-      ["Intelligence"]: {
-        ["1"]: 250,
-      },
-      ["Agility"]: {
-        ["1"]: 500,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "490000",
+          ["3"]: "468500",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 232,
+      },
+      ["Strength"]: {
+        ["1"]: 232,
+      },
+      ["Intelligence"]: {
+        ["1"]: 464,
+      },
+    },
+  },
+  ["25"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 500,
+      },
+      ["Strength"]: {
+        ["1"]: 250,
+      },
+      ["Intelligence"]: {
+        ["1"]: 250,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 250,
+      },
+      ["Strength"]: {
+        ["1"]: 500,
+      },
+      ["Intelligence"]: {
+        ["1"]: 250,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -1272,50 +1254,50 @@
           ["3"]: "3600",
         },
       },
-    },
-  },
-  ["26"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 544,
-      },
-      ["Intelligence"]: {
-        ["1"]: 272,
-      },
-      ["Agility"]: {
-        ["1"]: 272,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 272,
-      },
-      ["Intelligence"]: {
-        ["1"]: 544,
-      },
-      ["Agility"]: {
-        ["1"]: 272,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 272,
-      },
-      ["Intelligence"]: {
-        ["1"]: 272,
-      },
-      ["Agility"]: {
-        ["1"]: 544,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "627000",
+          ["3"]: "490000",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 250,
+      },
+      ["Strength"]: {
+        ["1"]: 250,
+      },
+      ["Intelligence"]: {
+        ["1"]: 500,
+      },
+    },
+  },
+  ["26"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 544,
+      },
+      ["Strength"]: {
+        ["1"]: 272,
+      },
+      ["Intelligence"]: {
+        ["1"]: 272,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 272,
+      },
+      ["Strength"]: {
+        ["1"]: 544,
+      },
+      ["Intelligence"]: {
+        ["1"]: 272,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -1323,50 +1305,50 @@
           ["3"]: "4200",
         },
       },
-    },
-  },
-  ["27"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 588,
-      },
-      ["Intelligence"]: {
-        ["1"]: 294,
-      },
-      ["Agility"]: {
-        ["1"]: 294,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 294,
-      },
-      ["Intelligence"]: {
-        ["1"]: 588,
-      },
-      ["Agility"]: {
-        ["1"]: 294,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 294,
-      },
-      ["Intelligence"]: {
-        ["1"]: 294,
-      },
-      ["Agility"]: {
-        ["1"]: 588,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "651000",
+          ["3"]: "627000",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 272,
+      },
+      ["Strength"]: {
+        ["1"]: 272,
+      },
+      ["Intelligence"]: {
+        ["1"]: 544,
+      },
+    },
+  },
+  ["27"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 588,
+      },
+      ["Strength"]: {
+        ["1"]: 294,
+      },
+      ["Intelligence"]: {
+        ["1"]: 294,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 294,
+      },
+      ["Strength"]: {
+        ["1"]: 588,
+      },
+      ["Intelligence"]: {
+        ["1"]: 294,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -1374,50 +1356,50 @@
           ["3"]: "4300",
         },
       },
-    },
-  },
-  ["28"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 632,
-      },
-      ["Intelligence"]: {
-        ["1"]: 316,
-      },
-      ["Agility"]: {
-        ["1"]: 316,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 316,
-      },
-      ["Intelligence"]: {
-        ["1"]: 632,
-      },
-      ["Agility"]: {
-        ["1"]: 316,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 316,
-      },
-      ["Intelligence"]: {
-        ["1"]: 316,
-      },
-      ["Agility"]: {
-        ["1"]: 632,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "675500",
+          ["3"]: "651000",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 294,
+      },
+      ["Strength"]: {
+        ["1"]: 294,
+      },
+      ["Intelligence"]: {
+        ["1"]: 588,
+      },
+    },
+  },
+  ["28"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 632,
+      },
+      ["Strength"]: {
+        ["1"]: 316,
+      },
+      ["Intelligence"]: {
+        ["1"]: 316,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 316,
+      },
+      ["Strength"]: {
+        ["1"]: 632,
+      },
+      ["Intelligence"]: {
+        ["1"]: 316,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -1425,50 +1407,50 @@
           ["3"]: "4400",
         },
       },
-    },
-  },
-  ["29"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 676,
-      },
-      ["Intelligence"]: {
-        ["1"]: 338,
-      },
-      ["Agility"]: {
-        ["1"]: 338,
-      },
-    },
-    ["Intelligence"]: {
-      ["Strength"]: {
-        ["1"]: 338,
-      },
-      ["Intelligence"]: {
-        ["1"]: 676,
-      },
-      ["Agility"]: {
-        ["1"]: 338,
-      },
-    },
-    ["Agility"]: {
-      ["Strength"]: {
-        ["1"]: 338,
-      },
-      ["Intelligence"]: {
-        ["1"]: 338,
-      },
-      ["Agility"]: {
-        ["1"]: 676,
-      },
-    },
-    ["Cost"]: {
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
           ["2"]: "2",
-          ["3"]: "700000",
+          ["3"]: "675500",
         },
       },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 316,
+      },
+      ["Strength"]: {
+        ["1"]: 316,
+      },
+      ["Intelligence"]: {
+        ["1"]: 632,
+      },
+    },
+  },
+  ["29"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 676,
+      },
+      ["Strength"]: {
+        ["1"]: 338,
+      },
+      ["Intelligence"]: {
+        ["1"]: 338,
+      },
+    },
+    ["Strength"]: {
+      ["Agility"]: {
+        ["1"]: 338,
+      },
+      ["Strength"]: {
+        ["1"]: 676,
+      },
+      ["Intelligence"]: {
+        ["1"]: 338,
+      },
+    },
+    ["Cost"]: {
       ["consumable"]: {
         ["1"]: {
           ["1"]: "consumable",
@@ -1476,43 +1458,57 @@
           ["3"]: "4500",
         },
       },
-    },
-  },
-  ["30"]: {
-    ["Strength"]: {
-      ["Strength"]: {
-        ["1"]: 720,
-      },
-      ["Intelligence"]: {
-        ["1"]: 360,
-      },
-      ["Agility"]: {
-        ["1"]: 360,
+      ["pseudo"]: {
+        ["1"]: {
+          ["1"]: "pseudo",
+          ["2"]: "2",
+          ["3"]: "700000",
+        },
       },
     },
     ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 338,
+      },
+      ["Strength"]: {
+        ["1"]: 338,
+      },
+      ["Intelligence"]: {
+        ["1"]: 676,
+      },
+    },
+  },
+  ["30"]: {
+    ["Agility"]: {
+      ["Agility"]: {
+        ["1"]: 720,
+      },
       ["Strength"]: {
         ["1"]: 360,
       },
       ["Intelligence"]: {
-        ["1"]: 720,
-      },
-      ["Agility"]: {
         ["1"]: 360,
       },
     },
-    ["Agility"]: {
-      ["Strength"]: {
+    ["Strength"]: {
+      ["Agility"]: {
         ["1"]: 360,
+      },
+      ["Strength"]: {
+        ["1"]: 720,
       },
       ["Intelligence"]: {
         ["1"]: 360,
-      },
-      ["Agility"]: {
-        ["1"]: 720,
       },
     },
     ["Cost"]: {
+      ["consumable"]: {
+        ["1"]: {
+          ["1"]: "consumable",
+          ["2"]: "24",
+          ["3"]: "4600",
+        },
+      },
       ["pseudo"]: {
         ["1"]: {
           ["1"]: "pseudo",
@@ -1520,12 +1516,16 @@
           ["3"]: "725000",
         },
       },
-      ["consumable"]: {
-        ["1"]: {
-          ["1"]: "consumable",
-          ["2"]: "24",
-          ["3"]: "4600",
-        },
+    },
+    ["Intelligence"]: {
+      ["Agility"]: {
+        ["1"]: 360,
+      },
+      ["Strength"]: {
+        ["1"]: 360,
+      },
+      ["Intelligence"]: {
+        ["1"]: 720,
       },
     },
   },

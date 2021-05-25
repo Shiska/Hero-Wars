@@ -5,13 +5,13 @@
  |browser_stone_source1 = 
  |browser_stone_source2 = 
  |browser_main_stat = Intelligence
- |browser_skin1 = Masquerade Skin
+ |browser_skin1_name = Masquerade Skin
  |browser_skin1_attribute = Magic attack
  |browser_skin1_value = 10650
- |browser_skin2 = Devil Skin
+ |browser_skin2_name = Devil Skin
  |browser_skin2_attribute = Armor
  |browser_skin2_value = 10650
- |browser_skin3 = Cybernetic Skin
+ |browser_skin3_name = Cybernetic Skin
  |browser_skin3_attribute = Health
  |browser_skin3_value = 106645
  |browser_glyph1 = Magic attack
@@ -20,7 +20,7 @@
  |browser_glyph4 = Magic defense
  |browser_artifact_weapon = Permafrost Flail
  |browser_artifact_weapon_attribute = Magic attack
- |browser_artifact_weapon_value = 10680
+ |browser_artifact_weapon_value = 32040
  |browser_artifact_book = Tome of Arcane Knowledge
  |browser_base_agility = 15
  |browser_base_health = 500
@@ -40,20 +40,20 @@
  |browser_star6_agility = 15
  |browser_star6_intelligence = 22
  |browser_star6_strength = 13
- |browser_basic_attack_attribute = Physical attack
  |browser_basic_attack_damage_type = physical
+ |browser_basic_attack_attribute = Physical attack
  |browser_skill_white_name = Icy Vengeance
- |browser_skill_white_prime_attribute = Magic attack
  |browser_skill_white_prime_damage_type = magic
+ |browser_skill_white_prime_attribute = Magic attack
  |browser_skill_white_prime_scale = 0.25
  |browser_skill_white_prime_level = 50
  |browser_skill_white_hits = 5
  |browser_skill_white_format = 
 Hits enemies one by one with %hits% ice crystals, dealing area damage.
-Prime: nil
+Prime: %prime%
  |browser_skill_green_name = Chains of Frost
- |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_damage_type = -magicResist
+ |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_scale = 0.05
  |browser_skill_green_prime_level = 10
  |browser_skill_green_duration = 8
@@ -61,11 +61,11 @@ Prime: nil
  |browser_skill_green_format = 
 %name% hits the enemies in the center of an enemy's team, temporarily reducing their magic defense and applying a Mark of Water to them.
 Temporary Magic Defense reduction: %prime%  Chance to apply skill effects is lowered if the target's level is above %level%
-Duration: 8
-Cooldown: 12
+Cooldown: %cooldown%
+Duration: %duration%
  |browser_skill_blue_name = Frozen Needles
- |browser_skill_blue_prime_attribute = Magic attack
  |browser_skill_blue_prime_damage_type = magic
+ |browser_skill_blue_prime_attribute = Magic attack
  |browser_skill_blue_prime_scale = 0.12
  |browser_skill_blue_prime_level = 25
  |browser_skill_blue_duration = 8
@@ -73,11 +73,11 @@ Cooldown: 12
  |browser_skill_blue_format = 
 Freezes the ground under the feet of an enemy's team, filling the zone with ice thorns. Any movement through the area deals damage to enemies. When the thorns melt, all heroes standing on them get a Mark of Water.
 Damage upon movement: %prime%
-Duration: 8
-Cooldown: 14
+Cooldown: %cooldown%
+Duration: %duration%
  |browser_skill_violet_name = Crystallization
- |browser_skill_violet_prime_attribute = Level
  |browser_skill_violet_prime_damage_type = percent
+ |browser_skill_violet_prime_attribute = Level
  |browser_skill_violet_prime_level = 0.4
  |browser_skill_violet_prime_base = 34
  |browser_skill_violet_duration = 2
@@ -197,13 +197,13 @@ Ice Armor absorbs %prime%% of damage
  |mobile_stone_source1 = 
  |mobile_stone_source2 = 
  |mobile_main_stat = Intelligence
- |mobile_skin1 = Masquerade Skin
+ |mobile_skin1_name = Masquerade Skin
  |mobile_skin1_attribute = Magic attack
  |mobile_skin1_value = 10650
- |mobile_skin2 = Devil Skin
+ |mobile_skin2_name = Devil Skin
  |mobile_skin2_attribute = Armor
  |mobile_skin2_value = 10650
- |mobile_skin3 = Cybernetic Skin
+ |mobile_skin3_name = Cybernetic Skin
  |mobile_skin3_attribute = Health
  |mobile_skin3_value = 106645
  |mobile_glyph1 = Magic attack
@@ -212,7 +212,7 @@ Ice Armor absorbs %prime%% of damage
  |mobile_glyph4 = Magic defense
  |mobile_artifact_weapon = Permafrost Flail
  |mobile_artifact_weapon_attribute = Magic attack
- |mobile_artifact_weapon_value = 10680
+ |mobile_artifact_weapon_value = 32040
  |mobile_artifact_book = Tome of Arcane Knowledge
  |mobile_base_agility = 15
  |mobile_base_health = 500
@@ -232,21 +232,21 @@ Ice Armor absorbs %prime%% of damage
  |mobile_star6_agility = 15
  |mobile_star6_intelligence = 22
  |mobile_star6_strength = 13
- |mobile_basic_attack_attribute = Physical attack
  |mobile_basic_attack_damage_type = physical
+ |mobile_basic_attack_attribute = Physical attack
  |mobile_skill_white_name = Icy Vengeance
- |mobile_skill_white_prime_attribute = Magic attack
  |mobile_skill_white_prime_damage_type = magic
+ |mobile_skill_white_prime_attribute = Magic attack
  |mobile_skill_white_prime_scale = 0.25
  |mobile_skill_white_prime_level = 50
  |mobile_skill_white_hits = 5
  |mobile_skill_white_format = 
 Hits enemies one by one with %hits% ice crystals, dealing area damage.
 LIB_SKILL_COMMON_DAMAGE
-Prime: nil
+Prime: %prime%
  |mobile_skill_green_name = Chains of Frost
- |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_damage_type = -magicResist
+ |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_scale = 0.05
  |mobile_skill_green_prime_level = 10
  |mobile_skill_green_duration = 8
@@ -254,11 +254,11 @@ Prime: nil
  |mobile_skill_green_format = 
 %name% hits the enemies in the center of an enemy's team, temporarily reducing their magic defense and applying a Mark of Water to them.
 Temporary Magic Defense reduction: %prime%  Chance to apply skill effects is lowered if the target's level is above %level%
-Duration: 8
-Cooldown: 12
+Cooldown: %cooldown%
+Duration: %duration%
  |mobile_skill_blue_name = Frozen Needles
- |mobile_skill_blue_prime_attribute = Magic attack
  |mobile_skill_blue_prime_damage_type = magic
+ |mobile_skill_blue_prime_attribute = Magic attack
  |mobile_skill_blue_prime_scale = 0.12
  |mobile_skill_blue_prime_level = 25
  |mobile_skill_blue_duration = 8
@@ -266,11 +266,11 @@ Cooldown: 12
  |mobile_skill_blue_format = 
 Freezes the ground under the feet of an enemy's team, filling the zone with ice thorns. Any movement through the area deals damage to enemies. When the thorns melt, all heroes standing on them get a Mark of Water.
 Damage upon movement: %prime%
-Duration: 8
-Cooldown: 14
+Cooldown: %cooldown%
+Duration: %duration%
  |mobile_skill_violet_name = Crystallization
- |mobile_skill_violet_prime_attribute = Level
  |mobile_skill_violet_prime_damage_type = percent
+ |mobile_skill_violet_prime_attribute = Level
  |mobile_skill_violet_prime_level = 0.4
  |mobile_skill_violet_prime_base = 34
  |mobile_skill_violet_duration = 2

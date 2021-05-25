@@ -1,0 +1,66 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Hero/Lua</noinclude>
+ |browser_position = Back
+ |browser_role1 = Mage
+ |browser_main_stat = Strength
+ |browser_stone1 = Dawnstone
+ |browser_stone2 = Moonstone
+ |browser_base_patronage_power = 25
+ |browser_base_magic_penetration = 1500
+ |browser_base_skill_power = 25
+ |browser_star = 1
+ |browser_star1_patronage_power = 6
+ |browser_star1_skill_power = 6
+ |browser_star2_patronage_power = 9
+ |browser_star2_skill_power = 9
+ |browser_star3_patronage_power = 13
+ |browser_star3_skill_power = 13
+ |browser_star4_patronage_power = 18
+ |browser_star4_skill_power = 18
+ |browser_star5_patronage_power = 23
+ |browser_star5_skill_power = 23
+ |browser_star6_patronage_power = 30
+ |browser_star6_skill_power = 30
+ |browser_basic_attack_damage_type = magic
+ |browser_basic_attack_attribute = Skill Power
+ |browser_skill_white_name = Phobia de Magica!
+ |browser_skill_white_prime_damage_type = debuf
+ |browser_skill_white_prime_attribute = Skill Power
+ |browser_skill_white_prime_scale = 0.8
+ |browser_skill_white_prime_base = 100
+ |browser_skill_white_duration = 5
+ |browser_skill_white_cooldown = 7.85
+ |browser_skill_white_format = 
+Decreases the Magic Defense of the nearest enemy.
+Magic Defense decrease: %prime%
+Cooldown: %cooldown%
+Duration: %duration%
+ |browser_skill_green_name = Tempus Magica!
+ |browser_skill_green_prime_damage_type = magic cd-%
+ |browser_skill_green_prime_attribute = Patronage Power
+ |browser_skill_green_prime_scale = 0.004079
+ |browser_skill_green_prime_base = 4.874
+ |browser_skill_green_format = 
+Grants increased speed to master's Magic damage dealing skills.
+Skill Speed increase: %prime%%
+ |browser_patronage_bonus1_attribute = Magic attack
+ |browser_patronage_bonus1_scale = 0.9
+ |browser_patronage_bonus2_attribute = Magic penetration
+ |browser_patronage_bonus2_scale = 0.9
+ |browser_patron1 = Aurora
+ |browser_patron2 = Kai
+ |browser_patron3 = Phobos
+ |browser_patron4 = Thea
+ |browser_patron5 = Faceless
+ |browser_patron6 = Orion
+ |browser_patron7 = Mojo
+ |browser_patron8 = Markus
+ |browser_patron9 = Peppy
+ |browser_patron10 = Lilith
+ |browser_patron11 = Dorian
+ |browser_patron12 = Helios
+ |browser_patron13 = Lars
+ |browser_patron14 = Krista
+ |browser_patron15 = Celeste
+ |browser_patron16 = Satori
+ |browser_patron17 = Alvanor
+}}</onlyinclude>

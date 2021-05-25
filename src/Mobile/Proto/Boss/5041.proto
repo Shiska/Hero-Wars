@@ -1,36 +1,191 @@
 {
+  ["BattleOrder"]: {
+    ["1"]: 28,
+  },
   ["Other"]: {
     ["MinStar"]: {
       ["1"]: 1,
     },
   },
-  ["BattleOrder"]: {
-    ["1"]: 28,
-  },
-  ["MainStat"]: {
-    ["1"]: "Strength",
-  },
   ["Type"]: {
     ["1"]: "boss",
   },
-  ["Asset"]: {
-    ["1"]: "prozora_V2",
+  ["Stars"]: {
+    ["1"]: {
+      ["ArmorPenetration"]: {
+        ["1"]: 1,
+      },
+      ["MagicPower"]: {
+        ["1"]: 7,
+      },
+      ["Hp"]: {
+        ["1"]: 425,
+      },
+      ["Armor"]: {
+        ["1"]: 2,
+      },
+      ["Strength"]: {
+        ["1"]: 10,
+      },
+      ["MagicResist"]: {
+        ["1"]: 1,
+      },
+      ["PhysicalAttack"]: {
+        ["1"]: 3,
+      },
+    },
+    ["2"]: {
+      ["ArmorPenetration"]: {
+        ["1"]: 2,
+      },
+      ["MagicPower"]: {
+        ["1"]: 11,
+      },
+      ["Hp"]: {
+        ["1"]: 679,
+      },
+      ["Armor"]: {
+        ["1"]: 2,
+      },
+      ["Strength"]: {
+        ["1"]: 13,
+      },
+      ["MagicResist"]: {
+        ["1"]: 1,
+      },
+      ["PhysicalAttack"]: {
+        ["1"]: 4,
+      },
+    },
+    ["3"]: {
+      ["ArmorPenetration"]: {
+        ["1"]: 18,
+      },
+      ["MagicPower"]: {
+        ["1"]: 25,
+      },
+      ["Hp"]: {
+        ["1"]: 1449,
+      },
+      ["Armor"]: {
+        ["1"]: 5,
+      },
+      ["PhysicalAttack"]: {
+        ["1"]: 17,
+      },
+      ["MagicPenetration"]: {
+        ["1"]: 18,
+      },
+      ["MagicResist"]: {
+        ["1"]: 8,
+      },
+      ["Strength"]: {
+        ["1"]: 18,
+      },
+    },
+    ["4"]: {
+      ["ArmorPenetration"]: {
+        ["1"]: 29,
+      },
+      ["MagicPower"]: {
+        ["1"]: 34,
+      },
+      ["Hp"]: {
+        ["1"]: 1920,
+      },
+      ["Armor"]: {
+        ["1"]: 6,
+      },
+      ["PhysicalAttack"]: {
+        ["1"]: 25,
+      },
+      ["MagicPenetration"]: {
+        ["1"]: 29,
+      },
+      ["MagicResist"]: {
+        ["1"]: 12,
+      },
+      ["Strength"]: {
+        ["1"]: 20,
+      },
+    },
+    ["5"]: {
+      ["ArmorPenetration"]: {
+        ["1"]: 35,
+      },
+      ["MagicPower"]: {
+        ["1"]: 39,
+      },
+      ["Hp"]: {
+        ["1"]: 2203,
+      },
+      ["Armor"]: {
+        ["1"]: 7,
+      },
+      ["PhysicalAttack"]: {
+        ["1"]: 30,
+      },
+      ["MagicPenetration"]: {
+        ["1"]: 35,
+      },
+      ["MagicResist"]: {
+        ["1"]: 14,
+      },
+      ["Strength"]: {
+        ["1"]: 22,
+      },
+    },
+    ["6"]: {
+      ["ArmorPenetration"]: {
+        ["1"]: 39,
+      },
+      ["MagicPower"]: {
+        ["1"]: 42,
+      },
+      ["Hp"]: {
+        ["1"]: 2391,
+      },
+      ["Armor"]: {
+        ["1"]: 8,
+      },
+      ["PhysicalAttack"]: {
+        ["1"]: 33,
+      },
+      ["MagicPenetration"]: {
+        ["1"]: 40,
+      },
+      ["MagicResist"]: {
+        ["1"]: 16,
+      },
+      ["Strength"]: {
+        ["1"]: 23,
+      },
+    },
   },
-  ["Silhouette"]: {
-    ["1"]: "normal",
+  ["IconAssetTexture"]: {
+    ["1"]: 1041,
   },
   ["BaseStats"]: {
+    ["Agility"]: {
+      ["1"]: 5,
+    },
     ["Strength"]: {
       ["1"]: 5,
     },
     ["Intelligence"]: {
       ["1"]: 5,
     },
-    ["Agility"]: {
-      ["1"]: 5,
-    },
+  },
+  ["MainStat"]: {
+    ["1"]: "Strength",
+  },
+  ["IconAssetAtlas"]: {
+    ["1"]: 5,
   },
   ["End"]: {
+  },
+  ["Silhouette"]: {
+    ["1"]: "normal",
   },
   ["Colors"]: {
     ["1"]: {
@@ -47,11 +202,24 @@
       },
     },
     ["2"]: {
+      ["Items"]: {
+        ["1"]: {
+          ["1"]: "Items",
+          ["2"]: "1",
+          ["3"]: "1",
+          ["4"]: "1",
+          ["5"]: "1",
+          ["6"]: "1",
+          ["7"]: "1",
+        },
+      },
       ["BattleStatData"]: {
         ["PhysicalAttack"]: {
           ["1"]: 72,
         },
       },
+    },
+    ["3"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -63,13 +231,13 @@
           ["7"]: "1",
         },
       },
-    },
-    ["3"]: {
       ["BattleStatData"]: {
         ["PhysicalAttack"]: {
           ["1"]: 144,
         },
       },
+    },
+    ["4"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -81,13 +249,13 @@
           ["7"]: "1",
         },
       },
-    },
-    ["4"]: {
       ["BattleStatData"]: {
         ["PhysicalAttack"]: {
           ["1"]: 216,
         },
       },
+    },
+    ["5"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -99,13 +267,13 @@
           ["7"]: "1",
         },
       },
-    },
-    ["5"]: {
       ["BattleStatData"]: {
         ["PhysicalAttack"]: {
           ["1"]: 288,
         },
       },
+    },
+    ["6"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -117,13 +285,13 @@
           ["7"]: "1",
         },
       },
-    },
-    ["6"]: {
       ["BattleStatData"]: {
         ["PhysicalAttack"]: {
           ["1"]: 360,
         },
       },
+    },
+    ["7"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -135,13 +303,13 @@
           ["7"]: "1",
         },
       },
-    },
-    ["7"]: {
       ["BattleStatData"]: {
         ["PhysicalAttack"]: {
           ["1"]: 432,
         },
       },
+    },
+    ["8"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -153,13 +321,13 @@
           ["7"]: "1",
         },
       },
-    },
-    ["8"]: {
       ["BattleStatData"]: {
         ["PhysicalAttack"]: {
           ["1"]: 504,
         },
       },
+    },
+    ["9"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -171,13 +339,13 @@
           ["7"]: "1",
         },
       },
-    },
-    ["9"]: {
       ["BattleStatData"]: {
         ["PhysicalAttack"]: {
           ["1"]: 576,
         },
       },
+    },
+    ["10"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -189,13 +357,13 @@
           ["7"]: "1",
         },
       },
-    },
-    ["10"]: {
       ["BattleStatData"]: {
         ["PhysicalAttack"]: {
           ["1"]: 648,
         },
       },
+    },
+    ["11"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -207,13 +375,13 @@
           ["7"]: "1",
         },
       },
-    },
-    ["11"]: {
       ["BattleStatData"]: {
         ["PhysicalAttack"]: {
           ["1"]: 720,
         },
       },
+    },
+    ["12"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -225,13 +393,13 @@
           ["7"]: "1",
         },
       },
-    },
-    ["12"]: {
       ["BattleStatData"]: {
         ["PhysicalAttack"]: {
           ["1"]: 792,
         },
       },
+    },
+    ["13"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -243,13 +411,13 @@
           ["7"]: "1",
         },
       },
-    },
-    ["13"]: {
       ["BattleStatData"]: {
         ["PhysicalAttack"]: {
           ["1"]: 864,
         },
       },
+    },
+    ["14"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -261,13 +429,13 @@
           ["7"]: "1",
         },
       },
-    },
-    ["14"]: {
       ["BattleStatData"]: {
         ["PhysicalAttack"]: {
           ["1"]: 936,
         },
       },
+    },
+    ["15"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -279,22 +447,9 @@
           ["7"]: "1",
         },
       },
-    },
-    ["15"]: {
       ["BattleStatData"]: {
         ["PhysicalAttack"]: {
           ["1"]: 1008,
-        },
-      },
-      ["Items"]: {
-        ["1"]: {
-          ["1"]: "Items",
-          ["2"]: "1",
-          ["3"]: "1",
-          ["4"]: "1",
-          ["5"]: "1",
-          ["6"]: "1",
-          ["7"]: "1",
         },
       },
     },
@@ -312,165 +467,10 @@
       },
     },
   },
+  ["Asset"]: {
+    ["1"]: "prozora_V2",
+  },
   ["Skill"]: {
     ["1"]: 11022,
-  },
-  ["IconAssetAtlas"]: {
-    ["1"]: 5,
-  },
-  ["IconAssetTexture"]: {
-    ["1"]: 1041,
-  },
-  ["Stars"]: {
-    ["1"]: {
-      ["Strength"]: {
-        ["1"]: 10,
-      },
-      ["MagicResist"]: {
-        ["1"]: 1,
-      },
-      ["PhysicalAttack"]: {
-        ["1"]: 3,
-      },
-      ["Armor"]: {
-        ["1"]: 2,
-      },
-      ["ArmorPenetration"]: {
-        ["1"]: 1,
-      },
-      ["Hp"]: {
-        ["1"]: 425,
-      },
-      ["MagicPower"]: {
-        ["1"]: 7,
-      },
-    },
-    ["2"]: {
-      ["Strength"]: {
-        ["1"]: 13,
-      },
-      ["MagicResist"]: {
-        ["1"]: 1,
-      },
-      ["PhysicalAttack"]: {
-        ["1"]: 4,
-      },
-      ["Armor"]: {
-        ["1"]: 2,
-      },
-      ["ArmorPenetration"]: {
-        ["1"]: 2,
-      },
-      ["Hp"]: {
-        ["1"]: 679,
-      },
-      ["MagicPower"]: {
-        ["1"]: 11,
-      },
-    },
-    ["3"]: {
-      ["Strength"]: {
-        ["1"]: 18,
-      },
-      ["MagicResist"]: {
-        ["1"]: 8,
-      },
-      ["MagicPenetration"]: {
-        ["1"]: 18,
-      },
-      ["PhysicalAttack"]: {
-        ["1"]: 17,
-      },
-      ["Armor"]: {
-        ["1"]: 5,
-      },
-      ["ArmorPenetration"]: {
-        ["1"]: 18,
-      },
-      ["Hp"]: {
-        ["1"]: 1449,
-      },
-      ["MagicPower"]: {
-        ["1"]: 25,
-      },
-    },
-    ["4"]: {
-      ["Strength"]: {
-        ["1"]: 20,
-      },
-      ["MagicResist"]: {
-        ["1"]: 12,
-      },
-      ["MagicPenetration"]: {
-        ["1"]: 29,
-      },
-      ["PhysicalAttack"]: {
-        ["1"]: 25,
-      },
-      ["Armor"]: {
-        ["1"]: 6,
-      },
-      ["ArmorPenetration"]: {
-        ["1"]: 29,
-      },
-      ["Hp"]: {
-        ["1"]: 1920,
-      },
-      ["MagicPower"]: {
-        ["1"]: 34,
-      },
-    },
-    ["5"]: {
-      ["Strength"]: {
-        ["1"]: 22,
-      },
-      ["MagicResist"]: {
-        ["1"]: 14,
-      },
-      ["MagicPenetration"]: {
-        ["1"]: 35,
-      },
-      ["PhysicalAttack"]: {
-        ["1"]: 30,
-      },
-      ["Armor"]: {
-        ["1"]: 7,
-      },
-      ["ArmorPenetration"]: {
-        ["1"]: 35,
-      },
-      ["Hp"]: {
-        ["1"]: 2203,
-      },
-      ["MagicPower"]: {
-        ["1"]: 39,
-      },
-    },
-    ["6"]: {
-      ["Strength"]: {
-        ["1"]: 23,
-      },
-      ["MagicResist"]: {
-        ["1"]: 16,
-      },
-      ["MagicPenetration"]: {
-        ["1"]: 40,
-      },
-      ["PhysicalAttack"]: {
-        ["1"]: 33,
-      },
-      ["Armor"]: {
-        ["1"]: 8,
-      },
-      ["ArmorPenetration"]: {
-        ["1"]: 39,
-      },
-      ["Hp"]: {
-        ["1"]: 2391,
-      },
-      ["MagicPower"]: {
-        ["1"]: 42,
-      },
-    },
   },
 },

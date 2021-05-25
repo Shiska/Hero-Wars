@@ -1,113 +1,113 @@
 {
-  ["radioSquadPet"]: {
-    ["1"]: "Pet",
-  },
-  ["buttonSquadSaveCurrent"]: {
-    ["1"]: "Save current",
-  },
-  ["radioSquadCollapse"]: {
-    ["1"]: "Collapse all",
-  },
-  ["radioSquadExpand"]: {
-    ["1"]: "Expand all",
-  },
-  ["buttonSquadCreate"]: {
-    ["1"]: "Create",
-  },
-  ["messageSquadAlreadyExists"]: {
-    ["1"]: "The same name already exists",
-  },
-  ["radioSquadTitan"]: {
-    ["1"]: "Titan",
-  },
-  ["labelSquadRune3"]: {
-    ["1"]: "Rune 3",
-  },
-  ["buttonSquadCloseAll"]: {
-    ["1"]: "Close all",
-  },
-  ["nodeSquadClipboard"]: {
-    ["1"]: "Clipboard",
-  },
-  ["labelSquadRune2"]: {
-    ["1"]: "Rune 2",
-  },
-  ["buttonSquadAdd"]: {
-    ["1"]: "Add to:",
-  },
-  ["labelSquadKind"]: {
-    ["1"]: "Kind:",
-  },
-  ["groupSquadArtifact"]: {
-    ["1"]: "Artifacts",
-  },
-  ["buttonSquadSave"]: {
-    ["1"]: "Save",
-  },
-  ["radioSquadBoss"]: {
-    ["1"]: "Boss",
-  },
-  ["buttonSquadLoadFile"]: {
-    ["1"]: "Load from File",
-  },
-  ["labelSquadTitanGift"]: {
-    ["1"]: "Sparkles",
-  },
-  ["groupSquadSkins"]: {
-    ["1"]: "Skins",
-  },
-  ["radioSquadCreep"]: {
-    ["1"]: "Creep",
-  },
-  ["radioSquadCanvas"]: {
-    ["1"]: "Canvas",
-  },
-  ["labelSquadType"]: {
-    ["1"]: "Type:",
-  },
-  ["labelSquadLevel"]: {
-    ["1"]: "Level",
-  },
   ["labelSquadFavor"]: {
     ["1"]: "Favor",
-  },
-  ["radioSquadHero"]: {
-    ["1"]: "Hero",
-  },
-  ["buttonSquadSaveAs"]: {
-    ["1"]: "Save as...",
-  },
-  ["labelSquadRune1"]: {
-    ["1"]: "Rune 1",
-  },
-  ["radioSquadMobile"]: {
-    ["1"]: "Mobile",
-  },
-  ["labelSquadRune5"]: {
-    ["1"]: "Rune 5",
-  },
-  ["labelSquadRune4"]: {
-    ["1"]: "Rune 4",
-  },
-  ["radioSquadCreateS"]: {
-    ["1"]: "Squad",
-  },
-  ["buttonSquadDelete"]: {
-    ["1"]: "Delete",
-  },
-  ["buttonSquadLoadFolder"]: {
-    ["1"]: "Load from Folder",
-  },
-  ["labelSquadStar"]: {
-    ["1"]: "Stars",
   },
   ["radioSquadCreateI"]: {
     ["1"]: "Position",
   },
-  ["buttonSquadCloseCurrent"]: {
-    ["1"]: "Close current",
+  ["labelSquadType"]: {
+    ["1"]: "Type:",
+  },
+  ["groupSquadArtifact"]: {
+    ["1"]: "Artifacts",
+  },
+  ["labelSquadRune1"]: {
+    ["1"]: "Rune 1",
+  },
+  ["labelSquadLevel"]: {
+    ["1"]: "Level",
+  },
+  ["radioSquadExpand"]: {
+    ["1"]: "Expand all",
+  },
+  ["labelSquadTitanGift"]: {
+    ["1"]: "Sparkles",
+  },
+  ["nodeSquadClipboard"]: {
+    ["1"]: "Clipboard",
+  },
+  ["buttonSquadDelete"]: {
+    ["1"]: "Delete",
+  },
+  ["labelSquadRune2"]: {
+    ["1"]: "Rune 2",
+  },
+  ["labelSquadRune3"]: {
+    ["1"]: "Rune 3",
+  },
+  ["radioSquadPet"]: {
+    ["1"]: "Pet",
+  },
+  ["labelSquadStar"]: {
+    ["1"]: "Stars",
+  },
+  ["radioSquadCanvas"]: {
+    ["1"]: "Canvas",
   },
   ["messageSquadNotSelected"]: {
     ["1"]: "Squad not selected",
+  },
+  ["radioSquadCreateS"]: {
+    ["1"]: "Squad",
+  },
+  ["radioSquadCollapse"]: {
+    ["1"]: "Collapse all",
+  },
+  ["groupSquadSkins"]: {
+    ["1"]: "Skins",
+  },
+  ["buttonSquadCreate"]: {
+    ["1"]: "Create",
+  },
+  ["buttonSquadLoadFile"]: {
+    ["1"]: "Load from File",
+  },
+  ["radioSquadTitan"]: {
+    ["1"]: "Titan",
+  },
+  ["radioSquadMobile"]: {
+    ["1"]: "Mobile",
+  },
+  ["buttonSquadCloseAll"]: {
+    ["1"]: "Close all",
+  },
+  ["radioSquadBoss"]: {
+    ["1"]: "Boss",
+  },
+  ["messageSquadAlreadyExists"]: {
+    ["1"]: "The same name already exists",
+  },
+  ["buttonSquadSaveCurrent"]: {
+    ["1"]: "Save current",
+  },
+  ["buttonSquadLoadFolder"]: {
+    ["1"]: "Load from Folder",
+  },
+  ["labelSquadRune5"]: {
+    ["1"]: "Rune 5",
+  },
+  ["radioSquadHero"]: {
+    ["1"]: "Hero",
+  },
+  ["buttonSquadSave"]: {
+    ["1"]: "Save",
+  },
+  ["buttonSquadSaveAs"]: {
+    ["1"]: "Save as...",
+  },
+  ["buttonSquadAdd"]: {
+    ["1"]: "Add to:",
+  },
+  ["labelSquadRune4"]: {
+    ["1"]: "Rune 4",
+  },
+  ["labelSquadKind"]: {
+    ["1"]: "Kind:",
+  },
+  ["buttonSquadCloseCurrent"]: {
+    ["1"]: "Close current",
+  },
+  ["radioSquadCreep"]: {
+    ["1"]: "Creep",
   },
 },

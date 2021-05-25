@@ -1,11 +1,11 @@
 {
+  ["skillCommon_POISION_DAMAGE"]: {
+    ["1"]: "Poison damage: %prime%",
+  },
   ["skillCommon_DAMAGE"]: {
     ["1"]: "Damage: %prime%",
   },
   ["skillCommon_HEALING"]: {
     ["1"]: "Healing: %prime%",
-  },
-  ["skillCommon_POISION_DAMAGE"]: {
-    ["1"]: "Poison damage: %prime%",
   },
 },

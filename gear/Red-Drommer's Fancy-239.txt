@@ -1,0 +1,17 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_hero_level_required = 129
+ |browser_team_level_required = 129
+ |browser_health = 5120
+ |browser_armor_penetration = 960
+ |browser_physical_attack = 1664
+ |browser_created_with_gold = 1269000
+ |browser_created_with_1 = Orange/Alucard's Amulet
+ |browser_created_with_1_count = 2
+ |browser_created_with_2 = Red/Evening Curfew
+ |browser_created_with_3 = Red/Shadow Queen's Scythes
+ |browser_created_with_recipe = 1
+ |browser_value_buy_gold = 733800
+ |browser_value_buy_coins = 148350
+ |browser_value_sell_gold = 146760
+ |browser_value_sell_exchange = 3200
+}}</onlyinclude>

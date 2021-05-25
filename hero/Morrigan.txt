@@ -12,7 +12,7 @@
  |browser_glyph4 = Armor
  |browser_artifact_weapon = Raven's Skull
  |browser_artifact_weapon_attribute = Armor penetration
- |browser_artifact_weapon_value = 10680
+ |browser_artifact_weapon_value = 32040
  |browser_artifact_book = Tome of Arcane Knowledge
  |browser_base_agility = 10
  |browser_base_health = 500
@@ -32,26 +32,30 @@
  |browser_star6_agility = 11
  |browser_star6_intelligence = 25
  |browser_star6_strength = 14
- |browser_basic_attack_attribute = Physical attack
  |browser_basic_attack_damage_type = physical
+ |browser_basic_attack_attribute = Physical attack
  |browser_skill_white_name = Army of Graven
- |browser_skill_white_prime_attribute = Magic attack
  |browser_skill_white_prime_damage_type = physical
+ |browser_skill_white_prime_attribute = Magic attack
  |browser_skill_white_prime_scale = 0.3
  |browser_skill_white_prime_level = 25
- |browser_skill_white_secondary_magic_attack = 1.3
+ |browser_skill_white_secondary_damage_type = health
+ |browser_skill_white_secondary_attribute = Magic attack
+ |browser_skill_white_secondary_scale = 1.3
  |browser_skill_white_secondary_level = 190
  |browser_skill_white_hits = 3
  |browser_skill_white_format = 
 Morrigan summons 3 Undead skeletons to her side to fight in the front row. She can control up to 6 skeletons at any given time.
 Skeleton health: %secondary% Skeleton attack damage: %prime%
-Hits: 3
+Hits: %hits%
  |browser_skill_green_name = Bone Armor
- |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_damage_type = heal
+ |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_scale = 0.5
  |browser_skill_green_prime_level = 100
- |browser_skill_green_secondary_magic_attack = 0.2
+ |browser_skill_green_secondary_damage_type = armor
+ |browser_skill_green_secondary_attribute = Magic attack
+ |browser_skill_green_secondary_scale = 0.2
  |browser_skill_green_secondary_level = 15
  |browser_skill_green_duration = 10
  |browser_skill_green_cooldown = 16
@@ -59,12 +63,12 @@ Hits: 3
  |browser_skill_green_format = 
 Morrigan temporarily boosts the defense of Undead allies, increasing their armor and magic defense as well as healing them.
 Armor and magic defense bonus: %secondary% Healing: %prime%
-Cooldown: 16
-Hits: 10
-Duration: 10
+Cooldown: %cooldown%
+Duration: %duration%
+Hits: %hits%
  |browser_skill_blue_name = Moonlight
- |browser_skill_blue_prime_attribute = Magic attack
  |browser_skill_blue_prime_damage_type = heal
+ |browser_skill_blue_prime_attribute = Magic attack
  |browser_skill_blue_prime_scale = 0.95
  |browser_skill_blue_prime_level = 200
  |browser_skill_blue_duration = -1
@@ -72,11 +76,11 @@ Duration: 10
  |browser_skill_blue_format = 
 Morrigan heals an Undead ally if their health drops below 20%. Can be triggered once every 8 seconds for each ally.
 Healing: %prime%
-Duration: -1
-Cooldown: 1
+Cooldown: %cooldown%
+Duration: %duration%
  |browser_skill_violet_name = Necromancy
- |browser_skill_violet_prime_attribute = Magic attack
  |browser_skill_violet_prime_damage_type = damage bonus
+ |browser_skill_violet_prime_attribute = Magic attack
  |browser_skill_violet_prime_scale = 0.15
  |browser_skill_violet_prime_level = 30
  |browser_skill_violet_prime_base = 250
@@ -84,7 +88,7 @@ Cooldown: 1
  |browser_skill_violet_format = 
 Increases damage dealt by allied skeletons. Whenever an enemy dies, Morrigan summons their skeleton, even if they attempt to resurrect.
 Damage bonus: %prime% Chance to summon a skeleton from a fallen enemy is lowered if the target's level is above %level%
-Duration: -1
+Duration: %duration%
  |browser_gear_white0_1 = White/Steel Pauldron
  |browser_gear_white0_2 = White/Lucky Dice
  |browser_gear_white0_3 = White/Oil Lamp
@@ -199,7 +203,7 @@ Duration: -1
  |mobile_stone_source1 = 
  |mobile_stone_source2 = 
  |mobile_main_stat = Intelligence
- |mobile_skin1 = Devil Skin
+ |mobile_skin1_name = Devil Skin
  |mobile_skin1_attribute = Health
  |mobile_skin1_value = 106645
  |mobile_glyph1 = Magic attack
@@ -208,7 +212,7 @@ Duration: -1
  |mobile_glyph4 = Armor
  |mobile_artifact_weapon = Raven's Skull
  |mobile_artifact_weapon_attribute = Armor penetration
- |mobile_artifact_weapon_value = 10680
+ |mobile_artifact_weapon_value = 32040
  |mobile_artifact_book = Tome of Arcane Knowledge
  |mobile_base_agility = 10
  |mobile_base_health = 500
@@ -228,26 +232,30 @@ Duration: -1
  |mobile_star6_agility = 10
  |mobile_star6_intelligence = 24
  |mobile_star6_strength = 16
- |mobile_basic_attack_attribute = Physical attack
  |mobile_basic_attack_damage_type = magic
+ |mobile_basic_attack_attribute = Physical attack
  |mobile_skill_white_name = Army of Graven
- |mobile_skill_white_prime_attribute = Magic attack
  |mobile_skill_white_prime_damage_type = physical
+ |mobile_skill_white_prime_attribute = Magic attack
  |mobile_skill_white_prime_scale = 0.3
  |mobile_skill_white_prime_level = 25
- |mobile_skill_white_secondary_magic_attack = 1.3
+ |mobile_skill_white_secondary_damage_type = health
+ |mobile_skill_white_secondary_attribute = Magic attack
+ |mobile_skill_white_secondary_scale = 1.3
  |mobile_skill_white_secondary_level = 190
  |mobile_skill_white_hits = 3
  |mobile_skill_white_format = 
 Morrigan summons 3 Undead skeletons to her side to fight in the front row. She can control up to 6 skeletons at any given time.
 Skeleton health: %secondary% Skeleton attack damage: %prime%
-Hits: 3
+Hits: %hits%
  |mobile_skill_green_name = Bone Armor
- |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_damage_type = heal
+ |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_scale = 0.5
  |mobile_skill_green_prime_level = 100
- |mobile_skill_green_secondary_magic_attack = 0.2
+ |mobile_skill_green_secondary_damage_type = armor
+ |mobile_skill_green_secondary_attribute = Magic attack
+ |mobile_skill_green_secondary_scale = 0.2
  |mobile_skill_green_secondary_level = 15
  |mobile_skill_green_duration = 10
  |mobile_skill_green_cooldown = 16
@@ -255,12 +263,12 @@ Hits: 3
  |mobile_skill_green_format = 
 Morrigan temporarily boosts Undead allies' defense, increasing their armor and magic defense by %secondary% as well as healing them by %prime%.
 Armor and magic defense bonus: %secondary% Healing: %prime%
-Cooldown: 16
-Hits: 10
-Duration: 10
+Cooldown: %cooldown%
+Duration: %duration%
+Hits: %hits%
  |mobile_skill_blue_name = Moonlight
- |mobile_skill_blue_prime_attribute = Magic attack
  |mobile_skill_blue_prime_damage_type = heal
+ |mobile_skill_blue_prime_attribute = Magic attack
  |mobile_skill_blue_prime_scale = 0.95
  |mobile_skill_blue_prime_level = 200
  |mobile_skill_blue_duration = -1
@@ -268,11 +276,11 @@ Duration: 10
  |mobile_skill_blue_format = 
 Morrigan heals an Undead ally if their health drops below 20%. Can be triggered once every 8 seconds.
 Healing: %prime%
-Duration: -1
-Cooldown: 8
+Cooldown: %cooldown%
+Duration: %duration%
  |mobile_skill_violet_name = Necromancy
- |mobile_skill_violet_prime_attribute = Magic attack
  |mobile_skill_violet_prime_damage_type = physical
+ |mobile_skill_violet_prime_attribute = Magic attack
  |mobile_skill_violet_prime_scale = 0.15
  |mobile_skill_violet_prime_level = 30
  |mobile_skill_violet_prime_base = 250
@@ -280,7 +288,7 @@ Cooldown: 8
  |mobile_skill_violet_format = 
 Increases damage dealt by allied skeletons. Whenever an enemy dies, Morrigan summons their skeleton, even if they attempt to resurrect.
 Damage bonus: %prime% Chance to summon a skeleton from a fallen enemy is lowered if the target's level is above %level%
-Duration: -1
+Duration: %duration%
  |mobile_gear_white0_1 = White/Steel Pauldron
  |mobile_gear_white0_2 = White/Lucky Dice
  |mobile_gear_white0_3 = White/Oil Lamp

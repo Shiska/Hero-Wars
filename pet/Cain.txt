@@ -1,0 +1,54 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Hero/Lua</noinclude>
+ |browser_position = Back
+ |browser_role1 = Support
+ |browser_main_stat = Strength
+ |browser_stone1 = Duskstone
+ |browser_stone2 = Nightstone
+ |browser_base_armor_penetration = 1500
+ |browser_base_patronage_power = 25
+ |browser_base_skill_power = 25
+ |browser_star = 1
+ |browser_star1_patronage_power = 6
+ |browser_star1_skill_power = 6
+ |browser_star2_patronage_power = 9
+ |browser_star2_skill_power = 9
+ |browser_star3_patronage_power = 13
+ |browser_star3_skill_power = 13
+ |browser_star4_patronage_power = 18
+ |browser_star4_skill_power = 18
+ |browser_star5_patronage_power = 23
+ |browser_star5_skill_power = 23
+ |browser_star6_patronage_power = 30
+ |browser_star6_skill_power = 30
+ |browser_basic_attack_damage_type = physical
+ |browser_basic_attack_attribute = Skill Power
+ |browser_skill_white_name = Invisibility Mastery
+ |browser_skill_white_prime_damage_type = physical
+ |browser_skill_white_prime_attribute = Skill Power
+ |browser_skill_white_prime_scale = 0.25
+ |browser_skill_white_prime_base = 200
+ |browser_skill_white_format = 
+Passive skill. Increases Dodge for the entire team.
+Dodge: %prime%
+ |browser_skill_green_name = Dark Patron
+ |browser_skill_green_prime_damage_type = physical
+ |browser_skill_green_prime_attribute = Patronage Power
+ |browser_skill_green_prime_scale = 0.00307
+ |browser_skill_green_prime_base = 1
+ |browser_skill_green_format = 
+Master gains bonus Energy for each successful Dodge.
+Bonus Energy: %prime%%
+ |browser_patronage_bonus1_attribute = Dodge
+ |browser_patronage_bonus1_scale = 0.27
+ |browser_patronage_bonus2_attribute = Physical attack
+ |browser_patronage_bonus2_scale = 0.9
+ |browser_patron1 = Aurora
+ |browser_patron2 = Heidi
+ |browser_patron3 = Dante
+ |browser_patron4 = Dark Star
+ |browser_patron5 = Qing Mao
+ |browser_patron6 = Jet
+ |browser_patron7 = Elmir
+ |browser_patron8 = Nebula
+ |browser_patron9 = Yasmine
+}}</onlyinclude>

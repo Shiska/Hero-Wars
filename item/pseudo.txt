@@ -1,0 +1,38 @@
+mobile
+1 = Emeralds = The most valuable resource in the world!
+2 = Gold = Golden coin of the empire. The emperor loves you. 
+3 = EXP = EXP to upgrade your team level
+4 = Energy = Enables your team to raid
+5 = VIP points = Increases your VIP level
+6 = Guild Activity points = Earned by Guild members
+7 = Titanite = Can be acquired in the Guild Dungeon. When a Guild collects the required amount of Titanite, all its members receive Summoning Spheres.
+8 = Guild Master's Present = When the guild is rewarded for activity, the Guild Master can send this reward to one of the guild's members.
+9 = Quiz Points = Answer the Holiday Quiz questions, earn Quiz Points, and get presents!
+10 = Season Points = Earn points to level up in the Astral Season event
+500 = Gold Ticket = Allows raiding missions without using tickets
+501 = Trophy = Used for participating in the ranking in the Battle for Harvest event
+502 = Trophy = Used for participating in the ranking 
+503 =  = 
+504 = Trophy = Used for participating in the ranking 
+505 =  = 
+browser
+1 = Emeralds = The most valuable resource in the world!
+2 = Gold = A golden coin of the empire. The emperor loves you.
+3 = EXP = EXP to upgrade your team level
+4 = Energy = Enables Campaign missions
+5 = VIP points = Increases your VIP level
+6 = Guild Activity points = Earned by Guild members
+7 = Titanite = Can be acquired in the Guild Dungeon. When a Guild collects the required amount of Titanite, all its members receive Summoning Spheres.
+8 = Guild Master's Present = When the guild is rewarded for activity, the Guild Master can send this reward to one of the guild's members.
+9 = Quiz Points = Can be obtained in the quiz
+10 = Elemental Tournament Points = Can be acquired in the Tournament of the Elements
+11 = Outland Chest = Lets you open one chest in Outland for free
+12 = Winterfest generosity points = Obtained for sending Winterfest gifts
+13 = Action Points in Adventures = Your available Action Points for the Adventure. Moving and attacking costs Action Points.
+14 = Portal Charge = You gain one Portal Charge every day. Embarking on an Adventure costs Portal Charges.
+15 = Adventure Points = Your team's score for this Adventure
+16 = Birthday Cake Slice = Can be obtained for the first battle of the day with the Archdemon in Hell.
+17 = Astral Season experience = Astral Season level up experience
+18 = Action Points = Action points for The Great Storm adventure. Moving and attacking costs action points.
+19 = Emerald in the Piggy Bank = Break the piggy bank to receive the Emeralds you've stored
+20 = Elemental Season EXP = Elemental Season level up experience

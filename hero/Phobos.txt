@@ -6,13 +6,13 @@
  |browser_stone_source1 = 
  |browser_stone_source2 = 
  |browser_main_stat = Intelligence
- |browser_skin1 = Illusionist Skin
+ |browser_skin1_name = Illusionist Skin
  |browser_skin1_attribute = Magic attack
  |browser_skin1_value = 10650
- |browser_skin2 = Stellar Skin
+ |browser_skin2_name = Stellar Skin
  |browser_skin2_attribute = Magic penetration
  |browser_skin2_value = 10650
- |browser_skin3 = Dark Depths Skin
+ |browser_skin3_name = Dark Depths Skin
  |browser_skin3_attribute = Magic attack
  |browser_skin3_value = 10650
  |browser_glyph1 = Magic attack
@@ -21,7 +21,7 @@
  |browser_glyph4 = Magic defense
  |browser_artifact_weapon = Raven's Amulet
  |browser_artifact_weapon_attribute = Magic defense
- |browser_artifact_weapon_value = 10680
+ |browser_artifact_weapon_value = 32040
  |browser_artifact_book = Tome of Arcane Knowledge
  |browser_base_agility = 10
  |browser_base_health = 500
@@ -47,11 +47,11 @@
  |browser_star6_agility = 14
  |browser_star6_intelligence = 22
  |browser_star6_strength = 14
- |browser_basic_attack_attribute = Physical attack
  |browser_basic_attack_damage_type = physical
+ |browser_basic_attack_attribute = Physical attack
  |browser_skill_white_name = Paralysis
- |browser_skill_white_prime_attribute = Magic attack
  |browser_skill_white_prime_damage_type = magic
+ |browser_skill_white_prime_attribute = Magic attack
  |browser_skill_white_prime_scale = 0.25
  |browser_skill_white_prime_level = 60
  |browser_skill_white_duration = 7
@@ -60,11 +60,13 @@
 %name% inflicts a paralysis curse on the enemy with the highest Physical Attack. Paralysis stuns the enemy for %duration% and deals damage.
 Deals %prime% damage %hits% times
  |browser_skill_green_name = Trembling Hands
- |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_damage_type = dot
+ |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_scale = 0.55
  |browser_skill_green_prime_level = 65
- |browser_skill_green_secondary_magic_attack = 0.2
+ |browser_skill_green_secondary_damage_type = stat decrease
+ |browser_skill_green_secondary_attribute = Magic attack
+ |browser_skill_green_secondary_scale = 0.2
  |browser_skill_green_secondary_level = 7.5
  |browser_skill_green_secondary_base = 25
  |browser_skill_green_duration = 3
@@ -72,23 +74,25 @@ Deals %prime% damage %hits% times
  |browser_skill_green_format = 
 %name% deals damage to the nearest enemy and curses them, decreasing their Physical Attack for %duration%.
 Damage: %prime% Temporary Physical Attack reduction: %secondary% Curse chance decreases if the target's level is above %level%
-Cooldown: 10.5
+Cooldown: %cooldown%
  |browser_skill_blue_name = Dark Deal
- |browser_skill_blue_prime_attribute = Magic attack
  |browser_skill_blue_prime_damage_type = magic
+ |browser_skill_blue_prime_attribute = Magic attack
  |browser_skill_blue_prime_scale = 0.4
  |browser_skill_blue_prime_level = 50
  |browser_skill_blue_cooldown = 18
  |browser_skill_blue_format = 
 Strikes the nearest enemy with magic damage and heals the ally with the lowest health by an amount equal to the damage dealt.
-Cooldown: 18
-Prime: nil
+Prime: %prime%
+Cooldown: %cooldown%
  |browser_skill_violet_name = Bound by Fear
- |browser_skill_violet_prime_attribute = Level
  |browser_skill_violet_prime_damage_type = 
+ |browser_skill_violet_prime_attribute = Level
  |browser_skill_violet_prime_level = 15
  |browser_skill_violet_prime_base = -300
- |browser_skill_violet_secondary_magic_attack = 0.6
+ |browser_skill_violet_secondary_damage_type = magic
+ |browser_skill_violet_secondary_attribute = Magic attack
+ |browser_skill_violet_secondary_scale = 0.6
  |browser_skill_violet_secondary_level = 60
  |browser_skill_violet_format = 
 Paralysis causes the enemy to lose energy and inflicts extra damage.
@@ -207,10 +211,10 @@ Paralysis causes the enemy to lose energy and inflicts extra damage.
  |mobile_stone_source1 = 
  |mobile_stone_source2 = 
  |mobile_main_stat = Intelligence
- |mobile_skin1 = Illusionist Skin
+ |mobile_skin1_name = Illusionist Skin
  |mobile_skin1_attribute = Magic attack
  |mobile_skin1_value = 10650
- |mobile_skin2 = Stellar Skin
+ |mobile_skin2_name = Stellar Skin
  |mobile_skin2_attribute = Magic penetration
  |mobile_skin2_value = 10650
  |mobile_glyph1 = Magic attack
@@ -219,7 +223,7 @@ Paralysis causes the enemy to lose energy and inflicts extra damage.
  |mobile_glyph4 = Magic defense
  |mobile_artifact_weapon = Raven's Amulet
  |mobile_artifact_weapon_attribute = Magic defense
- |mobile_artifact_weapon_value = 10680
+ |mobile_artifact_weapon_value = 32040
  |mobile_artifact_book = Tome of Arcane Knowledge
  |mobile_base_agility = 10
  |mobile_base_health = 500
@@ -245,11 +249,11 @@ Paralysis causes the enemy to lose energy and inflicts extra damage.
  |mobile_star6_agility = 14
  |mobile_star6_intelligence = 22
  |mobile_star6_strength = 14
- |mobile_basic_attack_attribute = Physical attack
  |mobile_basic_attack_damage_type = physical
+ |mobile_basic_attack_attribute = Physical attack
  |mobile_skill_white_name = Paralysis
- |mobile_skill_white_prime_attribute = Magic attack
  |mobile_skill_white_prime_damage_type = magic
+ |mobile_skill_white_prime_attribute = Magic attack
  |mobile_skill_white_prime_scale = 0.2
  |mobile_skill_white_prime_level = 40
  |mobile_skill_white_duration = 7
@@ -258,11 +262,13 @@ Paralysis causes the enemy to lose energy and inflicts extra damage.
 Stuns a random enemy for %duration% and torments their body. The enemy can't attack or use skills during that time.
 Deals %prime% damage %hits% times
  |mobile_skill_green_name = Trembling Hands
- |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_damage_type = dot
+ |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_scale = 0.5
  |mobile_skill_green_prime_level = 60
- |mobile_skill_green_secondary_magic_attack = 0.15
+ |mobile_skill_green_secondary_damage_type = stat decrease
+ |mobile_skill_green_secondary_attribute = Magic attack
+ |mobile_skill_green_secondary_scale = 0.15
  |mobile_skill_green_secondary_level = 7.5
  |mobile_skill_green_secondary_base = 25
  |mobile_skill_green_duration = 3
@@ -270,25 +276,27 @@ Deals %prime% damage %hits% times
  |mobile_skill_green_format = 
 Curses the nearest enemy, reducing their physical attack and dealing damage to them over several seconds. (Curse chance lowered if the target's level is above %level%.)
 Damage: %prime%
-Secondary: nil
-Cooldown: 10.5
-Duration: 3
+Cooldown: %cooldown%
+Duration: %duration%
+Secondary: %secondary%
  |mobile_skill_blue_name = Dark Deal
- |mobile_skill_blue_prime_attribute = Magic attack
  |mobile_skill_blue_prime_damage_type = magic
+ |mobile_skill_blue_prime_attribute = Magic attack
  |mobile_skill_blue_prime_scale = 0.4
  |mobile_skill_blue_prime_level = 50
  |mobile_skill_blue_cooldown = 18
  |mobile_skill_blue_format = 
 Strikes the nearest enemy with magic damage, heals the ally with the lowest health by an amount equal to the damage dealt.
 Damage: %prime%
-Cooldown: 18
+Cooldown: %cooldown%
  |mobile_skill_violet_name = Mage's Terror
- |mobile_skill_violet_prime_attribute = Level
  |mobile_skill_violet_prime_damage_type = 
+ |mobile_skill_violet_prime_attribute = Level
  |mobile_skill_violet_prime_level = 15
  |mobile_skill_violet_prime_base = -300
- |mobile_skill_violet_secondary_magic_attack = 0.5
+ |mobile_skill_violet_secondary_damage_type = magic
+ |mobile_skill_violet_secondary_attribute = Magic attack
+ |mobile_skill_violet_secondary_scale = 0.5
  |mobile_skill_violet_secondary_level = 50
  |mobile_skill_violet_format = 
 Modifies the first skill: now it deals more damage and also burns the enemy's energy.

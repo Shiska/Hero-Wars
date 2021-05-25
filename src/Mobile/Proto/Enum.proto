@@ -1,4 +1,412 @@
 {
+  ["Hero Color"]: {
+    ["Id"]: {
+      ["1"]: {
+        ["FrameAssetTexture"]: {
+          ["1"]: "border_hero_white",
+        },
+        ["SkillTierUnlock"]: {
+          ["1"]: 1,
+        },
+        ["HeroLevel"]: {
+          ["1"]: 1,
+        },
+        ["LevelBackgroundAssetTexture"]: {
+          ["1"]: "level_white",
+        },
+        ["Ident"]: {
+          ["1"]: "white",
+        },
+        ["TextColor"]: {
+          ["1"]: 12038323,
+        },
+        ["BackgroundAssetTexture"]: {
+          ["1"]: "bg_hero_white",
+        },
+        ["LocaleKey"]: {
+          ["1"]: "",
+        },
+        ["FrameAssetTextureSmall"]: {
+          ["1"]: "border_hero_white_small",
+        },
+      },
+      ["2"]: {
+        ["FrameAssetTexture"]: {
+          ["1"]: "border_hero_green",
+        },
+        ["SkillTierUnlock"]: {
+          ["1"]: 2,
+        },
+        ["HeroLevel"]: {
+          ["1"]: 5,
+        },
+        ["LevelBackgroundAssetTexture"]: {
+          ["1"]: "level_green",
+        },
+        ["Ident"]: {
+          ["1"]: "green",
+        },
+        ["TextColor"]: {
+          ["1"]: 7655003,
+        },
+        ["BackgroundAssetTexture"]: {
+          ["1"]: "bg_hero_green",
+        },
+        ["LocaleKey"]: {
+          ["1"]: "",
+        },
+        ["FrameAssetTextureSmall"]: {
+          ["1"]: "border_hero_green_small",
+        },
+      },
+      ["3"]: {
+        ["HeroLevel"]: {
+          ["1"]: 8,
+        },
+        ["FrameAssetTexture"]: {
+          ["1"]: "border_hero_green2",
+        },
+        ["Ident"]: {
+          ["1"]: "green+",
+        },
+        ["FrameAssetTextureSmall"]: {
+          ["1"]: "border_hero_green_small2",
+        },
+        ["LocaleKey"]: {
+          ["1"]: "",
+        },
+        ["BackgroundAssetTexture"]: {
+          ["1"]: "bg_hero_green",
+        },
+        ["TextColor"]: {
+          ["1"]: 7655003,
+        },
+        ["LevelBackgroundAssetTexture"]: {
+          ["1"]: "level_green",
+        },
+      },
+      ["4"]: {
+        ["FrameAssetTexture"]: {
+          ["1"]: "border_hero_blue",
+        },
+        ["SkillTierUnlock"]: {
+          ["1"]: 3,
+        },
+        ["HeroLevel"]: {
+          ["1"]: 10,
+        },
+        ["LevelBackgroundAssetTexture"]: {
+          ["1"]: "level_blue",
+        },
+        ["Ident"]: {
+          ["1"]: "blue",
+        },
+        ["TextColor"]: {
+          ["1"]: 7446527,
+        },
+        ["BackgroundAssetTexture"]: {
+          ["1"]: "bg_hero_blue",
+        },
+        ["LocaleKey"]: {
+          ["1"]: "",
+        },
+        ["FrameAssetTextureSmall"]: {
+          ["1"]: "heroBubbleFramBlue_small1",
+        },
+      },
+      ["5"]: {
+        ["HeroLevel"]: {
+          ["1"]: 11,
+        },
+        ["FrameAssetTexture"]: {
+          ["1"]: "border_hero_blue2",
+        },
+        ["Ident"]: {
+          ["1"]: "blue+",
+        },
+        ["FrameAssetTextureSmall"]: {
+          ["1"]: "heroBubbleFramBlue_small2",
+        },
+        ["LocaleKey"]: {
+          ["1"]: "",
+        },
+        ["BackgroundAssetTexture"]: {
+          ["1"]: "bg_hero_blue",
+        },
+        ["TextColor"]: {
+          ["1"]: 7446527,
+        },
+        ["LevelBackgroundAssetTexture"]: {
+          ["1"]: "level_blue",
+        },
+      },
+      ["6"]: {
+        ["HeroLevel"]: {
+          ["1"]: 12,
+        },
+        ["FrameAssetTexture"]: {
+          ["1"]: "border_hero_blue3",
+        },
+        ["Ident"]: {
+          ["1"]: "blue++",
+        },
+        ["FrameAssetTextureSmall"]: {
+          ["1"]: "heroBubbleFramBlue_small3",
+        },
+        ["LocaleKey"]: {
+          ["1"]: "",
+        },
+        ["BackgroundAssetTexture"]: {
+          ["1"]: "bg_hero_blue",
+        },
+        ["TextColor"]: {
+          ["1"]: 7446527,
+        },
+        ["LevelBackgroundAssetTexture"]: {
+          ["1"]: "level_blue",
+        },
+      },
+      ["7"]: {
+        ["FrameAssetTexture"]: {
+          ["1"]: "border_hero_purple",
+        },
+        ["SkillTierUnlock"]: {
+          ["1"]: 4,
+        },
+        ["HeroLevel"]: {
+          ["1"]: 15,
+        },
+        ["LevelBackgroundAssetTexture"]: {
+          ["1"]: "level_purple",
+        },
+        ["Ident"]: {
+          ["1"]: "purple",
+        },
+        ["TextColor"]: {
+          ["1"]: 14970366,
+        },
+        ["BackgroundAssetTexture"]: {
+          ["1"]: "bg_hero_purple",
+        },
+        ["LocaleKey"]: {
+          ["1"]: "",
+        },
+        ["FrameAssetTextureSmall"]: {
+          ["1"]: "border_hero_purple_small",
+        },
+      },
+      ["8"]: {
+        ["HeroLevel"]: {
+          ["1"]: 16,
+        },
+        ["FrameAssetTexture"]: {
+          ["1"]: "border_hero_purple2",
+        },
+        ["Ident"]: {
+          ["1"]: "purple+",
+        },
+        ["FrameAssetTextureSmall"]: {
+          ["1"]: "border_hero_purple_small2",
+        },
+        ["LocaleKey"]: {
+          ["1"]: "",
+        },
+        ["BackgroundAssetTexture"]: {
+          ["1"]: "bg_hero_purple",
+        },
+        ["TextColor"]: {
+          ["1"]: 14970366,
+        },
+        ["LevelBackgroundAssetTexture"]: {
+          ["1"]: "level_purple",
+        },
+      },
+      ["9"]: {
+        ["HeroLevel"]: {
+          ["1"]: 17,
+        },
+        ["FrameAssetTexture"]: {
+          ["1"]: "border_hero_purple3",
+        },
+        ["Ident"]: {
+          ["1"]: "purple++",
+        },
+        ["FrameAssetTextureSmall"]: {
+          ["1"]: "border_hero_purple_small3",
+        },
+        ["LocaleKey"]: {
+          ["1"]: "",
+        },
+        ["BackgroundAssetTexture"]: {
+          ["1"]: "bg_hero_purple",
+        },
+        ["TextColor"]: {
+          ["1"]: 14970366,
+        },
+        ["LevelBackgroundAssetTexture"]: {
+          ["1"]: "level_purple",
+        },
+      },
+      ["10"]: {
+        ["HeroLevel"]: {
+          ["1"]: 18,
+        },
+        ["FrameAssetTexture"]: {
+          ["1"]: "border_hero_purple4",
+        },
+        ["Ident"]: {
+          ["1"]: "purple+++",
+        },
+        ["FrameAssetTextureSmall"]: {
+          ["1"]: "border_hero_purple_small4",
+        },
+        ["LocaleKey"]: {
+          ["1"]: "",
+        },
+        ["BackgroundAssetTexture"]: {
+          ["1"]: "bg_hero_purple",
+        },
+        ["TextColor"]: {
+          ["1"]: 14970366,
+        },
+        ["LevelBackgroundAssetTexture"]: {
+          ["1"]: "level_purple",
+        },
+      },
+      ["11"]: {
+        ["HeroLevel"]: {
+          ["1"]: 19,
+        },
+        ["FrameAssetTexture"]: {
+          ["1"]: "border_hero_gold",
+        },
+        ["Ident"]: {
+          ["1"]: "orange",
+        },
+        ["FrameAssetTextureSmall"]: {
+          ["1"]: "border_hero_gold_small",
+        },
+        ["LocaleKey"]: {
+          ["1"]: "",
+        },
+        ["BackgroundAssetTexture"]: {
+          ["1"]: "bg_hero_orange",
+        },
+        ["TextColor"]: {
+          ["1"]: 15044100,
+        },
+        ["LevelBackgroundAssetTexture"]: {
+          ["1"]: "level_gold",
+        },
+      },
+      ["12"]: {
+        ["HeroLevel"]: {
+          ["1"]: 20,
+        },
+        ["FrameAssetTexture"]: {
+          ["1"]: "border_hero_gold2",
+        },
+        ["Ident"]: {
+          ["1"]: "orange+",
+        },
+        ["FrameAssetTextureSmall"]: {
+          ["1"]: "border_hero_gold_small2",
+        },
+        ["LocaleKey"]: {
+          ["1"]: "",
+        },
+        ["BackgroundAssetTexture"]: {
+          ["1"]: "bg_hero_orange",
+        },
+        ["TextColor"]: {
+          ["1"]: 15044100,
+        },
+        ["LevelBackgroundAssetTexture"]: {
+          ["1"]: "level_gold",
+        },
+      },
+      ["13"]: {
+        ["HeroLevel"]: {
+          ["1"]: 25,
+        },
+        ["FrameAssetTexture"]: {
+          ["1"]: "border_hero_gold3",
+        },
+        ["Ident"]: {
+          ["1"]: "orange++",
+        },
+        ["FrameAssetTextureSmall"]: {
+          ["1"]: "border_hero_gold_small3",
+        },
+        ["LocaleKey"]: {
+          ["1"]: "",
+        },
+        ["BackgroundAssetTexture"]: {
+          ["1"]: "bg_hero_orange",
+        },
+        ["TextColor"]: {
+          ["1"]: 15044100,
+        },
+        ["LevelBackgroundAssetTexture"]: {
+          ["1"]: "level_gold",
+        },
+      },
+      ["14"]: {
+        ["HeroLevel"]: {
+          ["1"]: 26,
+        },
+        ["FrameAssetTexture"]: {
+          ["1"]: "border_hero_gold4",
+        },
+        ["Ident"]: {
+          ["1"]: "orange+++",
+        },
+        ["FrameAssetTextureSmall"]: {
+          ["1"]: "border_hero_gold_small4",
+        },
+        ["LocaleKey"]: {
+          ["1"]: "",
+        },
+        ["BackgroundAssetTexture"]: {
+          ["1"]: "bg_hero_orange",
+        },
+        ["TextColor"]: {
+          ["1"]: 15044100,
+        },
+        ["LevelBackgroundAssetTexture"]: {
+          ["1"]: "level_gold",
+        },
+      },
+      ["15"]: {
+        ["HeroLevel"]: {
+          ["1"]: 27,
+        },
+        ["FrameAssetTexture"]: {
+          ["1"]: "border_hero_gold5",
+        },
+        ["Ident"]: {
+          ["1"]: "orange++++",
+        },
+        ["FrameAssetTextureSmall"]: {
+          ["1"]: "border_hero_gold_small5",
+        },
+        ["LocaleKey"]: {
+          ["1"]: "",
+        },
+        ["BackgroundAssetTexture"]: {
+          ["1"]: "bg_hero_orange",
+        },
+        ["TextColor"]: {
+          ["1"]: 15044100,
+        },
+        ["LevelBackgroundAssetTexture"]: {
+          ["1"]: "level_gold",
+        },
+      },
+    },
+  },
+  ["End of File"]: {
+  },
   ["SkillTier Color"]: {
     ["Id"]: {
       ["1"]: {
@@ -43,440 +451,34 @@
       },
     },
   },
-  ["Hero Color"]: {
-    ["Id"]: {
-      ["1"]: {
-        ["Ident"]: {
-          ["1"]: "white",
-        },
-        ["LocaleKey"]: {
-          ["1"]: "",
-        },
-        ["SkillTierUnlock"]: {
-          ["1"]: 1,
-        },
-        ["HeroLevel"]: {
-          ["1"]: 1,
-        },
-        ["FrameAssetTexture"]: {
-          ["1"]: "border_hero_white",
-        },
-        ["FrameAssetTextureSmall"]: {
-          ["1"]: "border_hero_white_small",
-        },
-        ["BackgroundAssetTexture"]: {
-          ["1"]: "bg_hero_white",
-        },
-        ["LevelBackgroundAssetTexture"]: {
-          ["1"]: "level_white",
-        },
-        ["TextColor"]: {
-          ["1"]: 12038323,
-        },
-      },
-      ["2"]: {
-        ["Ident"]: {
-          ["1"]: "green",
-        },
-        ["LocaleKey"]: {
-          ["1"]: "",
-        },
-        ["SkillTierUnlock"]: {
-          ["1"]: 2,
-        },
-        ["HeroLevel"]: {
-          ["1"]: 5,
-        },
-        ["FrameAssetTexture"]: {
-          ["1"]: "border_hero_green",
-        },
-        ["FrameAssetTextureSmall"]: {
-          ["1"]: "border_hero_green_small",
-        },
-        ["BackgroundAssetTexture"]: {
-          ["1"]: "bg_hero_green",
-        },
-        ["LevelBackgroundAssetTexture"]: {
-          ["1"]: "level_green",
-        },
-        ["TextColor"]: {
-          ["1"]: 7655003,
-        },
-      },
-      ["3"]: {
-        ["FrameAssetTexture"]: {
-          ["1"]: "border_hero_green2",
-        },
-        ["Ident"]: {
-          ["1"]: "green+",
-        },
-        ["FrameAssetTextureSmall"]: {
-          ["1"]: "border_hero_green_small2",
-        },
-        ["LocaleKey"]: {
-          ["1"]: "",
-        },
-        ["LevelBackgroundAssetTexture"]: {
-          ["1"]: "level_green",
-        },
-        ["BackgroundAssetTexture"]: {
-          ["1"]: "bg_hero_green",
-        },
-        ["HeroLevel"]: {
-          ["1"]: 8,
-        },
-        ["TextColor"]: {
-          ["1"]: 7655003,
-        },
-      },
-      ["4"]: {
-        ["Ident"]: {
-          ["1"]: "blue",
-        },
-        ["LocaleKey"]: {
-          ["1"]: "",
-        },
-        ["SkillTierUnlock"]: {
-          ["1"]: 3,
-        },
-        ["HeroLevel"]: {
-          ["1"]: 10,
-        },
-        ["FrameAssetTexture"]: {
-          ["1"]: "border_hero_blue",
-        },
-        ["FrameAssetTextureSmall"]: {
-          ["1"]: "heroBubbleFramBlue_small1",
-        },
-        ["BackgroundAssetTexture"]: {
-          ["1"]: "bg_hero_blue",
-        },
-        ["LevelBackgroundAssetTexture"]: {
-          ["1"]: "level_blue",
-        },
-        ["TextColor"]: {
-          ["1"]: 7446527,
-        },
-      },
-      ["5"]: {
-        ["FrameAssetTexture"]: {
-          ["1"]: "border_hero_blue2",
-        },
-        ["Ident"]: {
-          ["1"]: "blue+",
-        },
-        ["FrameAssetTextureSmall"]: {
-          ["1"]: "heroBubbleFramBlue_small2",
-        },
-        ["LocaleKey"]: {
-          ["1"]: "",
-        },
-        ["LevelBackgroundAssetTexture"]: {
-          ["1"]: "level_blue",
-        },
-        ["BackgroundAssetTexture"]: {
-          ["1"]: "bg_hero_blue",
-        },
-        ["HeroLevel"]: {
-          ["1"]: 11,
-        },
-        ["TextColor"]: {
-          ["1"]: 7446527,
-        },
-      },
-      ["6"]: {
-        ["FrameAssetTexture"]: {
-          ["1"]: "border_hero_blue3",
-        },
-        ["Ident"]: {
-          ["1"]: "blue++",
-        },
-        ["FrameAssetTextureSmall"]: {
-          ["1"]: "heroBubbleFramBlue_small3",
-        },
-        ["LocaleKey"]: {
-          ["1"]: "",
-        },
-        ["LevelBackgroundAssetTexture"]: {
-          ["1"]: "level_blue",
-        },
-        ["BackgroundAssetTexture"]: {
-          ["1"]: "bg_hero_blue",
-        },
-        ["HeroLevel"]: {
-          ["1"]: 12,
-        },
-        ["TextColor"]: {
-          ["1"]: 7446527,
-        },
-      },
-      ["7"]: {
-        ["Ident"]: {
-          ["1"]: "purple",
-        },
-        ["LocaleKey"]: {
-          ["1"]: "",
-        },
-        ["SkillTierUnlock"]: {
-          ["1"]: 4,
-        },
-        ["HeroLevel"]: {
-          ["1"]: 15,
-        },
-        ["FrameAssetTexture"]: {
-          ["1"]: "border_hero_purple",
-        },
-        ["FrameAssetTextureSmall"]: {
-          ["1"]: "border_hero_purple_small",
-        },
-        ["BackgroundAssetTexture"]: {
-          ["1"]: "bg_hero_purple",
-        },
-        ["LevelBackgroundAssetTexture"]: {
-          ["1"]: "level_purple",
-        },
-        ["TextColor"]: {
-          ["1"]: 14970366,
-        },
-      },
-      ["8"]: {
-        ["FrameAssetTexture"]: {
-          ["1"]: "border_hero_purple2",
-        },
-        ["Ident"]: {
-          ["1"]: "purple+",
-        },
-        ["FrameAssetTextureSmall"]: {
-          ["1"]: "border_hero_purple_small2",
-        },
-        ["LocaleKey"]: {
-          ["1"]: "",
-        },
-        ["LevelBackgroundAssetTexture"]: {
-          ["1"]: "level_purple",
-        },
-        ["BackgroundAssetTexture"]: {
-          ["1"]: "bg_hero_purple",
-        },
-        ["HeroLevel"]: {
-          ["1"]: 16,
-        },
-        ["TextColor"]: {
-          ["1"]: 14970366,
-        },
-      },
-      ["9"]: {
-        ["FrameAssetTexture"]: {
-          ["1"]: "border_hero_purple3",
-        },
-        ["Ident"]: {
-          ["1"]: "purple++",
-        },
-        ["FrameAssetTextureSmall"]: {
-          ["1"]: "border_hero_purple_small3",
-        },
-        ["LocaleKey"]: {
-          ["1"]: "",
-        },
-        ["LevelBackgroundAssetTexture"]: {
-          ["1"]: "level_purple",
-        },
-        ["BackgroundAssetTexture"]: {
-          ["1"]: "bg_hero_purple",
-        },
-        ["HeroLevel"]: {
-          ["1"]: 17,
-        },
-        ["TextColor"]: {
-          ["1"]: 14970366,
-        },
-      },
-      ["10"]: {
-        ["FrameAssetTexture"]: {
-          ["1"]: "border_hero_purple4",
-        },
-        ["Ident"]: {
-          ["1"]: "purple+++",
-        },
-        ["FrameAssetTextureSmall"]: {
-          ["1"]: "border_hero_purple_small4",
-        },
-        ["LocaleKey"]: {
-          ["1"]: "",
-        },
-        ["LevelBackgroundAssetTexture"]: {
-          ["1"]: "level_purple",
-        },
-        ["BackgroundAssetTexture"]: {
-          ["1"]: "bg_hero_purple",
-        },
-        ["HeroLevel"]: {
-          ["1"]: 18,
-        },
-        ["TextColor"]: {
-          ["1"]: 14970366,
-        },
-      },
-      ["11"]: {
-        ["FrameAssetTexture"]: {
-          ["1"]: "border_hero_gold",
-        },
-        ["Ident"]: {
-          ["1"]: "orange",
-        },
-        ["FrameAssetTextureSmall"]: {
-          ["1"]: "border_hero_gold_small",
-        },
-        ["LocaleKey"]: {
-          ["1"]: "",
-        },
-        ["LevelBackgroundAssetTexture"]: {
-          ["1"]: "level_gold",
-        },
-        ["BackgroundAssetTexture"]: {
-          ["1"]: "bg_hero_orange",
-        },
-        ["HeroLevel"]: {
-          ["1"]: 19,
-        },
-        ["TextColor"]: {
-          ["1"]: 15044100,
-        },
-      },
-      ["12"]: {
-        ["FrameAssetTexture"]: {
-          ["1"]: "border_hero_gold2",
-        },
-        ["Ident"]: {
-          ["1"]: "orange+",
-        },
-        ["FrameAssetTextureSmall"]: {
-          ["1"]: "border_hero_gold_small2",
-        },
-        ["LocaleKey"]: {
-          ["1"]: "",
-        },
-        ["LevelBackgroundAssetTexture"]: {
-          ["1"]: "level_gold",
-        },
-        ["BackgroundAssetTexture"]: {
-          ["1"]: "bg_hero_orange",
-        },
-        ["HeroLevel"]: {
-          ["1"]: 20,
-        },
-        ["TextColor"]: {
-          ["1"]: 15044100,
-        },
-      },
-      ["13"]: {
-        ["FrameAssetTexture"]: {
-          ["1"]: "border_hero_gold3",
-        },
-        ["Ident"]: {
-          ["1"]: "orange++",
-        },
-        ["FrameAssetTextureSmall"]: {
-          ["1"]: "border_hero_gold_small3",
-        },
-        ["LocaleKey"]: {
-          ["1"]: "",
-        },
-        ["LevelBackgroundAssetTexture"]: {
-          ["1"]: "level_gold",
-        },
-        ["BackgroundAssetTexture"]: {
-          ["1"]: "bg_hero_orange",
-        },
-        ["HeroLevel"]: {
-          ["1"]: 25,
-        },
-        ["TextColor"]: {
-          ["1"]: 15044100,
-        },
-      },
-      ["14"]: {
-        ["FrameAssetTexture"]: {
-          ["1"]: "border_hero_gold4",
-        },
-        ["Ident"]: {
-          ["1"]: "orange+++",
-        },
-        ["FrameAssetTextureSmall"]: {
-          ["1"]: "border_hero_gold_small4",
-        },
-        ["LocaleKey"]: {
-          ["1"]: "",
-        },
-        ["LevelBackgroundAssetTexture"]: {
-          ["1"]: "level_gold",
-        },
-        ["BackgroundAssetTexture"]: {
-          ["1"]: "bg_hero_orange",
-        },
-        ["HeroLevel"]: {
-          ["1"]: 26,
-        },
-        ["TextColor"]: {
-          ["1"]: 15044100,
-        },
-      },
-      ["15"]: {
-        ["FrameAssetTexture"]: {
-          ["1"]: "border_hero_gold5",
-        },
-        ["Ident"]: {
-          ["1"]: "orange++++",
-        },
-        ["FrameAssetTextureSmall"]: {
-          ["1"]: "border_hero_gold_small5",
-        },
-        ["LocaleKey"]: {
-          ["1"]: "",
-        },
-        ["LevelBackgroundAssetTexture"]: {
-          ["1"]: "level_gold",
-        },
-        ["BackgroundAssetTexture"]: {
-          ["1"]: "bg_hero_orange",
-        },
-        ["HeroLevel"]: {
-          ["1"]: 27,
-        },
-        ["TextColor"]: {
-          ["1"]: 15044100,
-        },
-      },
-    },
-  },
-  ["End of File"]: {
-  },
   ["Item Color"]: {
     ["Id"]: {
       ["1"]: {
+        ["FragmentFrameAssetTexture"]: {
+          ["1"]: "border_item_fragment_white",
+        },
         ["FrameAssetTexture"]: {
           ["1"]: "border_item_white",
         },
         ["Ident"]: {
           ["1"]: "white",
         },
-        ["FragmentFrameAssetTexture"]: {
-          ["1"]: "border_item_fragment_white",
-        },
         ["RoundFrameAssetTexture"]: {
           ["1"]: "",
         },
       },
       ["2"]: {
+        ["EnchantInstantCost"]: {
+          ["1"]: {
+            ["1"]: "EnchantInstantCost",
+            ["2"]: "1",
+            ["3"]: "pseudo",
+            ["4"]: "1",
+            ["5"]: "10",
+          },
+        },
         ["FrameAssetTexture"]: {
           ["1"]: "border_item_green",
-        },
-        ["EnchantCost"]: {
-          ["1"]: {
-            ["1"]: "EnchantCost",
-            ["2"]: "1",
-            ["3"]: "20",
-          },
         },
         ["Ident"]: {
           ["1"]: "green",
@@ -489,48 +491,21 @@
             ["4"]: "120",
           },
         },
-        ["EnchantInstantCost"]: {
-          ["1"]: {
-            ["1"]: "EnchantInstantCost",
-            ["2"]: "1",
-            ["3"]: "pseudo",
-            ["4"]: "1",
-            ["5"]: "10",
-          },
-        },
-        ["FragmentFrameAssetTexture"]: {
-          ["1"]: "border_item_fragment_green",
-        },
         ["RoundFrameAssetTexture"]: {
           ["1"]: "",
         },
-      },
-      ["3"]: {
-        ["FrameAssetTexture"]: {
-          ["1"]: "border_item_blue",
+        ["FragmentFrameAssetTexture"]: {
+          ["1"]: "border_item_fragment_green",
         },
         ["EnchantCost"]: {
           ["1"]: {
             ["1"]: "EnchantCost",
             ["2"]: "1",
-            ["3"]: "30",
-            ["4"]: "2",
-            ["5"]: "80",
-            ["6"]: "3",
-            ["7"]: "160",
+            ["3"]: "20",
           },
         },
-        ["Ident"]: {
-          ["1"]: "blue",
-        },
-        ["CostPerEnchant"]: {
-          ["1"]: {
-            ["1"]: "CostPerEnchant",
-            ["2"]: "pseudo",
-            ["3"]: "2",
-            ["4"]: "150",
-          },
-        },
+      },
+      ["3"]: {
         ["EnchantInstantCost"]: {
           ["1"]: {
             ["1"]: "EnchantInstantCost",
@@ -548,43 +523,39 @@
             ["13"]: "15",
           },
         },
-        ["FragmentFrameAssetTexture"]: {
-          ["1"]: "border_item_fragment_blue",
-        },
-        ["RoundFrameAssetTexture"]: {
-          ["1"]: "",
-        },
-      },
-      ["4"]: {
         ["FrameAssetTexture"]: {
-          ["1"]: "border_item_purple",
-        },
-        ["EnchantCost"]: {
-          ["1"]: {
-            ["1"]: "EnchantCost",
-            ["2"]: "1",
-            ["3"]: "60",
-            ["4"]: "2",
-            ["5"]: "160",
-            ["6"]: "3",
-            ["7"]: "320",
-            ["8"]: "4",
-            ["9"]: "620",
-            ["10"]: "5",
-            ["11"]: "1120",
-          },
+          ["1"]: "border_item_blue",
         },
         ["Ident"]: {
-          ["1"]: "purple",
+          ["1"]: "blue",
         },
         ["CostPerEnchant"]: {
           ["1"]: {
             ["1"]: "CostPerEnchant",
             ["2"]: "pseudo",
             ["3"]: "2",
-            ["4"]: "180",
+            ["4"]: "150",
           },
         },
+        ["RoundFrameAssetTexture"]: {
+          ["1"]: "",
+        },
+        ["FragmentFrameAssetTexture"]: {
+          ["1"]: "border_item_fragment_blue",
+        },
+        ["EnchantCost"]: {
+          ["1"]: {
+            ["1"]: "EnchantCost",
+            ["2"]: "1",
+            ["3"]: "30",
+            ["4"]: "2",
+            ["5"]: "80",
+            ["6"]: "3",
+            ["7"]: "160",
+          },
+        },
+      },
+      ["4"]: {
         ["EnchantInstantCost"]: {
           ["1"]: {
             ["1"]: "EnchantInstantCost",
@@ -610,43 +581,43 @@
             ["21"]: "20",
           },
         },
-        ["FragmentFrameAssetTexture"]: {
-          ["1"]: "border_item_fragment_purple",
-        },
-        ["RoundFrameAssetTexture"]: {
-          ["1"]: "",
-        },
-      },
-      ["5"]: {
         ["FrameAssetTexture"]: {
-          ["1"]: "border_item_gold",
-        },
-        ["EnchantCost"]: {
-          ["1"]: {
-            ["1"]: "EnchantCost",
-            ["2"]: "1",
-            ["3"]: "100",
-            ["4"]: "2",
-            ["5"]: "400",
-            ["6"]: "3",
-            ["7"]: "900",
-            ["8"]: "4",
-            ["9"]: "1500",
-            ["10"]: "5",
-            ["11"]: "2300",
-          },
+          ["1"]: "border_item_purple",
         },
         ["Ident"]: {
-          ["1"]: "orange",
+          ["1"]: "purple",
         },
         ["CostPerEnchant"]: {
           ["1"]: {
             ["1"]: "CostPerEnchant",
             ["2"]: "pseudo",
             ["3"]: "2",
-            ["4"]: "210",
+            ["4"]: "180",
           },
         },
+        ["RoundFrameAssetTexture"]: {
+          ["1"]: "",
+        },
+        ["FragmentFrameAssetTexture"]: {
+          ["1"]: "border_item_fragment_purple",
+        },
+        ["EnchantCost"]: {
+          ["1"]: {
+            ["1"]: "EnchantCost",
+            ["2"]: "1",
+            ["3"]: "60",
+            ["4"]: "2",
+            ["5"]: "160",
+            ["6"]: "3",
+            ["7"]: "320",
+            ["8"]: "4",
+            ["9"]: "620",
+            ["10"]: "5",
+            ["11"]: "1120",
+          },
+        },
+      },
+      ["5"]: {
         ["EnchantInstantCost"]: {
           ["1"]: {
             ["1"]: "EnchantInstantCost",
@@ -672,11 +643,40 @@
             ["21"]: "40",
           },
         },
-        ["FragmentFrameAssetTexture"]: {
-          ["1"]: "border_item_fragment_gold",
+        ["FrameAssetTexture"]: {
+          ["1"]: "border_item_gold",
+        },
+        ["Ident"]: {
+          ["1"]: "orange",
+        },
+        ["CostPerEnchant"]: {
+          ["1"]: {
+            ["1"]: "CostPerEnchant",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "210",
+          },
         },
         ["RoundFrameAssetTexture"]: {
           ["1"]: "",
+        },
+        ["FragmentFrameAssetTexture"]: {
+          ["1"]: "border_item_fragment_gold",
+        },
+        ["EnchantCost"]: {
+          ["1"]: {
+            ["1"]: "EnchantCost",
+            ["2"]: "1",
+            ["3"]: "100",
+            ["4"]: "2",
+            ["5"]: "400",
+            ["6"]: "3",
+            ["7"]: "900",
+            ["8"]: "4",
+            ["9"]: "1500",
+            ["10"]: "5",
+            ["11"]: "2300",
+          },
         },
       },
     },

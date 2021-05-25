@@ -9,92 +9,6 @@
       ["6"]: "3",
     },
   },
-  ["Skin"]: {
-    ["1"]: {
-      ["1"]: "Skin",
-      ["2"]: "20",
-      ["3"]: "33",
-      ["4"]: "80",
-      ["5"]: "166",
-    },
-  },
-  ["RoleExtended"]: {
-    ["1"]: "ranged_dps",
-  },
-  ["Silhouette"]: {
-    ["1"]: "normal",
-  },
-  ["Artifacts"]: {
-    ["1"]: {
-      ["1"]: "Artifacts",
-      ["2"]: "1020",
-      ["3"]: "2004",
-      ["4"]: "3003",
-    },
-  },
-  ["End"]: {
-  },
-  ["IconAssetAtlas"]: {
-    ["1"]: 2,
-  },
-  ["Skill"]: {
-    ["1"]: {
-      ["1"]: "Skill",
-      ["2"]: "96",
-      ["3"]: "97",
-      ["4"]: "98",
-      ["5"]: "99",
-      ["6"]: "100",
-    },
-  },
-  ["MainStat"]: {
-    ["1"]: "Agility",
-  },
-  ["Other"]: {
-    ["MinStar"]: {
-      ["1"]: 1,
-    },
-  },
-  ["Role"]: {
-    ["1"]: "back",
-  },
-  ["EpicArtAsset"]: {
-    ["1"]: "h020.jpg",
-  },
-  ["Asset"]: {
-    ["1"]: "arbalester",
-  },
-  ["Type"]: {
-    ["1"]: "hero",
-  },
-  ["BattleOrder"]: {
-    ["1"]: 2013,
-  },
-  ["BaseStats"]: {
-    ["Strength"]: {
-      ["1"]: 10,
-    },
-    ["PhysicalAttack"]: {
-      ["1"]: 60,
-    },
-    ["Intelligence"]: {
-      ["1"]: 15,
-    },
-    ["Hp"]: {
-      ["1"]: 500,
-    },
-    ["Agility"]: {
-      ["1"]: 20,
-    },
-  },
-  ["FragmentSellCost"]: {
-    ["1"]: {
-      ["1"]: "FragmentSellCost",
-      ["2"]: "pseudo",
-      ["3"]: "2",
-      ["4"]: "4000",
-    },
-  },
   ["Colors"]: {
     ["1"]: {
       ["Items"]: {
@@ -110,29 +24,6 @@
       },
     },
     ["2"]: {
-      ["BattleStatData"]: {
-        ["Strength"]: {
-          ["1"]: 7,
-        },
-        ["MagicResist"]: {
-          ["1"]: 25,
-        },
-        ["PhysicalAttack"]: {
-          ["1"]: 37,
-        },
-        ["Armor"]: {
-          ["1"]: 25,
-        },
-        ["Intelligence"]: {
-          ["1"]: 7,
-        },
-        ["Hp"]: {
-          ["1"]: 200,
-        },
-        ["Agility"]: {
-          ["1"]: 7,
-        },
-      },
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -144,31 +35,31 @@
           ["7"]: "25",
         },
       },
-    },
-    ["3"]: {
       ["BattleStatData"]: {
-        ["Strength"]: {
-          ["1"]: 9,
-        },
-        ["MagicResist"]: {
-          ["1"]: 50,
-        },
-        ["PhysicalAttack"]: {
-          ["1"]: 120,
-        },
         ["Armor"]: {
-          ["1"]: 50,
-        },
-        ["Intelligence"]: {
-          ["1"]: 9,
+          ["1"]: 25,
         },
         ["Hp"]: {
           ["1"]: 200,
         },
         ["Agility"]: {
-          ["1"]: 33,
+          ["1"]: 7,
+        },
+        ["PhysicalAttack"]: {
+          ["1"]: 37,
+        },
+        ["Strength"]: {
+          ["1"]: 7,
+        },
+        ["MagicResist"]: {
+          ["1"]: 25,
+        },
+        ["Intelligence"]: {
+          ["1"]: 7,
         },
       },
+    },
+    ["3"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -180,31 +71,31 @@
           ["7"]: "38",
         },
       },
-    },
-    ["4"]: {
       ["BattleStatData"]: {
-        ["Strength"]: {
-          ["1"]: 12,
-        },
-        ["MagicResist"]: {
-          ["1"]: 100,
-        },
-        ["PhysicalAttack"]: {
-          ["1"]: 211,
-        },
         ["Armor"]: {
-          ["1"]: 100,
-        },
-        ["Intelligence"]: {
-          ["1"]: 12,
+          ["1"]: 50,
         },
         ["Hp"]: {
           ["1"]: 200,
         },
         ["Agility"]: {
-          ["1"]: 67,
+          ["1"]: 33,
+        },
+        ["PhysicalAttack"]: {
+          ["1"]: 120,
+        },
+        ["Strength"]: {
+          ["1"]: 9,
+        },
+        ["MagicResist"]: {
+          ["1"]: 50,
+        },
+        ["Intelligence"]: {
+          ["1"]: 9,
         },
       },
+    },
+    ["4"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -216,37 +107,31 @@
           ["7"]: "57",
         },
       },
-    },
-    ["5"]: {
       ["BattleStatData"]: {
-        ["Strength"]: {
-          ["1"]: 14,
-        },
-        ["PhysicalCritChance"]: {
-          ["1"]: 45,
-        },
-        ["Agility"]: {
-          ["1"]: 69,
-        },
-        ["Intelligence"]: {
-          ["1"]: 14,
-        },
-        ["PhysicalAttack"]: {
-          ["1"]: 380,
-        },
         ["Armor"]: {
           ["1"]: 100,
         },
-        ["ArmorPenetration"]: {
-          ["1"]: 100,
-        },
         ["Hp"]: {
-          ["1"]: 700,
+          ["1"]: 200,
+        },
+        ["Agility"]: {
+          ["1"]: 67,
+        },
+        ["PhysicalAttack"]: {
+          ["1"]: 211,
+        },
+        ["Strength"]: {
+          ["1"]: 12,
         },
         ["MagicResist"]: {
           ["1"]: 100,
         },
+        ["Intelligence"]: {
+          ["1"]: 12,
+        },
       },
+    },
+    ["5"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -258,37 +143,37 @@
           ["7"]: "76",
         },
       },
-    },
-    ["6"]: {
       ["BattleStatData"]: {
-        ["Strength"]: {
-          ["1"]: 21,
-        },
-        ["PhysicalCritChance"]: {
-          ["1"]: 75,
-        },
-        ["Agility"]: {
-          ["1"]: 111,
-        },
-        ["Intelligence"]: {
-          ["1"]: 21,
-        },
-        ["PhysicalAttack"]: {
-          ["1"]: 539,
-        },
         ["Armor"]: {
           ["1"]: 100,
-        },
-        ["ArmorPenetration"]: {
-          ["1"]: 150,
         },
         ["Hp"]: {
           ["1"]: 700,
         },
+        ["PhysicalAttack"]: {
+          ["1"]: 380,
+        },
+        ["ArmorPenetration"]: {
+          ["1"]: 100,
+        },
+        ["PhysicalCritChance"]: {
+          ["1"]: 45,
+        },
+        ["Strength"]: {
+          ["1"]: 14,
+        },
+        ["Agility"]: {
+          ["1"]: 69,
+        },
         ["MagicResist"]: {
-          ["1"]: 192,
+          ["1"]: 100,
+        },
+        ["Intelligence"]: {
+          ["1"]: 14,
         },
       },
+    },
+    ["6"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -300,37 +185,37 @@
           ["7"]: "89",
         },
       },
-    },
-    ["7"]: {
       ["BattleStatData"]: {
-        ["Strength"]: {
-          ["1"]: 28,
-        },
-        ["PhysicalCritChance"]: {
-          ["1"]: 105,
-        },
-        ["Agility"]: {
-          ["1"]: 144,
-        },
-        ["Intelligence"]: {
-          ["1"]: 28,
-        },
-        ["PhysicalAttack"]: {
-          ["1"]: 684,
-        },
         ["Armor"]: {
-          ["1"]: 150,
-        },
-        ["ArmorPenetration"]: {
-          ["1"]: 280,
+          ["1"]: 100,
         },
         ["Hp"]: {
-          ["1"]: 1200,
+          ["1"]: 700,
+        },
+        ["PhysicalAttack"]: {
+          ["1"]: 539,
+        },
+        ["ArmorPenetration"]: {
+          ["1"]: 150,
+        },
+        ["PhysicalCritChance"]: {
+          ["1"]: 75,
+        },
+        ["Strength"]: {
+          ["1"]: 21,
+        },
+        ["Agility"]: {
+          ["1"]: 111,
         },
         ["MagicResist"]: {
-          ["1"]: 242,
+          ["1"]: 192,
+        },
+        ["Intelligence"]: {
+          ["1"]: 21,
         },
       },
+    },
+    ["7"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -342,37 +227,37 @@
           ["7"]: "97",
         },
       },
-    },
-    ["8"]: {
       ["BattleStatData"]: {
-        ["Strength"]: {
-          ["1"]: 35,
-        },
-        ["PhysicalCritChance"]: {
-          ["1"]: 159,
-        },
-        ["Agility"]: {
-          ["1"]: 193,
-        },
-        ["Intelligence"]: {
-          ["1"]: 35,
-        },
-        ["PhysicalAttack"]: {
-          ["1"]: 908,
-        },
         ["Armor"]: {
           ["1"]: 150,
-        },
-        ["ArmorPenetration"]: {
-          ["1"]: 480,
         },
         ["Hp"]: {
           ["1"]: 1200,
         },
+        ["PhysicalAttack"]: {
+          ["1"]: 684,
+        },
+        ["ArmorPenetration"]: {
+          ["1"]: 280,
+        },
+        ["PhysicalCritChance"]: {
+          ["1"]: 105,
+        },
+        ["Strength"]: {
+          ["1"]: 28,
+        },
+        ["Agility"]: {
+          ["1"]: 144,
+        },
         ["MagicResist"]: {
-          ["1"]: 322,
+          ["1"]: 242,
+        },
+        ["Intelligence"]: {
+          ["1"]: 28,
         },
       },
+    },
+    ["8"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -384,37 +269,37 @@
           ["7"]: "122",
         },
       },
-    },
-    ["9"]: {
       ["BattleStatData"]: {
-        ["Strength"]: {
-          ["1"]: 42,
-        },
-        ["PhysicalCritChance"]: {
-          ["1"]: 243,
-        },
-        ["Agility"]: {
-          ["1"]: 240,
-        },
-        ["Intelligence"]: {
-          ["1"]: 42,
-        },
-        ["PhysicalAttack"]: {
-          ["1"]: 1180,
-        },
         ["Armor"]: {
-          ["1"]: 310,
-        },
-        ["ArmorPenetration"]: {
-          ["1"]: 640,
+          ["1"]: 150,
         },
         ["Hp"]: {
-          ["1"]: 2000,
+          ["1"]: 1200,
+        },
+        ["PhysicalAttack"]: {
+          ["1"]: 908,
+        },
+        ["ArmorPenetration"]: {
+          ["1"]: 480,
+        },
+        ["PhysicalCritChance"]: {
+          ["1"]: 159,
+        },
+        ["Strength"]: {
+          ["1"]: 35,
+        },
+        ["Agility"]: {
+          ["1"]: 193,
         },
         ["MagicResist"]: {
-          ["1"]: 402,
+          ["1"]: 322,
+        },
+        ["Intelligence"]: {
+          ["1"]: 35,
         },
       },
+    },
+    ["9"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -426,37 +311,37 @@
           ["7"]: "133",
         },
       },
-    },
-    ["10"]: {
       ["BattleStatData"]: {
-        ["Strength"]: {
-          ["1"]: 73,
-        },
-        ["PhysicalCritChance"]: {
-          ["1"]: 297,
-        },
-        ["Agility"]: {
-          ["1"]: 387,
-        },
-        ["Intelligence"]: {
-          ["1"]: 73,
-        },
-        ["PhysicalAttack"]: {
-          ["1"]: 1578,
-        },
         ["Armor"]: {
           ["1"]: 310,
-        },
-        ["ArmorPenetration"]: {
-          ["1"]: 800,
         },
         ["Hp"]: {
           ["1"]: 2000,
         },
+        ["PhysicalAttack"]: {
+          ["1"]: 1180,
+        },
+        ["ArmorPenetration"]: {
+          ["1"]: 640,
+        },
+        ["PhysicalCritChance"]: {
+          ["1"]: 243,
+        },
+        ["Strength"]: {
+          ["1"]: 42,
+        },
+        ["Agility"]: {
+          ["1"]: 240,
+        },
         ["MagicResist"]: {
           ["1"]: 402,
         },
+        ["Intelligence"]: {
+          ["1"]: 42,
+        },
       },
+    },
+    ["10"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -468,37 +353,37 @@
           ["7"]: "138",
         },
       },
-    },
-    ["11"]: {
       ["BattleStatData"]: {
-        ["Strength"]: {
-          ["1"]: 118,
-        },
-        ["PhysicalCritChance"]: {
-          ["1"]: 357,
-        },
-        ["Agility"]: {
-          ["1"]: 520,
-        },
-        ["Intelligence"]: {
-          ["1"]: 118,
-        },
-        ["PhysicalAttack"]: {
-          ["1"]: 2118,
-        },
         ["Armor"]: {
           ["1"]: 310,
         },
-        ["ArmorPenetration"]: {
-          ["1"]: 960,
-        },
         ["Hp"]: {
-          ["1"]: 5200,
+          ["1"]: 2000,
+        },
+        ["PhysicalAttack"]: {
+          ["1"]: 1578,
+        },
+        ["ArmorPenetration"]: {
+          ["1"]: 800,
+        },
+        ["PhysicalCritChance"]: {
+          ["1"]: 297,
+        },
+        ["Strength"]: {
+          ["1"]: 73,
+        },
+        ["Agility"]: {
+          ["1"]: 387,
         },
         ["MagicResist"]: {
           ["1"]: 402,
         },
+        ["Intelligence"]: {
+          ["1"]: 73,
+        },
       },
+    },
+    ["11"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -510,37 +395,37 @@
           ["7"]: "177",
         },
       },
-    },
-    ["12"]: {
       ["BattleStatData"]: {
-        ["Strength"]: {
-          ["1"]: 144,
-        },
-        ["PhysicalCritChance"]: {
-          ["1"]: 523,
-        },
-        ["Agility"]: {
-          ["1"]: 715,
-        },
-        ["Intelligence"]: {
-          ["1"]: 144,
-        },
-        ["PhysicalAttack"]: {
-          ["1"]: 2658,
-        },
         ["Armor"]: {
           ["1"]: 310,
         },
-        ["ArmorPenetration"]: {
-          ["1"]: 1120,
-        },
         ["Hp"]: {
-          ["1"]: 6800,
+          ["1"]: 5200,
+        },
+        ["PhysicalAttack"]: {
+          ["1"]: 2118,
+        },
+        ["ArmorPenetration"]: {
+          ["1"]: 960,
+        },
+        ["PhysicalCritChance"]: {
+          ["1"]: 357,
+        },
+        ["Strength"]: {
+          ["1"]: 118,
+        },
+        ["Agility"]: {
+          ["1"]: 520,
         },
         ["MagicResist"]: {
-          ["1"]: 562,
+          ["1"]: 402,
+        },
+        ["Intelligence"]: {
+          ["1"]: 118,
         },
       },
+    },
+    ["12"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -552,37 +437,37 @@
           ["7"]: "182",
         },
       },
-    },
-    ["13"]: {
       ["BattleStatData"]: {
-        ["Strength"]: {
-          ["1"]: 184,
-        },
-        ["PhysicalCritChance"]: {
-          ["1"]: 689,
-        },
-        ["Agility"]: {
-          ["1"]: 942,
-        },
-        ["Intelligence"]: {
-          ["1"]: 184,
-        },
-        ["PhysicalAttack"]: {
-          ["1"]: 3302,
-        },
         ["Armor"]: {
           ["1"]: 310,
         },
-        ["ArmorPenetration"]: {
-          ["1"]: 1440,
-        },
         ["Hp"]: {
-          ["1"]: 8400,
+          ["1"]: 6800,
+        },
+        ["PhysicalAttack"]: {
+          ["1"]: 2658,
+        },
+        ["ArmorPenetration"]: {
+          ["1"]: 1120,
+        },
+        ["PhysicalCritChance"]: {
+          ["1"]: 523,
+        },
+        ["Strength"]: {
+          ["1"]: 144,
+        },
+        ["Agility"]: {
+          ["1"]: 715,
         },
         ["MagicResist"]: {
           ["1"]: 562,
         },
+        ["Intelligence"]: {
+          ["1"]: 144,
+        },
       },
+    },
+    ["13"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -594,37 +479,37 @@
           ["7"]: "187",
         },
       },
-    },
-    ["14"]: {
       ["BattleStatData"]: {
-        ["Strength"]: {
-          ["1"]: 210,
-        },
-        ["PhysicalCritChance"]: {
-          ["1"]: 855,
-        },
-        ["Agility"]: {
-          ["1"]: 1172,
-        },
-        ["Intelligence"]: {
-          ["1"]: 210,
-        },
-        ["PhysicalAttack"]: {
-          ["1"]: 3946,
-        },
         ["Armor"]: {
-          ["1"]: 630,
-        },
-        ["ArmorPenetration"]: {
-          ["1"]: 1760,
+          ["1"]: 310,
         },
         ["Hp"]: {
-          ["1"]: 14800,
+          ["1"]: 8400,
+        },
+        ["PhysicalAttack"]: {
+          ["1"]: 3302,
+        },
+        ["ArmorPenetration"]: {
+          ["1"]: 1440,
+        },
+        ["PhysicalCritChance"]: {
+          ["1"]: 689,
+        },
+        ["Strength"]: {
+          ["1"]: 184,
+        },
+        ["Agility"]: {
+          ["1"]: 942,
         },
         ["MagicResist"]: {
           ["1"]: 562,
         },
+        ["Intelligence"]: {
+          ["1"]: 184,
+        },
       },
+    },
+    ["14"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -636,37 +521,37 @@
           ["7"]: "207",
         },
       },
-    },
-    ["15"]: {
       ["BattleStatData"]: {
-        ["Strength"]: {
-          ["1"]: 212,
-        },
-        ["PhysicalCritChance"]: {
-          ["1"]: 1477,
-        },
-        ["Agility"]: {
-          ["1"]: 1204,
-        },
-        ["Intelligence"]: {
-          ["1"]: 212,
-        },
-        ["PhysicalAttack"]: {
-          ["1"]: 6324,
-        },
         ["Armor"]: {
           ["1"]: 630,
         },
-        ["ArmorPenetration"]: {
-          ["1"]: 2240,
-        },
         ["Hp"]: {
-          ["1"]: 19600,
+          ["1"]: 14800,
+        },
+        ["PhysicalAttack"]: {
+          ["1"]: 3946,
+        },
+        ["ArmorPenetration"]: {
+          ["1"]: 1760,
+        },
+        ["PhysicalCritChance"]: {
+          ["1"]: 855,
+        },
+        ["Strength"]: {
+          ["1"]: 210,
+        },
+        ["Agility"]: {
+          ["1"]: 1172,
         },
         ["MagicResist"]: {
           ["1"]: 562,
         },
+        ["Intelligence"]: {
+          ["1"]: 210,
+        },
       },
+    },
+    ["15"]: {
       ["Items"]: {
         ["1"]: {
           ["1"]: "Items",
@@ -676,6 +561,35 @@
           ["5"]: "177",
           ["6"]: "202",
           ["7"]: "213",
+        },
+      },
+      ["BattleStatData"]: {
+        ["Armor"]: {
+          ["1"]: 630,
+        },
+        ["Hp"]: {
+          ["1"]: 19600,
+        },
+        ["PhysicalAttack"]: {
+          ["1"]: 6324,
+        },
+        ["ArmorPenetration"]: {
+          ["1"]: 2240,
+        },
+        ["PhysicalCritChance"]: {
+          ["1"]: 1477,
+        },
+        ["Strength"]: {
+          ["1"]: 212,
+        },
+        ["Agility"]: {
+          ["1"]: 1204,
+        },
+        ["MagicResist"]: {
+          ["1"]: 562,
+        },
+        ["Intelligence"]: {
+          ["1"]: 212,
         },
       },
     },
@@ -693,11 +607,11 @@
       },
     },
   },
-  ["IconAssetTexture"]: {
-    ["1"]: 20,
+  ["MainStat"]: {
+    ["1"]: "Agility",
   },
-  ["FragmentSpecialCost"]: {
-    ["1"]: 100,
+  ["Silhouette"]: {
+    ["1"]: "normal",
   },
   ["FragmentBuyCost"]: {
     ["1"]: {
@@ -707,72 +621,158 @@
       ["4"]: "40",
     },
   },
+  ["EpicArtAsset"]: {
+    ["1"]: "h020.jpg",
+  },
+  ["IconAssetTexture"]: {
+    ["1"]: 20,
+  },
+  ["Skill"]: {
+    ["1"]: {
+      ["1"]: "Skill",
+      ["2"]: "96",
+      ["3"]: "97",
+      ["4"]: "98",
+      ["5"]: "99",
+      ["6"]: "100",
+    },
+  },
+  ["FragmentSpecialCost"]: {
+    ["1"]: 100,
+  },
+  ["Skin"]: {
+    ["1"]: {
+      ["1"]: "Skin",
+      ["2"]: "20",
+      ["3"]: "33",
+      ["4"]: "80",
+      ["5"]: "166",
+    },
+  },
+  ["RoleExtended"]: {
+    ["1"]: "ranged_dps",
+  },
+  ["Type"]: {
+    ["1"]: "hero",
+  },
   ["Stars"]: {
     ["1"]: {
+      ["Agility"]: {
+        ["1"]: 4,
+      },
       ["Strength"]: {
         ["1"]: 3,
       },
       ["Intelligence"]: {
         ["1"]: 3,
       },
-      ["Agility"]: {
-        ["1"]: 4,
-      },
     },
     ["2"]: {
+      ["Agility"]: {
+        ["1"]: 6,
+      },
       ["Strength"]: {
         ["1"]: 4,
       },
       ["Intelligence"]: {
         ["1"]: 5,
       },
-      ["Agility"]: {
-        ["1"]: 6,
-      },
     },
     ["3"]: {
+      ["Agility"]: {
+        ["1"]: 8,
+      },
       ["Strength"]: {
         ["1"]: 7,
       },
       ["Intelligence"]: {
         ["1"]: 7,
       },
-      ["Agility"]: {
-        ["1"]: 8,
-      },
     },
     ["4"]: {
+      ["Agility"]: {
+        ["1"]: 11,
+      },
       ["Strength"]: {
         ["1"]: 9,
       },
       ["Intelligence"]: {
         ["1"]: 10,
       },
-      ["Agility"]: {
-        ["1"]: 11,
-      },
     },
     ["5"]: {
+      ["Agility"]: {
+        ["1"]: 15,
+      },
       ["Strength"]: {
         ["1"]: 12,
       },
       ["Intelligence"]: {
         ["1"]: 13,
       },
-      ["Agility"]: {
-        ["1"]: 15,
-      },
     },
     ["6"]: {
+      ["Agility"]: {
+        ["1"]: 22,
+      },
       ["Strength"]: {
         ["1"]: 14,
       },
       ["Intelligence"]: {
         ["1"]: 14,
       },
-      ["Agility"]: {
-        ["1"]: 22,
-      },
+    },
+  },
+  ["BaseStats"]: {
+    ["Hp"]: {
+      ["1"]: 500,
+    },
+    ["Agility"]: {
+      ["1"]: 20,
+    },
+    ["Strength"]: {
+      ["1"]: 10,
+    },
+    ["PhysicalAttack"]: {
+      ["1"]: 60,
+    },
+    ["Intelligence"]: {
+      ["1"]: 15,
+    },
+  },
+  ["Asset"]: {
+    ["1"]: "arbalester",
+  },
+  ["BattleOrder"]: {
+    ["1"]: 2013,
+  },
+  ["IconAssetAtlas"]: {
+    ["1"]: 2,
+  },
+  ["End"]: {
+  },
+  ["FragmentSellCost"]: {
+    ["1"]: {
+      ["1"]: "FragmentSellCost",
+      ["2"]: "pseudo",
+      ["3"]: "2",
+      ["4"]: "4000",
+    },
+  },
+  ["Other"]: {
+    ["MinStar"]: {
+      ["1"]: 1,
+    },
+  },
+  ["Role"]: {
+    ["1"]: "back",
+  },
+  ["Artifacts"]: {
+    ["1"]: {
+      ["1"]: "Artifacts",
+      ["2"]: "1020",
+      ["3"]: "2004",
+      ["4"]: "3003",
     },
   },
 },

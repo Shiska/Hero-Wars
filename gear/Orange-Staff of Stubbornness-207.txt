@@ -1,0 +1,26 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_hero_level_required = 115
+ |browser_team_level_required = 115
+ |browser_crit_hit_chance = 394
+ |browser_physical_attack = 774
+ |browser_created_with_gold = 1275750
+ |browser_created_with_1 = Orange/Aquant's Trident
+ |browser_created_with_2 = Orange/Dwarven Hardbane
+ |browser_created_with_recipe = 1
+ |browser_value_buy_gold = 610500
+ |browser_value_buy_coins = 63188
+ |browser_value_sell_gold = 122100
+ |browser_value_sell_exchange = 2620
+ |mobile_hero_level_required = 115
+ |mobile_team_level_required = 115
+ |mobile_crit_hit_chance = 394
+ |mobile_physical_attack = 774
+ |mobile_created_with_gold = 1275750
+ |mobile_created_with_1 = Orange/Aquant's Trident
+ |mobile_created_with_2 = Orange/Dwarven Hardbane
+ |mobile_created_with_recipe = 1
+ |mobile_value_buy_gold = 610500
+ |mobile_value_buy_coins = 63188
+ |mobile_value_sell_gold = 122100
+ |mobile_value_sell_exchange = 2620
+}}</onlyinclude>

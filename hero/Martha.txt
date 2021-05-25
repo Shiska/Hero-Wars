@@ -6,10 +6,10 @@
  |browser_stone_source1 = 
  |browser_stone_source2 = 
  |browser_main_stat = Intelligence
- |browser_skin1 = Winter Skin
+ |browser_skin1_name = Winter Skin
  |browser_skin1_attribute = Armor
  |browser_skin1_value = 10665
- |browser_skin2 = Solar Skin
+ |browser_skin2_name = Solar Skin
  |browser_skin2_attribute = Health
  |browser_skin2_value = 106645
  |browser_glyph1 = Magic attack
@@ -18,7 +18,7 @@
  |browser_glyph4 = Armor
  |browser_artifact_weapon = Zarakkari Teapot
  |browser_artifact_weapon_attribute = Armor
- |browser_artifact_weapon_value = 10680
+ |browser_artifact_weapon_value = 32040
  |browser_artifact_book = Tome of Arcane Knowledge
  |browser_base_agility = 10
  |browser_base_health = 500
@@ -41,11 +41,11 @@
  |browser_star6_agility = 8
  |browser_star6_intelligence = 21
  |browser_star6_strength = 21
- |browser_basic_attack_attribute = Physical attack
  |browser_basic_attack_damage_type = physical
+ |browser_basic_attack_attribute = Physical attack
  |browser_skill_white_name = Foremother's Oath
- |browser_skill_white_prime_attribute = Level
  |browser_skill_white_prime_damage_type = speed %
+ |browser_skill_white_prime_attribute = Level
  |browser_skill_white_prime_level = 1
  |browser_skill_white_prime_base = 120
  |browser_skill_white_duration = 6
@@ -53,21 +53,23 @@
 Increases all allies' speed by %prime%% for %duration%.
 Increases allies' speed by %prime%%
  |browser_skill_green_name = Secret of Longevity
- |browser_skill_green_prime_attribute = Health
  |browser_skill_green_prime_damage_type = heal
+ |browser_skill_green_prime_attribute = Health
  |browser_skill_green_prime_scale = 0.03
  |browser_skill_green_prime_level = 50
- |browser_skill_green_secondary_health = 0.24
+ |browser_skill_green_secondary_damage_type = max heal
+ |browser_skill_green_secondary_attribute = Health
+ |browser_skill_green_secondary_scale = 0.24
  |browser_skill_green_secondary_level = 400
  |browser_skill_green_duration = 1
  |browser_skill_green_format = 
 Martha's basic attacks heal her when a projectile hits an enemy. The farther the projectile travels, the more health it will restore.
 One projectile can restore up to %secondary% health
-Duration: 1
-Prime: nil
+Prime: %prime%
+Duration: %duration%
  |browser_skill_blue_name = Tea Party
- |browser_skill_blue_prime_attribute = Magic attack
  |browser_skill_blue_prime_damage_type = heal
+ |browser_skill_blue_prime_attribute = Magic attack
  |browser_skill_blue_prime_scale = 0.6
  |browser_skill_blue_prime_level = 250
  |browser_skill_blue_duration = 8
@@ -76,11 +78,11 @@ Prime: nil
  |browser_skill_blue_format = 
 Conjures a totem in front of the character that restores allies' health. Enemies can't target the totem, but it can take AoE damage.
 Health regen for each ally: %prime% for %duration%
-Hits: 8
-Cooldown: 15
+Cooldown: %cooldown%
+Hits: %hits%
  |browser_skill_violet_name = Healing Brew
- |browser_skill_violet_prime_attribute = Health
  |browser_skill_violet_prime_damage_type = heal
+ |browser_skill_violet_prime_attribute = Health
  |browser_skill_violet_prime_scale = 0.15
  |browser_skill_violet_prime_level = 400
  |browser_skill_violet_prime_base = -10000
@@ -202,10 +204,10 @@ Health regen per second: %prime% for %duration%
  |mobile_stone_source1 = 
  |mobile_stone_source2 = 
  |mobile_main_stat = Intelligence
- |mobile_skin1 = Winter Skin
+ |mobile_skin1_name = Winter Skin
  |mobile_skin1_attribute = Magic attack
  |mobile_skin1_value = 10650
- |mobile_skin2 = Solar Skin
+ |mobile_skin2_name = Solar Skin
  |mobile_skin2_attribute = Magic defense
  |mobile_skin2_value = 10650
  |mobile_glyph1 = Magic attack
@@ -214,7 +216,7 @@ Health regen per second: %prime% for %duration%
  |mobile_glyph4 = Armor
  |mobile_artifact_weapon = Zarakkari Teapot
  |mobile_artifact_weapon_attribute = Armor
- |mobile_artifact_weapon_value = 10680
+ |mobile_artifact_weapon_value = 32040
  |mobile_artifact_book = Tome of Arcane Knowledge
  |mobile_base_agility = 10
  |mobile_base_health = 500
@@ -237,11 +239,11 @@ Health regen per second: %prime% for %duration%
  |mobile_star6_agility = 8
  |mobile_star6_intelligence = 21
  |mobile_star6_strength = 21
- |mobile_basic_attack_attribute = Physical attack
  |mobile_basic_attack_damage_type = physical
+ |mobile_basic_attack_attribute = Physical attack
  |mobile_skill_white_name = Foremother's Oath
- |mobile_skill_white_prime_attribute = Level
  |mobile_skill_white_prime_damage_type = speed %
+ |mobile_skill_white_prime_attribute = Level
  |mobile_skill_white_prime_level = 1
  |mobile_skill_white_prime_base = 120
  |mobile_skill_white_duration = 6
@@ -249,21 +251,23 @@ Health regen per second: %prime% for %duration%
 Increases all allies' speed by %prime%% for %duration%.
 Increases allies' speed by %prime%%
  |mobile_skill_green_name = Secret of Longevity
- |mobile_skill_green_prime_attribute = Health
  |mobile_skill_green_prime_damage_type = heal
+ |mobile_skill_green_prime_attribute = Health
  |mobile_skill_green_prime_scale = 0.03
  |mobile_skill_green_prime_level = 50
- |mobile_skill_green_secondary_health = 0.24
+ |mobile_skill_green_secondary_damage_type = max heal
+ |mobile_skill_green_secondary_attribute = Health
+ |mobile_skill_green_secondary_scale = 0.24
  |mobile_skill_green_secondary_level = 400
  |mobile_skill_green_duration = 1
  |mobile_skill_green_format = 
 Martha's basic attacks heal her when a projectile hits an enemy. The farther the projectile travels, the more health it will restore.
 One projectile can restore up to %secondary% health
-Duration: 1
-Prime: nil
+Prime: %prime%
+Duration: %duration%
  |mobile_skill_blue_name = Tea Party
- |mobile_skill_blue_prime_attribute = Magic attack
  |mobile_skill_blue_prime_damage_type = magic
+ |mobile_skill_blue_prime_attribute = Magic attack
  |mobile_skill_blue_prime_scale = 0.6
  |mobile_skill_blue_prime_level = 250
  |mobile_skill_blue_duration = 8
@@ -271,10 +275,10 @@ Prime: nil
  |mobile_skill_blue_format = 
 Conjures a totem in front of the character that restores allies' health. Enemies can't target the totem, but it can take AoE damage.
 Health regen for each ally: %prime% for %duration%
-Cooldown: 15
+Cooldown: %cooldown%
  |mobile_skill_violet_name = Healing Brew
- |mobile_skill_violet_prime_attribute = Health
  |mobile_skill_violet_prime_damage_type = heal
+ |mobile_skill_violet_prime_attribute = Health
  |mobile_skill_violet_prime_scale = 0.15
  |mobile_skill_violet_prime_level = 400
  |mobile_skill_violet_prime_base = -10000

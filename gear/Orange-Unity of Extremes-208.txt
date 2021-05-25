@@ -1,0 +1,26 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_hero_level_required = 115
+ |browser_team_level_required = 115
+ |browser_health = 6656
+ |browser_physical_attack = 1331
+ |browser_created_with_gold = 1685250
+ |browser_created_with_1 = Orange/Alucard's Amulet
+ |browser_created_with_2 = Orange/Ruler's Globus
+ |browser_created_with_recipe = 1
+ |browser_value_buy_gold = 825000
+ |browser_value_buy_coins = 87225
+ |browser_value_sell_gold = 165000
+ |browser_value_sell_exchange = 3680
+ |mobile_hero_level_required = 115
+ |mobile_team_level_required = 115
+ |mobile_health = 6656
+ |mobile_physical_attack = 1331
+ |mobile_created_with_gold = 1685250
+ |mobile_created_with_1 = Orange/Alucard's Amulet
+ |mobile_created_with_2 = Orange/Ruler's Globus
+ |mobile_created_with_recipe = 1
+ |mobile_value_buy_gold = 825000
+ |mobile_value_buy_coins = 87225
+ |mobile_value_sell_gold = 165000
+ |mobile_value_sell_exchange = 3680
+}}</onlyinclude>

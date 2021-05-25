@@ -5,10 +5,10 @@
  |browser_stone_source1 = 
  |browser_stone_source2 = 
  |browser_main_stat = Agility
- |browser_skin1 = Stellar Skin
+ |browser_skin1_name = Stellar Skin
  |browser_skin1_attribute = Armor penetration
  |browser_skin1_value = 10650
- |browser_skin2 = Dark Depths Skin
+ |browser_skin2_name = Dark Depths Skin
  |browser_skin2_attribute = Magic defense
  |browser_skin2_value = 10650
  |browser_glyph1 = Physical attack
@@ -17,7 +17,7 @@
  |browser_glyph4 = Armor
  |browser_artifact_weapon = K'arkh's Essence
  |browser_artifact_weapon_attribute = Physical attack
- |browser_artifact_weapon_value = 7119
+ |browser_artifact_weapon_value = 21357
  |browser_artifact_book = Alchemist's Folio
  |browser_base_agility = 20
  |browser_base_health = 500
@@ -40,18 +40,20 @@
  |browser_star6_agility = 24
  |browser_star6_intelligence = 11
  |browser_star6_strength = 15
- |browser_basic_attack_attribute = Physical attack
  |browser_basic_attack_damage_type = physical
+ |browser_basic_attack_attribute = Physical attack
  |browser_skill_white_name = Nexus of Horror
  |browser_skill_white_duration = 2
  |browser_skill_white_format = 
 %name% throws into the air three enemies with the lowest health. When the affected enemies fall back down, they get stunned for %duration%.
 Chance to stun is lowered if the target's level is above %level%
  |browser_skill_green_name = Negator of Laws
- |browser_skill_green_prime_attribute = Level
  |browser_skill_green_prime_damage_type = % for absorb
+ |browser_skill_green_prime_attribute = Level
  |browser_skill_green_prime_level = 0.2
  |browser_skill_green_prime_base = 26
+ |browser_skill_green_secondary_damage_type = energy %
+ |browser_skill_green_secondary_attribute = Level
  |browser_skill_green_secondary_level = 0.05
  |browser_skill_green_secondary_base = 9
  |browser_skill_green_duration = 8
@@ -59,17 +61,17 @@ Chance to stun is lowered if the target's level is above %level%
  |browser_skill_green_format = 
 %name% opens an interdimensional rift that can block enemy physical attacks for %duration%. The hero gets extra energy for each attack blocked.
 Block chance for physical attacks: %prime%% Extra energy for a blocked attack: %secondary%%
-Cooldown: 18
+Cooldown: %cooldown%
  |browser_skill_blue_name = Deadly Tendrils
- |browser_skill_blue_prime_attribute = Physical attack
  |browser_skill_blue_prime_damage_type = physical
+ |browser_skill_blue_prime_attribute = Physical attack
  |browser_skill_blue_prime_scale = 1
  |browser_skill_blue_format = 
 While %name% is alive, he strikes every enemy who was thrown into the air. If the enemy level is equal to or less than %level%, %name% deals double damage.
 Damage from attack: %prime% Chance to deal double damage is lowered if the target's level is above %level%
  |browser_skill_violet_name = Survival Factor
- |browser_skill_violet_prime_attribute = Level
  |browser_skill_violet_prime_damage_type = vamp heal %
+ |browser_skill_violet_prime_attribute = Level
  |browser_skill_violet_prime_level = 0.25
  |browser_skill_violet_prime_base = -5
  |browser_skill_violet_format = 
@@ -188,7 +190,7 @@ Health recovered: %prime%% of damage dealt
  |mobile_stone_source1 = 
  |mobile_stone_source2 = 
  |mobile_main_stat = Agility
- |mobile_skin1 = Stellar Skin
+ |mobile_skin1_name = Stellar Skin
  |mobile_skin1_attribute = Armor penetration
  |mobile_skin1_value = 10650
  |mobile_glyph1 = Physical attack
@@ -197,7 +199,7 @@ Health recovered: %prime%% of damage dealt
  |mobile_glyph4 = Armor
  |mobile_artifact_weapon = K'arkh's Essence
  |mobile_artifact_weapon_attribute = Physical attack
- |mobile_artifact_weapon_value = 7119
+ |mobile_artifact_weapon_value = 21357
  |mobile_artifact_book = Alchemist's Folio
  |mobile_base_agility = 20
  |mobile_base_health = 500
@@ -220,18 +222,20 @@ Health recovered: %prime%% of damage dealt
  |mobile_star6_agility = 24
  |mobile_star6_intelligence = 11
  |mobile_star6_strength = 15
- |mobile_basic_attack_attribute = Physical attack
  |mobile_basic_attack_damage_type = physical
+ |mobile_basic_attack_attribute = Physical attack
  |mobile_skill_white_name = Nexus of Horror
  |mobile_skill_white_duration = 2
  |mobile_skill_white_format = 
 %name% throws into the air three enemies with the lowest health. When the affected enemies fall back down, they get stunned for %duration%.
 Chance to stun is lowered if the target's level is above %level%
  |mobile_skill_green_name = Negator of Laws
- |mobile_skill_green_prime_attribute = Level
  |mobile_skill_green_prime_damage_type = % for absorb
+ |mobile_skill_green_prime_attribute = Level
  |mobile_skill_green_prime_level = 0.2
  |mobile_skill_green_prime_base = 26
+ |mobile_skill_green_secondary_damage_type = energy %
+ |mobile_skill_green_secondary_attribute = Level
  |mobile_skill_green_secondary_level = 0.05
  |mobile_skill_green_secondary_base = 9
  |mobile_skill_green_duration = 8
@@ -239,17 +243,17 @@ Chance to stun is lowered if the target's level is above %level%
  |mobile_skill_green_format = 
 %name% opens an interdimensional rift that can block enemy physical attacks for %duration%. The hero gets extra energy for each attack blocked.
 Block chance for physical attacks: %prime%% Extra energy for a blocked attack: %secondary%%
-Cooldown: 18
+Cooldown: %cooldown%
  |mobile_skill_blue_name = Deadly Tendrils
- |mobile_skill_blue_prime_attribute = Physical attack
  |mobile_skill_blue_prime_damage_type = physical
+ |mobile_skill_blue_prime_attribute = Physical attack
  |mobile_skill_blue_prime_scale = 1
  |mobile_skill_blue_format = 
 While %name% is alive, he strikes every enemy who was thrown into the air. If the enemy level is equal to or less than %level%, %name% deals double damage.
 Damage from attack: %prime% Chance to deal double damage is lowered if the target's level is above %level%
  |mobile_skill_violet_name = Survival Factor
- |mobile_skill_violet_prime_attribute = Level
  |mobile_skill_violet_prime_damage_type = vamp heal %
+ |mobile_skill_violet_prime_attribute = Level
  |mobile_skill_violet_prime_level = 0.25
  |mobile_skill_violet_prime_base = -5
  |mobile_skill_violet_format = 

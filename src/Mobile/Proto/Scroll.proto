@@ -1,32 +1,6 @@
 {
   ["Id"]: {
     ["192"]: {
-      ["TeamLevel"]: {
-        ["1"]: 100,
-      },
-      ["Color"]: {
-        ["1"]: 5,
-      },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -37,10 +11,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_181",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 80,
@@ -54,42 +56,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["193"]: {
       ["TeamLevel"]: {
         ["1"]: 100,
       },
       ["Color"]: {
         ["1"]: 5,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
+    },
+    ["193"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -100,10 +74,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_182",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 80,
@@ -117,42 +119,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["194"]: {
       ["TeamLevel"]: {
         ["1"]: 100,
       },
       ["Color"]: {
         ["1"]: 5,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
+    },
+    ["194"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -163,10 +137,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_183",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 80,
@@ -180,42 +182,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["195"]: {
       ["TeamLevel"]: {
         ["1"]: 100,
       },
       ["Color"]: {
         ["1"]: 5,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
+    },
+    ["195"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -226,10 +200,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_184",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 80,
@@ -243,45 +245,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["196"]: {
       ["TeamLevel"]: {
         ["1"]: 100,
       },
       ["Color"]: {
         ["1"]: 5,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
-      ["ObtainType"]: {
-        ["1"]: "shop:boss",
-      },
+    },
+    ["196"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -289,12 +260,72 @@
           ["3"]: "2",
           ["4"]: "150",
         },
+      },
+      ["FragmentMerge"]: {
+        ["Count"]: {
+          ["1"]: 80,
+        },
+        ["Cost"]: {
+          ["1"]: {
+            ["1"]: "Cost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "180000",
+          },
+        },
+      },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_185",
       },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
+      ["ObtainType"]: {
+        ["1"]: "shop:boss",
+      },
+      ["TeamLevel"]: {
+        ["1"]: 100,
+      },
+      ["Color"]: {
+        ["1"]: 5,
+      },
+    },
+    ["197"]: {
+      ["FragmentSellCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentSellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "150",
+        },
       },
       ["FragmentMerge"]: {
         ["Count"]: {
@@ -309,70 +340,30 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["197"]: {
-      ["TeamLevel"]: {
-        ["1"]: 100,
-      },
-      ["Color"]: {
-        ["1"]: 5,
-      },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
       ["BuySpecialCost"]: {
         ["1"]: 6600,
       },
       ["AssetAtlas"]: {
         ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
-      ["ObtainType"]: {
-        ["1"]: "shop:boss",
-      },
-      ["FragmentSellCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentSellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "150",
-        },
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_186",
       },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
       },
-      ["FragmentMerge"]: {
-        ["Count"]: {
-          ["1"]: 80,
-        },
-        ["Cost"]: {
-          ["1"]: {
-            ["1"]: "Cost",
-            ["2"]: "pseudo",
-            ["3"]: "2",
-            ["4"]: "180000",
-          },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
         },
       },
       ["FragmentBuyCost"]: {
@@ -381,39 +372,19 @@
           ["2"]: "pseudo",
           ["3"]: "2",
           ["4"]: "750",
-        },
-      },
-    },
-    ["198"]: {
-      ["TeamLevel"]: {
-        ["1"]: 100,
-      },
-      ["Color"]: {
-        ["1"]: 5,
-      },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
         },
       },
       ["ObtainType"]: {
         ["1"]: "shop:boss",
       },
+      ["TeamLevel"]: {
+        ["1"]: 100,
+      },
+      ["Color"]: {
+        ["1"]: 5,
+      },
+    },
+    ["198"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -421,24 +392,44 @@
           ["3"]: "2",
           ["4"]: "150",
         },
+      },
+      ["FragmentMerge"]: {
+        ["Count"]: {
+          ["1"]: 80,
+        },
+        ["Cost"]: {
+          ["1"]: {
+            ["1"]: "Cost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "180000",
+          },
+        },
+      },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_187",
       },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
       },
-      ["FragmentMerge"]: {
-        ["Count"]: {
-          ["1"]: 80,
-        },
-        ["Cost"]: {
-          ["1"]: {
-            ["1"]: "Cost",
-            ["2"]: "pseudo",
-            ["3"]: "2",
-            ["4"]: "180000",
-          },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
         },
       },
       ["FragmentBuyCost"]: {
@@ -449,34 +440,17 @@
           ["4"]: "750",
         },
       },
-    },
-    ["199"]: {
+      ["ObtainType"]: {
+        ["1"]: "shop:boss",
+      },
       ["TeamLevel"]: {
         ["1"]: 100,
       },
       ["Color"]: {
         ["1"]: 5,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
+    },
+    ["199"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -487,10 +461,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_188",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 80,
@@ -504,42 +506,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["200"]: {
       ["TeamLevel"]: {
         ["1"]: 100,
       },
       ["Color"]: {
         ["1"]: 5,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
+    },
+    ["200"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -551,8 +525,36 @@
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
       },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
+      },
       ["AssetTexture"]: {
         ["1"]: "scroll_189",
+      },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
       },
       ["FragmentMerge"]: {
         ["Count"]: {
@@ -567,6 +569,48 @@
           },
         },
       },
+      ["TeamLevel"]: {
+        ["1"]: 100,
+      },
+      ["Color"]: {
+        ["1"]: 5,
+      },
+    },
+    ["204"]: {
+      ["FragmentSellCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentSellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "150",
+        },
+      },
+      ["FragmentSpecialCost"]: {
+        ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
+      },
+      ["AssetTexture"]: {
+        ["1"]: "scroll_201",
+      },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
       ["FragmentBuyCost"]: {
         ["1"]: {
           ["1"]: "FragmentBuyCost",
@@ -575,85 +619,27 @@
           ["4"]: "750",
         },
       },
-    },
-    ["204"]: {
+      ["FragmentMerge"]: {
+        ["Count"]: {
+          ["1"]: 80,
+        },
+        ["Cost"]: {
+          ["1"]: {
+            ["1"]: "Cost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "180000",
+          },
+        },
+      },
       ["TeamLevel"]: {
         ["1"]: 108,
       },
       ["Color"]: {
         ["1"]: 5,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
-      ["FragmentSellCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentSellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "150",
-        },
-      },
-      ["FragmentSpecialCost"]: {
-        ["1"]: 82,
-      },
-      ["AssetTexture"]: {
-        ["1"]: "scroll_201",
-      },
-      ["FragmentMerge"]: {
-        ["Count"]: {
-          ["1"]: 80,
-        },
-        ["Cost"]: {
-          ["1"]: {
-            ["1"]: "Cost",
-            ["2"]: "pseudo",
-            ["3"]: "2",
-            ["4"]: "180000",
-          },
-        },
-      },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
     },
     ["141"]: {
-      ["TeamLevel"]: {
-        ["1"]: 20,
-      },
-      ["Color"]: {
-        ["1"]: 2,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "200",
-        },
-      },
       ["EnchantValue"]: {
         ["1"]: 2,
       },
@@ -664,29 +650,29 @@
           ["3"]: "2",
           ["4"]: "1000",
         },
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "200",
+        },
+      },
+      ["TeamLevel"]: {
+        ["1"]: 20,
+      },
+      ["Color"]: {
+        ["1"]: 2,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_48",
       },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
     },
     ["142"]: {
-      ["TeamLevel"]: {
-        ["1"]: 20,
-      },
-      ["Color"]: {
-        ["1"]: 2,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "200",
-        },
-      },
       ["EnchantValue"]: {
         ["1"]: 2,
       },
@@ -697,29 +683,29 @@
           ["3"]: "2",
           ["4"]: "1000",
         },
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "200",
+        },
+      },
+      ["TeamLevel"]: {
+        ["1"]: 20,
+      },
+      ["Color"]: {
+        ["1"]: 2,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_21",
       },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
     },
     ["143"]: {
-      ["TeamLevel"]: {
-        ["1"]: 20,
-      },
-      ["Color"]: {
-        ["1"]: 2,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "200",
-        },
-      },
       ["EnchantValue"]: {
         ["1"]: 2,
       },
@@ -730,29 +716,29 @@
           ["3"]: "2",
           ["4"]: "1000",
         },
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "200",
+        },
+      },
+      ["TeamLevel"]: {
+        ["1"]: 20,
+      },
+      ["Color"]: {
+        ["1"]: 2,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_50",
       },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
     },
     ["144"]: {
-      ["TeamLevel"]: {
-        ["1"]: 20,
-      },
-      ["Color"]: {
-        ["1"]: 2,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "200",
-        },
-      },
       ["EnchantValue"]: {
         ["1"]: 2,
       },
@@ -763,29 +749,29 @@
           ["3"]: "2",
           ["4"]: "1000",
         },
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "200",
+        },
+      },
+      ["TeamLevel"]: {
+        ["1"]: 20,
+      },
+      ["Color"]: {
+        ["1"]: 2,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_24",
       },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
     },
     ["145"]: {
-      ["TeamLevel"]: {
-        ["1"]: 20,
-      },
-      ["Color"]: {
-        ["1"]: 2,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "200",
-        },
-      },
       ["EnchantValue"]: {
         ["1"]: 2,
       },
@@ -797,40 +783,28 @@
           ["4"]: "1000",
         },
       },
-      ["AssetTexture"]: {
-        ["1"]: "scroll_46",
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-    },
-    ["146"]: {
-      ["TeamLevel"]: {
-        ["1"]: 50,
-      },
-      ["Color"]: {
-        ["1"]: 3,
-      },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 3,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 30,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 363,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
       ["SellCost"]: {
         ["1"]: {
           ["1"]: "SellCost",
           ["2"]: "pseudo",
           ["3"]: "2",
-          ["4"]: "2200",
+          ["4"]: "200",
         },
       },
+      ["TeamLevel"]: {
+        ["1"]: 20,
+      },
+      ["Color"]: {
+        ["1"]: 2,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
+      },
+      ["AssetTexture"]: {
+        ["1"]: "scroll_46",
+      },
+    },
+    ["146"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -841,10 +815,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 36,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_83",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 363,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 3,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 30,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "2200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "1000",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 10,
@@ -858,42 +860,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "1000",
-        },
-      },
-    },
-    ["147"]: {
       ["TeamLevel"]: {
         ["1"]: 50,
       },
       ["Color"]: {
         ["1"]: 3,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 3,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 30,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 363,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "2200",
-        },
-      },
+    },
+    ["147"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -904,10 +878,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 36,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_63",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 363,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 3,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 30,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "2200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "1000",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 10,
@@ -921,42 +923,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "1000",
-        },
-      },
-    },
-    ["148"]: {
       ["TeamLevel"]: {
         ["1"]: 50,
       },
       ["Color"]: {
         ["1"]: 3,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 3,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 30,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 363,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "2200",
-        },
-      },
+    },
+    ["148"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -967,10 +941,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 36,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_74",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 363,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 3,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 30,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "2200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "1000",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 10,
@@ -984,42 +986,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "1000",
-        },
-      },
-    },
-    ["149"]: {
       ["TeamLevel"]: {
         ["1"]: 50,
       },
       ["Color"]: {
         ["1"]: 3,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 3,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 30,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 363,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "2200",
-        },
-      },
+    },
+    ["149"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -1030,10 +1004,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 36,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_73",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 363,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 3,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 30,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "2200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "1000",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 10,
@@ -1047,42 +1049,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "1000",
-        },
-      },
-    },
-    ["150"]: {
       ["TeamLevel"]: {
         ["1"]: 50,
       },
       ["Color"]: {
         ["1"]: 3,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 3,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 30,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 363,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "2200",
-        },
-      },
+    },
+    ["150"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -1093,10 +1067,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 36,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_88",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 363,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 3,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 30,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "2200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "1000",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 10,
@@ -1110,42 +1112,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "1000",
-        },
-      },
-    },
-    ["151"]: {
       ["TeamLevel"]: {
         ["1"]: 50,
       },
       ["Color"]: {
         ["1"]: 3,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 3,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 30,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 363,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "2200",
-        },
-      },
+    },
+    ["151"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -1157,8 +1131,36 @@
       ["FragmentSpecialCost"]: {
         ["1"]: 36,
       },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
+      },
       ["AssetTexture"]: {
         ["1"]: "scroll_85",
+      },
+      ["BuySpecialCost"]: {
+        ["1"]: 363,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 3,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 30,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "2200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "1000",
+        },
       },
       ["FragmentMerge"]: {
         ["Count"]: {
@@ -1173,42 +1175,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "1000",
-        },
+      ["TeamLevel"]: {
+        ["1"]: 50,
+      },
+      ["Color"]: {
+        ["1"]: 3,
       },
     },
     ["152"]: {
-      ["TeamLevel"]: {
-        ["1"]: 80,
-      },
-      ["Color"]: {
-        ["1"]: 4,
-      },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 200,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 2750,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "5500",
-        },
-      },
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -1219,10 +1193,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_131",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 2750,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 200,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "5500",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "500",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 50,
@@ -1236,42 +1238,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "500",
-        },
-      },
-    },
-    ["153"]: {
       ["TeamLevel"]: {
         ["1"]: 80,
       },
       ["Color"]: {
         ["1"]: 4,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 200,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 2750,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "5500",
-        },
-      },
+    },
+    ["153"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -1282,10 +1256,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_99",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 2750,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 200,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "5500",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "500",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 50,
@@ -1299,42 +1301,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "500",
-        },
-      },
-    },
-    ["154"]: {
       ["TeamLevel"]: {
         ["1"]: 80,
       },
       ["Color"]: {
         ["1"]: 4,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 200,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 2750,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "5500",
-        },
-      },
+    },
+    ["154"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -1345,10 +1319,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_105",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 2750,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 200,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "5500",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "500",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 50,
@@ -1362,42 +1364,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "500",
-        },
-      },
-    },
-    ["155"]: {
       ["TeamLevel"]: {
         ["1"]: 80,
       },
       ["Color"]: {
         ["1"]: 4,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 200,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 2750,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "5500",
-        },
-      },
+    },
+    ["155"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -1408,10 +1382,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_128",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 2750,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 200,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "5500",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "500",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 50,
@@ -1425,42 +1427,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "500",
-        },
-      },
-    },
-    ["156"]: {
       ["TeamLevel"]: {
         ["1"]: 80,
       },
       ["Color"]: {
         ["1"]: 4,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 200,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 2750,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "5500",
-        },
-      },
+    },
+    ["156"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -1472,8 +1446,36 @@
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
       },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
+      },
       ["AssetTexture"]: {
         ["1"]: "scroll_95",
+      },
+      ["BuySpecialCost"]: {
+        ["1"]: 2750,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 200,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "5500",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "500",
+        },
       },
       ["FragmentMerge"]: {
         ["Count"]: {
@@ -1488,42 +1490,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "500",
-        },
-      },
-    },
-    ["157"]: {
       ["TeamLevel"]: {
-        ["1"]: 75,
+        ["1"]: 80,
       },
       ["Color"]: {
         ["1"]: 4,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 80,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 1375,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "2750",
-        },
-      },
+    },
+    ["157"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -1534,10 +1508,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_130",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 1375,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 80,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "2750",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "625",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 20,
@@ -1551,42 +1553,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "625",
-        },
-      },
-    },
-    ["158"]: {
       ["TeamLevel"]: {
         ["1"]: 75,
       },
       ["Color"]: {
         ["1"]: 4,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 80,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 1375,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "2750",
-        },
-      },
+    },
+    ["158"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -1598,8 +1572,36 @@
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
       },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
+      },
       ["AssetTexture"]: {
         ["1"]: "scroll_98",
+      },
+      ["BuySpecialCost"]: {
+        ["1"]: 1375,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 80,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "2750",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "625",
+        },
       },
       ["FragmentMerge"]: {
         ["Count"]: {
@@ -1614,6 +1616,48 @@
           },
         },
       },
+      ["TeamLevel"]: {
+        ["1"]: 75,
+      },
+      ["Color"]: {
+        ["1"]: 4,
+      },
+    },
+    ["159"]: {
+      ["FragmentSellCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentSellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "125",
+        },
+      },
+      ["FragmentSpecialCost"]: {
+        ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
+      },
+      ["AssetTexture"]: {
+        ["1"]: "scroll_104",
+      },
+      ["BuySpecialCost"]: {
+        ["1"]: 1375,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 80,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "2750",
+        },
+      },
       ["FragmentBuyCost"]: {
         ["1"]: {
           ["1"]: "FragmentBuyCost",
@@ -1622,34 +1666,27 @@
           ["4"]: "625",
         },
       },
-    },
-    ["159"]: {
+      ["FragmentMerge"]: {
+        ["Count"]: {
+          ["1"]: 20,
+        },
+        ["Cost"]: {
+          ["1"]: {
+            ["1"]: "Cost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "60000",
+          },
+        },
+      },
       ["TeamLevel"]: {
         ["1"]: 74,
       },
       ["Color"]: {
         ["1"]: 4,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 80,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 1375,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "2750",
-        },
-      },
+    },
+    ["160"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -1661,8 +1698,36 @@
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
       },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
+      },
       ["AssetTexture"]: {
-        ["1"]: "scroll_104",
+        ["1"]: "scroll_127",
+      },
+      ["BuySpecialCost"]: {
+        ["1"]: 1375,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 80,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "2750",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "625",
+        },
       },
       ["FragmentMerge"]: {
         ["Count"]: {
@@ -1677,42 +1742,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "625",
-        },
-      },
-    },
-    ["160"]: {
       ["TeamLevel"]: {
         ["1"]: 73,
       },
       ["Color"]: {
         ["1"]: 4,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 80,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 1375,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "2750",
-        },
-      },
+    },
+    ["161"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -1724,8 +1761,36 @@
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
       },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
+      },
       ["AssetTexture"]: {
-        ["1"]: "scroll_127",
+        ["1"]: "scroll_94",
+      },
+      ["BuySpecialCost"]: {
+        ["1"]: 1375,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 80,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "2750",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "625",
+        },
       },
       ["FragmentMerge"]: {
         ["Count"]: {
@@ -1740,105 +1805,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "625",
-        },
-      },
-    },
-    ["161"]: {
       ["TeamLevel"]: {
         ["1"]: 72,
       },
       ["Color"]: {
         ["1"]: 4,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 80,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 1375,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "2750",
-        },
-      },
-      ["FragmentSellCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentSellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "125",
-        },
-      },
-      ["FragmentSpecialCost"]: {
-        ["1"]: 82,
-      },
-      ["AssetTexture"]: {
-        ["1"]: "scroll_94",
-      },
-      ["FragmentMerge"]: {
-        ["Count"]: {
-          ["1"]: 20,
-        },
-        ["Cost"]: {
-          ["1"]: {
-            ["1"]: "Cost",
-            ["2"]: "pseudo",
-            ["3"]: "2",
-            ["4"]: "60000",
-          },
-        },
-      },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "625",
-        },
-      },
     },
     ["162"]: {
-      ["TeamLevel"]: {
-        ["1"]: 61,
-      },
-      ["Color"]: {
-        ["1"]: 4,
-      },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 80,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 1650,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "3300",
-        },
-      },
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -1849,10 +1823,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_92",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 1650,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 80,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "3300",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 20,
@@ -1866,42 +1868,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["163"]: {
       ["TeamLevel"]: {
         ["1"]: 61,
       },
       ["Color"]: {
         ["1"]: 4,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 80,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 1650,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "3300",
-        },
-      },
+    },
+    ["163"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -1912,10 +1886,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_110",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 1650,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 80,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "3300",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 20,
@@ -1929,42 +1931,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["164"]: {
       ["TeamLevel"]: {
         ["1"]: 61,
       },
       ["Color"]: {
         ["1"]: 4,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 80,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 1650,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "3300",
-        },
-      },
+    },
+    ["164"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -1975,10 +1949,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_107",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 1650,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 80,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "3300",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 20,
@@ -1992,42 +1994,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["165"]: {
       ["TeamLevel"]: {
         ["1"]: 61,
       },
       ["Color"]: {
         ["1"]: 4,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 80,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 1650,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "3300",
-        },
-      },
+    },
+    ["165"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -2039,8 +2013,36 @@
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
       },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
+      },
       ["AssetTexture"]: {
         ["1"]: "scroll_109",
+      },
+      ["BuySpecialCost"]: {
+        ["1"]: 1650,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 80,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "3300",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
       },
       ["FragmentMerge"]: {
         ["Count"]: {
@@ -2055,6 +2057,48 @@
           },
         },
       },
+      ["TeamLevel"]: {
+        ["1"]: 61,
+      },
+      ["Color"]: {
+        ["1"]: 4,
+      },
+    },
+    ["166"]: {
+      ["FragmentSellCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentSellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "150",
+        },
+      },
+      ["FragmentSpecialCost"]: {
+        ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
+      },
+      ["AssetTexture"]: {
+        ["1"]: "scroll_114",
+      },
+      ["BuySpecialCost"]: {
+        ["1"]: 1650,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 80,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "3300",
+        },
+      },
       ["FragmentBuyCost"]: {
         ["1"]: {
           ["1"]: "FragmentBuyCost",
@@ -2063,97 +2107,27 @@
           ["4"]: "750",
         },
       },
-    },
-    ["166"]: {
+      ["FragmentMerge"]: {
+        ["Count"]: {
+          ["1"]: 20,
+        },
+        ["Cost"]: {
+          ["1"]: {
+            ["1"]: "Cost",
+            ["2"]: "pseudo",
+            ["3"]: "2",
+            ["4"]: "45000",
+          },
+        },
+      },
       ["TeamLevel"]: {
         ["1"]: 67,
       },
       ["Color"]: {
         ["1"]: 4,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 80,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 1650,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "3300",
-        },
-      },
-      ["FragmentSellCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentSellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "150",
-        },
-      },
-      ["FragmentSpecialCost"]: {
-        ["1"]: 82,
-      },
-      ["AssetTexture"]: {
-        ["1"]: "scroll_114",
-      },
-      ["FragmentMerge"]: {
-        ["Count"]: {
-          ["1"]: 20,
-        },
-        ["Cost"]: {
-          ["1"]: {
-            ["1"]: "Cost",
-            ["2"]: "pseudo",
-            ["3"]: "2",
-            ["4"]: "45000",
-          },
-        },
-      },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
     },
     ["220"]: {
-      ["TeamLevel"]: {
-        ["1"]: 120,
-      },
-      ["Color"]: {
-        ["1"]: 5,
-      },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -2164,10 +2138,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_213",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 150,
@@ -2181,42 +2183,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["219"]: {
       ["TeamLevel"]: {
         ["1"]: 120,
       },
       ["Color"]: {
         ["1"]: 5,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
+    },
+    ["219"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -2227,10 +2201,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_212",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 150,
@@ -2244,42 +2246,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["218"]: {
       ["TeamLevel"]: {
         ["1"]: 120,
       },
       ["Color"]: {
         ["1"]: 5,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
+    },
+    ["218"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -2290,10 +2264,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_211",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 150,
@@ -2307,42 +2309,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["217"]: {
       ["TeamLevel"]: {
-        ["1"]: 115,
+        ["1"]: 120,
       },
       ["Color"]: {
         ["1"]: 5,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
+    },
+    ["217"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -2353,10 +2327,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_210",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 150,
@@ -2370,42 +2372,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["216"]: {
       ["TeamLevel"]: {
         ["1"]: 115,
       },
       ["Color"]: {
         ["1"]: 5,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
+    },
+    ["216"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -2416,10 +2390,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_209",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 150,
@@ -2433,42 +2435,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["215"]: {
       ["TeamLevel"]: {
         ["1"]: 115,
       },
       ["Color"]: {
         ["1"]: 5,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
+    },
+    ["215"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -2479,10 +2453,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_208",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 150,
@@ -2496,42 +2498,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["214"]: {
       ["TeamLevel"]: {
         ["1"]: 115,
       },
       ["Color"]: {
         ["1"]: 5,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
+    },
+    ["214"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -2543,8 +2517,36 @@
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
       },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
+      },
       ["AssetTexture"]: {
         ["1"]: "scroll_207",
+      },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
       },
       ["FragmentMerge"]: {
         ["Count"]: {
@@ -2559,42 +2561,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["206"]: {
       ["TeamLevel"]: {
-        ["1"]: 108,
+        ["1"]: 115,
       },
       ["Color"]: {
         ["1"]: 5,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
+    },
+    ["206"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -2605,10 +2579,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_203",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 80,
@@ -2622,42 +2624,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["205"]: {
       ["TeamLevel"]: {
         ["1"]: 108,
       },
       ["Color"]: {
         ["1"]: 5,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
+    },
+    ["205"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -2668,10 +2642,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_202",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 80,
@@ -2685,42 +2687,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["190"]: {
       ["TeamLevel"]: {
-        ["1"]: 100,
+        ["1"]: 108,
       },
       ["Color"]: {
         ["1"]: 5,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
+    },
+    ["190"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -2731,10 +2705,38 @@
       },
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
+      },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
       },
       ["AssetTexture"]: {
         ["1"]: "scroll_179",
       },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
+      },
       ["FragmentMerge"]: {
         ["Count"]: {
           ["1"]: 80,
@@ -2748,42 +2750,14 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
-      },
-    },
-    ["191"]: {
       ["TeamLevel"]: {
         ["1"]: 100,
       },
       ["Color"]: {
         ["1"]: 5,
       },
-      ["FragmentEnchantValue"]: {
-        ["1"]: 4,
-      },
-      ["EnchantValue"]: {
-        ["1"]: 320,
-      },
-      ["BuySpecialCost"]: {
-        ["1"]: 6600,
-      },
-      ["AssetAtlas"]: {
-        ["1"]: 8,
-      },
-      ["SellCost"]: {
-        ["1"]: {
-          ["1"]: "SellCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "13200",
-        },
-      },
+    },
+    ["191"]: {
       ["FragmentSellCost"]: {
         ["1"]: {
           ["1"]: "FragmentSellCost",
@@ -2795,8 +2769,36 @@
       ["FragmentSpecialCost"]: {
         ["1"]: 82,
       },
+      ["AssetAtlas"]: {
+        ["1"]: 8,
+      },
       ["AssetTexture"]: {
         ["1"]: "scroll_180",
+      },
+      ["BuySpecialCost"]: {
+        ["1"]: 6600,
+      },
+      ["FragmentEnchantValue"]: {
+        ["1"]: 4,
+      },
+      ["EnchantValue"]: {
+        ["1"]: 320,
+      },
+      ["SellCost"]: {
+        ["1"]: {
+          ["1"]: "SellCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "13200",
+        },
+      },
+      ["FragmentBuyCost"]: {
+        ["1"]: {
+          ["1"]: "FragmentBuyCost",
+          ["2"]: "pseudo",
+          ["3"]: "2",
+          ["4"]: "750",
+        },
       },
       ["FragmentMerge"]: {
         ["Count"]: {
@@ -2811,13 +2813,11 @@
           },
         },
       },
-      ["FragmentBuyCost"]: {
-        ["1"]: {
-          ["1"]: "FragmentBuyCost",
-          ["2"]: "pseudo",
-          ["3"]: "2",
-          ["4"]: "750",
-        },
+      ["TeamLevel"]: {
+        ["1"]: 100,
+      },
+      ["Color"]: {
+        ["1"]: 5,
       },
     },
   },

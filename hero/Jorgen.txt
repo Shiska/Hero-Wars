@@ -6,13 +6,13 @@
  |browser_stone_source1 = 
  |browser_stone_source2 = 
  |browser_main_stat = Strength
- |browser_skin1 = Champion's Skin
+ |browser_skin1_name = Champion's Skin
  |browser_skin1_attribute = Health
  |browser_skin1_value = 106870
- |browser_skin2 = Devil Skin
+ |browser_skin2_name = Devil Skin
  |browser_skin2_attribute = Magic defense
  |browser_skin2_value = 10650
- |browser_skin3 = Winter Skin
+ |browser_skin3_name = Winter Skin
  |browser_skin3_attribute = Magic attack
  |browser_skin3_value = 10665
  |browser_glyph1 = Magic attack
@@ -21,7 +21,7 @@
  |browser_glyph4 = Magic defense
  |browser_artifact_weapon = Shavarakk's Blood
  |browser_artifact_weapon_attribute = Magic attack
- |browser_artifact_weapon_value = 10680
+ |browser_artifact_weapon_value = 32040
  |browser_artifact_book = Defender's Covenant
  |browser_base_agility = 15
  |browser_base_health = 500
@@ -44,41 +44,43 @@
  |browser_star6_agility = 12
  |browser_star6_intelligence = 18
  |browser_star6_strength = 20
- |browser_basic_attack_attribute = Physical attack
  |browser_basic_attack_damage_type = physical
+ |browser_basic_attack_attribute = Physical attack
  |browser_skill_white_name = Torment of Powerlessness
- |browser_skill_white_prime_attribute = Magic attack
  |browser_skill_white_prime_damage_type = magic
+ |browser_skill_white_prime_attribute = Magic attack
  |browser_skill_white_prime_scale = 0.6
  |browser_skill_white_prime_level = 100
  |browser_skill_white_duration = 9
  |browser_skill_white_format = 
 %name% summons a Skull to the enemy's front line which deals magic damage to nearby heroes. Affected enemies cannot gain energy for %duration%.
-Prime: nil
+Prime: %prime%
  |browser_skill_green_name = Cycle of Energies
- |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_damage_type = shield hp
+ |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_scale = 0.7
  |browser_skill_green_prime_level = 125
+ |browser_skill_green_secondary_damage_type = multiplier
+ |browser_skill_green_secondary_attribute = Level
  |browser_skill_green_secondary_base = 2
  |browser_skill_green_duration = -1
  |browser_skill_green_cooldown = 14
  |browser_skill_green_format = 
 Protects an ally with a magic shield. The ally will gain energy at a doubled rate until the shield is destroyed.
 The shield can absorb %prime% damage of any type.
-Secondary: nil
-Cooldown: 14
-Duration: -1
+Cooldown: %cooldown%
+Duration: %duration%
+Secondary: %secondary%
  |browser_skill_blue_name = Leper
  |browser_skill_blue_duration = 10
  |browser_skill_blue_cooldown = 20
  |browser_skill_blue_format = 
 %name% curses everyone on the enemy team, making the furthest enemy the target of the curse. Physical damage taken by heroes on the enemy team will be redirected to the target of the curse for %duration%.
 This skill redirects all physical damage to enemies level %level% and lower. Only a part of the damage is redirected to higher level enemies.
-Cooldown: 20
+Cooldown: %cooldown%
  |browser_skill_violet_name = Tainted Wounds
- |browser_skill_violet_prime_attribute = Level
  |browser_skill_violet_prime_damage_type = energy decrease from aa
+ |browser_skill_violet_prime_attribute = Level
  |browser_skill_violet_prime_level = 1
  |browser_skill_violet_prime_base = -20
  |browser_skill_violet_format = 
@@ -198,13 +200,13 @@ Energy stolen: %prime%
  |mobile_stone_source1 = 
  |mobile_stone_source2 = 
  |mobile_main_stat = Strength
- |mobile_skin1 = Champion's Skin
+ |mobile_skin1_name = Champion's Skin
  |mobile_skin1_attribute = Health
  |mobile_skin1_value = 106870
- |mobile_skin2 = Devil Skin
+ |mobile_skin2_name = Devil Skin
  |mobile_skin2_attribute = Magic defense
  |mobile_skin2_value = 10650
- |mobile_skin3 = Winter Skin
+ |mobile_skin3_name = Winter Skin
  |mobile_skin3_attribute = Magic attack
  |mobile_skin3_value = 10650
  |mobile_glyph1 = Magic attack
@@ -213,7 +215,7 @@ Energy stolen: %prime%
  |mobile_glyph4 = Magic defense
  |mobile_artifact_weapon = Shavarakk's Blood
  |mobile_artifact_weapon_attribute = Magic attack
- |mobile_artifact_weapon_value = 10680
+ |mobile_artifact_weapon_value = 32040
  |mobile_artifact_book = Defender's Covenant
  |mobile_base_agility = 15
  |mobile_base_health = 500
@@ -236,42 +238,44 @@ Energy stolen: %prime%
  |mobile_star6_agility = 12
  |mobile_star6_intelligence = 18
  |mobile_star6_strength = 20
- |mobile_basic_attack_attribute = Physical attack
  |mobile_basic_attack_damage_type = physical
+ |mobile_basic_attack_attribute = Physical attack
  |mobile_skill_white_name = Torment of Powerlessness
- |mobile_skill_white_prime_attribute = Magic attack
  |mobile_skill_white_prime_damage_type = magic
+ |mobile_skill_white_prime_attribute = Magic attack
  |mobile_skill_white_prime_scale = 0.6
  |mobile_skill_white_prime_level = 100
  |mobile_skill_white_duration = 9
  |mobile_skill_white_format = 
 %name% summons a Skull to the enemy's front line which deals magic damage to nearby heroes. Affected enemies cannot gain energy for %duration%.
 LIB_SKILL_COMMON_DAMAGE
-Prime: nil
+Prime: %prime%
  |mobile_skill_green_name = Cycle of Energies
- |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_damage_type = shield hp
+ |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_scale = 0.7
  |mobile_skill_green_prime_level = 125
+ |mobile_skill_green_secondary_damage_type = multiplier
+ |mobile_skill_green_secondary_attribute = Level
  |mobile_skill_green_secondary_base = 2
  |mobile_skill_green_duration = -1
  |mobile_skill_green_cooldown = 14
  |mobile_skill_green_format = 
 Protects an ally with a magic shield. The ally will gain energy at a doubled rate until the shield is destroyed.
 The shield can absorb %prime% damage of any type.
-Secondary: nil
-Cooldown: 14
-Duration: -1
+Cooldown: %cooldown%
+Duration: %duration%
+Secondary: %secondary%
  |mobile_skill_blue_name = Leper
  |mobile_skill_blue_duration = 10
  |mobile_skill_blue_cooldown = 20
  |mobile_skill_blue_format = 
 %name% curses everyone on the enemy team, making the furthest enemy the target of the curse. Physical damage taken by heroes on the enemy team will be redirected to the target of the curse for %duration%.
 This skill redirects all physical damage to enemies level %level% and lower. Only a part of the damage is redirected to higher level enemies.
-Cooldown: 20
+Cooldown: %cooldown%
  |mobile_skill_violet_name = Tainted Wounds
- |mobile_skill_violet_prime_attribute = Level
  |mobile_skill_violet_prime_damage_type = energy decrease from aa
+ |mobile_skill_violet_prime_attribute = Level
  |mobile_skill_violet_prime_level = 1
  |mobile_skill_violet_prime_base = -20
  |mobile_skill_violet_format = 

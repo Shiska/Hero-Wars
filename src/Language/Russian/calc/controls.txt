@@ -3,380 +3,32 @@
     [" "]: {
       [" "]: {
         [" "]: {
-          ["labelShopResetTime"]: {
-            ["1"]: "Время обновления",
-          },
-          ["labelHeroRune3"]: {
-            ["1"]: "Руна 4",
-          },
-          ["radioBilling"]: {
-            ["1"]: "Коды покупок",
-          },
-          ["labelAdventureDifficulty"]: {
-            ["1"]: "Сложность",
-          },
-          ["labelTitanArmorLevel"]: {
-            ["1"]: "Уровень",
-          },
-          ["labelTitanArtifactFragmentBuyCost"]: {
-            ["1"]: "Покупка",
-          },
-          ["labelEquipCraftCost"]: {
-            ["1"]: "Стоимость создания",
-          },
-          ["radioBillingDollar"]: {
-            ["1"]: "Доллар",
-          },
-          ["groupHeroPet"]: {
-            ["1"]: "Питомец",
-          },
-          ["labelNameAddToSquad"]: {
-            ["1"]: "Имя",
-          },
-          ["tabItems"]: {
-            ["1"]: "Предметы",
-          },
-          ["radioBillingCU"]: {
-            ["1"]: "Условные единицы",
-          },
-          ["labelEquipSellCost"]: {
-            ["1"]: "Продажа",
-          },
-          ["tabHeroArtifact"]: {
-            ["1"]: "Артефакты героев",
-          },
-          ["tabAdventures"]: {
-            ["1"]: "Приключения",
-          },
-          ["labelEventEnd"]: {
-            ["1"]: "Конец:",
-          },
-          ["groupHero"]: {
-            ["1"]: "Герой",
-          },
-          ["labelHeroName"]: {
-            ["1"]: "Имя",
-          },
-          ["labelTitanHealth"]: {
-            ["1"]: "Здоровье",
-          },
-          ["labelEquipName"]: {
-            ["1"]: "Имя",
-          },
-          ["labelHeroRune1"]: {
-            ["1"]: "Руна 2",
-          },
-          ["tabEvents"]: {
-            ["1"]: "Ивенты",
-          },
-          ["radioSkinExpand"]: {
-            ["1"]: "Развернуть",
-          },
-          ["labelHeroTitanGift"]: {
-            ["1"]: "Уровень искр мощи",
-          },
-          ["groupSkinListTreeSort"]: {
-            ["1"]: "Вид",
-          },
-          ["tabCCP"]: {
-            ["1"]: "Монеты и Расходники",
-          },
-          ["labelAdventureRequiredTeamLevel"]: {
-            ["1"]: "Минимальный уровень команды",
-          },
-          ["radioSkinSortTree"]: {
-            ["1"]: "Дерево",
-          },
-          ["labelTitanWeaponLevel"]: {
-            ["1"]: "Уровень",
-          },
-          ["groupTitanAmulet"]: {
-            ["1"]: "Печать",
-          },
-          ["formAddToSquad"]: {
-            ["1"]: "Добавить в отряд",
-          },
-          ["labelShopTeamLevelRange"]: {
-            ["1"]: "С какого уровня доступен",
-          },
-          ["labelSkinHero"]: {
-            ["1"]: "Имя героя",
-          },
-          ["tabTitanArtifact"]: {
-            ["1"]: "Артефакты Титанов",
-          },
-          ["tabMissions"]: {
-            ["1"]: "Кампания",
-          },
-          ["tabHeroes"]: {
-            ["1"]: "Герои",
-          },
-          ["tabTables"]: {
-            ["1"]: "Таблицы",
-          },
-          ["tabBattleHeroes"]: {
-            ["1"]: "Герои",
-          },
-          ["labelAdventurePetGearTier"]: {
-            ["1"]: "Минимальный ранг питомца",
-          },
-          ["groupHeroBook"]: {
-            ["1"]: "Книга",
-          },
-          ["labelSkinName"]: {
-            ["1"]: "Имя облика",
-          },
-          ["labelHeroPower"]: {
-            ["1"]: "Мощь",
-          },
-          ["labelHeroRune4"]: {
-            ["1"]: "Руна 5",
-          },
-          ["groupSkinHeroTitan"]: {
-            ["1"]: "Кто",
-          },
-          ["labelHeroArtifactId"]: {
-            ["1"]: "Id",
-          },
-          ["groupTitanSpirit"]: {
-            ["1"]: "Тотем",
-          },
-          ["labelBundleRequirementCost"]: {
-            ["1"]: "Стоимость",
-          },
-          ["radioSkinSortHero"]: {
-            ["1"]: "По героям",
-          },
-          ["labelTitanArtifactType"]: {
-            ["1"]: "Тип",
-          },
-          ["labelTitanAmuletLevel"]: {
-            ["1"]: "Уровень",
-          },
-          ["labelEquipId"]: {
-            ["1"]: "Id",
-          },
-          ["labelMissionTeamExp"]: {
-            ["1"]: "Опыта для уровня команды",
-          },
-          ["labelEventName"]: {
-            ["1"]: "Имя",
-          },
-          ["labelPetGearLevel"]: {
-            ["1"]: "Уровень питомца",
-          },
-          ["labelTitanAttack"]: {
-            ["1"]: "Атака",
-          },
-          ["labelTitanType"]: {
-            ["1"]: "Тип",
-          },
-          ["groupMissionExpandCollapse"]: {
-            ["1"]: "Сворачивание",
-          },
-          ["groupHeroWeapon"]: {
-            ["1"]: "Оружие",
-          },
-          ["labelEventId"]: {
-            ["1"]: "Id:",
-          },
-          ["tabBundles"]: {
-            ["1"]: "Акции",
-          },
-          ["radioSkinCollapse"]: {
-            ["1"]: "Свернуть",
-          },
-          ["labelTitanLevel"]: {
-            ["1"]: "Уровень",
-          },
-          ["labelMissionName"]: {
-            ["1"]: "Название",
-          },
-          ["labelPetGearSellCost"]: {
-            ["1"]: "Цена продажи",
-          },
-          ["labelEquipHeroLevel"]: {
-            ["1"]: "Уровень героя",
-          },
-          ["labelAdventureEnergy"]: {
-            ["1"]: "Энергия",
-          },
-          ["labelHeroLevel"]: {
-            ["1"]: "Уровень",
-          },
-          ["labelTitanPower"]: {
-            ["1"]: "Мощь",
-          },
-          ["labelPetGearUnlockCost"]: {
-            ["1"]: "Цена разблокировки",
-          },
-          ["labelHeroRune0"]: {
-            ["1"]: "Руна 1",
-          },
-          ["labelTitanId"]: {
-            ["1"]: "Id",
-          },
-          ["comboBoxLevel"]: {
-            ["1"]: "Герои@Титаны@Команда@Умения@Руны@Искры@Подземелье",
-          },
-          ["groupTitanWeapon"]: {
-            ["1"]: "Оружие",
-          },
-          ["labelTitanElementArmor"]: {
-            ["1"]: "Стихийная броня",
-          },
-          ["labelHeroArtifactFragmentSellCost"]: {
-            ["1"]: "Продажа",
-          },
-          ["labelHeroWeaponStat"]: {
-            ["1"]: "Артефакт-оружие",
-          },
-          ["labelTitanElementAttack"]: {
-            ["1"]: "Стихийный урон",
-          },
-          ["radioTablesLevelSparksIntelligence"]: {
-            ["1"]: "Интеллект",
-          },
-          ["tabPetGear"]: {
-            ["1"]: "Экипировка Питомцев",
-          },
-          ["radioTablesLevelSparksAgility"]: {
-            ["1"]: "Ловкость",
-          },
-          ["radioMissionCollapse"]: {
-            ["1"]: "Свернуть",
-          },
-          ["labelTitanArtifactFragmentSellCost"]: {
-            ["1"]: "Продажа",
-          },
-          ["labelTitanName"]: {
-            ["1"]: "Имя",
-          },
-          ["labelEventDesc"]: {
-            ["1"]: "Описание",
-          },
           ["labelHeroArtifactType"]: {
             ["1"]: "Тип",
-          },
-          ["tabBattle"]: {
-            ["1"]: "Бой",
-          },
-          ["labelTitanAbility2"]: {
-            ["1"]: "Способность2",
-          },
-          ["labelHeroBookLevel"]: {
-            ["1"]: "Уровень",
-          },
-          ["labelEquipEnchantValue"]: {
-            ["1"]: "Очки активности",
-          },
-          ["labelHeroPetLevel"]: {
-            ["1"]: "Уровень",
-          },
-          ["tabEquip"]: {
-            ["1"]: "Экипировка",
-          },
-          ["labelEquipCraftList"]: {
-            ["1"]: "Необходимые предметы",
-          },
-          ["labelShopTeamLevelToUnlock"]: {
-            ["1"]: "С какого уровня виден",
-          },
-          ["radioBillingRouble"]: {
-            ["1"]: "Рубль",
-          },
-          ["radioBundle"]: {
-            ["1"]: "Акции",
-          },
-          ["labelEventSortOrder"]: {
-            ["1"]: "Позиция в списке:",
-          },
-          ["tabSkin"]: {
-            ["1"]: "Облики",
-          },
-          ["tabLevel"]: {
-            ["1"]: "Уровни",
-          },
-          ["labelHeroRingLevel"]: {
-            ["1"]: "Уровень",
-          },
-          ["labelHeroArtifactFragmentBuyCost"]: {
-            ["1"]: "Покупка",
-          },
-          ["groupSkinExpandCollapse"]: {
-            ["1"]: "Сворачивание",
-          },
-          ["groupSkinHeroTag"]: {
-            ["1"]: "Сортировка",
-          },
-          ["labelBundleDescription"]: {
-            ["1"]: "Описание",
-          },
-          ["comboBoxHeroColor"]: {
-            ["1"]: "Белый@Зелёный@Зелёный+1@Синий@Синий+1@Синий+2@Фиолетовый@Фиолетовый+1@Фиолетовый+2@Фиолетовый+3@Оранжевый@Оранжевый+1@Оранжевый+2@Оранжевый+3@Оранжевый+4@Красный@Красный+1@Красный+2",
-          },
-          ["groupTitan"]: {
-            ["1"]: "Титан",
-          },
-          ["labelBundleRequirement"]: {
-            ["1"]: "Требования",
-          },
-          ["labelEquipFragment"]: {
-            ["1"]: "Фрагмент",
-          },
-          ["buttonAddToSquad"]: {
-            ["1"]: "Добавить",
           },
           ["labelShopId"]: {
             ["1"]: "Id",
           },
-          ["labelHeroRune2"]: {
-            ["1"]: "Руна 3",
+          ["labelBundleRequirement"]: {
+            ["1"]: "Требования",
           },
-          ["labelHeroWeaponLevel"]: {
-            ["1"]: "Уровень",
+          ["labelHeroArtifactFragmentSellCost"]: {
+            ["1"]: "Продажа",
           },
-          ["labelAdventurePossibleRewards"]: {
-            ["1"]: "Возможные награды",
+          ["groupHero"]: {
+            ["1"]: "Герой",
+          },
+          ["tabEvents"]: {
+            ["1"]: "Ивенты",
           },
           ["comboBoxItems"]: {
             ["1"]: "Монеты@Расходники@Псевдо",
           },
-          ["labelHeroId"]: {
-            ["1"]: "Id",
+          ["radioBillingRouble"]: {
+            ["1"]: "Рубль",
           },
-          ["groupMissionWave"]: {
-            ["1"]: "Волна",
-          },
-          ["labelTitanAbility1"]: {
-            ["1"]: "Способность1",
-          },
-          ["labelEquipTeamLevel"]: {
-            ["1"]: "Уровень команды",
-          },
-          ["labelShopRefillable"]: {
-            ["1"]: "Стоимость обновления",
-          },
-          ["radioSkinSortTag"]: {
-            ["1"]: "По обликам",
-          },
-          ["radioSkinSortList"]: {
-            ["1"]: "Список",
-          },
-          ["groupHeroRing"]: {
-            ["1"]: "Кольцо",
-          },
-          ["groupTitanArmor"]: {
-            ["1"]: "Корона",
-          },
-          ["labelEventStart"]: {
-            ["1"]: "Начало:",
-          },
-          ["labelTitanArtifactId"]: {
-            ["1"]: "Id",
-          },
-          ["radioMissionExpand"]: {
-            ["1"]: "Развернуть",
+          ["labelTitanArmorLevel"]: {
+            ["1"]: "Уровень",
           },
           ["tabTitans"]: {
             ["1"]: "Титаны",
@@ -384,47 +36,395 @@
           ["labelMissionHeroExp"]: {
             ["1"]: "Опыта для героев",
           },
-          ["radioSkinWhoTitan"]: {
-            ["1"]: "Титан",
+          ["groupSkinHeroTitan"]: {
+            ["1"]: "Кто",
           },
-          ["radioTablesLevelSparksStrength"]: {
-            ["1"]: "Сила",
+          ["labelHeroRune3"]: {
+            ["1"]: "Руна 4",
           },
-          ["tabShops"]: {
-            ["1"]: "Магазины",
+          ["labelTitanHealth"]: {
+            ["1"]: "Здоровье",
           },
-          ["labelHeroMainStat"]: {
-            ["1"]: "Основная характеристика",
+          ["labelEventId"]: {
+            ["1"]: "Id:",
           },
-          ["labelMissionCost"]: {
-            ["1"]: "Затраты",
+          ["labelPetGearSellCost"]: {
+            ["1"]: "Цена продажи",
           },
-          ["tabBattleTitan"]: {
-            ["1"]: "Титаны",
+          ["labelPetGearLevel"]: {
+            ["1"]: "Уровень питомца",
           },
-          ["labelAdventureMaxPlayersCount"]: {
-            ["1"]: "Максимальное количество игроков",
+          ["radioSkinSortTree"]: {
+            ["1"]: "Дерево",
+          },
+          ["labelEventStart"]: {
+            ["1"]: "Начало:",
+          },
+          ["labelHeroPetLevel"]: {
+            ["1"]: "Уровень",
+          },
+          ["radioMissionCollapse"]: {
+            ["1"]: "Свернуть",
+          },
+          ["tabCCP"]: {
+            ["1"]: "Монеты и Расходники",
+          },
+          ["labelEquipId"]: {
+            ["1"]: "Id",
+          },
+          ["labelTitanLevel"]: {
+            ["1"]: "Уровень",
+          },
+          ["labelEquipCraftList"]: {
+            ["1"]: "Необходимые предметы",
+          },
+          ["labelHeroRune2"]: {
+            ["1"]: "Руна 3",
+          },
+          ["labelHeroPower"]: {
+            ["1"]: "Мощь",
+          },
+          ["radioSkinSortList"]: {
+            ["1"]: "Список",
+          },
+          ["labelBundleDescription"]: {
+            ["1"]: "Описание",
+          },
+          ["labelTitanArtifactType"]: {
+            ["1"]: "Тип",
+          },
+          ["labelTitanArtifactFragmentBuyCost"]: {
+            ["1"]: "Покупка",
+          },
+          ["labelAdventureEnergy"]: {
+            ["1"]: "Энергия",
+          },
+          ["labelHeroRune1"]: {
+            ["1"]: "Руна 2",
+          },
+          ["labelShopTeamLevelToUnlock"]: {
+            ["1"]: "С какого уровня виден",
+          },
+          ["radioSkinSortHero"]: {
+            ["1"]: "По героям",
           },
           ["labelTitanArtifactElement"]: {
             ["1"]: "Элемент",
           },
-          ["labelMissionDescription"]: {
-            ["1"]: "Описание",
+          ["tabLevel"]: {
+            ["1"]: "Уровни",
           },
-          ["labelTitanSpiritLevel"]: {
+          ["labelHeroRune4"]: {
+            ["1"]: "Руна 5",
+          },
+          ["labelHeroTitanGift"]: {
+            ["1"]: "Уровень искр мощи",
+          },
+          ["tabHeroes"]: {
+            ["1"]: "Герои",
+          },
+          ["groupHeroPet"]: {
+            ["1"]: "Питомец",
+          },
+          ["labelHeroRune0"]: {
+            ["1"]: "Руна 1",
+          },
+          ["groupTitanArmor"]: {
+            ["1"]: "Корона",
+          },
+          ["labelPetGearUnlockCost"]: {
+            ["1"]: "Цена разблокировки",
+          },
+          ["labelTitanAmuletLevel"]: {
             ["1"]: "Уровень",
           },
-          ["labelMissionTryCost"]: {
-            ["1"]: "Затраты в случае неудачи",
+          ["labelTitanElementArmor"]: {
+            ["1"]: "Стихийная броня",
+          },
+          ["radioBilling"]: {
+            ["1"]: "Коды покупок",
+          },
+          ["labelHeroArtifactFragmentBuyCost"]: {
+            ["1"]: "Покупка",
           },
           ["labelBundleReward"]: {
             ["1"]: "Награды",
           },
+          ["labelAdventurePetGearTier"]: {
+            ["1"]: "Минимальный ранг питомца",
+          },
+          ["labelTitanArtifactFragmentSellCost"]: {
+            ["1"]: "Продажа",
+          },
+          ["groupHeroWeapon"]: {
+            ["1"]: "Оружие",
+          },
+          ["tabEquip"]: {
+            ["1"]: "Экипировка",
+          },
+          ["radioSkinCollapse"]: {
+            ["1"]: "Свернуть",
+          },
+          ["labelTitanType"]: {
+            ["1"]: "Тип",
+          },
+          ["labelTitanElementAttack"]: {
+            ["1"]: "Стихийный урон",
+          },
+          ["groupTitanWeapon"]: {
+            ["1"]: "Оружие",
+          },
+          ["labelShopRefillable"]: {
+            ["1"]: "Стоимость обновления",
+          },
+          ["labelEquipHeroLevel"]: {
+            ["1"]: "Уровень героя",
+          },
+          ["labelEventSortOrder"]: {
+            ["1"]: "Позиция в списке:",
+          },
+          ["labelTitanPower"]: {
+            ["1"]: "Мощь",
+          },
+          ["labelEquipSellCost"]: {
+            ["1"]: "Продажа",
+          },
+          ["labelEquipEnchantValue"]: {
+            ["1"]: "Очки активности",
+          },
+          ["tabBattleHeroes"]: {
+            ["1"]: "Герои",
+          },
+          ["labelAdventureRequiredTeamLevel"]: {
+            ["1"]: "Минимальный уровень команды",
+          },
+          ["labelTitanName"]: {
+            ["1"]: "Имя",
+          },
+          ["labelEventEnd"]: {
+            ["1"]: "Конец:",
+          },
+          ["tabShops"]: {
+            ["1"]: "Магазины",
+          },
+          ["groupHeroBook"]: {
+            ["1"]: "Книга",
+          },
+          ["labelMissionTryCost"]: {
+            ["1"]: "Затраты в случае неудачи",
+          },
+          ["tabItems"]: {
+            ["1"]: "Предметы",
+          },
+          ["groupHeroRing"]: {
+            ["1"]: "Кольцо",
+          },
+          ["groupMissionExpandCollapse"]: {
+            ["1"]: "Сворачивание",
+          },
+          ["tabBattleTitan"]: {
+            ["1"]: "Титаны",
+          },
+          ["labelAdventurePossibleRewards"]: {
+            ["1"]: "Возможные награды",
+          },
+          ["tabBattle"]: {
+            ["1"]: "Бой",
+          },
+          ["labelTitanArtifactId"]: {
+            ["1"]: "Id",
+          },
+          ["tabHeroArtifact"]: {
+            ["1"]: "Артефакты героев",
+          },
+          ["labelMissionCost"]: {
+            ["1"]: "Затраты",
+          },
+          ["radioSkinExpand"]: {
+            ["1"]: "Развернуть",
+          },
+          ["tabMissions"]: {
+            ["1"]: "Кампания",
+          },
+          ["labelHeroArtifactId"]: {
+            ["1"]: "Id",
+          },
+          ["labelSkinHero"]: {
+            ["1"]: "Имя героя",
+          },
+          ["labelTitanAbility1"]: {
+            ["1"]: "Способность1",
+          },
+          ["labelHeroLevel"]: {
+            ["1"]: "Уровень",
+          },
+          ["tabTitanArtifact"]: {
+            ["1"]: "Артефакты Титанов",
+          },
+          ["labelTitanAbility2"]: {
+            ["1"]: "Способность2",
+          },
+          ["comboBoxHeroColor"]: {
+            ["1"]: "Белый@Зелёный@Зелёный+1@Синий@Синий+1@Синий+2@Фиолетовый@Фиолетовый+1@Фиолетовый+2@Фиолетовый+3@Оранжевый@Оранжевый+1@Оранжевый+2@Оранжевый+3@Оранжевый+4@Красный@Красный+1@Красный+2",
+          },
           ["radioSkinWhoHero"]: {
             ["1"]: "Герой",
           },
+          ["groupSkinHeroTag"]: {
+            ["1"]: "Сортировка",
+          },
+          ["formAddToSquad"]: {
+            ["1"]: "Добавить в отряд",
+          },
+          ["labelEventName"]: {
+            ["1"]: "Имя",
+          },
+          ["labelHeroWeaponLevel"]: {
+            ["1"]: "Уровень",
+          },
+          ["tabAdventures"]: {
+            ["1"]: "Приключения",
+          },
+          ["groupMissionWave"]: {
+            ["1"]: "Волна",
+          },
+          ["labelHeroId"]: {
+            ["1"]: "Id",
+          },
+          ["tabTables"]: {
+            ["1"]: "Таблицы",
+          },
+          ["labelHeroRingLevel"]: {
+            ["1"]: "Уровень",
+          },
+          ["tabPetGear"]: {
+            ["1"]: "Экипировка Питомцев",
+          },
+          ["radioTablesLevelSparksAgility"]: {
+            ["1"]: "Ловкость",
+          },
+          ["radioMissionExpand"]: {
+            ["1"]: "Развернуть",
+          },
+          ["comboBoxLevel"]: {
+            ["1"]: "Герои@Титаны@Команда@Умения@Руны@Искры@Подземелье",
+          },
+          ["labelMissionName"]: {
+            ["1"]: "Название",
+          },
+          ["radioSkinSortTag"]: {
+            ["1"]: "По обликам",
+          },
+          ["labelAdventureMaxPlayersCount"]: {
+            ["1"]: "Максимальное количество игроков",
+          },
+          ["groupTitan"]: {
+            ["1"]: "Титан",
+          },
+          ["tabBundles"]: {
+            ["1"]: "Акции",
+          },
+          ["labelTitanAttack"]: {
+            ["1"]: "Атака",
+          },
           ["labelSkinId"]: {
             ["1"]: "Id",
+          },
+          ["labelBundleRequirementCost"]: {
+            ["1"]: "Стоимость",
+          },
+          ["labelEquipCraftCost"]: {
+            ["1"]: "Стоимость создания",
+          },
+          ["labelShopTeamLevelRange"]: {
+            ["1"]: "С какого уровня доступен",
+          },
+          ["labelMissionTeamExp"]: {
+            ["1"]: "Опыта для уровня команды",
+          },
+          ["labelTitanId"]: {
+            ["1"]: "Id",
+          },
+          ["labelEquipName"]: {
+            ["1"]: "Имя",
+          },
+          ["radioTablesLevelSparksStrength"]: {
+            ["1"]: "Сила",
+          },
+          ["labelHeroBookLevel"]: {
+            ["1"]: "Уровень",
+          },
+          ["groupSkinExpandCollapse"]: {
+            ["1"]: "Сворачивание",
+          },
+          ["groupTitanSpirit"]: {
+            ["1"]: "Тотем",
+          },
+          ["radioTablesLevelSparksIntelligence"]: {
+            ["1"]: "Интеллект",
+          },
+          ["labelEquipTeamLevel"]: {
+            ["1"]: "Уровень команды",
+          },
+          ["labelTitanSpiritLevel"]: {
+            ["1"]: "Уровень",
+          },
+          ["groupSkinListTreeSort"]: {
+            ["1"]: "Вид",
+          },
+          ["labelMissionDescription"]: {
+            ["1"]: "Описание",
+          },
+          ["radioBillingDollar"]: {
+            ["1"]: "Доллар",
+          },
+          ["radioBundle"]: {
+            ["1"]: "Акции",
+          },
+          ["groupTitanAmulet"]: {
+            ["1"]: "Печать",
+          },
+          ["labelEventDesc"]: {
+            ["1"]: "Описание",
+          },
+          ["radioSkinWhoTitan"]: {
+            ["1"]: "Титан",
+          },
+          ["labelHeroMainStat"]: {
+            ["1"]: "Основная характеристика",
+          },
+          ["radioBillingCU"]: {
+            ["1"]: "Условные единицы",
+          },
+          ["labelTitanWeaponLevel"]: {
+            ["1"]: "Уровень",
+          },
+          ["labelEquipFragment"]: {
+            ["1"]: "Фрагмент",
+          },
+          ["labelNameAddToSquad"]: {
+            ["1"]: "Имя",
+          },
+          ["tabSkin"]: {
+            ["1"]: "Облики",
+          },
+          ["buttonAddToSquad"]: {
+            ["1"]: "Добавить",
+          },
+          ["labelShopResetTime"]: {
+            ["1"]: "Время обновления",
+          },
+          ["labelAdventureDifficulty"]: {
+            ["1"]: "Сложность",
+          },
+          ["labelSkinName"]: {
+            ["1"]: "Имя облика",
+          },
+          ["labelHeroWeaponStat"]: {
+            ["1"]: "Артефакт-оружие",
+          },
+          ["labelHeroName"]: {
+            ["1"]: "Имя",
           },
         },
       },

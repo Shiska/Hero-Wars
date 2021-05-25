@@ -5,13 +5,13 @@
  |browser_stone_source1 = 
  |browser_stone_source2 = 
  |browser_main_stat = Strength
- |browser_skin1 = Barbarian Skin
+ |browser_skin1_name = Barbarian Skin
  |browser_skin1_attribute = Magic attack
  |browser_skin1_value = 10650
- |browser_skin2 = Angel Skin
+ |browser_skin2_name = Angel Skin
  |browser_skin2_attribute = Health
  |browser_skin2_value = 106645
- |browser_skin3 = Winter Skin
+ |browser_skin3_name = Winter Skin
  |browser_skin3_attribute = Armor
  |browser_skin3_value = 10665
  |browser_glyph1 = Magic attack
@@ -20,7 +20,7 @@
  |browser_glyph4 = Armor
  |browser_artifact_weapon = Rakashi's Shield
  |browser_artifact_weapon_attribute = Armor
- |browser_artifact_weapon_value = 10680
+ |browser_artifact_weapon_value = 32040
  |browser_artifact_book = Tome of Arcane Knowledge
  |browser_base_agility = 10
  |browser_base_health = 500
@@ -43,19 +43,19 @@
  |browser_star6_agility = 10
  |browser_star6_intelligence = 16
  |browser_star6_strength = 24
- |browser_basic_attack_attribute = Physical attack
  |browser_basic_attack_damage_type = physical
+ |browser_basic_attack_attribute = Physical attack
  |browser_skill_white_name = Rakashi's Barrier
- |browser_skill_white_prime_attribute = Magic attack
  |browser_skill_white_prime_damage_type = magic
+ |browser_skill_white_prime_attribute = Magic attack
  |browser_skill_white_prime_scale = 1.1
  |browser_skill_white_prime_level = 2000
  |browser_skill_white_format = 
 %name% covers the team with a shield which absorbs all magic damage.
 Shield capacity: %prime% damage
  |browser_skill_green_name = Rakashi's Mockery
- |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_damage_type = dot
+ |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_scale = 0.4
  |browser_skill_green_prime_level = 150
  |browser_skill_green_duration = 4
@@ -63,17 +63,17 @@ Shield capacity: %prime% damage
  |browser_skill_green_format = 
 Strikes the enemy with the greatest magic power, dealing damage over time.
 Damage: %prime% for %duration%.
-Cooldown: 15
+Cooldown: %cooldown%
  |browser_skill_blue_name = Devourer of Magic
- |browser_skill_blue_prime_attribute = Level
  |browser_skill_blue_prime_damage_type = heal %
+ |browser_skill_blue_prime_attribute = Level
  |browser_skill_blue_prime_level = 0.5
  |browser_skill_blue_format = 
 Part of the damage absorbed by Rakashi's Barrier is converted into the hero's health.
 Health recovered: %prime%% of damage absorbed by the shield
  |browser_skill_violet_name = Rakashi's Oath
- |browser_skill_violet_prime_attribute = Magic attack
  |browser_skill_violet_prime_damage_type = hp
+ |browser_skill_violet_prime_attribute = Magic attack
  |browser_skill_violet_prime_scale = 5
  |browser_skill_violet_prime_level = 1500
  |browser_skill_violet_prime_base = -55000
@@ -81,7 +81,7 @@ Health recovered: %prime%% of damage absorbed by the shield
  |browser_skill_violet_format = 
 %name% can now only be killed with physical damage. If the last attack against the hero dealt magic damage or pure damage, they resurrect with a portion of health restored.
 Recovered health: %prime%
-Duration: 1
+Duration: %duration%
  |browser_gear_white0_1 = White/Wooden Shield
  |browser_gear_white0_2 = White/Giant's Belt
  |browser_gear_white0_3 = White/Apprentice's Mantle
@@ -196,13 +196,13 @@ Duration: 1
  |mobile_stone_source1 = 
  |mobile_stone_source2 = 
  |mobile_main_stat = Strength
- |mobile_skin1 = Barbarian Skin
+ |mobile_skin1_name = Barbarian Skin
  |mobile_skin1_attribute = Magic attack
  |mobile_skin1_value = 10650
- |mobile_skin2 = Angel Skin
+ |mobile_skin2_name = Angel Skin
  |mobile_skin2_attribute = Health
  |mobile_skin2_value = 106645
- |mobile_skin3 = Winter Skin
+ |mobile_skin3_name = Winter Skin
  |mobile_skin3_attribute = Health
  |mobile_skin3_value = 106645
  |mobile_glyph1 = Magic attack
@@ -211,7 +211,7 @@ Duration: 1
  |mobile_glyph4 = Armor
  |mobile_artifact_weapon = Rakashi's Shield
  |mobile_artifact_weapon_attribute = Armor
- |mobile_artifact_weapon_value = 10680
+ |mobile_artifact_weapon_value = 32040
  |mobile_artifact_book = Tome of Arcane Knowledge
  |mobile_base_agility = 10
  |mobile_base_health = 500
@@ -234,19 +234,19 @@ Duration: 1
  |mobile_star6_agility = 10
  |mobile_star6_intelligence = 16
  |mobile_star6_strength = 24
- |mobile_basic_attack_attribute = Physical attack
  |mobile_basic_attack_damage_type = physical
+ |mobile_basic_attack_attribute = Physical attack
  |mobile_skill_white_name = Rakashi's Barrier
- |mobile_skill_white_prime_attribute = Magic attack
  |mobile_skill_white_prime_damage_type = magic
+ |mobile_skill_white_prime_attribute = Magic attack
  |mobile_skill_white_prime_scale = 2.15
  |mobile_skill_white_prime_level = 2050
  |mobile_skill_white_format = 
 %name% covers the team with a shield which absorbs all magic damage.
 Shield capacity: %prime% damage
  |mobile_skill_green_name = Rakashi's Mockery
- |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_damage_type = dot
+ |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_scale = 0.75
  |mobile_skill_green_prime_level = 165
  |mobile_skill_green_duration = 4
@@ -254,24 +254,24 @@ Shield capacity: %prime% damage
  |mobile_skill_green_format = 
 Strikes the enemy with the greatest magic power, dealing damage over time.
 Damage: %prime% for %duration%.
-Cooldown: 12
+Cooldown: %cooldown%
  |mobile_skill_blue_name = Devourer of Magic
- |mobile_skill_blue_prime_attribute = Level
  |mobile_skill_blue_prime_damage_type = heal %
+ |mobile_skill_blue_prime_attribute = Level
  |mobile_skill_blue_prime_level = 0.7
  |mobile_skill_blue_format = 
 Part of the damage absorbed by Rakashi's Barrier is converted into the hero's health.
 Health recovered: %prime%% of damage absorbed by the shield
  |mobile_skill_violet_name = Rakashi's Oath
- |mobile_skill_violet_prime_attribute = Health
  |mobile_skill_violet_prime_damage_type = hp
+ |mobile_skill_violet_prime_attribute = Health
  |mobile_skill_violet_prime_scale = 0.35
  |mobile_skill_violet_prime_level = 1400
  |mobile_skill_violet_duration = 1
  |mobile_skill_violet_format = 
 %name% can now only be killed with physical damage. If the last attack against the hero dealt magic damage or pure damage, they resurrect with a portion of health restored.
 Recovered health: %prime%
-Duration: 1
+Duration: %duration%
  |mobile_gear_white0_1 = White/Wooden Shield
  |mobile_gear_white0_2 = White/Giant's Belt
  |mobile_gear_white0_3 = White/Apprentice's Mantle

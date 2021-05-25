@@ -1,0 +1,76 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Hero/Lua</noinclude>
+ |browser_position = Back
+ |browser_main_stat = Strength
+ |browser_stone1 = Dawnstone
+ |browser_stone2 = Sunstone
+ |browser_base_patronage_power = 25
+ |browser_base_magic_penetration = 1500
+ |browser_base_skill_power = 25
+ |browser_star = 1
+ |browser_star1_patronage_power = 6
+ |browser_star1_skill_power = 6
+ |browser_star2_patronage_power = 9
+ |browser_star2_skill_power = 9
+ |browser_star3_patronage_power = 13
+ |browser_star3_skill_power = 13
+ |browser_star4_patronage_power = 18
+ |browser_star4_skill_power = 18
+ |browser_star5_patronage_power = 23
+ |browser_star5_skill_power = 23
+ |browser_star6_patronage_power = 30
+ |browser_star6_skill_power = 30
+ |browser_basic_attack_damage_type = shield
+ |browser_basic_attack_attribute = Skill Power
+ |browser_skill_white_name = Healthy Snack!
+ |browser_skill_white_prime_damage_type = heal
+ |browser_skill_white_prime_attribute = Skill Power
+ |browser_skill_white_prime_scale = 0.00325
+ |browser_skill_white_prime_base = 9.8
+ |browser_skill_white_duration = 10
+ |browser_skill_white_cooldown = 5.85
+ |browser_skill_white_format = 
+%name% grows a magical seaweed under the ally with the lowest health. That seaweed increases all healing received for %duration%. The seaweed activates when healing is first received.
+Increases healing received by %prime%%
+Cooldown: %cooldown%
+ |browser_skill_green_name = Defensive Blub!
+ |browser_skill_green_prime_damage_type = damageAbsorb
+ |browser_skill_green_prime_attribute = Patronage Power
+ |browser_skill_green_prime_scale = -0.00226
+ |browser_skill_green_prime_base = 70
+ |browser_skill_green_format = 
+%name% protects the owner from powerful attacks.
+Damage from a single attack cannot exceed %prime%% of a hero's maximum health
+ |browser_patronage_bonus1_attribute = Magic attack
+ |browser_patronage_bonus1_scale = 0.9
+ |browser_patronage_bonus2_attribute = Armor
+ |browser_patronage_bonus2_scale = 0.9
+ |browser_patron1 = Aurora
+ |browser_patron2 = Astaroth
+ |browser_patron3 = Kai
+ |browser_patron4 = Phobos
+ |browser_patron5 = Thea
+ |browser_patron6 = Heidi
+ |browser_patron7 = Faceless
+ |browser_patron8 = Arachne
+ |browser_patron9 = Orion
+ |browser_patron10 = Mojo
+ |browser_patron11 = Judge
+ |browser_patron12 = Markus
+ |browser_patron13 = Peppy
+ |browser_patron14 = Lian
+ |browser_patron15 = Dorian
+ |browser_patron16 = Cornelius
+ |browser_patron17 = Jet
+ |browser_patron18 = Helios
+ |browser_patron19 = Lars
+ |browser_patron20 = Krista
+ |browser_patron21 = Jorgen
+ |browser_patron22 = Maya
+ |browser_patron23 = Rufus
+ |browser_patron24 = Celeste
+ |browser_patron25 = Satori
+ |browser_patron26 = Martha
+ |browser_patron27 = Morrigan
+ |browser_patron28 = Isaac
+ |browser_patron29 = Alvanor
+}}</onlyinclude>

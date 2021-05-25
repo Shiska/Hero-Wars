@@ -6,13 +6,13 @@
  |browser_stone_source1 = 
  |browser_stone_source2 = 
  |browser_main_stat = Intelligence
- |browser_skin1 = Romantic Skin
+ |browser_skin1_name = Romantic Skin
  |browser_skin1_attribute = Magic attack
  |browser_skin1_value = 10650
- |browser_skin2 = Solar Skin
+ |browser_skin2_name = Solar Skin
  |browser_skin2_attribute = Armor
  |browser_skin2_value = 10650
- |browser_skin3 = Devil Skin
+ |browser_skin3_name = Devil Skin
  |browser_skin3_attribute = Magic defense
  |browser_skin3_value = 10650
  |browser_glyph1 = Magic attack
@@ -21,7 +21,7 @@
  |browser_glyph4 = Magic defense
  |browser_artifact_weapon = Idol of Charm
  |browser_artifact_weapon_attribute = Magic attack
- |browser_artifact_weapon_value = 10680
+ |browser_artifact_weapon_value = 32040
  |browser_artifact_book = Tome of Arcane Knowledge
  |browser_base_agility = 10
  |browser_base_health = 500
@@ -41,28 +41,28 @@
  |browser_star6_agility = 12
  |browser_star6_intelligence = 24
  |browser_star6_strength = 14
- |browser_basic_attack_attribute = Physical attack
  |browser_basic_attack_damage_type = physical
+ |browser_basic_attack_attribute = Physical attack
  |browser_skill_white_name = Enchantment
  |browser_skill_white_duration = 7
  |browser_skill_white_format = 
 Charms all enemies, putting them to sleep for %duration%. Sleeping enemies wake up immediately when taking damage from anyone other than Lian.
 Charm chance lowered if the target's level is higher than %level%
  |browser_skill_green_name = Hypnotic Ball
- |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_damage_type = dot
+ |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_scale = 0.5
  |browser_skill_green_prime_level = 50
  |browser_skill_green_cooldown = 14.5
  |browser_skill_green_hits = 5
  |browser_skill_green_format = 
 Fires a magical ball at the nearest enemies, then brings it back, dealing pure damage on the way.
-Prime: nil
-Hits: 5
-Cooldown: 14.5
+Cooldown: %cooldown%
+Prime: %prime%
+Hits: %hits%
  |browser_skill_blue_name = Wandering Lights
- |browser_skill_blue_prime_attribute = Magic attack
  |browser_skill_blue_prime_damage_type = magic
+ |browser_skill_blue_prime_attribute = Magic attack
  |browser_skill_blue_prime_scale = 0.3
  |browser_skill_blue_prime_level = 30
  |browser_skill_blue_cooldown = 18
@@ -70,7 +70,7 @@ Cooldown: 14.5
  |browser_skill_blue_format = 
 Creates %hits% magical spheres and launches them at the nearest enemy, dealing magical damage.
 Magic sphere damage: %prime%
-Cooldown: 18
+Cooldown: %cooldown%
  |browser_skill_violet_name = Conciliation
  |browser_skill_violet_duration = 4
  |browser_skill_violet_format = 
@@ -190,13 +190,13 @@ Charm chance lowered if the target's level is higher than %level%
  |mobile_stone_source1 = 
  |mobile_stone_source2 = 
  |mobile_main_stat = Intelligence
- |mobile_skin1 = Romantic Skin
+ |mobile_skin1_name = Romantic Skin
  |mobile_skin1_attribute = Magic attack
  |mobile_skin1_value = 10650
- |mobile_skin2 = Solar Skin
+ |mobile_skin2_name = Solar Skin
  |mobile_skin2_attribute = Armor
  |mobile_skin2_value = 10650
- |mobile_skin3 = Devil Skin
+ |mobile_skin3_name = Devil Skin
  |mobile_skin3_attribute = Magic defense
  |mobile_skin3_value = 10650
  |mobile_glyph1 = Magic attack
@@ -205,7 +205,7 @@ Charm chance lowered if the target's level is higher than %level%
  |mobile_glyph4 = Magic defense
  |mobile_artifact_weapon = Idol of Charm
  |mobile_artifact_weapon_attribute = Magic attack
- |mobile_artifact_weapon_value = 10680
+ |mobile_artifact_weapon_value = 32040
  |mobile_artifact_book = Tome of Arcane Knowledge
  |mobile_base_agility = 10
  |mobile_base_health = 500
@@ -225,16 +225,16 @@ Charm chance lowered if the target's level is higher than %level%
  |mobile_star6_agility = 12
  |mobile_star6_intelligence = 24
  |mobile_star6_strength = 14
- |mobile_basic_attack_attribute = Physical attack
  |mobile_basic_attack_damage_type = physical
+ |mobile_basic_attack_attribute = Physical attack
  |mobile_skill_white_name = Enchantment
  |mobile_skill_white_duration = 7
  |mobile_skill_white_format = 
 Charms all enemies, putting them to sleep for %duration%. Sleeping enemies wake up when damaged.  Lian's attacks do not wake enemies.
 Charm chance lowered if the target's level is higher than %level%
  |mobile_skill_green_name = Hypnotic Ball
- |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_damage_type = dot
+ |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_scale = 0.5
  |mobile_skill_green_prime_level = 50
  |mobile_skill_green_cooldown = 14.5
@@ -242,11 +242,11 @@ Charm chance lowered if the target's level is higher than %level%
  |mobile_skill_green_format = 
 Fires a magical ball at the nearest enemies, then brings it back, dealing pure damage on the way.
 Damage: %prime%
-Hits: 5
-Cooldown: 14.5
+Cooldown: %cooldown%
+Hits: %hits%
  |mobile_skill_blue_name = Wandering Lights
- |mobile_skill_blue_prime_attribute = Magic attack
  |mobile_skill_blue_prime_damage_type = magic
+ |mobile_skill_blue_prime_attribute = Magic attack
  |mobile_skill_blue_prime_scale = 0.3
  |mobile_skill_blue_prime_level = 30
  |mobile_skill_blue_cooldown = 18
@@ -254,7 +254,7 @@ Cooldown: 14.5
  |mobile_skill_blue_format = 
 Creates %hits% magical spheres and launches them at the nearest enemy, dealing magical damage.
 Magic sphere damage: %prime%
-Cooldown: 18
+Cooldown: %cooldown%
  |mobile_skill_violet_name = Conciliation
  |mobile_skill_violet_duration = 4
  |mobile_skill_violet_format = 

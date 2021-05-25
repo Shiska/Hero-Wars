@@ -5,13 +5,13 @@
  |browser_stone_source1 = 
  |browser_stone_source2 = 
  |browser_main_stat = Agility
- |browser_skin1 = Romantic Skin
+ |browser_skin1_name = Romantic Skin
  |browser_skin1_attribute = Crit hit chance
  |browser_skin1_value = 2960
- |browser_skin2 = Champion's Skin
+ |browser_skin2_name = Champion's Skin
  |browser_skin2_attribute = Physical attack
  |browser_skin2_value = 7117
- |browser_skin3 = Masquerade Skin
+ |browser_skin3_name = Masquerade Skin
  |browser_skin3_attribute = Health
  |browser_skin3_value = 106645
  |browser_glyph1 = Physical attack
@@ -20,7 +20,7 @@
  |browser_glyph4 = Crit hit chance
  |browser_artifact_weapon = Hidden Demon's Katars
  |browser_artifact_weapon_attribute = Crit hit chance
- |browser_artifact_weapon_value = 2966
+ |browser_artifact_weapon_value = 8898
  |browser_artifact_book = Alchemist's Folio
  |browser_base_agility = 15
  |browser_base_health = 500
@@ -46,12 +46,14 @@
  |browser_star6_agility = 22
  |browser_star6_intelligence = 11
  |browser_star6_strength = 17
- |browser_basic_attack_attribute = Physical attack
  |browser_basic_attack_damage_type = physical
+ |browser_basic_attack_attribute = Physical attack
  |browser_skill_white_name = Awakening
- |browser_skill_white_prime_attribute = Level
  |browser_skill_white_prime_damage_type = physicalCritChance
+ |browser_skill_white_prime_attribute = Level
  |browser_skill_white_prime_level = 10
+ |browser_skill_white_secondary_damage_type = speed
+ |browser_skill_white_secondary_attribute = Level
  |browser_skill_white_secondary_base = 150
  |browser_skill_white_format = 
 Assumes a demonic form that increases critical hit chance by %prime% and attack speed by %secondary%%. %name% starts to gradually lose energy;  when it reaches 0, the demonic form dissipates.
@@ -62,10 +64,10 @@ Critical hit chance increase: %prime%
  |browser_skill_green_format = 
 Dodges physical attacks for %duration%.
 Chance to dodge lowered if the target's level is higher than %level%
-Cooldown: 20
+Cooldown: %cooldown%
  |browser_skill_blue_name = Dark Craft
- |browser_skill_blue_prime_attribute = Level
  |browser_skill_blue_prime_damage_type = stat
+ |browser_skill_blue_prime_attribute = Level
  |browser_skill_blue_prime_level = 0.5
  |browser_skill_blue_format = 
 Passive skill. Increases vampirism.
@@ -189,13 +191,13 @@ Chance to stun is lowered if the target's level is above %level%
  |mobile_stone_source1 = 
  |mobile_stone_source2 = 
  |mobile_main_stat = Agility
- |mobile_skin1 = Romantic Skin
+ |mobile_skin1_name = Romantic Skin
  |mobile_skin1_attribute = Crit hit chance
  |mobile_skin1_value = 2960
- |mobile_skin2 = Champion's Skin
+ |mobile_skin2_name = Champion's Skin
  |mobile_skin2_attribute = Physical attack
  |mobile_skin2_value = 7117
- |mobile_skin3 = Masquerade Skin
+ |mobile_skin3_name = Masquerade Skin
  |mobile_skin3_attribute = Health
  |mobile_skin3_value = 106645
  |mobile_glyph1 = Physical attack
@@ -204,7 +206,7 @@ Chance to stun is lowered if the target's level is above %level%
  |mobile_glyph4 = Crit hit chance
  |mobile_artifact_weapon = Hidden Demon's Katars
  |mobile_artifact_weapon_attribute = Crit hit chance
- |mobile_artifact_weapon_value = 2966
+ |mobile_artifact_weapon_value = 8898
  |mobile_artifact_book = Alchemist's Folio
  |mobile_base_agility = 15
  |mobile_base_health = 500
@@ -230,12 +232,14 @@ Chance to stun is lowered if the target's level is above %level%
  |mobile_star6_agility = 22
  |mobile_star6_intelligence = 11
  |mobile_star6_strength = 17
- |mobile_basic_attack_attribute = Physical attack
  |mobile_basic_attack_damage_type = physical
+ |mobile_basic_attack_attribute = Physical attack
  |mobile_skill_white_name = Awakening
- |mobile_skill_white_prime_attribute = Level
  |mobile_skill_white_prime_damage_type = physicalCritChance
+ |mobile_skill_white_prime_attribute = Level
  |mobile_skill_white_prime_level = 10
+ |mobile_skill_white_secondary_damage_type = speed
+ |mobile_skill_white_secondary_attribute = Level
  |mobile_skill_white_secondary_base = 150
  |mobile_skill_white_format = 
 Assumes a demonic form that increases critical hit chance by %prime% and attack speed by %secondary%%. %name% starts to gradually lose energy;  when it reaches 0, the demonic form dissipates. 
@@ -246,10 +250,10 @@ Critical hit chance increase: %prime%
  |mobile_skill_green_format = 
 Dodges physical attacks for %duration%.
 Chance to dodge lowered if the target's level is higher than %level%
-Cooldown: 20
+Cooldown: %cooldown%
  |mobile_skill_blue_name = Dark Craft
- |mobile_skill_blue_prime_attribute = Level
  |mobile_skill_blue_prime_damage_type = stat
+ |mobile_skill_blue_prime_attribute = Level
  |mobile_skill_blue_prime_level = 0.5
  |mobile_skill_blue_format = 
 Passive skill. Increases vampirism.

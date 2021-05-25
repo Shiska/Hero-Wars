@@ -6,13 +6,13 @@
  |browser_stone_source1 = 
  |browser_stone_source2 = 
  |browser_main_stat = Intelligence
- |browser_skin1 = Stellar Skin
+ |browser_skin1_name = Stellar Skin
  |browser_skin1_attribute = Health
  |browser_skin1_value = 106645
- |browser_skin2 = Angel Skin
+ |browser_skin2_name = Angel Skin
  |browser_skin2_attribute = Magic attack
  |browser_skin2_value = 10650
- |browser_skin3 = Masquerade Skin
+ |browser_skin3_name = Masquerade Skin
  |browser_skin3_attribute = Magic attack
  |browser_skin3_value = 10650
  |browser_glyph1 = Magic attack
@@ -21,7 +21,7 @@
  |browser_glyph4 = Magic defense
  |browser_artifact_weapon = Archivist's Staff
  |browser_artifact_weapon_attribute = Magic defense
- |browser_artifact_weapon_value = 10680
+ |browser_artifact_weapon_value = 32040
  |browser_artifact_book = Tome of Arcane Knowledge
  |browser_base_agility = 15
  |browser_base_health = 500
@@ -44,19 +44,19 @@
  |browser_star6_agility = 13
  |browser_star6_intelligence = 24
  |browser_star6_strength = 13
- |browser_basic_attack_attribute = Magic attack
  |browser_basic_attack_damage_type = physical
+ |browser_basic_attack_attribute = Magic attack
  |browser_skill_white_name = Heavy Wisdom
- |browser_skill_white_prime_attribute = Magic attack
  |browser_skill_white_prime_damage_type = physical
+ |browser_skill_white_prime_attribute = Magic attack
  |browser_skill_white_prime_scale = 0.1
  |browser_skill_white_prime_level = 20
  |browser_skill_white_format = 
 Hits the enemy with the highest Intelligence with a monolith, dealing damage proportionally to their Intelligence.
 Damage per 100 Intelligence points of the target: %prime%
  |browser_skill_green_name = Rune of Suppression
- |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_damage_type = magicPower
+ |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_scale = 0.4
  |browser_skill_green_prime_level = 75
  |browser_skill_green_duration = 12
@@ -64,10 +64,10 @@ Damage per 100 Intelligence points of the target: %prime%
  |browser_skill_green_format = 
 An ancient spell which hits the enemy with the highest Magic Attack and reduces their Magic Attack for the next %duration%.
 Temporary Magic Attack reduction: %prime%
-Cooldown: 12
+Cooldown: %cooldown%
  |browser_skill_blue_name = Protective Dome
- |browser_skill_blue_prime_attribute = Magic attack
  |browser_skill_blue_prime_damage_type = magicResist
+ |browser_skill_blue_prime_attribute = Magic attack
  |browser_skill_blue_prime_scale = 0.25
  |browser_skill_blue_prime_level = 30
  |browser_skill_blue_prime_base = 500
@@ -76,17 +76,17 @@ Cooldown: 12
  |browser_skill_blue_format = 
 %name% casts a barrier on the team, increasing their Magic Defense for %duration%.
 Temporary Magic Defense boost: %prime%
-Cooldown: 15
+Cooldown: %cooldown%
  |browser_skill_violet_name = Memory Loss
- |browser_skill_violet_prime_attribute = Level
  |browser_skill_violet_prime_damage_type = levelDecrease
+ |browser_skill_violet_prime_attribute = Level
  |browser_skill_violet_prime_level = 1
  |browser_skill_violet_prime_base = -30
  |browser_skill_violet_duration = -1
  |browser_skill_violet_format = 
 %name% curses a random enemy at the beginning of the battle, reducing the level of their first skill. If %name% dies, the curse will disappear.
 Target's first skill level decreases by: %prime%
-Duration: -1
+Duration: %duration%
  |browser_gear_white0_1 = White/Wooden Shield
  |browser_gear_white0_2 = White/Imperial Shield
  |browser_gear_white0_3 = White/Apprentice's Mantle
@@ -201,13 +201,13 @@ Duration: -1
  |mobile_stone_source1 = 
  |mobile_stone_source2 = 
  |mobile_main_stat = Intelligence
- |mobile_skin1 = Stellar Skin
+ |mobile_skin1_name = Stellar Skin
  |mobile_skin1_attribute = Health
  |mobile_skin1_value = 106645
- |mobile_skin2 = Angel Skin
+ |mobile_skin2_name = Angel Skin
  |mobile_skin2_attribute = Magic attack
  |mobile_skin2_value = 10650
- |mobile_skin3 = Masquerade Skin
+ |mobile_skin3_name = Masquerade Skin
  |mobile_skin3_attribute = Magic defense
  |mobile_skin3_value = 10650
  |mobile_glyph1 = Magic attack
@@ -216,7 +216,7 @@ Duration: -1
  |mobile_glyph4 = Magic defense
  |mobile_artifact_weapon = Archivist's Staff
  |mobile_artifact_weapon_attribute = Magic defense
- |mobile_artifact_weapon_value = 10680
+ |mobile_artifact_weapon_value = 32040
  |mobile_artifact_book = Tome of Arcane Knowledge
  |mobile_base_agility = 15
  |mobile_base_health = 500
@@ -239,19 +239,19 @@ Duration: -1
  |mobile_star6_agility = 13
  |mobile_star6_intelligence = 24
  |mobile_star6_strength = 13
- |mobile_basic_attack_attribute = Magic attack
  |mobile_basic_attack_damage_type = physical
+ |mobile_basic_attack_attribute = Magic attack
  |mobile_skill_white_name = Heavy Wisdom
- |mobile_skill_white_prime_attribute = Magic attack
  |mobile_skill_white_prime_damage_type = physical
+ |mobile_skill_white_prime_attribute = Magic attack
  |mobile_skill_white_prime_scale = 0.2
  |mobile_skill_white_prime_level = 30
  |mobile_skill_white_format = 
 Hits the enemy with the highest Intelligence with a monolith, dealing damage proportionally to their Intelligence.
 Damage per 100 Intelligence points of the target: %prime%
  |mobile_skill_green_name = Rune of Suppression
- |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_damage_type = magicPower
+ |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_scale = 0.45
  |mobile_skill_green_prime_level = 85
  |mobile_skill_green_duration = 12
@@ -259,31 +259,31 @@ Damage per 100 Intelligence points of the target: %prime%
  |mobile_skill_green_format = 
 An ancient spell which hits the enemy with the highest Magic Attack and reduces their Magic Attack for the next %duration%.
 Temporary Magic Attack reduction: %prime%
-Cooldown: 12
+Cooldown: %cooldown%
  |mobile_skill_blue_name = Protective Dome
- |mobile_skill_blue_prime_attribute = Magic attack
  |mobile_skill_blue_prime_damage_type = magicResist
+ |mobile_skill_blue_prime_attribute = Magic attack
  |mobile_skill_blue_prime_scale = 0.3
  |mobile_skill_blue_prime_level = 40
  |mobile_skill_blue_prime_base = 600
  |mobile_skill_blue_duration = 6
- |mobile_skill_blue_cooldown_initial = 12
+ |mobile_skill_blue_initial_cooldown = 12
  |mobile_skill_blue_cooldown = 15
  |mobile_skill_blue_format = 
 %name% casts a barrier on the team, increasing their Magic Defense for %duration%.
 Temporary Magic Defense increase: %prime%
-InitialCooldown: nil
-Cooldown: 15
+Initial cooldown: %initial_cooldown%
+Cooldown: %cooldown%
  |mobile_skill_violet_name = Memory Loss
- |mobile_skill_violet_prime_attribute = Level
  |mobile_skill_violet_prime_damage_type = levelDecrease
+ |mobile_skill_violet_prime_attribute = Level
  |mobile_skill_violet_prime_level = 1
  |mobile_skill_violet_prime_base = -25
  |mobile_skill_violet_duration = -1
  |mobile_skill_violet_format = 
 %name% curses a random enemy at the beginning of the battle, reducing the level of their first skill. If %name% dies, the curse will disappear.
 Target's first skill level decreases by: %prime%
-Duration: -1
+Duration: %duration%
  |mobile_gear_white0_1 = White/Wooden Shield
  |mobile_gear_white0_2 = White/Imperial Shield
  |mobile_gear_white0_3 = White/Apprentice's Mantle

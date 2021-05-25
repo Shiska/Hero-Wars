@@ -11,7 +11,7 @@
  |mobile_glyph4 = Armor penetration
  |mobile_artifact_weapon = Demonic Reliquary
  |mobile_artifact_weapon_attribute = Armor penetration
- |mobile_artifact_weapon_value = 10680
+ |mobile_artifact_weapon_value = 32040
  |mobile_artifact_book = Alchemist's Folio
  |mobile_base_agility = 10
  |mobile_base_health = 500
@@ -34,38 +34,40 @@
  |mobile_star6_agility = 13
  |mobile_star6_intelligence = 11
  |mobile_star6_strength = 26
- |mobile_basic_attack_attribute = Physical attack
  |mobile_basic_attack_damage_type = physical
+ |mobile_basic_attack_attribute = Physical attack
  |mobile_skill_white_name = Purifier's Wrath
- |mobile_skill_white_prime_attribute = Physical attack
  |mobile_skill_white_prime_damage_type = physical
+ |mobile_skill_white_prime_attribute = Physical attack
  |mobile_skill_white_prime_scale = 0.25
  |mobile_skill_white_prime_level = 75
  |mobile_skill_white_format = 
 Tristan unleashes the might of the Demonic Reliquary on nearby enemies, dealing damage.
 Damage: %prime%
  |mobile_skill_green_name = Righteous Zeal
- |mobile_skill_green_prime_attribute = Physical attack
  |mobile_skill_green_prime_damage_type = buff
+ |mobile_skill_green_prime_attribute = Physical attack
  |mobile_skill_green_prime_scale = 0.2
  |mobile_skill_green_prime_level = 40
  |mobile_skill_green_cooldown = 12
  |mobile_skill_green_format = 
 Tristan invokes the Light to grant righteous zeal to himself and allies in front of him, increasing physical attack for 5 seconds.
 Physical attack bonus: %prime%
-Cooldown: 12
+Cooldown: %cooldown%
  |mobile_skill_blue_name = Judge of Sorcerers
- |mobile_skill_blue_prime_attribute = Physical attack
  |mobile_skill_blue_prime_damage_type = physical
+ |mobile_skill_blue_prime_attribute = Physical attack
  |mobile_skill_blue_prime_scale = 0.05
  |mobile_skill_blue_prime_level = 25
+ |mobile_skill_blue_secondary_damage_type = energyBurn
+ |mobile_skill_blue_secondary_attribute = Level
  |mobile_skill_blue_secondary_level = 1
  |mobile_skill_blue_secondary_base = -20
  |mobile_skill_blue_cooldown = 10
  |mobile_skill_blue_format = 
 Tristan releases the demonic souls imprisoned in the Demonic Reliquary. They target the enemy with the highest magic penetration stat. Each hit deals damage and burns %secondary% energy. The skill triggers once for each Blessed One in the team. If none of the enemies have the magic penetration stat, the demons target the furthest enemy instead.
 Damage: %prime% Energy burned: %secondary%
-Cooldown: 10
+Cooldown: %cooldown%
  |mobile_skill_violet_name = Blessed Vanguard
  |mobile_skill_violet_format = 
 Whenever an ally in front of Tristan gains energy, Tristan gains the same amount of energy.

@@ -1,0 +1,28 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_hero_level_required = 100
+ |browser_team_level_required = 100
+ |browser_armor_penetration = 320
+ |browser_physical_attack = 320
+ |browser_created_with_gold = 337500
+ |browser_created_with_1 = Violet/Advisor
+ |browser_created_with_1_count = 2
+ |browser_created_with_2 = Orange/Lycanthrope's Fang
+ |browser_created_with_recipe = 1
+ |browser_value_buy_gold = 176250
+ |browser_value_buy_coins = 17625
+ |browser_value_sell_gold = 35250
+ |browser_value_sell_exchange = 800
+ |mobile_hero_level_required = 100
+ |mobile_team_level_required = 100
+ |mobile_armor_penetration = 320
+ |mobile_physical_attack = 320
+ |mobile_created_with_gold = 337500
+ |mobile_created_with_1 = Violet/Advisor
+ |mobile_created_with_1_count = 2
+ |mobile_created_with_2 = Orange/Lycanthrope's Fang
+ |mobile_created_with_recipe = 1
+ |mobile_value_buy_gold = 176250
+ |mobile_value_buy_coins = 17625
+ |mobile_value_sell_gold = 35250
+ |mobile_value_sell_exchange = 800
+}}</onlyinclude>

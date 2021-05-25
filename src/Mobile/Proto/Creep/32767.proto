@@ -1,25 +1,35 @@
 {
+  ["BattleOrder"]: {
+    ["1"]: 1,
+  },
   ["Other"]: {
     ["MinStar"]: {
       ["1"]: 6,
     },
   },
-  ["BattleOrder"]: {
-    ["1"]: 1,
-  },
-  ["MainStat"]: {
-    ["1"]: "Strength",
-  },
   ["Type"]: {
     ["1"]: "creep",
   },
-  ["Asset"]: {
-    ["1"]: "test_dummy",
+  ["Stars"]: {
+    ["6"]: {
+      ["Armor"]: {
+        ["1"]: 100,
+      },
+      ["MagicResist"]: {
+        ["1"]: 100,
+      },
+    },
   },
-  ["Silhouette"]: {
-    ["1"]: "normal",
+  ["IconAssetTexture"]: {
+    ["1"]: 42,
   },
   ["BaseStats"]: {
+    ["Hp"]: {
+      ["1"]: 9999999,
+    },
+    ["Agility"]: {
+      ["1"]: 1,
+    },
     ["Strength"]: {
       ["1"]: 2,
     },
@@ -29,14 +39,17 @@
     ["Intelligence"]: {
       ["1"]: 1,
     },
-    ["Hp"]: {
-      ["1"]: 9999999,
-    },
-    ["Agility"]: {
-      ["1"]: 1,
-    },
+  },
+  ["MainStat"]: {
+    ["1"]: "Strength",
+  },
+  ["IconAssetAtlas"]: {
+    ["1"]: 2,
   },
   ["End"]: {
+  },
+  ["Silhouette"]: {
+    ["1"]: "normal",
   },
   ["Colors"]: {
     ["1"]: {
@@ -248,23 +261,10 @@
       },
     },
   },
+  ["Asset"]: {
+    ["1"]: "test_dummy",
+  },
   ["Skill"]: {
     ["1"]: 0,
-  },
-  ["IconAssetAtlas"]: {
-    ["1"]: 2,
-  },
-  ["IconAssetTexture"]: {
-    ["1"]: 42,
-  },
-  ["Stars"]: {
-    ["6"]: {
-      ["Armor"]: {
-        ["1"]: 100,
-      },
-      ["MagicResist"]: {
-        ["1"]: 100,
-      },
-    },
   },
 },

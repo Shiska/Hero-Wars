@@ -1,0 +1,28 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_hero_level_required = 80
+ |browser_team_level_required = 80
+ |browser_intelligence = 38
+ |browser_strength = 86
+ |browser_agility = 38
+ |browser_created_with_gold = 382500
+ |browser_created_with_1 = Violet/World Tremor
+ |browser_created_with_1_count = 2
+ |browser_created_with_recipe = 1
+ |browser_value_buy_gold = 223250
+ |browser_value_buy_coins = 22325
+ |browser_value_sell_gold = 44650
+ |browser_value_sell_exchange = 1000
+ |mobile_hero_level_required = 80
+ |mobile_team_level_required = 80
+ |mobile_intelligence = 38
+ |mobile_strength = 86
+ |mobile_agility = 38
+ |mobile_created_with_gold = 382500
+ |mobile_created_with_1 = Violet/World Tremor
+ |mobile_created_with_1_count = 2
+ |mobile_created_with_recipe = 1
+ |mobile_value_buy_gold = 223250
+ |mobile_value_buy_coins = 22325
+ |mobile_value_sell_gold = 44650
+ |mobile_value_sell_exchange = 1000
+}}</onlyinclude>

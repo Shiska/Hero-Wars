@@ -1,91 +1,59 @@
 {
   ["TitanPowerPerStat"]: {
-    ["ElementArmor"]: {
-      ["1"]: 0.319,
-    },
-    ["ElementAttack"]: {
-      ["1"]: 0.068,
-    },
     ["Hp"]: {
       ["1"]: 0.0051,
     },
     ["PhysicalAttack"]: {
       ["1"]: 0.068,
     },
+    ["ElementArmor"]: {
+      ["1"]: 0.319,
+    },
+    ["ElementAttack"]: {
+      ["1"]: 0.068,
+    },
   },
   ["End"]: {
   },
-  ["TitanLevelPowerCoefficient"]: {
-    ["1"]: 1.5,
-  },
-  ["TitanExperienceStarMoneyCost"]: {
-    ["1"]: 0.2,
-  },
-  ["PetPowerPerStat"]: {
-    ["Strength"]: {
-      ["1"]: 5.5,
-    },
-    ["MagicPenetration"]: {
-      ["1"]: 1,
-    },
-    ["MagicCrit"]: {
-      ["1"]: 4,
-    },
-    ["Lifesteal"]: {
-      ["1"]: 29,
-    },
-    ["EnergyRegen"]: {
-      ["1"]: 0.2,
-    },
-    ["PhysicalCritChance"]: {
-      ["1"]: 3.6,
-    },
-    ["Agility"]: {
-      ["1"]: 5.5,
-    },
-    ["EnergyReduce"]: {
-      ["1"]: 4,
-    },
-    ["MagicResist"]: {
-      ["1"]: 1,
-    },
-    ["HealingImprove"]: {
-      ["1"]: 2.6,
-    },
-    ["MagicPower"]: {
-      ["1"]: 1,
-    },
-    ["ArmorPenetration"]: {
-      ["1"]: 1,
-    },
-    ["Dodge"]: {
-      ["1"]: 3.6,
-    },
-    ["PhysicalAttack"]: {
-      ["1"]: 1.5,
-    },
-    ["Armor"]: {
-      ["1"]: 1,
-    },
-    ["Intelligence"]: {
-      ["1"]: 5.5,
-    },
-    ["Hp"]: {
-      ["1"]: 0.1,
-    },
-    ["HpRegen"]: {
-      ["1"]: 0.12,
-    },
-  },
   ["HeroPowerPerStat"]: {
-    ["Strength"]: {
-      ["1"]: 2.75,
-    },
     ["MagicPenetration"]: {
       ["1"]: 0.5,
     },
+    ["ArmorPenetration"]: {
+      ["1"]: 0.5,
+    },
+    ["Intelligence"]: {
+      ["1"]: 2.75,
+    },
+    ["HealingImprove"]: {
+      ["1"]: 1.3,
+    },
+    ["Hp"]: {
+      ["1"]: 0.05,
+    },
+    ["Dodge"]: {
+      ["1"]: 1.8,
+    },
+    ["Armor"]: {
+      ["1"]: 0.5,
+    },
+    ["EnergyReduce"]: {
+      ["1"]: 2,
+    },
+    ["PhysicalAttack"]: {
+      ["1"]: 0.75,
+    },
+    ["HpRegen"]: {
+      ["1"]: 0.06,
+    },
     ["MagicCrit"]: {
       ["1"]: 2,
+    },
+    ["PhysicalCritChance"]: {
+      ["1"]: 1.8,
+    },
+    ["Agility"]: {
+      ["1"]: 2.75,
     },
     ["Lifesteal"]: {
       ["1"]: 14.5,
@@ -93,44 +61,76 @@
     ["EnergyRegen"]: {
       ["1"]: 0.1,
     },
-    ["PhysicalCritChance"]: {
-      ["1"]: 1.8,
-    },
-    ["Agility"]: {
+    ["Strength"]: {
       ["1"]: 2.75,
-    },
-    ["EnergyReduce"]: {
-      ["1"]: 2,
     },
     ["MagicResist"]: {
       ["1"]: 0.5,
     },
-    ["HealingImprove"]: {
-      ["1"]: 1.3,
-    },
     ["MagicPower"]: {
       ["1"]: 0.5,
     },
+  },
+  ["TitanExperienceStarMoneyCost"]: {
+    ["1"]: 0.2,
+  },
+  ["TitanLevelPowerCoefficient"]: {
+    ["1"]: 1.5,
+  },
+  ["PetPowerPerStat"]: {
+    ["MagicPenetration"]: {
+      ["1"]: 1,
+    },
     ["ArmorPenetration"]: {
-      ["1"]: 0.5,
-    },
-    ["Dodge"]: {
-      ["1"]: 1.8,
-    },
-    ["PhysicalAttack"]: {
-      ["1"]: 0.75,
-    },
-    ["Armor"]: {
-      ["1"]: 0.5,
+      ["1"]: 1,
     },
     ["Intelligence"]: {
-      ["1"]: 2.75,
+      ["1"]: 5.5,
+    },
+    ["HealingImprove"]: {
+      ["1"]: 2.6,
     },
     ["Hp"]: {
-      ["1"]: 0.05,
+      ["1"]: 0.1,
+    },
+    ["Dodge"]: {
+      ["1"]: 3.6,
+    },
+    ["Armor"]: {
+      ["1"]: 1,
+    },
+    ["EnergyReduce"]: {
+      ["1"]: 4,
+    },
+    ["PhysicalAttack"]: {
+      ["1"]: 1.5,
     },
     ["HpRegen"]: {
-      ["1"]: 0.06,
+      ["1"]: 0.12,
+    },
+    ["MagicCrit"]: {
+      ["1"]: 4,
+    },
+    ["PhysicalCritChance"]: {
+      ["1"]: 3.6,
+    },
+    ["Agility"]: {
+      ["1"]: 5.5,
+    },
+    ["Lifesteal"]: {
+      ["1"]: 29,
+    },
+    ["EnergyRegen"]: {
+      ["1"]: 0.2,
+    },
+    ["Strength"]: {
+      ["1"]: 5.5,
+    },
+    ["MagicResist"]: {
+      ["1"]: 1,
+    },
+    ["MagicPower"]: {
+      ["1"]: 1,
     },
   },
 },

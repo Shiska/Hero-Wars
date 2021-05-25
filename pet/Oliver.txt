@@ -1,0 +1,72 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Hero/Lua</noinclude>
+ |browser_position = Back
+ |browser_role1 = Support
+ |browser_role2 = Healer
+ |browser_main_stat = Strength
+ |browser_stone1 = Dawnstone
+ |browser_stone2 = Sunstone
+ |browser_base_patronage_power = 25
+ |browser_base_magic_penetration = 1500
+ |browser_base_skill_power = 25
+ |browser_star = 1
+ |browser_star1_patronage_power = 6
+ |browser_star1_skill_power = 6
+ |browser_star2_patronage_power = 9
+ |browser_star2_skill_power = 9
+ |browser_star3_patronage_power = 13
+ |browser_star3_skill_power = 13
+ |browser_star4_patronage_power = 18
+ |browser_star4_skill_power = 18
+ |browser_star5_patronage_power = 23
+ |browser_star5_skill_power = 23
+ |browser_star6_patronage_power = 30
+ |browser_star6_skill_power = 30
+ |browser_basic_attack_damage_type = physical
+ |browser_basic_attack_attribute = Skill Power
+ |browser_skill_white_name = Pixie Dust
+ |browser_skill_white_prime_damage_type = heal
+ |browser_skill_white_prime_attribute = Skill Power
+ |browser_skill_white_prime_scale = 1.8
+ |browser_skill_white_prime_base = 100
+ |browser_skill_white_cooldown = 5.95
+ |browser_skill_white_format = 
+Heals the Hero with the lowest Health
+Cooldown: %cooldown%
+Prime: %prime%
+ |browser_skill_green_name = Eternal Bloom
+ |browser_skill_green_prime_damage_type = heal
+ |browser_skill_green_prime_attribute = Patronage Power
+ |browser_skill_green_prime_scale = 1
+ |browser_skill_green_secondary_damage_type = activation %
+ |browser_skill_green_secondary_attribute = Level
+ |browser_skill_green_secondary_base = 50
+ |browser_skill_green_format = 
+Heals the master if their health drops below 50%.
+Healing: %prime% every 0.5 seconds
+Secondary: %secondary%
+ |browser_patronage_bonus1_attribute = Health
+ |browser_patronage_bonus1_scale = 9
+ |browser_patronage_bonus2_attribute = Armor
+ |browser_patronage_bonus2_scale = 0.9
+ |browser_patron1 = Aurora
+ |browser_patron2 = Galahad
+ |browser_patron3 = Astaroth
+ |browser_patron4 = Chabba
+ |browser_patron5 = Judge
+ |browser_patron6 = Markus
+ |browser_patron7 = Cleaver
+ |browser_patron8 = Lilith
+ |browser_patron9 = Luther
+ |browser_patron10 = Cornelius
+ |browser_patron11 = Jet
+ |browser_patron12 = Jorgen
+ |browser_patron13 = Ziri
+ |browser_patron14 = Rufus
+ |browser_patron15 = Martha
+ |browser_patron16 = Andvari
+ |browser_patron17 = Sebastian
+ |browser_patron18 = Corvus
+ |browser_patron19 = Morrigan
+ |browser_patron20 = Isaac
+ |browser_patron21 = Alvanor
+}}</onlyinclude>

@@ -1,0 +1,61 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Hero/Lua</noinclude>
+ |browser_position = Back
+ |browser_role1 = Control
+ |browser_main_stat = Strength
+ |browser_stone1 = Dawnstone
+ |browser_stone2 = Nightstone
+ |browser_base_patronage_power = 25
+ |browser_base_magic_penetration = 1500
+ |browser_base_skill_power = 25
+ |browser_star = 1
+ |browser_star1_patronage_power = 6
+ |browser_star1_skill_power = 6
+ |browser_star2_patronage_power = 9
+ |browser_star2_skill_power = 9
+ |browser_star3_patronage_power = 13
+ |browser_star3_skill_power = 13
+ |browser_star4_patronage_power = 18
+ |browser_star4_skill_power = 18
+ |browser_star5_patronage_power = 23
+ |browser_star5_skill_power = 23
+ |browser_star6_patronage_power = 30
+ |browser_star6_skill_power = 30
+ |browser_basic_attack_damage_type = magic
+ |browser_basic_attack_attribute = Skill Power
+ |browser_skill_white_name = Mind Control
+ |browser_skill_white_duration = 3
+ |browser_skill_white_cooldown = 6.95
+ |browser_skill_white_format = 
+%name% charms an enemy, forcing them to fight on her side for %duration%.
+Success chance lowered if the target's level is above %level%
+Cooldown: %cooldown%
+ |browser_skill_green_name = Deadly Weakness
+ |browser_skill_green_prime_damage_type = ce duration %
+ |browser_skill_green_prime_attribute = Patronage Power
+ |browser_skill_green_prime_scale = 0.01767
+ |browser_skill_green_prime_base = 4.45
+ |browser_skill_green_format = 
+Increases the duration of stun, blinding, silence, slow, charm, and mind control effects inflicted by the master.
+Control effect duration increase: %prime%%
+ |browser_patronage_bonus1_attribute = Magic attack
+ |browser_patronage_bonus1_scale = 0.9
+ |browser_patronage_bonus2_attribute = Magic defense
+ |browser_patronage_bonus2_scale = 0.9
+ |browser_patron1 = Thea
+ |browser_patron2 = Daredevil
+ |browser_patron3 = Faceless
+ |browser_patron4 = Arachne
+ |browser_patron5 = Orion
+ |browser_patron6 = Fox
+ |browser_patron7 = Mojo
+ |browser_patron8 = Dark Star
+ |browser_patron9 = Peppy
+ |browser_patron10 = Lian
+ |browser_patron11 = Lilith
+ |browser_patron12 = Luther
+ |browser_patron13 = Lars
+ |browser_patron14 = K'arkh
+ |browser_patron15 = Astrid and Lucas
+ |browser_patron16 = Andvari
+ |browser_patron17 = Isaac
+}}</onlyinclude>

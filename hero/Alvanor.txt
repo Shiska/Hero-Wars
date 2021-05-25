@@ -4,16 +4,16 @@
  |browser_stone_source1 = 
  |browser_stone_source2 = 
  |browser_main_stat = Intelligence
- |browser_skin2 = Spring Skin
- |browser_skin2_attribute = Magic attack
- |browser_skin2_value = 10650
+ |browser_skin1_name = Spring Skin
+ |browser_skin1_attribute = Magic attack
+ |browser_skin1_value = 10650
  |browser_glyph1 = Magic attack
  |browser_glyph2 = Health
  |browser_glyph3 = Magic penetration
  |browser_glyph4 = Magic defense
  |browser_artifact_weapon = Soul of the Forest
  |browser_artifact_weapon_attribute = Magic attack
- |browser_artifact_weapon_value = 10680
+ |browser_artifact_weapon_value = 32040
  |browser_artifact_book = Manuscript of the Void
  |browser_base_agility = 10
  |browser_base_health = 500
@@ -36,22 +36,24 @@
  |browser_star6_agility = 10
  |browser_star6_intelligence = 26
  |browser_star6_strength = 14
- |browser_basic_attack_attribute = Physical attack
  |browser_basic_attack_damage_type = physical
+ |browser_basic_attack_attribute = Physical attack
  |browser_skill_white_name = Under the Forest Canopy
- |browser_skill_white_prime_attribute = Health
  |browser_skill_white_prime_damage_type = shieldCap
+ |browser_skill_white_prime_attribute = Health
  |browser_skill_white_prime_scale = 1
  |browser_skill_white_prime_level = 100
  |browser_skill_white_format = 
 %name% activates a runic barrier that protects all allies and absorbs 100% of the damage dealt by basic attacks.
 Damage absorbed by the barrier: %prime%
  |browser_skill_green_name = Wrath of Nature
- |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_damage_type = magic
+ |browser_skill_green_prime_attribute = Magic attack
  |browser_skill_green_prime_scale = 0.45
  |browser_skill_green_prime_level = 65
- |browser_skill_green_secondary_magic_attack = 0.08
+ |browser_skill_green_secondary_damage_type = debuff
+ |browser_skill_green_secondary_attribute = Magic attack
+ |browser_skill_green_secondary_scale = 0.08
  |browser_skill_green_secondary_level = 5
  |browser_skill_green_secondary_base = 70
  |browser_skill_green_duration = 5
@@ -59,10 +61,10 @@ Damage absorbed by the barrier: %prime%
  |browser_skill_green_format = 
 %name% unleashes the Wrath of Nature on nearby enemies, dealing damage and decreasing their Magic Defense for %duration%.
 Damage: %prime% Magic Defense decrease: %secondary%
-Cooldown: 8
+Cooldown: %cooldown%
  |browser_skill_blue_name = Rune of Life
- |browser_skill_blue_prime_attribute = Magic attack
  |browser_skill_blue_prime_damage_type = heal
+ |browser_skill_blue_prime_attribute = Magic attack
  |browser_skill_blue_prime_scale = 0.45
  |browser_skill_blue_prime_level = 70
  |browser_skill_blue_duration = 4
@@ -71,11 +73,11 @@ Cooldown: 8
  |browser_skill_blue_format = 
 %name% conjures a Rune of Life for %duration% that heals all allies once per second. While the rune is active, all allied Grove Keepers are healed twice as effectively regardless of the source of the healing.
 Health restored to each ally: %prime%
-Hits: 4
-Cooldown: 12
+Cooldown: %cooldown%
+Hits: %hits%
  |browser_skill_violet_name = Harmony of the Grove
- |browser_skill_violet_prime_attribute = Health
  |browser_skill_violet_prime_damage_type = shieldPart
+ |browser_skill_violet_prime_attribute = Health
  |browser_skill_violet_prime_scale = 0.3
  |browser_skill_violet_prime_level = 20
  |browser_skill_violet_format = 
@@ -201,7 +203,7 @@ Chance to gain energy is lowered if the target's level is above %level% Barrier 
  |mobile_glyph4 = Magic defense
  |mobile_artifact_weapon = Soul of the Forest
  |mobile_artifact_weapon_attribute = Magic attack
- |mobile_artifact_weapon_value = 10680
+ |mobile_artifact_weapon_value = 32040
  |mobile_artifact_book = Manuscript of the Void
  |mobile_base_agility = 10
  |mobile_base_health = 500
@@ -224,11 +226,11 @@ Chance to gain energy is lowered if the target's level is above %level% Barrier 
  |mobile_star6_agility = 10
  |mobile_star6_intelligence = 26
  |mobile_star6_strength = 14
- |mobile_basic_attack_attribute = Physical attack
  |mobile_basic_attack_damage_type = physical
+ |mobile_basic_attack_attribute = Physical attack
  |mobile_skill_white_name = Runes of Ice
- |mobile_skill_white_prime_attribute = Magic attack
  |mobile_skill_white_prime_damage_type = magic
+ |mobile_skill_white_prime_attribute = Magic attack
  |mobile_skill_white_prime_scale = 0.65
  |mobile_skill_white_prime_level = 100
  |mobile_skill_white_duration = 5
@@ -236,11 +238,11 @@ Chance to gain energy is lowered if the target's level is above %level% Barrier 
  |mobile_skill_white_format = 
 Alvanor conjures 5 Runes of Ice in front of himself and launches them at enemies. Each rune travels towards the nearest enemy, damaging and slowing the target.
 Damage: %prime%  Chance to slow is lowered if the target's level is above %level%
-Hits: 5
-Duration: 5
+Duration: %duration%
+Hits: %hits%
  |mobile_skill_green_name = Rune of Life
- |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_damage_type = heal
+ |mobile_skill_green_prime_attribute = Magic attack
  |mobile_skill_green_prime_scale = 0.45
  |mobile_skill_green_prime_level = 70
  |mobile_skill_green_duration = 4
@@ -248,11 +250,11 @@ Duration: 5
  |mobile_skill_green_format = 
 Alvanor conjures a Rune of Life that heals all allies once per second. While the rune is active, all allied Elves are healed twice as effectively regardless of the healing source.
 Healing: %prime%
-Duration: 4
-Cooldown: 8
+Cooldown: %cooldown%
+Duration: %duration%
  |mobile_skill_blue_name = Rune of Fire
- |mobile_skill_blue_prime_attribute = Magic attack
  |mobile_skill_blue_prime_damage_type = magic
+ |mobile_skill_blue_prime_attribute = Magic attack
  |mobile_skill_blue_prime_scale = 0.45
  |mobile_skill_blue_prime_level = 60
  |mobile_skill_blue_cooldown = 12
@@ -260,22 +262,22 @@ Cooldown: 8
  |mobile_skill_blue_format = 
 Alvanor invokes the power of the Rune of Fire, unleashing it on the two nearest enemies. Each target takes %prime% damage.
 Damage: %prime%
-Hits: 2
-Cooldown: 12
+Cooldown: %cooldown%
+Hits: %hits%
  |mobile_skill_violet_name = Rune of Earth
- |mobile_skill_violet_prime_attribute = Magic attack
  |mobile_skill_violet_prime_damage_type = magic
+ |mobile_skill_violet_prime_attribute = Magic attack
  |mobile_skill_violet_prime_scale = 0.55
  |mobile_skill_violet_prime_level = 40
  |mobile_skill_violet_duration = 5
- |mobile_skill_violet_cooldown_initial = 2
+ |mobile_skill_violet_initial_cooldown = 2
  |mobile_skill_violet_cooldown = 11
  |mobile_skill_violet_format = 
 Alvanor activates a Rune of Earth to protect his allies. While the rune is active, allies take decreased damage from basic attacks. The Rune of Earth is always active for Elves.
 Decreases basic attack damage by %prime%
-InitialCooldown: nil
-Duration: 5
-Cooldown: 11
+Initial cooldown: %initial_cooldown%
+Cooldown: %cooldown%
+Duration: %duration%
  |mobile_gear_white0_1 = White/Apprentice's Mantle
  |mobile_gear_white0_2 = White/Lucky Dice
  |mobile_gear_white0_3 = White/Oil Lamp

@@ -1,0 +1,17 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Infobox Item/Hero</noinclude>
+ |browser_hero_level_required = 130
+ |browser_team_level_required = 130
+ |browser_intelligence = 216
+ |browser_strength = 216
+ |browser_agility = 425
+ |browser_created_with_gold = 1269000
+ |browser_created_with_1 = Orange/Shining Armor
+ |browser_created_with_2 = Orange/All-Seeing Eye
+ |browser_created_with_3 = Red/Chalice of the Primordials
+ |browser_created_with_3_count = 2
+ |browser_created_with_recipe = 1
+ |browser_value_buy_gold = 778050
+ |browser_value_buy_coins = 152776
+ |browser_value_sell_gold = 155610
+ |browser_value_sell_exchange = 3840
+}}</onlyinclude>

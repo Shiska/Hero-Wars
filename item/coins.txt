@@ -1,0 +1,100 @@
+mobile
+1 = Arena coin = Get these coins by winning Arena battles and spend them in the Arena Shop
+2 = Grand Arena coin = Get these coins by winning Grand Arena battles and spend them in the Grand Arena Shop
+3 = Tower coin = Get these coins by opening chests in the Tower and spend them in the Tower Shop
+4 = Outland Coin = You can obtain these coins from chests in the Outland, and then spend them in the Outland Shop
+5 = Soul coin = Get these coins by exchanging extra Soul Stones of your heroes
+6 = Highwaymen Coins = Earn these coins by winning in the Highwaymen mode and spend them in the Highwayman Shop
+7 = Skull coin = Spend these skulls to get buffs
+8 = Intelligence Skin Stone = Used to upgrade hero skins. Can be acquired in Outland.
+9 = Strength Skin Stone = Used to upgrade hero skins. Can be acquired in Outland.
+10 = Agility Skin Stone = Used to upgrade hero skins. Can be acquired in Outland.
+11 = Intelligence Skin Stone = Used to upgrade hero skins. Can be acquired in Outland.
+13 = Summoning Sphere = Used to summon Titans. Granted as a reward for the Guild Dungeon.
+14 = Artifact Coin = Get these coins from Expeditions and the Artifact Chest, and exchange them for items at the Artifact Merchant's.
+15 = Titan Soul Coin = Get these coins by exchanging extra Soul Stones from your Absolute Star titans and spend them at the Titan Soul Shop
+16 = Winterfest Coin = Get these coins for decorating your Guild's Winterfest Tree, and spend them to send presents to your friends and guildmates
+17 = Winterfest Bauble = Receive Baubles for completing quests in Winterfest special events, and decorate your Guild's Winterfest Tree with them
+18 = Fairy Dust = Obtain Fairy Dust by battling the formidable guild boss
+19 = Hydra Coin = Obtain these coins at the Altar of the Elements, or by selling titan artifact fragments
+101 = Bronze Guild War Trophy = Receive these coins when you win Guild Wars and spend them in the Guild War shop.
+102 = Silver Guild War Trophy = Receive these coins when you win Guild Wars and spend them in the Guild War shop.
+103 = Gold Guild War Trophy = Receive these coins when you win Guild Wars and spend them in the Guild War shop.
+104 = Cross-Server Guild Tournament Trophy = Receive these coins by taking part in the Cross-Server Guild Tournament and spend them in the Guild War shop.
+1000 = Ticket = Get tickets for watching short videos in the Theater
+1001 = Gold Ticket = 
+1002 = Key = Received in the event "Battle for Harvest"
+1003 = Wheat Head = Received in the event "Battle for Harvest"
+1004 = Key = Received in the event "Halloween"
+1005 = Pumpkin = Received in the event "Halloween"
+1007 = New Year tree ornament = Received in the event "New year"
+1008 = Soul Stones = Soul Stones of different heroes
+1009 = Ice Coin = Received in the event "New year"
+1010 = Skin Shop Certificate = Can be exchanged for a skin
+1011 =  = 
+1012 = Pumpkin = Received in the event "Halloween"
+1013 = Ghost Candy = Exchange your candy for unique gifts in the Ghostly Shop
+1014 = Ghostly Scroll = Use Ghostly Scrolls to battle the Bone Head, Death Song, and Mora the Witch
+1015 = Lian Coin = Exchange Lian Coins for unique gifts at Lian's Store
+1016 = Sebastian Coin = Exchange Sebastian Coins for unique gifts at Sebastian's Store
+1017 = Winter Scroll = Use Winter Scrolls to fight bosses in Music Over Strongfird event
+1018 = Martha Coin = Exchange Martha Coins for unique gifts at Martha's Store
+1019 = Markus Coin = Exchange Markus Coins for unique gifts at Markus's Store
+1020 = Spring Scroll = Use Spring Scrolls to fight bosses in the Spring Festival event
+1021 = Morrigan Coin = Exchange Morrigan Coins for unique gifts in Morrigan's Store
+1022 = Corvus Coin = Exchange Corvus Coins for unique gifts in Corvus' Store
+1023 = Nocturnal Scroll = Use Nocturnal Scrolls to fight bosses in the Darkness Falls event
+1024 = Key Stone = Use these to open Artifact Boxes
+1025 = Yasmine Coin = Exchange Yasmine Coins for unique gifts in Yasmine's Store
+1026 = Ancient Scroll = Use Ancient Scrolls to fight bosses in the Shore of Madness event
+1027 = New Year tree ornament = You need the decorations to grow your festive tree
+1028 = Alvanor’s Coin = Exchange Alvanor’s Coins for unique gifts in the Alvanor's Store
+1029 = Dark Star’s Coin = Exchange Dark Star’s Coins for unique gifts in the Dark Star's Store
+1030 = Summoning Coin = You can receive these coins as a gift from your guildmates during the Special event
+1031 = Horn of Summoning = The number of Horns is replenished to 3 every day. You need them to attack guild bosses
+1032 = Golden Horn of Summoning = Can be obtained when you or your guildmates open the Golden Horn Box. You need them to attacking guild bosses
+1033 = Tristan Coin = Exchange Tristan Coins for unique gifts in Tristan's Store
+1034 = Golden Egg = Use Golden Eggs to fight bosses in the Blessed Lands event
+1035 =  = 
+2000 = Brawl Coin = Exchange your Brawl Coins for unique prizes in the Brawl Shop
+2001 = Lives = Lives
+browser
+1 = Arena coin = Get these coins by winning Arena battles and spend them in the Arena Shop
+2 = Grand Arena coin = Get these coins by winning Grand Arena battles and spend them in the Grand Arena Shop
+3 = Tower coin = Get these coins by opening chests in the Tower and spend them in the Tower Shop
+4 = Outland Coin = Get these coins by opening chests in Outland and spend them in the Outland Shop
+5 = Soul Coin = Get these coins by exchanging extra Soul Stones of your Absolute Star heroes and spend them at the Soul Shop
+6 = Friendship Chip = Get Friendship Chips from your friends and spend them at the Friendship Shop
+7 = Skull coin = Spend these skulls to get buffs
+8 = Intelligence Skin Stone = Used to upgrade hero skins. Can be acquired in Outland.
+9 = Strength Skin Stone = Used to upgrade hero skins. Can be acquired in Outland.
+10 = Agility Skin Stone = Used to upgrade hero skins. Can be acquired in Outland.
+11 = Snowflake = Used to open holiday gifts
+13 = Summoning Sphere = Used to summon Titans. Granted as a reward for the Guild Dungeon.
+14 = Artifact Coin = Get these coins from the Artifact Chest and the Elemental Tournament Shop, and exchange them for items at the Artifact Merchant.
+15 = Titan Soul Coin = Get these coins by exchanging extra Soul Stones from your Absolute Star titans and spend them at the Titan Soul Shop
+16 = Winterfest Coin = Get these coins for decorating your Guild's Winterfest Tree, and spend them to send presents to your friends and guildmates
+17 = Winterfest Bauble = Receive Baubles for completing quests in Winterfest special events, and decorate your Guild's Winterfest Tree with them
+18 = Elemental Tournament Coin = Earn Elemental Tournament Coins by participating in the Tournament of the Elements and spend them in the Elemental Tournament Shop!
+19 = Elemental Tournament Certificate = Earn Elemental Tournament Certificates by participating in the Tournament of the Elements and exchange them for valuable prizes in the Elemental Tournament Shop
+20 = Coolant = Receive Coolant for defeating monsters in survival missions.
+21 = Shard of the Elements = Receive Coolant for defeating Titans in survival missions.
+22 = Ghost Candy = Get Ghost Candies for completing Spooky Festival quests and get gifts from another world in the Spooky Cauldron.
+23 = Spooky Festival coin = Get Spooky Festival coins in the Spooky Cauldron or for completing Spooky Festival quests.
+24 = Titan Skin Stone = Used to upgrade titan skins.
+25 = Pet Soul Coin = Get these coins by exchanging extra Soul Stones from your Absolute Star pets and spend them at the Pet Soul Shop
+26 = Honey = Earn Honey by completing Summer Festival quests and exchange it for gifts at the Beehive
+27 = Summer Festival Coin = Earn Summer Festival Coins in the Beehive or get them as a reward for completing Summer Festival quests
+28 = Chip Key = Earn Chip Keys by completing Cyber-Con quests and unlock Cyber Vault cells.
+29 = Easter Key = Earn Easter Keys by completing Spring Rebirth quests and unlock Easter Adventure cells.
+31 = Storm Coins = Exchange Storm Coins for rare goods in the Great Storm Shop.
+101 = Bronze Guild War Trophy = Receive these coins when you win Guild Wars and spend them in the Guild War shop.
+102 = Silver Guild War Trophy = Receive these coins when you win Guild Wars and spend them in the Guild War shop.
+103 = Gold Guild War Trophy = Receive these coins when you win Guild Wars and spend them in the Guild War shop.
+1021 = Morrigan Coin = Exchange Morrigan Coins for unique gifts in Morrigan's Store
+1022 = Corvus Coin = Exchange Corvus Coins for unique gifts in Corvus' Store
+1023 = Nocturnal Scroll = Use Nocturnal Scrolls to fight bosses in the Darkness Falls event
+1024 = Fishy Coin = Exchange Fishy Coins for unique rewards at Axel's Shop
+1025 = Lagoon Monster Scroll = Use these scrolls to fight bosses in the Mystery of the Lagoon Monster event
+1026 = Talisman = Exchange Talismans for unique rewards at Alvanor's Store
+1027 = Alvanor's Tome = Use these Tomes to fight bosses in the Alvanor's Awakening event

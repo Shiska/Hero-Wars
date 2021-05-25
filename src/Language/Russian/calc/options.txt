@@ -2,65 +2,65 @@
   ["labelMainSize"]: {
     [" "]: {
       [" "]: {
-        ["buttonEquipRangColorBackground"]: {
-          ["1"]: "Фон",
-        },
         ["radioEquipColorRangList"]: {
           ["1"]: "Список",
-        },
-        ["labelEquipRangColor"]: {
-          ["1"]: "Цвета рангов списка предметов",
-        },
-        ["groupEquipColorRangView"]: {
-          ["1"]: "Вид",
-        },
-        ["groupEquipColorRangFold"]: {
-          ["1"]: "Сворачивание",
-        },
-        ["labelMissionWaveBoxSize"]: {
-          ["1"]: "Размер изображений соперников в миссиях",
-        },
-        ["labelItemsBoxSize"]: {
-          ["1"]: "Размер изображений предметов",
-        },
-        ["radioEquipColorRangCollapse"]: {
-          ["1"]: "Свернуть",
-        },
-        ["labelEquipBoxSize"]: {
-          ["1"]: "Размер изображений крафта",
-        },
-        ["labelSkinViewSort"]: {
-          ["1"]: "Переключатели обликов по умолчанию",
-        },
-        ["listEquipRang"]: {
-          ["1"]: "Белый@Зелёный@Синий@Фиолетовый@Оранжевый@Красный",
-        },
-        ["labelLanguage"]: {
-          ["1"]: "Язык",
-        },
-        ["labelMissionLootBoxSize"]: {
-          ["1"]: "Размер изображений лута в миссиях",
-        },
-        ["checkEquipColorRangEnable"]: {
-          ["1"]: "Использовать покраску",
-        },
-        ["buttonSave"]: {
-          ["1"]: "Сохранить",
         },
         ["radioEquipColorRangTree"]: {
           ["1"]: "Дерево",
         },
-        ["radioEquipColorRangExpand"]: {
-          ["1"]: "Развернуть",
+        ["groupEquipColorRangView"]: {
+          ["1"]: "Вид",
+        },
+        ["labelFontSize"]: {
+          ["1"]: "Размер шрифта",
+        },
+        ["labelEquipRangColor"]: {
+          ["1"]: "Цвета рангов списка предметов",
         },
         ["labelMissionViewSort"]: {
           ["1"]: "Переключатели миссии по умолчанию",
         },
+        ["radioEquipColorRangCollapse"]: {
+          ["1"]: "Свернуть",
+        },
+        ["labelMissionWaveBoxSize"]: {
+          ["1"]: "Размер изображений соперников в миссиях",
+        },
+        ["labelMissionLootBoxSize"]: {
+          ["1"]: "Размер изображений лута в миссиях",
+        },
+        ["groupEquipColorRangFold"]: {
+          ["1"]: "Сворачивание",
+        },
+        ["buttonEquipRangColorBackground"]: {
+          ["1"]: "Фон",
+        },
+        ["labelLanguage"]: {
+          ["1"]: "Язык",
+        },
         ["buttonEquipRangColorFont"]: {
           ["1"]: "Текст",
         },
-        ["labelFontSize"]: {
-          ["1"]: "Размер шрифта",
+        ["listEquipRang"]: {
+          ["1"]: "Белый@Зелёный@Синий@Фиолетовый@Оранжевый@Красный",
+        },
+        ["buttonSave"]: {
+          ["1"]: "Сохранить",
+        },
+        ["labelSkinViewSort"]: {
+          ["1"]: "Переключатели обликов по умолчанию",
+        },
+        ["labelItemsBoxSize"]: {
+          ["1"]: "Размер изображений предметов",
+        },
+        ["checkEquipColorRangEnable"]: {
+          ["1"]: "Использовать покраску",
+        },
+        ["labelEquipBoxSize"]: {
+          ["1"]: "Размер изображений крафта",
+        },
+        ["radioEquipColorRangExpand"]: {
+          ["1"]: "Развернуть",
         },
       },
     },

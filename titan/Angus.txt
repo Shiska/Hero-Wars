@@ -1,0 +1,72 @@
+<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Hero/Lua</noinclude>
+ |browser_type = titan
+ |browser_title = INSERT ME
+ |browser_element = earth
+ |browser_skin1_name = Default Skin
+ |browser_skin1_attribute = Health
+ |browser_skin1_value = 1022985
+ |browser_skin2_name = Champion's Skin
+ |browser_skin2_attribute = Elemental Armor
+ |browser_skin2_value = 49065
+ |browser_artifact_seal = Defense Seal
+ |browser_base_anti_crit = 1
+ |browser_base_anti_dodge = 1
+ |browser_base_health = 18722
+ |browser_base_physical_attack = 766
+ |browser_star = 1
+ |browser_star1_health = 1385
+ |browser_star1_physical_attack = 46
+ |browser_star2_health = 2031
+ |browser_star2_physical_attack = 68
+ |browser_star3_health = 2769
+ |browser_star3_physical_attack = 92
+ |browser_star4_health = 3692
+ |browser_star4_physical_attack = 123
+ |browser_star5_health = 4615
+ |browser_star5_physical_attack = 154
+ |browser_star6_health = 5538
+ |browser_star6_physical_attack = 185
+ |browser_basic_attack_damage_type = physical
+ |browser_basic_attack_attribute = Physical attack
+ |browser_skill_white_name = Anger of the Earth
+ |browser_skill_white_prime_damage_type = physical
+ |browser_skill_white_prime_attribute = Physical attack
+ |browser_skill_white_prime_scale = 0.9
+ |browser_skill_white_duration = 8
+ |browser_skill_white_hits = 8
+ |browser_skill_white_format = 
+Strikes everyone on the opposing team with roots that shoots up from the ground, dealing %prime% damage per second for %duration%. Cannot attack when using the skill.
+Hits: %hits%
+ |mobile_type = titan
+ |mobile_title = INSERT ME
+ |mobile_element = earth
+ |mobile_artifact_seal = Defense Seal
+ |mobile_base_anti_crit = 1
+ |mobile_base_anti_dodge = 1
+ |mobile_base_health = 18722
+ |mobile_base_physical_attack = 766
+ |mobile_star = 1
+ |mobile_star1_health = 1385
+ |mobile_star1_physical_attack = 46
+ |mobile_star2_health = 2031
+ |mobile_star2_physical_attack = 68
+ |mobile_star3_health = 2769
+ |mobile_star3_physical_attack = 92
+ |mobile_star4_health = 3692
+ |mobile_star4_physical_attack = 123
+ |mobile_star5_health = 4615
+ |mobile_star5_physical_attack = 154
+ |mobile_star6_health = 5538
+ |mobile_star6_physical_attack = 185
+ |mobile_basic_attack_damage_type = physical
+ |mobile_basic_attack_attribute = Physical attack
+ |mobile_skill_white_name = Anger of the Earth
+ |mobile_skill_white_prime_damage_type = physical
+ |mobile_skill_white_prime_attribute = Physical attack
+ |mobile_skill_white_prime_scale = 0.9
+ |mobile_skill_white_duration = 8
+ |mobile_skill_white_hits = 8
+ |mobile_skill_white_format = 
+Strikes everyone on the opposing team with roots that shoots up from the ground, dealing %prime% damage per second for %duration%. Cannot attack when using the skill.
+Hits: %hits%
+}}</onlyinclude>

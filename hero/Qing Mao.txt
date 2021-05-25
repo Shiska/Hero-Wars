@@ -5,13 +5,13 @@
  |browser_stone_source1 = 
  |browser_stone_source2 = 
  |browser_main_stat = Agility
- |browser_skin1 = Phoenix Skin
+ |browser_skin1_name = Phoenix Skin
  |browser_skin1_attribute = Dodge
  |browser_skin1_value = 2960
- |browser_skin2 = Spring Skin
+ |browser_skin2_name = Spring Skin
  |browser_skin2_attribute = Physical attack
  |browser_skin2_value = 7095
- |browser_skin3 = Masquerade Skin
+ |browser_skin3_name = Masquerade Skin
  |browser_skin3_attribute = Armor penetration
  |browser_skin3_value = 10650
  |browser_glyph1 = Physical attack
@@ -20,7 +20,7 @@
  |browser_glyph4 = Dodge
  |browser_artifact_weapon = Spear of the Crimson Dawn
  |browser_artifact_weapon_attribute = Armor penetration
- |browser_artifact_weapon_value = 10680
+ |browser_artifact_weapon_value = 32040
  |browser_artifact_book = Book of Illusions
  |browser_base_agility = 20
  |browser_base_health = 500
@@ -46,22 +46,24 @@
  |browser_star6_agility = 20
  |browser_star6_intelligence = 15
  |browser_star6_strength = 15
- |browser_basic_attack_attribute = Physical attack
  |browser_basic_attack_damage_type = physical
+ |browser_basic_attack_attribute = Physical attack
  |browser_skill_white_name = Qing Long
- |browser_skill_white_prime_attribute = Physical attack
  |browser_skill_white_prime_damage_type = physical
+ |browser_skill_white_prime_attribute = Physical attack
  |browser_skill_white_prime_scale = 0.3
  |browser_skill_white_prime_level = 75
- |browser_skill_white_secondary_physical_attack = 0.2
+ |browser_skill_white_secondary_damage_type = dot
+ |browser_skill_white_secondary_attribute = Physical attack
+ |browser_skill_white_secondary_scale = 0.2
  |browser_skill_white_secondary_level = 30
  |browser_skill_white_duration = 5
  |browser_skill_white_format = 
 Summons a dragon spirit that hits the nearest enemies three times, burning them for %duration%, pushing them back and damaging them.
 Damage per hit: %prime% Flame damage: %secondary%
  |browser_skill_green_name = Spear of Dawn
- |browser_skill_green_prime_attribute = Physical attack
  |browser_skill_green_prime_damage_type = physical
+ |browser_skill_green_prime_attribute = Physical attack
  |browser_skill_green_prime_scale = 0.2
  |browser_skill_green_prime_level = 30
  |browser_skill_green_duration = 3
@@ -69,22 +71,22 @@ Damage per hit: %prime% Flame damage: %secondary%
  |browser_skill_green_format = 
 Blinds the nearest enemies for %duration% and damages them.
 Damage: %prime% Chance to blind is lowered if the target's level is above %level%
-Cooldown: 15
+Cooldown: %cooldown%
  |browser_skill_blue_name = Dragon's Claw
- |browser_skill_blue_prime_attribute = Level
  |browser_skill_blue_prime_damage_type = dot % from current  hp
+ |browser_skill_blue_prime_attribute = Level
  |browser_skill_blue_prime_level = 0.1
  |browser_skill_blue_prime_base = 8
- |browser_skill_blue_cooldown_initial = 7
+ |browser_skill_blue_initial_cooldown = 7
  |browser_skill_blue_cooldown = 23
  |browser_skill_blue_format = 
 Deals damage to the nearest enemy based on their current health
 Damage: %prime%% of the target's current health
-InitialCooldown: nil
-Cooldown: 23
+Initial cooldown: %initial_cooldown%
+Cooldown: %cooldown%
  |browser_skill_violet_name = Open Heart
- |browser_skill_violet_prime_attribute = Level
  |browser_skill_violet_prime_damage_type = armorDecrease
+ |browser_skill_violet_prime_attribute = Level
  |browser_skill_violet_prime_level = 4
  |browser_skill_violet_prime_base = -50
  |browser_skill_violet_format = 
@@ -203,13 +205,13 @@ Armor Reduction per hit: %prime%
  |mobile_stone_source1 = 
  |mobile_stone_source2 = 
  |mobile_main_stat = Agility
- |mobile_skin1 = Phoenix Skin
+ |mobile_skin1_name = Phoenix Skin
  |mobile_skin1_attribute = Dodge
  |mobile_skin1_value = 2960
- |mobile_skin2 = Spring Skin
+ |mobile_skin2_name = Spring Skin
  |mobile_skin2_attribute = Physical attack
  |mobile_skin2_value = 7095
- |mobile_skin3 = Masquerade Skin
+ |mobile_skin3_name = Masquerade Skin
  |mobile_skin3_attribute = Armor penetration
  |mobile_skin3_value = 10650
  |mobile_glyph1 = Physical attack
@@ -218,7 +220,7 @@ Armor Reduction per hit: %prime%
  |mobile_glyph4 = Dodge
  |mobile_artifact_weapon = Spear of the Crimson Dawn
  |mobile_artifact_weapon_attribute = Armor penetration
- |mobile_artifact_weapon_value = 10680
+ |mobile_artifact_weapon_value = 32040
  |mobile_artifact_book = Book of Illusions
  |mobile_base_agility = 20
  |mobile_base_health = 500
@@ -244,23 +246,25 @@ Armor Reduction per hit: %prime%
  |mobile_star6_agility = 20
  |mobile_star6_intelligence = 15
  |mobile_star6_strength = 15
- |mobile_basic_attack_attribute = Physical attack
  |mobile_basic_attack_damage_type = physical
+ |mobile_basic_attack_attribute = Physical attack
  |mobile_skill_white_name = Qing Long
- |mobile_skill_white_prime_attribute = Physical attack
  |mobile_skill_white_prime_damage_type = physical
+ |mobile_skill_white_prime_attribute = Physical attack
  |mobile_skill_white_prime_scale = 0.3
  |mobile_skill_white_prime_level = 75
- |mobile_skill_white_secondary_physical_attack = 0.2
+ |mobile_skill_white_secondary_damage_type = dot
+ |mobile_skill_white_secondary_attribute = Physical attack
+ |mobile_skill_white_secondary_scale = 0.2
  |mobile_skill_white_secondary_level = 30
  |mobile_skill_white_duration = 5
  |mobile_skill_white_format = 
 Summons a dragon spirit that hits the nearest enemies three times, burning them for %duration%, pushing them back and damaging them.
 Damage: %prime%
-Secondary: nil
+Secondary: %secondary%
  |mobile_skill_green_name = Spear of Dawn
- |mobile_skill_green_prime_attribute = Physical attack
  |mobile_skill_green_prime_damage_type = physical
+ |mobile_skill_green_prime_attribute = Physical attack
  |mobile_skill_green_prime_scale = 0.2
  |mobile_skill_green_prime_level = 30
  |mobile_skill_green_duration = 3
@@ -268,23 +272,23 @@ Secondary: nil
  |mobile_skill_green_format = 
 Blinds the nearest enemies and damages them.
 Damage: %prime% Chance to blind is lowered if the target's level is above %level%
-Duration: 3
-Cooldown: 15
+Cooldown: %cooldown%
+Duration: %duration%
  |mobile_skill_blue_name = Dragon's Claw
- |mobile_skill_blue_prime_attribute = Level
  |mobile_skill_blue_prime_damage_type = dot % from current  hp
+ |mobile_skill_blue_prime_attribute = Level
  |mobile_skill_blue_prime_level = 0.1
  |mobile_skill_blue_prime_base = 8
- |mobile_skill_blue_cooldown_initial = 7
+ |mobile_skill_blue_initial_cooldown = 7
  |mobile_skill_blue_cooldown = 23
  |mobile_skill_blue_format = 
 Deals damage to the nearest enemy based on their current health
 Damage: %prime%% of the target's current health
-InitialCooldown: nil
-Cooldown: 23
+Initial cooldown: %initial_cooldown%
+Cooldown: %cooldown%
  |mobile_skill_violet_name = Open Heart
- |mobile_skill_violet_prime_attribute = Level
  |mobile_skill_violet_prime_damage_type = armorDecrease
+ |mobile_skill_violet_prime_attribute = Level
  |mobile_skill_violet_prime_level = 4
  |mobile_skill_violet_prime_base = -50
  |mobile_skill_violet_format = 

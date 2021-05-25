@@ -1,488 +1,488 @@
 {
-  ["labelShopResetTime"]: {
-    ["1"]: "Reset time",
-  },
-  ["labelAdventurePossibleRewards"]: {
-    ["1"]: "Possible Rewards",
-  },
-  ["radioBilling"]: {
-    ["1"]: "Purchase codes",
-  },
-  ["labelAdventureDifficulty"]: {
-    ["1"]: "Difficulty",
-  },
-  ["labelTitanArmorLevel"]: {
-    ["1"]: "Level",
-  },
-  ["labelTitanArtifactFragmentBuyCost"]: {
-    ["1"]: "Buy",
-  },
-  ["labelEquipCraftCost"]: {
-    ["1"]: "Craft Cost",
-  },
-  ["radioHeroSortId"]: {
-    ["1"]: "Id",
-  },
-  ["radioBillingDollar"]: {
-    ["1"]: "Dollar",
-  },
-  ["labelPetHeroFavor"]: {
-    ["1"]: "Patronage",
-  },
-  ["labelPetFavor"]: {
-    ["1"]: "Pet",
-  },
-  ["labelNameAddToSquad"]: {
-    ["1"]: "Name",
-  },
-  ["tabItems"]: {
-    ["1"]: "Items",
-  },
-  ["radioBillingCU"]: {
-    ["1"]: "Conventional units",
-  },
-  ["labelPetName"]: {
-    ["1"]: "Name",
-  },
-  ["tabHeroArtifact"]: {
-    ["1"]: "Hero Artifact",
-  },
-  ["tabAdventures"]: {
-    ["1"]: "Adventures",
-  },
-  ["labelEventEnd"]: {
-    ["1"]: "End",
-  },
-  ["groupHero"]: {
-    ["1"]: "Hero",
-  },
-  ["labelHeroName"]: {
-    ["1"]: "Name",
-  },
-  ["labelMissionTryCost"]: {
-    ["1"]: "Try Cost",
-  },
-  ["labelEquipName"]: {
-    ["1"]: "Name",
-  },
-  ["labelHeroRune1"]: {
-    ["1"]: "Rune 2",
-  },
-  ["tabEvents"]: {
-    ["1"]: "Events",
-  },
-  ["radioSkinExpand"]: {
-    ["1"]: "Expand",
-  },
-  ["menuReloadData"]: {
-    ["1"]: "Reload Data",
-  },
-  ["labelHeroTitanGift"]: {
-    ["1"]: "Spark of Power",
-  },
-  ["groupSkinListTreeSort"]: {
-    ["1"]: "View",
-  },
-  ["tabCCP"]: {
-    ["1"]: "Coins and Consumables",
-  },
-  ["labelAdventureRequiredTeamLevel"]: {
-    ["1"]: "Required Team Level",
-  },
-  ["radioSkinSortTree"]: {
-    ["1"]: "Tree",
-  },
-  ["labelPetFavorStats"]: {
-    ["1"]: "Patronage Stats",
-  },
-  ["groupTitanAmulet"]: {
-    ["1"]: "Seal",
-  },
-  ["formAddToSquad"]: {
-    ["1"]: "Add to squad",
-  },
-  ["labelShopTeamLevelRange"]: {
-    ["1"]: "Team level access",
-  },
-  ["labelSkinHero"]: {
-    ["1"]: "Hero name",
-  },
-  ["tabTitanArtifact"]: {
-    ["1"]: "Titan Artifact",
-  },
-  ["radioHeroSortOrder"]: {
-    ["1"]: "Battle Order",
-  },
-  ["tabHeroes"]: {
-    ["1"]: "Heroes",
-  },
-  ["tabTables"]: {
-    ["1"]: "Tables",
-  },
-  ["tabBattleHeroes"]: {
-    ["1"]: "Heroes",
-  },
-  ["tabPets"]: {
-    ["1"]: "Pets",
-  },
-  ["labelAdventurePetGearTier"]: {
-    ["1"]: "Required Pet Rang",
-  },
-  ["labelPetLevel"]: {
-    ["1"]: "Level",
-  },
-  ["tabShops"]: {
-    ["1"]: "Shops",
-  },
-  ["labelSkinName"]: {
-    ["1"]: "Skin name",
-  },
-  ["labelHeroPower"]: {
-    ["1"]: "Power",
-  },
-  ["radioTablesLevelSparksStrength"]: {
-    ["1"]: "Strength",
-  },
-  ["groupSkinHeroTitan"]: {
-    ["1"]: "Who",
-  },
-  ["radioSkinWhoTitan"]: {
-    ["1"]: "Titan",
-  },
-  ["labelHeroRune2"]: {
-    ["1"]: "Rune 3",
-  },
-  ["labelBundleRequirementCost"]: {
-    ["1"]: "Cost",
-  },
-  ["labelHeroArtifactStats"]: {
-    ["1"]: "Artifact Stats",
-  },
-  ["labelEventDuration"]: {
-    ["1"]: "Duration",
-  },
-  ["comboBoxHeroMColor"]: {
-    ["1"]: "White@Green@Green+1@Blue@Blue+1@Blue+2@Purple@Purple+1@Purple+2@Purple+3@Orange@Orange+1@Orange+2@Orange+3@Orange+4",
-  },
-  ["labelTitanArtifactType"]: {
-    ["1"]: "Type",
-  },
-  ["tabTitans"]: {
-    ["1"]: "Titans",
-  },
-  ["labelEquipId"]: {
-    ["1"]: "Id",
-  },
-  ["menuSquadManager"]: {
-    ["1"]: "Squad Manager",
-  },
-  ["labelEventStart"]: {
-    ["1"]: "Start",
-  },
-  ["labelTitanArtifactStats"]: {
-    ["1"]: "Artifact stats",
-  },
-  ["labelEventName"]: {
-    ["1"]: "Name",
-  },
-  ["groupHeroRing"]: {
-    ["1"]: "Ring",
-  },
-  ["radioSkinSortList"]: {
-    ["1"]: "List",
-  },
-  ["labelTitanType"]: {
-    ["1"]: "Type",
-  },
-  ["groupMissionExpandCollapse"]: {
-    ["1"]: "Folding",
-  },
-  ["groupHeroWeapon"]: {
-    ["1"]: "Weapon",
-  },
-  ["labelEventSortOrder"]: {
-    ["1"]: "SortOrder",
-  },
-  ["tabBundles"]: {
-    ["1"]: "Bundles",
-  },
-  ["radioSkinCollapse"]: {
-    ["1"]: "Collapse",
-  },
-  ["labelBundleReward"]: {
-    ["1"]: "Rewards",
-  },
-  ["radioEventSortId"]: {
-    ["1"]: "Id",
-  },
-  ["labelMissionName"]: {
-    ["1"]: "Name",
-  },
-  ["groupSkinHeroTag"]: {
-    ["1"]: "Sort",
-  },
-  ["labelEquipHeroLevel"]: {
-    ["1"]: "Hero Level",
-  },
-  ["labelAdventureEnergy"]: {
-    ["1"]: "Energy",
-  },
-  ["labelHeroLevel"]: {
-    ["1"]: "Level",
-  },
-  ["labelTitanPower"]: {
-    ["1"]: "Power",
-  },
-  ["labelPetGearUnlockCost"]: {
-    ["1"]: "Unlock cost",
-  },
-  ["comboBoxHeroColor"]: {
-    ["1"]: "White@Green@Green+1@Blue@Blue+1@Blue+2@Purple@Purple+1@Purple+2@Purple+3@Orange@Orange+1@Orange+2@Orange+3@Orange+4@Red@Red+1@Red+2",
-  },
-  ["labelTitanId"]: {
-    ["1"]: "Id",
-  },
-  ["comboBoxLevel"]: {
-    ["1"]: "Heroes@Titans@Team@Skills@Runes@Sparks@Dungeon",
-  },
-  ["groupTitanWeapon"]: {
-    ["1"]: "Weapon",
-  },
-  ["labelHeroArtifactFragmentSellCost"]: {
-    ["1"]: "Sell",
-  },
-  ["tabLevel"]: {
-    ["1"]: "Levels",
-  },
-  ["radioTablesLevelSparksIntelligence"]: {
-    ["1"]: "Intelligence",
-  },
-  ["tabPetGear"]: {
-    ["1"]: "Pet Equip",
-  },
-  ["radioTablesLevelSparksAgility"]: {
-    ["1"]: "Agility",
-  },
-  ["labelPetId"]: {
-    ["1"]: "Id",
-  },
-  ["labelTitanArtifactFragmentSellCost"]: {
-    ["1"]: "Sell",
-  },
-  ["labelHeroMainStat"]: {
-    ["1"]: "Main stat",
-  },
-  ["labelEventDesc"]: {
-    ["1"]: "Description",
-  },
-  ["labelHeroArtifactType"]: {
-    ["1"]: "Type",
-  },
-  ["tabBattle"]: {
-    ["1"]: "Battle",
-  },
-  ["comboBoxItems"]: {
-    ["1"]: "Coins@Consumables@Pseudo",
-  },
-  ["labelTitanAbility2"]: {
-    ["1"]: "Ability2",
-  },
-  ["labelHeroBookLevel"]: {
-    ["1"]: "Level",
-  },
-  ["groupPet"]: {
-    ["1"]: "Pet",
-  },
-  ["labelHeroArtifactFragmentBuyCost"]: {
-    ["1"]: "Buy",
-  },
-  ["labelEquipEnchantValue"]: {
-    ["1"]: "Enchant Value",
-  },
-  ["radioMissionCollapse"]: {
-    ["1"]: "Collapse",
-  },
-  ["labelMissionCost"]: {
-    ["1"]: "Cost",
-  },
-  ["groupTitan"]: {
-    ["1"]: "Titan",
-  },
-  ["tabEquip"]: {
-    ["1"]: "Equip",
+  ["comboBoxPetColor"]: {
+    ["1"]: "White@Green@Green+1@Blue@Blue+1@Blue+2@Purple@Purple+1@Purple+2@Purple+3",
   },
   ["labelShopId"]: {
-    ["1"]: "Id",
-  },
-  ["labelEquipCraftList"]: {
-    ["1"]: "Craft List",
-  },
-  ["labelShopTeamLevelToUnlock"]: {
-    ["1"]: "Team level to unlock",
-  },
-  ["menuOptions"]: {
-    ["1"]: "Options",
-  },
-  ["radioBillingRouble"]: {
-    ["1"]: "Rouble",
-  },
-  ["radioBundle"]: {
-    ["1"]: "Bundles",
-  },
-  ["labelTitanWeaponLevel"]: {
-    ["1"]: "Level",
-  },
-  ["tabMissions"]: {
-    ["1"]: "Campaign",
-  },
-  ["tabSpecialOffers"]: {
-    ["1"]: "Special Offers",
-  },
-  ["labelPetGearSellCost"]: {
-    ["1"]: "Sell cost",
-  },
-  ["labelEquipFragment"]: {
-    ["1"]: "Fragment",
-  },
-  ["menuStrip"]: {
-    ["1"]: "Menu@Additional Modules@Add to squad@Donate",
-  },
-  ["radioSkinSortHero"]: {
-    ["1"]: "Hero",
-  },
-  ["labelTitanName"]: {
-    ["1"]: "Name",
-  },
-  ["labelHeroRune3"]: {
-    ["1"]: "Rune 4",
-  },
-  ["labelHeroRingLevel"]: {
-    ["1"]: "Level",
-  },
-  ["labelHeroRune0"]: {
-    ["1"]: "Rune 1",
-  },
-  ["labelHeroWeaponLevel"]: {
-    ["1"]: "Level",
-  },
-  ["labelHeroRune4"]: {
-    ["1"]: "Rune 5",
-  },
-  ["labelBundleDescription"]: {
-    ["1"]: "Description",
-  },
-  ["labelTitanLevel"]: {
-    ["1"]: "Level",
-  },
-  ["labelHeroId"]: {
     ["1"]: "Id",
   },
   ["labelBundleRequirement"]: {
     ["1"]: "Requirements",
   },
-  ["labelEquipTeamLevel"]: {
-    ["1"]: "Team Level",
+  ["labelHeroArtifactFragmentSellCost"]: {
+    ["1"]: "Sell",
   },
-  ["buttonAddToSquad"]: {
-    ["1"]: "Add",
-  },
-  ["radioHeroSortName"]: {
-    ["1"]: "Name",
-  },
-  ["groupTitanSpirit"]: {
-    ["1"]: "Spirit",
-  },
-  ["radioSkinWhoHero"]: {
+  ["groupHero"]: {
     ["1"]: "Hero",
   },
-  ["labelHeroArtifactId"]: {
-    ["1"]: "Id",
+  ["tabEvents"]: {
+    ["1"]: "Events",
   },
-  ["labelPetPower"]: {
-    ["1"]: "Power",
+  ["comboBoxItems"]: {
+    ["1"]: "Coins@Consumables@Pseudo",
   },
-  ["labelSkinId"]: {
-    ["1"]: "Id",
+  ["radioBillingRouble"]: {
+    ["1"]: "Rouble",
   },
-  ["groupMissionWave"]: {
-    ["1"]: "Wave",
-  },
-  ["labelTitanAbility1"]: {
-    ["1"]: "Ability1",
-  },
-  ["comboBoxPetColor"]: {
-    ["1"]: "White@Green@Green+1@Blue@Blue+1@Blue+2@Purple@Purple+1@Purple+2@Purple+3",
-  },
-  ["labelShopRefillable"]: {
-    ["1"]: "Reset shop cost",
-  },
-  ["radioSkinSortTag"]: {
-    ["1"]: "Skin",
-  },
-  ["labelMissionTeamExp"]: {
-    ["1"]: "Team Exp",
-  },
-  ["labelEquipSellCost"]: {
-    ["1"]: "Sell Cost",
-  },
-  ["groupTitanArmor"]: {
-    ["1"]: "Crown",
-  },
-  ["labelEventId"]: {
-    ["1"]: "Id",
-  },
-  ["labelTitanArtifactId"]: {
-    ["1"]: "Id",
-  },
-  ["labelPetGearLevel"]: {
-    ["1"]: "Pet Level",
-  },
-  ["groupSkinExpandCollapse"]: {
-    ["1"]: "Folding",
-  },
-  ["groupHeroSort"]: {
-    ["1"]: "Sort by",
-  },
-  ["radioMissionExpand"]: {
-    ["1"]: "Expand",
-  },
-  ["labelTitanAmuletLevel"]: {
+  ["labelTitanArmorLevel"]: {
     ["1"]: "Level",
   },
-  ["labelPetStats"]: {
-    ["1"]: "Pet Stats",
+  ["tabTitans"]: {
+    ["1"]: "Titans",
   },
   ["labelMissionHeroExp"]: {
     ["1"]: "Hero Exp",
   },
-  ["groupHeroBook"]: {
-    ["1"]: "Book",
+  ["groupSkinHeroTitan"]: {
+    ["1"]: "Who",
   },
-  ["tabBattleTitan"]: {
-    ["1"]: "Titans",
+  ["labelHeroRune3"]: {
+    ["1"]: "Rune 4",
   },
-  ["labelAdventureMaxPlayersCount"]: {
-    ["1"]: "Max Player Count",
+  ["radioSkinSortTag"]: {
+    ["1"]: "Skin",
   },
-  ["labelTitanArtifactElement"]: {
-    ["1"]: "Element",
-  },
-  ["labelMissionDescription"]: {
-    ["1"]: "Description",
-  },
-  ["labelTitanSpiritLevel"]: {
+  ["labelHeroBookLevel"]: {
     ["1"]: "Level",
-  },
-  ["radioEventSortNew"]: {
-    ["1"]: "Date (New)",
-  },
-  ["radioEventSortOld"]: {
-    ["1"]: "Date (Old)",
   },
   ["groupEventTreeSort"]: {
     ["1"]: "Sort by",
   },
+  ["radioEventSortNew"]: {
+    ["1"]: "Date (New)",
+  },
+  ["labelPetGearSellCost"]: {
+    ["1"]: "Sell cost",
+  },
+  ["labelPetGearLevel"]: {
+    ["1"]: "Pet Level",
+  },
+  ["radioEventSortId"]: {
+    ["1"]: "Id",
+  },
+  ["radioSkinSortTree"]: {
+    ["1"]: "Tree",
+  },
+  ["labelEventStart"]: {
+    ["1"]: "Start",
+  },
+  ["radioHeroSortName"]: {
+    ["1"]: "Name",
+  },
+  ["radioMissionCollapse"]: {
+    ["1"]: "Collapse",
+  },
+  ["tabCCP"]: {
+    ["1"]: "Coins and Consumables",
+  },
+  ["labelSkinId"]: {
+    ["1"]: "Id",
+  },
+  ["buttonAddToSquad"]: {
+    ["1"]: "Add",
+  },
+  ["labelEquipCraftList"]: {
+    ["1"]: "Craft List",
+  },
+  ["labelNameAddToSquad"]: {
+    ["1"]: "Name",
+  },
+  ["menuReloadData"]: {
+    ["1"]: "Reload Data",
+  },
+  ["radioBillingCU"]: {
+    ["1"]: "Conventional units",
+  },
+  ["radioSkinSortList"]: {
+    ["1"]: "List",
+  },
+  ["labelBundleDescription"]: {
+    ["1"]: "Description",
+  },
+  ["labelTitanArtifactType"]: {
+    ["1"]: "Type",
+  },
+  ["labelTitanArtifactFragmentBuyCost"]: {
+    ["1"]: "Buy",
+  },
+  ["labelAdventureEnergy"]: {
+    ["1"]: "Energy",
+  },
+  ["labelHeroRune1"]: {
+    ["1"]: "Rune 2",
+  },
+  ["labelShopTeamLevelToUnlock"]: {
+    ["1"]: "Team level to unlock",
+  },
+  ["radioSkinSortHero"]: {
+    ["1"]: "Hero",
+  },
+  ["labelTitanArtifactElement"]: {
+    ["1"]: "Element",
+  },
+  ["labelPetStats"]: {
+    ["1"]: "Pet Stats",
+  },
+  ["tabLevel"]: {
+    ["1"]: "Levels",
+  },
+  ["labelPetId"]: {
+    ["1"]: "Id",
+  },
+  ["labelHeroRune4"]: {
+    ["1"]: "Rune 5",
+  },
+  ["radioBillingDollar"]: {
+    ["1"]: "Dollar",
+  },
+  ["tabHeroes"]: {
+    ["1"]: "Heroes",
+  },
+  ["tabPets"]: {
+    ["1"]: "Pets",
+  },
+  ["radioSkinWhoTitan"]: {
+    ["1"]: "Titan",
+  },
+  ["labelHeroRune0"]: {
+    ["1"]: "Rune 1",
+  },
+  ["groupTitanArmor"]: {
+    ["1"]: "Crown",
+  },
+  ["radioBundle"]: {
+    ["1"]: "Bundles",
+  },
+  ["labelTitanAmuletLevel"]: {
+    ["1"]: "Level",
+  },
+  ["labelPetLevel"]: {
+    ["1"]: "Level",
+  },
+  ["radioBilling"]: {
+    ["1"]: "Purchase codes",
+  },
+  ["labelHeroArtifactFragmentBuyCost"]: {
+    ["1"]: "Buy",
+  },
+  ["labelBundleReward"]: {
+    ["1"]: "Rewards",
+  },
+  ["labelAdventurePetGearTier"]: {
+    ["1"]: "Required Pet Rang",
+  },
+  ["groupSkinExpandCollapse"]: {
+    ["1"]: "Folding",
+  },
+  ["tabSpecialOffers"]: {
+    ["1"]: "Special Offers",
+  },
+  ["radioTablesLevelSparksStrength"]: {
+    ["1"]: "Strength",
+  },
+  ["tabEquip"]: {
+    ["1"]: "Equip",
+  },
+  ["radioSkinCollapse"]: {
+    ["1"]: "Collapse",
+  },
+  ["labelTitanType"]: {
+    ["1"]: "Type",
+  },
+  ["menuSquadManager"]: {
+    ["1"]: "Squad Manager",
+  },
+  ["labelPetFavor"]: {
+    ["1"]: "Pet",
+  },
+  ["groupTitanWeapon"]: {
+    ["1"]: "Weapon",
+  },
+  ["labelHeroArtifactStats"]: {
+    ["1"]: "Artifact Stats",
+  },
+  ["menuOptions"]: {
+    ["1"]: "Options",
+  },
+  ["tabAdventures"]: {
+    ["1"]: "Adventures",
+  },
+  ["labelEquipHeroLevel"]: {
+    ["1"]: "Hero Level",
+  },
+  ["labelEventSortOrder"]: {
+    ["1"]: "SortOrder",
+  },
+  ["labelTitanPower"]: {
+    ["1"]: "Power",
+  },
+  ["labelEquipSellCost"]: {
+    ["1"]: "Sell Cost",
+  },
+  ["radioEventSortOld"]: {
+    ["1"]: "Date (Old)",
+  },
+  ["groupTitanAmulet"]: {
+    ["1"]: "Seal",
+  },
+  ["tabBattleHeroes"]: {
+    ["1"]: "Heroes",
+  },
+  ["labelAdventureRequiredTeamLevel"]: {
+    ["1"]: "Required Team Level",
+  },
+  ["labelTitanName"]: {
+    ["1"]: "Name",
+  },
+  ["labelEventEnd"]: {
+    ["1"]: "End",
+  },
+  ["tabShops"]: {
+    ["1"]: "Shops",
+  },
+  ["groupHeroBook"]: {
+    ["1"]: "Book",
+  },
+  ["labelMissionTryCost"]: {
+    ["1"]: "Try Cost",
+  },
+  ["tabItems"]: {
+    ["1"]: "Items",
+  },
+  ["groupHeroRing"]: {
+    ["1"]: "Ring",
+  },
+  ["labelPetPower"]: {
+    ["1"]: "Power",
+  },
+  ["tabBattleTitan"]: {
+    ["1"]: "Titans",
+  },
+  ["labelAdventurePossibleRewards"]: {
+    ["1"]: "Possible Rewards",
+  },
+  ["comboBoxLevel"]: {
+    ["1"]: "Heroes@Titans@Team@Skills@Runes@Sparks@Dungeon",
+  },
+  ["labelTitanArtifactId"]: {
+    ["1"]: "Id",
+  },
+  ["labelEventDuration"]: {
+    ["1"]: "Duration",
+  },
+  ["groupTitan"]: {
+    ["1"]: "Titan",
+  },
+  ["labelShopResetTime"]: {
+    ["1"]: "Reset time",
+  },
+  ["groupHeroSort"]: {
+    ["1"]: "Sort by",
+  },
+  ["radioSkinExpand"]: {
+    ["1"]: "Expand",
+  },
+  ["menuStrip"]: {
+    ["1"]: "Menu@Additional Modules@Add to squad@Donate",
+  },
+  ["labelHeroArtifactId"]: {
+    ["1"]: "Id",
+  },
+  ["labelSkinHero"]: {
+    ["1"]: "Hero name",
+  },
+  ["labelTitanAbility1"]: {
+    ["1"]: "Ability1",
+  },
+  ["comboBoxHeroMColor"]: {
+    ["1"]: "White@Green@Green+1@Blue@Blue+1@Blue+2@Purple@Purple+1@Purple+2@Purple+3@Orange@Orange+1@Orange+2@Orange+3@Orange+4",
+  },
+  ["labelHeroLevel"]: {
+    ["1"]: "Level",
+  },
+  ["tabTitanArtifact"]: {
+    ["1"]: "Titan Artifact",
+  },
+  ["labelTitanAbility2"]: {
+    ["1"]: "Ability2",
+  },
+  ["tabBattle"]: {
+    ["1"]: "Battle",
+  },
+  ["labelPetName"]: {
+    ["1"]: "Name",
+  },
+  ["comboBoxHeroColor"]: {
+    ["1"]: "White@Green@Green+1@Blue@Blue+1@Blue+2@Purple@Purple+1@Purple+2@Purple+3@Orange@Orange+1@Orange+2@Orange+3@Orange+4@Red@Red+1@Red+2",
+  },
+  ["labelMissionName"]: {
+    ["1"]: "Name",
+  },
+  ["radioSkinWhoHero"]: {
+    ["1"]: "Hero",
+  },
+  ["groupSkinHeroTag"]: {
+    ["1"]: "Sort",
+  },
+  ["formAddToSquad"]: {
+    ["1"]: "Add to squad",
+  },
+  ["tabTables"]: {
+    ["1"]: "Tables",
+  },
+  ["labelEquipId"]: {
+    ["1"]: "Id",
+  },
+  ["labelEventName"]: {
+    ["1"]: "Name",
+  },
+  ["labelHeroWeaponLevel"]: {
+    ["1"]: "Level",
+  },
+  ["groupTitanSpirit"]: {
+    ["1"]: "Spirit",
+  },
+  ["labelPetHeroFavor"]: {
+    ["1"]: "Patronage",
+  },
+  ["groupMissionWave"]: {
+    ["1"]: "Wave",
+  },
+  ["labelHeroId"]: {
+    ["1"]: "Id",
+  },
+  ["radioHeroSortOrder"]: {
+    ["1"]: "Battle Order",
+  },
+  ["groupMissionExpandCollapse"]: {
+    ["1"]: "Folding",
+  },
+  ["labelMissionTeamExp"]: {
+    ["1"]: "Team Exp",
+  },
+  ["labelMissionDescription"]: {
+    ["1"]: "Description",
+  },
+  ["radioMissionExpand"]: {
+    ["1"]: "Expand",
+  },
+  ["radioTablesLevelSparksIntelligence"]: {
+    ["1"]: "Intelligence",
+  },
+  ["labelEquipEnchantValue"]: {
+    ["1"]: "Enchant Value",
+  },
+  ["labelHeroMainStat"]: {
+    ["1"]: "Main stat",
+  },
+  ["labelAdventureMaxPlayersCount"]: {
+    ["1"]: "Max Player Count",
+  },
+  ["radioHeroSortId"]: {
+    ["1"]: "Id",
+  },
+  ["tabBundles"]: {
+    ["1"]: "Bundles",
+  },
+  ["labelMissionCost"]: {
+    ["1"]: "Cost",
+  },
+  ["tabPetGear"]: {
+    ["1"]: "Pet Equip",
+  },
+  ["labelBundleRequirementCost"]: {
+    ["1"]: "Cost",
+  },
+  ["labelEquipCraftCost"]: {
+    ["1"]: "Craft Cost",
+  },
+  ["labelPetFavorStats"]: {
+    ["1"]: "Patronage Stats",
+  },
+  ["labelHeroArtifactType"]: {
+    ["1"]: "Type",
+  },
+  ["labelTitanId"]: {
+    ["1"]: "Id",
+  },
+  ["labelEquipName"]: {
+    ["1"]: "Name",
+  },
+  ["tabHeroArtifact"]: {
+    ["1"]: "Hero Artifact",
+  },
+  ["labelTitanSpiritLevel"]: {
+    ["1"]: "Level",
+  },
+  ["labelPetGearUnlockCost"]: {
+    ["1"]: "Unlock cost",
+  },
+  ["groupPet"]: {
+    ["1"]: "Pet",
+  },
+  ["labelEquipTeamLevel"]: {
+    ["1"]: "Team Level",
+  },
+  ["labelTitanArtifactStats"]: {
+    ["1"]: "Artifact stats",
+  },
+  ["labelHeroName"]: {
+    ["1"]: "Name",
+  },
+  ["labelHeroRingLevel"]: {
+    ["1"]: "Level",
+  },
+  ["labelTitanArtifactFragmentSellCost"]: {
+    ["1"]: "Sell",
+  },
+  ["labelTitanLevel"]: {
+    ["1"]: "Level",
+  },
+  ["groupHeroWeapon"]: {
+    ["1"]: "Weapon",
+  },
+  ["tabMissions"]: {
+    ["1"]: "Campaign",
+  },
+  ["labelEventDesc"]: {
+    ["1"]: "Description",
+  },
   ["tabSkin"]: {
     ["1"]: "Skin",
+  },
+  ["labelShopTeamLevelRange"]: {
+    ["1"]: "Team level access",
+  },
+  ["radioTablesLevelSparksAgility"]: {
+    ["1"]: "Agility",
+  },
+  ["labelTitanWeaponLevel"]: {
+    ["1"]: "Level",
+  },
+  ["labelEquipFragment"]: {
+    ["1"]: "Fragment",
+  },
+  ["labelHeroTitanGift"]: {
+    ["1"]: "Spark of Power",
+  },
+  ["labelHeroPower"]: {
+    ["1"]: "Power",
+  },
+  ["labelHeroRune2"]: {
+    ["1"]: "Rune 3",
+  },
+  ["groupSkinListTreeSort"]: {
+    ["1"]: "View",
+  },
+  ["labelAdventureDifficulty"]: {
+    ["1"]: "Difficulty",
+  },
+  ["labelSkinName"]: {
+    ["1"]: "Skin name",
+  },
+  ["labelEventId"]: {
+    ["1"]: "Id",
+  },
+  ["labelShopRefillable"]: {
+    ["1"]: "Reset shop cost",
   },
 },
