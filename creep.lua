@@ -51,9 +51,6 @@ function getParams(platform, data)
         end
     end
 
-    params.stone_source1 = ''
-    params.stone_source2 = ''
-
     local main_stat = data.MainStat
 
     if main_stat then
@@ -167,18 +164,25 @@ function getParams(platform, data)
         local skill_color = lookup_skill.color
         local lookup_attribute = lookup.attribute
         local skill_attribute = lookup_skill.attribute
+        -- recreate table if only one value
+        if type(skills) ~= 'table' then
+            skills = {'Skill', skills}
+        end
         -- basic attack
         do
             local skill = lookup_skill[skills[2]][platform]
-            local prime = skill.Behavior.Prime
 
-            if prime then
-                local _, attribute, damageType = table.unpack(prime[1])
+            if skill then
+                local prime = skill.Behavior.Prime
 
-                params.basic_attack_damage_type = damageType
-                params.basic_attack_attribute = lookup_attribute[skill_attribute[attribute]]
+                if prime then
+                    local _, attribute, damageType = table.unpack(prime[1])
 
-                allDamageTypes[damageType] = (allDamageTypes[damageType] or 0) + 1
+                    params.basic_attack_damage_type = damageType
+                    params.basic_attack_attribute = lookup_attribute[skill_attribute[attribute]]
+
+                    allDamageTypes[damageType] = (allDamageTypes[damageType] or 0) + 1
+                end
             end
         end
         -- skills
@@ -187,7 +191,7 @@ function getParams(platform, data)
 
             if skill then
                 local description = table.concat({'', skill.description, skill.param}, '\n')
-                local key = 'skill_' .. skill_color[i - 2] .. '_'
+                local key = 'skill_' .. (i - 2) .. '_'
                 local behavior = skill.Behavior
                 local keys = {
                     level = 10,
@@ -300,13 +304,14 @@ function getParams(platform, data)
     if items then
         local lookup_gear = lookup.item.gear
         local rank_param = lookup.rank.param
+        local undefined = {key = 'undefined'}
 
         for idx, items in ipairs(items) do
             local items = items.Items[1]
             local key = 'gear_' .. rank_param[idx] .. '_'
 
             for i = 2, #items do
-                params[key .. (i - 1)] = lookup_gear[items[i]][platform].key
+                params[key .. (i - 1)] = (lookup_gear[items[i]][platform] or undefined).key
             end
         end
     end
@@ -322,7 +327,6 @@ local chooseDescription = {
     ['Jhu'] = 'browser',
     ['Satori'] = 'browser',
     ['Sebastian'] = {'browser', 'mobile'},
-    ['Isaac'] = {'browser', 'mobile'},
 }
 
 function generateHero(dest, data)
@@ -332,15 +336,19 @@ function generateHero(dest, data)
     local ndata = browser or mobile
     local name, description = ndata.name
 
-    print(name, (browser or {}).id, (mobile or {}).id)
+    if name:len() == 0 then
+        name = ndata.Asset[1]
+    end
 
-    table.insert(output, '<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Hero/Lua</noinclude>')
+    print(name, ndata.Asset[1], (browser or {}).id, (mobile or {}).id)
+
+    table.insert(output, '<onlyinclude>{{<includeonly>#invoke:Data|set</includeonly><noinclude>Enemy/Lua</noinclude>')
 
     if browser and mobile and browser.description ~= mobile.description then
         local platform = chooseDescription[name]
 
         if not platform then
-            error(string.format("Description doesn't match:\nHero:\t%s (%d)\nBrowser:\t%s\nMobile:\t%s", name or '', id or 0, browser.description or '', mobile.description or ''))
+            error(string.format("Description doesn't match:\nHero:\t%s (%d)\nBrowser:\t%s\nMobile:\t%s", name, id or -1, browser.description, mobile.description))
         end
 
         if type(platform) == 'table' then
@@ -390,12 +398,12 @@ function generateHero(dest, data)
 end
 
 do
-    local dest = 'dest/hero'
+    local dest = 'dest/creep'
     local src = {
-        browser = 'src/Proto/Hero',
-        mobile = 'src/Mobile/Proto/Hero',
+        browser = 'src/Proto/Creep',
+        mobile = 'src/Mobile/Proto/Creep',
     }
-    local lookup = lookup.hero
+    local lookup = lookup.creep
     local heroes = setmetatable({}, {
         __index = function(self, key)
             local data = {}
@@ -414,7 +422,7 @@ do
             if id then
                 local data = lookup[id][platform]
 
-                heroes[data.name][platform] = data
+                heroes[data.Asset[1]][platform] = data
             end
         end
     end

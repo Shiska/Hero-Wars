@@ -542,8 +542,9 @@ return setmetatable({}, {
                         local src = proto[path[key]:format(id)]
 
                         if src then
-                            src.name = creepNameFix[text('creepName', id)[key]]
-                            src.description = text('creepDesc', id)[key]
+                            src.id = id
+                            src.name = creepNameFix[text('creepName', id)[key]] or ''
+                            src.description = text('creepDesc', id)[key] or ''
 
                             self[key] = src
                         end
